@@ -8,9 +8,10 @@
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-04", "weekday": "Tuesday", "note": "mid-week background refresh (non-Friday → no user digest sent). Diffed vs baseline. New: Kenya Moi Intl PBB (confirmed, closed within window), Calgary PBB RFP on MERX (status_unconfirmed, 403 blocked), Derry HBS terminal extension (tracking lead). No change to Changi T3 lead (still H2-2026, no notice). Weekly digest reserved for Friday 2026-08-07." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-04"
   },
   "tenders": [
     {
@@ -326,6 +327,55 @@
       "link": "news: maathai.com",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "THB 3.9bn; seeking cabinet approval, tender expected early next year. Monitor AOT."
+    },
+    {
+      "key": "KE-KAA-MOI-PBB",
+      "name": "Moi International Airport (Mombasa) — Apron-drive Passenger Boarding Bridges + A-VDGS",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Kenya", "city": "Mombasa",
+      "authority": "Kenya Airports Authority (KAA)",
+      "scope": "Design, manufacture, supply, installation, testing & commissioning of apron-drive PBBs, Advanced Visual Docking Guidance System (A-VDGS) and associated works",
+      "method": "Open competitive (sealed tender via tenders.go.ke)",
+      "budget": "not disclosed (tender security KSh 1,000,000)", "budget_krw_est": null,
+      "status": "closed",
+      "published": "2026-03 (advertised)", "deadline": "2026-04-30 11:00 (pre-bid/site visit 2026-04-15)",
+      "link": "https://tenders.go.ke/storage/Documents/1775836668920-design-manufacture-supply-installation-testing-and-commissioning-of-apron-drive-passenger-boarding-bridges-pbbs-advanced-visual-docking-guidance-system-a-vdgs-and-associated-works-at-moi-international-airport.pdf",
+      "attachments": "Full tender document is the public PDF on tenders.go.ke (Kenya national e-procurement) — accessible; contains scope, PBB+A-VDGS technical requirements, bid security terms",
+      "first_seen": "2026-08-04", "last_updated": "2026-08-04",
+      "notes": "NEW this run. Confirmed tender document (not news). Closed but within 12-month window. Amount undisclosed; multi-bridge apron-drive PBB supply/install at an intl airport is well above the 10억 PBB threshold, so kept in scope. Distinct from the JKIA whole-airport PPP."
+    },
+    {
+      "key": "CA-YYC-PBB",
+      "name": "Calgary International (YYC) — Passenger Boarding Bridges Purchase, Installation & Ongoing Operations Support",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Canada", "city": "Calgary, Alberta",
+      "authority": "The Calgary Airport Authority",
+      "scope": "Purchase, installation and ongoing operations support of passenger boarding bridges",
+      "method": "Request for Proposal (Formal)", "budget": "not captured", "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "unknown", "deadline": "unknown",
+      "link": "https://www.merx.com/calgaryairportauthority/solicitations/Passenger-Boarding-Bridges-Purchase-Installation-Ongoing-Operations-Support/0000316766",
+      "ref": "MERX solicitation 0000316766",
+      "attachments": "Documents on MERX (registration/login; page returned 403 to fetch this run — not verified)",
+      "first_seen": "2026-08-04", "last_updated": "2026-08-04",
+      "notes": "NEW this run. Real MERX solicitation. MUST re-verify publish/close dates (window), budget, and whether still open before including in Friday digest."
+    },
+    {
+      "key": "GB-LDY-HBS-EXT",
+      "name": "City of Derry Airport — Terminal extension for Hold Baggage Screening upgrade",
+      "category": "tracking_lead",
+      "type": "HBS (enabling construction)",
+      "country": "UK (Northern Ireland)", "city": "Derry/Londonderry",
+      "authority": "City of Derry Airport",
+      "scope": "Construction of terminal extension (structural/mechanical/electrical) to accommodate a hold-baggage-screening upgrade — enabling works, not the screening equipment supply itself",
+      "method": "unknown", "budget": "not stated", "budget_krw_est": null,
+      "status": "upcoming",
+      "published": "2026-06 (works 2026-07-13 to 2026-11-09)",
+      "link": "https://www.defenceonline.co.uk/2026/06/17/construction-of-terminal-extension-to-accommodate-hold-baggage-screening-upgrade/",
+      "first_seen": "2026-08-04", "last_updated": "2026-08-04",
+      "notes": "NEW this run. Construction/enabling works for an HBS upgrade, not an EDS/CBIS equipment supply tender; small regional airport. Tracking lead only — watch for a separate screening-equipment procurement."
     },
     {
       "key": "KE-KAA-JKIA-EXPANSION",

@@ -8,9 +8,10 @@
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-05", "weekday": "Wednesday", "note": "interim state-refresh run (non-Friday → no user-facing report). No status change on tracked items since baseline. Added one backfill item IN-AAI-PBB-AVDGS-MULTI (real AAI notice, closed ~2026-01, within window) not captured on 08-03. No notification sent (non-report day, nothing urgent)." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-05"
   },
   "tenders": [
     {
@@ -146,6 +147,22 @@
       "attachments": "NIT_2066 public PDF on AAI (not verified this run)",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "Parallel Solapur/Imphal BHS tenders also surfaced under AAI portal — check next run."
+    },
+    {
+      "key": "IN-AAI-PBB-AVDGS-MULTI",
+      "name": "AAI — Apron-Drive Glass-Walled PBB + AVDGS/SVDGS, Various Airports (DMSITC)",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "India", "city": "Various airports (national)",
+      "authority": "Airports Authority of India",
+      "scope": "Design, Manufacture, Assembling, Supply, Installation, Testing & Commissioning (DMSITC) of apron-drive glass-walled PBBs and Smart/Advanced Visual Docking Guidance System (SVDGS/AVDGS) across multiple Indian airports",
+      "method": "Open e-tender (CPPP)", "budget": "not captured", "budget_krw_est": null,
+      "status": "closed",
+      "published": "2025 (bid opening 2026-01-16)", "deadline": "2026-01-16 (bid opening)",
+      "link": "https://www.aai.aero/en/node/646356",
+      "attachments": "AAI notice page + CPPP (eprocure.gov.in); not verified this run (egress)",
+      "first_seen": "2026-08-05", "last_updated": "2026-08-05",
+      "notes": "Backfill — real AAI notice not captured in 08-03 baseline. Multi-airport PBB supply; likely above PBB threshold but amount unconfirmed. Closed, within 12-mo window. Verify amount/award next run."
     },
     {
       "key": "US-TSA-SEDS-CB",

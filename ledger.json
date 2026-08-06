@@ -8,9 +8,12 @@
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-06", "weekday": "Thursday", "type": "interim_research_no_report", "note": "Non-Friday run → per user rule the weekly digest is delivered ONLY on Fridays, so NO user notification was sent this run. Research refresh staged into ledger for the next Friday digest (diff boundary = last_report 2026-08-03). Changes: +KE-KAA-MOI-PBB (new confirmed), +CA-YYC-PBB (new), IN-AAI-PATNA-BHS reclassified to excluded_out_of_window (confirmed 2023-vintage tender), +US-LEONARDO-BHS-2AWARDS (awarded context)." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-06",
+    "last_report": "2026-08-03",
+    "report_policy": "Weekly digest delivered to the user ONLY on Fridays. Non-Friday runs refresh the ledger but MUST NOT notify. The Friday digest reports every tender whose first_seen/last_updated is after last_report, then advances last_report to that Friday's date."
   },
   "tenders": [
     {
@@ -102,18 +105,19 @@
     {
       "key": "IN-AAI-PATNA-BHS",
       "name": "AAI Patna — Inline BHS with CT-EDS",
-      "category": "confirmed_in_scope",
+      "category": "excluded_out_of_window",
       "type": "BHS/EDS",
       "country": "India", "city": "Patna (Bihar)",
       "authority": "Airports Authority of India",
       "scope": "Provision of inline BHS with CT-EDS",
-      "method": "e-tender (CPPP)", "budget": "not captured", "budget_krw_est": null,
-      "status": "status_unconfirmed",
-      "published": "unknown", "deadline": "unknown",
+      "method": "Open e-tender (CPPP)", "budget": "INR 2,581,900,000 (~₹258.19 crore)", "budget_krw_est": 41310000000,
+      "status": "closed",
+      "published": "2023-06-01", "deadline": "2023-07-14 (last sale date)",
       "link": "https://www.aai.aero/en/node/352528",
-      "attachments": "On AAI / CPPP (eprocure.gov.in); not verified this run",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Notice page confirmed; dates/amount/status MUST be re-verified next run."
+      "ref": "E-Bid 2023_AAI_155893_1 (Tendernotice_193)",
+      "attachments": "Tendernotice_193 on AAI/CPPP (eprocure.gov.in); portal blocked this run",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-06",
+      "notes": "RE-VERIFIED 2026-08-06: this AAI node is the 2023 tender (published 01-Jun-2023, E-Bid 2023_AAI_155893_1, ~₹258cr). >12 months old → excluded_out_of_window. Amount is well above the BHS threshold, but excluded by the date rule. Varanasi/Bagdogra are likely the same 2023 vintage — confirm dates next run."
     },
     {
       "key": "IN-AAI-VARANASI-BHS",
@@ -197,6 +201,40 @@
       "attachments": "RFP PDF + addendum (public on charlottenc.gov)",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "Services. Confirm status next run."
+    },
+    {
+      "key": "KE-KAA-MOI-PBB",
+      "name": "KAA Moi International Airport — Apron Drive PBBs + A-VDGS",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Kenya", "city": "Mombasa",
+      "authority": "Kenya Airports Authority",
+      "scope": "Design, manufacture, supply, installation, testing & commissioning of Apron Drive Passenger Boarding Bridges (PBBs), Advanced Visual Docking Guidance System (A-VDGS) and associated works",
+      "method": "Open international tender", "budget": "not disclosed", "budget_krw_est": null,
+      "status": "closed",
+      "published": "2026-04 (advertised; pre-bid/site visit 2026-04-15)", "deadline": "2026-04-30 11:00",
+      "link": "https://tenders.go.ke/storage/Documents/1775836668920-design-manufacture-supply-installation-testing-and-commissioning-of-apron-drive-passenger-boarding-bridges-pbbs-advanced-visual-docking-guidance-system-a-vdgs-and-associated-works-at-moi-international-airport.pdf",
+      "ref": "KAA/OT/MIA/0063/2025-2026",
+      "attachments": "Full tender/bid document PDF on tenders.go.ke (HTTP 403 to this run's fetch — portal/geo block; document confirmed to exist via search index). Scope implies technical spec + A-VDGS requirements bundled in the PDF.",
+      "first_seen": "2026-08-06", "last_updated": "2026-08-06",
+      "notes": "NEW this run. Discrete PBB tender, distinct from the KAA/JKIA whole-airport PPP lead. Within 12-month window. Amount undisclosed — cannot screen vs 10억 threshold, but full-airport multi-PBB + A-VDGS scope implies above threshold, so kept in-scope. Closed 2026-04-30; verify award next run."
+    },
+    {
+      "key": "CA-YYC-PBB",
+      "name": "Calgary Airport Authority — PBB Purchase, Installation & Ongoing Operations Support",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Canada", "city": "Calgary, Alberta",
+      "authority": "The Calgary Airport Authority",
+      "scope": "Purchase, installation and ongoing operations support of passenger boarding bridges",
+      "method": "RFP (via MERX)", "budget": "not disclosed", "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "unknown (MERX Solicitation 893)", "deadline": "unknown",
+      "link": "https://www.merx.com/calgaryairportauthority/solicitations/Passenger-Boarding-Bridges-Purchase-Installation-Ongoing-Operations-Support/0000316766",
+      "ref": "Solicitation 893 (MERX 0000316766)",
+      "attachments": "RFP package on MERX (login/registration required — not verified this run)",
+      "first_seen": "2026-08-06", "last_updated": "2026-08-06",
+      "notes": "NEW this run. Genuine posted solicitation on official MERX portal. Open/close dates & value need verification (MERX login). PBB purchase + install → likely above 10억 threshold; confirm status/amount next run."
     },
     {
       "key": "SK-BTS-PBB1",
@@ -359,6 +397,17 @@
       "link": "news",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "Awarded to TK Elevator. Watch for related BHS packages."
+    },
+    {
+      "key": "US-LEONARDO-BHS-2AWARDS",
+      "name": "Leonardo — BHS contracts at Houston Hobby & Melbourne Orlando",
+      "category": "tracking_lead",
+      "type": "BHS",
+      "country": "USA", "city": "Houston TX / Melbourne FL",
+      "status": "awarded",
+      "link": "https://www.leonardo.com/en/press-release-detail/-/detail/19-12-2025-leonardo-to-boost-airport-operations-in-usa-with-two-major-baggage-handling-system-contracts-valued-in-excess-of-120-million-usd",
+      "first_seen": "2026-08-06", "last_updated": "2026-08-06",
+      "notes": "Press release (Dec 2025): two BHS contracts >US$120M combined. Already awarded — NOT an open tender; context only, excluded from the reportable list. Watch these airports' portals for related screening/PBB follow-on packages."
     }
   ]
 }

@@ -8,9 +8,10 @@
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-09", "weekday": "Sunday", "report_delivered": false, "note": "non-report day (reports go to user on Fridays only). Incremental state-store pass. Added 3 new items: KE-KAA-MOI-PBB (confirmed, closed), US-PVD-BHS-P2 (confirmed, details unverified), DK-CPH-BFE-BHS (tracking_lead). TED/tenders.go.ke/flyri egress-blocked again. No user notification sent." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-09"
   },
   "tenders": [
     {
@@ -197,6 +198,54 @@
       "attachments": "RFP PDF + addendum (public on charlottenc.gov)",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "Services. Confirm status next run."
+    },
+    {
+      "key": "KE-KAA-MOI-PBB",
+      "name": "Moi International Airport (Mombasa) — Apron-drive PBBs + A-VDGS",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Kenya", "city": "Mombasa",
+      "authority": "Kenya Airports Authority (KAA)",
+      "scope": "Design, manufacture, supply, installation, testing & commissioning of apron-drive Passenger Boarding Bridges (PBBs), Advanced Visual Docking Guidance System (A-VDGS) and associated works at Moi Intl Airport",
+      "method": "Open competitive tender (sealed bids)", "budget": "not disclosed", "budget_krw_est": null,
+      "status": "closed",
+      "published": "2026-03-31", "deadline": "2026-04-30 (bids opened online; site visit 2026-04-15)",
+      "link": "https://tenders.go.ke/storage/Documents/1775836668920-design-manufacture-supply-installation-testing-and-commissioning-of-apron-drive-passenger-boarding-bridges-pbbs-advanced-visual-docking-guidance-system-a-vdgs-and-associated-works-at-moi-international-airport.pdf",
+      "attachments": "Full tender document PDF on official Kenya PPIP portal (tenders.go.ke) — egress-blocked this run; annex list to be confirmed Friday",
+      "first_seen": "2026-08-09", "last_updated": "2026-08-09",
+      "notes": "NEW this run. Distinct from KE-KAA-JKIA-EXPANSION (Nairobi whole-airport PPP). Within 12-mo window. Full DMSITC PBB+A-VDGS scope — almost certainly above PBB 10억 threshold; amount unverified. Closed 2026-04-30."
+    },
+    {
+      "key": "US-PVD-BHS-P2",
+      "name": "Rhode Island T.F. Green Intl (PVD) — BHS Improvements Phase II (Mechanical)",
+      "category": "confirmed_in_scope",
+      "type": "BHS",
+      "country": "USA", "city": "Providence/Warwick, Rhode Island",
+      "authority": "Rhode Island Airport Corporation (RIAC)",
+      "scope": "Baggage Handling System Improvements — Phase II Mechanical Improvements",
+      "method": "Invitation to Bid (IFB, low-bid)", "budget": "not captured", "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "unknown (verify)", "deadline": "unknown (verify)",
+      "link": "https://flyri.com/downloads/invitation-to-bid-ifb-36516-baggage-handling-system-improvements-phase-ii-mechanical-improvements-rhode-island-t-f-green-international-airport/",
+      "ref": "IFB 36516",
+      "attachments": "IFB + plans/specs/addenda on flyri.com — egress-blocked this run; list & downloadability to confirm Friday",
+      "first_seen": "2026-08-09", "last_updated": "2026-08-09",
+      "notes": "NEW this run. Real IFB document confirmed on official RIAC site. Phase II 'Mechanical Improvements' scope — amount may be modest; dates/amount MUST be verified next run before threshold screening."
+    },
+    {
+      "key": "DK-CPH-BFE-BHS",
+      "name": "Copenhagen Airport — Baggage Factory East (BFE) Baggage Handling System",
+      "category": "tracking_lead",
+      "type": "BHS",
+      "country": "Denmark", "city": "Copenhagen (Kastrup)",
+      "authority": "Kobenhavns Lufthavne A/S",
+      "scope": "Purchase of a baggage handling system for Baggage Factory East (BFE-BHS)",
+      "method": "EU procedure under Defence & Security Directive 2009/81/EC (per aggregator)", "budget": "not verified", "budget_krw_est": null,
+      "status": "upcoming",
+      "published": "~2026-07-07 (aggregator date)", "deadline": "unknown",
+      "link": "aggregator listings (globaltenders / great.gov.uk 'Denmark - Baggage-handling system'); official TED notice not yet verified",
+      "first_seen": "2026-08-09", "last_updated": "2026-08-09",
+      "notes": "NEW lead. Could not verify the actual TED notice this run (ted.europa.eu egress-blocked; TED 322404-2026 turned out to be apron buses, not this). Major-airport BHS — HIGH priority to confirm the real notice doc + value on Friday. Separate from Vanderlande's already-awarded CPH T3 (Baggage Factory West) BHS."
     },
     {
       "key": "SK-BTS-PBB1",

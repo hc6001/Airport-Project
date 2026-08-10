@@ -2,15 +2,17 @@
   "meta": {
     "purpose": "Global airport BHS / PBB / hold-baggage-screening (EDS·CBIS·HBS) tender tracker",
     "maintained_by": "Claude scheduled routine (weekly)",
-    "thresholds_krw": { "BHS": 5000000000, "PBB": 1000000000 },
+    "thresholds_krw": { "BHS": 5000000000, "PBB": 1000000000, "EDS_HBS_CBIS_uses": "BHS threshold (linked security screening)" },
     "closed_window_months": 12,
-    "fx_note_2026": { "EUR_KRW": 1450, "USD_KRW": 1350, "INR_KRW": 16, "note": "approximate Aug-2026 rates for threshold screening only" },
+    "fx_note_2026": { "EUR_KRW": 1450, "USD_KRW": 1350, "GBP_KRW": 1800, "INR_KRW": 16, "note": "approximate Aug-2026 rates for threshold screening only" },
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
+    "egress_note": "This routine's environment blocks direct access to procurement portals (TED, Find-a-Tender, SAM.gov, etenders.gov.za, AAI, CIAL, ComprasMX, MERX, etc.) via egress policy. Notice existence & metadata come from web-search snippets; attachment accessibility and exact live open/closed status CANNOT be verified on-portal. To enable attachment/RFP verification, allowlist these hosts or run this routine in an environment without portal egress restrictions.",
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-10", "weekday": "Monday", "note": "weekly run #2. 4 parallel regional sweeps. Portals still egress-blocked (search-snippet intelligence only). Material changes: CIAL Kochi HBS extended+closed; CPK PBB narrowed to 2 in dialogue (award maybe Dec-2026); HIAL re-tendered as HIA-26-016 (~£1.265M, now below threshold). New confirmed notices: Calgary YYC PBB, Detroit DTW Phase-5 (open), Albany ALB PBB, Kenya Mombasa Moi PBB, ACSA SCM0023 PBB (unverified). New awards: CPK BHS (Vanderlande), Denver Concourse A BHS (Daifuku)." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-10"
   },
   "tenders": [
     {
@@ -26,11 +28,124 @@
       "budget_krw_est": 1450000000000,
       "status": "open",
       "published": "2026-02 (request-to-participate closed 2026-02-20)",
-      "deadline": "price offers Q3 2026; award expected Q1 2027",
+      "deadline": "price offers Q3 2026 (not yet opened as of 2026-08-10); award now reportedly targeted ~Dec 2026 (was Q1 2027)",
       "link": "https://portpolska.pl/en/news/tender-launched-for-the-supply-of-passenger-boarding-bridges-for-the-new-airport",
-      "attachments": "TED notice documents tab + CPK e-procurement platform (registration; not verified this run)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "6 consortia applied, 5 admitted. Standout live capital procurement."
+      "ref": "TED 258287-2026 (referenced, unverified)",
+      "attachments": "CPK e-procurement platform (registration; portal egress-blocked, not verified)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: field narrowed to 2 contractors invited into competitive dialogue (from 5 shortlisted); award timing sharpened toward Dec-2026. Price-offer stage still pending. Standout live PBB procurement."
+    },
+    {
+      "key": "PL-CPK-BHS-VANDERLANDE",
+      "name": "CPK New Warsaw Airport — Baggage Handling System (Vanderlande)",
+      "category": "confirmed_in_scope",
+      "type": "BHS",
+      "country": "Poland", "city": "Baranow",
+      "authority": "Centralny Port Komunikacyjny sp. z o.o.",
+      "scope": "Delivery + installation of BHS, plus 5-yr O&M (+extension)",
+      "method": "awarded (consortium)",
+      "budget": "EUR 115M net (delivery/install) + O&M PLN 97M (~EUR 22.8M) + PLN 93M extension",
+      "budget_krw_est": 166750000000,
+      "status": "awarded",
+      "published": "contract signed 2025-10-30",
+      "deadline": "n/a (awarded)",
+      "link": "https://www.cpk.pl/en",
+      "attachments": "n/a (awarded)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW to ledger (award within 12-mo window). Vanderlande consortium. Confirms CPK BHS package closed out; distinct from the still-open PBB tender PL-CPK-PBB92. Informational — no open tender."
+    },
+    {
+      "key": "CA-YYC-PBB",
+      "name": "Calgary Airport Authority — PBB Purchase, Installation & Ongoing Operations Support",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Canada", "city": "Calgary, Alberta",
+      "authority": "Calgary Airport Authority (YYC)",
+      "scope": "Purchase + installation + ongoing operations support of passenger boarding bridges",
+      "method": "competitive (MERX)",
+      "budget": "not retrieved (portal blocked); purchase+install scope presumed above PBB threshold",
+      "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "unknown", "deadline": "unknown",
+      "link": "https://www.merx.com (MERX ref 0000316766)",
+      "ref": "MERX 0000316766",
+      "attachments": "on MERX (registration; egress-blocked, not verified)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW confirmed notice. Purchase+install = in-scope capital PBB. Dates/value need portal verification next run."
+    },
+    {
+      "key": "US-DTW-JETBRIDGE-P5",
+      "name": "Detroit DTW — McNamara Terminal Jet Bridge Replacement Phase 5",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "USA", "city": "Detroit, Michigan",
+      "authority": "Wayne County Airport Authority",
+      "scope": "Replacement of up to 37 jet bridges (PBBs), FAA/BIL-funded, phased",
+      "method": "RFB (construction services)",
+      "budget": "major capital, presumed above PBB threshold; exact value not retrieved",
+      "budget_krw_est": null,
+      "status": "open",
+      "published": "current phase appears live on DTW open-solicitations list", "deadline": "unknown (portal blocked)",
+      "link": "https://apps.metroairport.com/Dtw_Procurements_App/public/procurement/opensolicitations",
+      "attachments": "WCAA procurement portal (egress-blocked, not verified)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: previously logged as out-of-window (2024-08). Phase 5 (up to 37 bridges) now appears as a CURRENT open solicitation on the DTW portal — reclassified to confirmed_in_scope/open. Confirm publish date & deadline next run."
+    },
+    {
+      "key": "US-ALB-PBB",
+      "name": "Albany County (ALB) — Passenger Boarding Bridge Improvements",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "USA", "city": "Albany, New York",
+      "authority": "Albany County Airport Authority",
+      "scope": "Passenger boarding bridge improvements",
+      "method": "competitive (BidNet Direct)",
+      "budget": "not retrieved (portal blocked)",
+      "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "unknown", "deadline": "unknown",
+      "link": "https://www.bidnetdirect.com (ref 0000098132)",
+      "ref": "BidNet Direct 0000098132",
+      "attachments": "on BidNet Direct (registration; egress-blocked)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW confirmed notice. Scope 'improvements' — could be supply or works. Verify value/dates & supply-vs-maintenance next run."
+    },
+    {
+      "key": "KE-MBA-MOI-PBB",
+      "name": "KAA Moi International (Mombasa) — Apron-drive PBBs + A-VDGS",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Kenya", "city": "Mombasa",
+      "authority": "Kenya Airports Authority (KAA)",
+      "scope": "Supply/install of apron-drive passenger boarding bridges + Advanced Visual Docking Guidance Systems (A-VDGS)",
+      "method": "competitive (tenders.go.ke)",
+      "budget": "not retrieved (portal blocked)",
+      "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "unknown", "deadline": "unknown",
+      "link": "https://tenders.go.ke",
+      "attachments": "on Kenya PPIP / tenders.go.ke (registration; egress-blocked)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW lead surfaced (distinct from the JKIA Nairobi PPP). Discrete PBB+A-VDGS tender for Mombasa. Verify dates/value next run."
+    },
+    {
+      "key": "ZA-ACSA-SCM0023-PBB",
+      "name": "ACSA — Passenger Boarding Bridge tender (SCM0023)",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "South Africa", "city": "unconfirmed (ACSA airport)",
+      "authority": "Airports Company South Africa (ACSA)",
+      "scope": "PBB — supply vs maintenance NOT yet determined",
+      "method": "open (etenders.gov.za)",
+      "budget": "not visible; ACSA PBB tenders historically maintenance/repair (would be below threshold) — scope unconfirmed",
+      "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "unknown", "deadline": "unknown",
+      "link": "https://www.etenders.gov.za (SCM0023 PBB Bid Advertisement Form)",
+      "ref": "SCM0023",
+      "attachments": "Bid Advertisement Form present on etenders.gov.za (egress-blocked, not opened)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW artifact — a PBB 'Bid Advertisement Form SCM0023' is live on etenders.gov.za. Airport, supply-vs-maintenance scope, value, dates all UNVERIFIED. Pull manually next run before firm classification."
     },
     {
       "key": "IN-COK-CTHBS-T3",
@@ -40,31 +155,31 @@
       "country": "India", "city": "Kochi (Kerala)",
       "authority": "Cochin International Airport Ltd",
       "scope": "SIITC of multi-level inline CT-based hold baggage screening for new intl terminal T3",
-      "method": "Open e-tender", "budget": "not disclosed", "budget_krw_est": null,
+      "method": "Open e-tender", "budget": "not disclosed (major CT-HBS for intl terminal, presumed above threshold)", "budget_krw_est": null,
       "status": "closed",
-      "published": "2026-01-03", "deadline": "2026-05-07",
+      "published": "2026-01-03", "deadline": "extended by corrigendum from 2026-05-07 to ~2026-06-18 (now past)",
       "link": "https://www.cial.aero/Tender-Details?TdId=448",
       "ref": "CIAL/COMMN/CT-XBIS/01 (ID 2026_CIAL_825202_1)",
-      "attachments": "NIT + tender doc on CIAL e-procurement portal (not verified this run)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Within 12-month window. Amount unknown — cannot confirm vs threshold."
+      "attachments": "NIT + tender doc on CIAL e-procurement portal (egress-blocked, not verified)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: corrigendum extended submission to ~2026-06-18 — now past-deadline/closed (was 'closing 2026-05-07'). Within 12-mo window. Amount unknown."
     },
     {
       "key": "ZA-CPT-BHS",
-      "name": "ACSA Cape Town Intl — BHS machinery",
+      "name": "ACSA Cape Town Intl — BHS machinery maintenance (5-yr)",
       "category": "confirmed_in_scope",
-      "type": "BHS",
+      "type": "BHS (maintenance)",
       "country": "South Africa", "city": "Cape Town",
       "authority": "Airports Company South Africa (ACSA)",
-      "scope": "Machinery for the BHS at Cape Town Intl, 5-year period",
-      "method": "Open RFP (compulsory briefing 2026-03-06)", "budget": "not stated", "budget_krw_est": null,
+      "scope": "Maintenance & minor refurbishment of BHS mechanical conveyor machinery, 5-year period (NOT new-system supply)",
+      "method": "Open RFP (compulsory briefing 2026-03-06)", "budget": "not stated; 5-yr maintenance service — likely below BHS 50억 threshold", "budget_krw_est": null,
       "status": "closed",
       "published": "2026-02 (briefing 03-06)", "deadline": "2026-03-31",
-      "link": "https://www.etenders.gov.za/home/Download/?blobName=a8e7a836-e741-4f62-bab6-264d8323f6a5.pdf&downloadedFileName=VOL+1+Tender+document+BHS+2026.pdf",
+      "link": "https://www.etenders.gov.za (VOL 1 Tender document BHS 2026.pdf)",
       "ref": "CTIA7995/2025/RFP",
-      "attachments": "121-page bid document (VOL 1) incl. specs — public PDF (blocked from download this run)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Within window. Amount unknown."
+      "attachments": "121-page bid document (VOL 1) incl. specs — was public PDF pre-close (egress-blocked this run)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: scope clarified as 5-yr MAINTENANCE (not supply) → likely below threshold; still no award located. Within window."
     },
     {
       "key": "US-OMA-BHS-OM",
@@ -78,26 +193,28 @@
       "status": "closed",
       "published": "2026-04-17", "deadline": "2026-05-21 (Addendum 3)",
       "link": "https://www.flyoma.com/rfps-and-rfqs/",
-      "attachments": "RFP + addenda — openly downloadable public PDFs on flyoma.com",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Services contract; included as BHS-linked. Within window."
+      "attachments": "RFP + addenda 1-3 (public PDFs on flyoma.com; egress-blocked this run)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "No change 08-10: closed 2026-05-21, still no award posted. Services contract; within window."
     },
     {
       "key": "UK-HIAL-HBS-XRAY",
-      "name": "HIAL — Hold Baggage X-ray equipment, six Scottish airports",
-      "category": "confirmed_in_scope",
+      "name": "HIAL — Hold Baggage X-ray equipment, six Scottish airports (re-tender HIA-26-016)",
+      "category": "excluded_low_amount",
       "type": "HBS/EDS",
-      "country": "UK (Scotland)", "city": "Inverness HQ (6 regional airports)",
+      "country": "UK (Scotland)", "city": "Inverness HQ (Benbecula, Dundee, Islay, Kirkwall, Stornoway, Wick)",
       "authority": "Highlands and Islands Airports Ltd",
       "scope": "Supply of 6 hold-baggage X-ray inspection units (Standard 3), replacing 2012 equipment",
-      "method": "Open (via Public Contracts Scotland)", "budget": "not stated", "budget_krw_est": null,
-      "status": "closed",
-      "published": "2025 (notice 086560-2025)", "deadline": "2026-02-23",
+      "method": "Restricted/best-value (60% technical weighting)",
+      "budget": "est. £1,265,000 ex-VAT (~EUR 1.48M ≈ 22.8억 KRW)", "budget_krw_est": 2277000000,
+      "status": "open",
+      "published": "re-advertised as HIA-26-016 (~2026-06, opening ~2026-07-07); prior round 012183-2026 closed 2026-02-23 with no award",
+      "deadline": "unknown (Public Contracts Scotland; egress-blocked)",
       "link": "https://www.find-tender.service.gov.uk/Notice/086560-2025",
-      "ref": "HIA-25-003 / 086560-2025; follow-up 012183-2026",
+      "ref": "HIA-25-003 / 086560-2025 → 012183-2026 → HIA-26-016",
       "attachments": "Procurement docs on Public Contracts Scotland (registration; not verified)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Within window. Confirm publication date vs 12-month cutoff on live page."
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: Feb-closed round appears RE-TENDERED as HIA-26-016 (opening ~Jul-2026, in-window, open). Value now known ~£1.265M ≈ 22.8억 KRW → BELOW BHS 50억 threshold → reclassified excluded_low_amount (name+link only per rule)."
     },
     {
       "key": "IN-AAI-PATNA-BHS",
@@ -106,14 +223,14 @@
       "type": "BHS/EDS",
       "country": "India", "city": "Patna (Bihar)",
       "authority": "Airports Authority of India",
-      "scope": "Provision of inline BHS with CT-EDS",
-      "method": "e-tender (CPPP)", "budget": "not captured", "budget_krw_est": null,
+      "scope": "Provision of inline BHS with CT-EDS (phased, 22-month completion)",
+      "method": "e-tender (CPPP)", "budget": "~INR 114.93 crore excl. GST (≈184억 KRW; above threshold)", "budget_krw_est": 18388800000,
       "status": "status_unconfirmed",
       "published": "unknown", "deadline": "unknown",
       "link": "https://www.aai.aero/en/node/352528",
-      "attachments": "On AAI / CPPP (eprocure.gov.in); not verified this run",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Notice page confirmed; dates/amount/status MUST be re-verified next run."
+      "attachments": "On AAI / CPPP (eprocure.gov.in); egress-blocked, not verified",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: budget surfaced ~INR 114.93cr (above threshold), phased 22-mo. Open/closed status STILL unverifiable (portal blocked). Re-verify next run."
     },
     {
       "key": "IN-AAI-VARANASI-BHS",
@@ -122,14 +239,14 @@
       "type": "BHS",
       "country": "India", "city": "Varanasi (UP)",
       "authority": "Airports Authority of India",
-      "scope": "DSITC of inline BHS incl. O&M and AICMC",
-      "method": "e-tender (CPPP)", "budget": "not captured", "budget_krw_est": null,
+      "scope": "DSITC of inline BHS incl. O&M and AICMC (new domestic terminal)",
+      "method": "e-tender (CPPP)", "budget": "not captured (new-terminal inline BHS, presumed above threshold)", "budget_krw_est": null,
       "status": "status_unconfirmed",
       "published": "unknown", "deadline": "unknown",
       "link": "https://www.aai.aero/en/node/621969",
-      "attachments": "On AAI / CPPP; not verified this run",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Dates/amount/status to re-verify next run."
+      "attachments": "On AAI / CPPP; egress-blocked, not verified",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "No confirmable change. Distinct from node 369522 (O&M-only of existing CTX BHS — don't merge). Dates/amount/status to re-verify."
     },
     {
       "key": "IN-AAI-BAGDOGRA-BHS",
@@ -138,14 +255,14 @@
       "type": "BHS/EDS",
       "country": "India", "city": "Bagdogra/Siliguri (West Bengal)",
       "authority": "Airports Authority of India",
-      "scope": "Inline BHS with CT-EDS incl. O&M/AICMC",
+      "scope": "New Civil Enclave — inline BHS with CT-EDS incl. O&M/AICMC",
       "method": "e-tender (CPPP)", "budget": "not captured", "budget_krw_est": null,
       "status": "status_unconfirmed",
       "published": "unknown", "deadline": "unknown",
       "link": "https://www.aai.aero/system/files_force/tender/NIT_2066.pdf",
-      "attachments": "NIT_2066 public PDF on AAI (not verified this run)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Parallel Solapur/Imphal BHS tenders also surfaced under AAI portal — check next run."
+      "attachments": "NIT_2066 public PDF on AAI (egress-blocked this run)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "No confirmable change. Dates/amount/status to re-verify next run."
     },
     {
       "key": "US-TSA-SEDS-CB",
@@ -155,14 +272,14 @@
       "country": "USA", "city": "Nationwide",
       "authority": "TSA / DHS",
       "scope": "Deployment, installation, relocation, decommissioning of checked-baggage EDS/ETD screening equipment",
-      "method": "Federal competitive (IDIQ-style)", "budget": "not published", "budget_krw_est": null,
+      "method": "Federal competitive (IDIQ-style recompete)", "budget": "large multi-year IDIQ (above thresholds)", "budget_krw_est": null,
       "status": "status_unconfirmed",
-      "published": "2025-02-06 sources sought; solicitation ~2025-08", "deadline": "award anticipated ~mid-2026",
+      "published": "2025-02-06 sources sought; solicitation ~2025-08", "deadline": "award anticipated Q3 FY2026 (Apr–Jun 2026); no award confirmed as of Aug 2026",
       "link": "https://www.highergov.com/contract-opportunity/screening-equipment-deployment-services-seds-che-tsa-25-04-0432-r-e85d5/",
       "ref": "TSA-25-04-0432",
-      "attachments": "SAM.gov (login required for some attachments)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "BHS-linked screening. Confirm current solicitation/award status next run."
+      "attachments": "SAM.gov (login required; egress-blocked)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "No change 08-10: still no award confirmed. BHS-linked screening. (Related but separate: TSA25-04-0480 EBSP 2.0 qualification.)"
     },
     {
       "key": "MX-AICM-CONVEYOR",
@@ -171,32 +288,48 @@
       "type": "BHS",
       "country": "Mexico", "city": "Mexico City",
       "authority": "AICM (ComprasMX)",
-      "scope": "Baggage conveyor belts for Terminals 1 & 2",
-      "method": "Electronic public bid", "budget": "not captured", "budget_krw_est": null,
-      "status": "status_unconfirmed",
-      "published": "2026-06-11", "deadline": "unknown",
+      "scope": "Baggage conveyor belts for Terminals 1 & 2 (~30 new belts)",
+      "method": "Licitación Pública Nacional", "budget": "not captured (portal blocked)", "budget_krw_est": null,
+      "status": "open",
+      "published": "2026-06-11", "deadline": "unknown (ComprasMX blocked)",
       "link": "https://comprasmx.buengobierno.gob.mx/",
       "ref": "LA-13-KDN-013KDN001-N-247-2026",
-      "attachments": "'Bases' on ComprasMX (login; not verified)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Recent — confirm open/closed status & amount next run."
+      "attachments": "'Bases'/anexos on ComprasMX (login; not verified)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: corroborated open/in-execution — news (La Crónica 2026-04-27) confirms ~30 belts being installed across both terminals. Amount still not retrievable → cannot apply threshold test."
     },
     {
       "key": "US-CLT-PBB-MAINT",
       "name": "Charlotte Douglas Intl — PBB maintenance services & parts",
       "category": "confirmed_in_scope",
-      "type": "PBB (services)",
+      "type": "PBB (services/parts)",
       "country": "USA", "city": "Charlotte, North Carolina",
       "authority": "City of Charlotte Aviation Dept.",
-      "scope": "Maintenance for 124 CLT-owned PBBs (concourses A-E)",
+      "scope": "Maintenance + parts for 124 CLT-owned PBBs (concourses A-E)",
       "method": "Best-value RFP", "budget": "not stated", "budget_krw_est": null,
-      "status": "status_unconfirmed",
-      "published": "FY2026", "deadline": "unknown",
+      "status": "closed",
+      "published": "2025-09-15", "deadline": "past (Sept-2025 issue; Addendum 1 posted; now in evaluation)",
       "link": "https://www.charlottenc.gov/Growth-and-Development/Doing-Business/Contract-Opportunities/RFP-AVIA-26-07-Passenger-Boarding-Bridges-Maintenance-and-Parts",
       "ref": "RFP AVIA 26-07",
-      "attachments": "RFP PDF + addendum (public on charlottenc.gov)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Services. Confirm status next run."
+      "attachments": "RFP PDF + Addendum 1 PDF (public on charlottenc.gov; submission via Trimble/e-Builder login)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: issue date confirmed 2025-09-15; deadline has passed → status closed/in-evaluation (was status_unconfirmed). Services+parts."
+    },
+    {
+      "key": "US-DEN-CONCA-BHS",
+      "name": "Denver Intl — Concourse A Baggage Handling System (Daifuku)",
+      "category": "confirmed_in_scope",
+      "type": "BHS",
+      "country": "USA", "city": "Denver, Colorado",
+      "authority": "Denver International Airport (DEN)",
+      "scope": "New automated BHS for Concourse A expansion",
+      "method": "awarded (team)", "budget": "major capital (above threshold)", "budget_krw_est": null,
+      "status": "awarded",
+      "published": "award announced 2026 (completion Q2 2027)", "deadline": "n/a",
+      "link": "https://www.flydenver.com/business/",
+      "attachments": "n/a (awarded)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW to ledger. Team: Gilmore (prime) + Daifuku (OEM/integrator) + ICM (mechanical). Resolved award, not a live tender. Monitor DEN for follow-on packages."
     },
     {
       "key": "SK-BTS-PBB1",
@@ -209,7 +342,7 @@
       "link": "https://www.slovakiatenders.com/tender/construction-boarding-bridge-7ffff5d.php",
       "ref": "TED 51514-2026",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Below PBB 10억 KRW threshold (~7.4억)."
+      "notes": "Below PBB 10억 KRW threshold (~7.4억). [unchanged]"
     },
     {
       "key": "ES-AENA-BHS",
@@ -222,7 +355,7 @@
       "link": "https://ted.europa.eu/en/notice/-/detail/384078-2026",
       "ref": "TED 384078-2026",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Below BHS 50억 KRW threshold (~11.4억)."
+      "notes": "Below BHS 50억 KRW threshold (~11.4억). [unchanged]"
     },
     {
       "key": "IE-SNN-OOG-BAGGAGE",
@@ -234,19 +367,56 @@
       "status": "awarded",
       "link": "https://www.etenders.gov.ie/epps/cft/downloadNoticeForAdvSearch.do?resourceId=4010856",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Below threshold and already awarded."
+      "notes": "Below threshold and already awarded. [unchanged]"
     },
     {
       "key": "IN-AAI-CHENNAI-PBB",
-      "name": "AAI Chennai — PBB O&M / canopy bellows replacement",
+      "name": "AAI Chennai — PBB canopy bellows replacement (T1 & T4)",
       "category": "excluded_low_amount",
-      "type": "PBB (services/parts)",
+      "type": "PBB (parts)",
       "country": "India", "city": "Chennai",
-      "budget": "~INR 5.29 crore (O&M)", "budget_krw_est": 846000000,
-      "status": "closed", "deadline": "2026-07-14 (bellows)",
+      "budget": "~INR 5.29 crore (≈8.5억)", "budget_krw_est": 846000000,
+      "status": "closed", "deadline": "2026-07-14",
       "link": "https://www.aai.aero/",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Below PBB 10억 KRW threshold; component/maintenance."
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "Below PBB 10억 KRW threshold; component/maintenance. CHANGE 08-10: deadline 2026-07-14 now past → closed."
+    },
+    {
+      "key": "IN-AAI-IMPHAL-BHS",
+      "name": "AAI Imphal — BHS (new integrated terminal, incl. O&M/AICMC)",
+      "category": "excluded_low_amount",
+      "type": "BHS",
+      "country": "India", "city": "Imphal (Manipur)",
+      "budget": "INR 13.53 crore total (SITC 6.81cr + O&M 6.71cr, excl GST) ≈21.6억", "budget_krw_est": 2164800000,
+      "status": "closed",
+      "link": "https://www.aai.aero/",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW (surfaced this run). Below BHS 50억 KRW threshold. Likely closed."
+    },
+    {
+      "key": "IN-AAI-SOLAPUR-BHS",
+      "name": "AAI Solapur — Provision of Baggage Handling System",
+      "category": "excluded_low_amount",
+      "type": "BHS",
+      "country": "India", "city": "Solapur (Maharashtra)",
+      "budget": "not retrieved; small regional airport, presumed below BHS threshold (unconfirmed)", "budget_krw_est": null,
+      "status": "closed", "deadline": "BHS 2025-12-29 (related dev 2026-01-12) — past",
+      "link": "https://www.aai.aero/",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW (surfaced this run). Closed. Value unconfirmed but presumed below threshold — listed name+link only pending verification."
+    },
+    {
+      "key": "US-SGF-PBB-ONCALL",
+      "name": "Springfield-Branson (SGF) — PBB on-call maintenance (IFB 071-2026)",
+      "category": "excluded_low_amount",
+      "type": "PBB (services)",
+      "country": "USA", "city": "Springfield, Missouri",
+      "budget": "small on-call T&M (1yr + 4 renewals) — below PBB ~0.74M threshold", "budget_krw_est": null,
+      "status": "closed", "published": "2026-05-14", "deadline": "2026-06-16",
+      "link": "https://www.springfieldmo.gov/DocumentCenter/View/76901",
+      "ref": "IFB 071-2026",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW (surfaced this run). Below PBB threshold; on-call maintenance. IFB PDF public (46pp)."
     },
     {
       "key": "IN-COK-BHS-T3",
@@ -259,7 +429,7 @@
       "link": "https://www.cial.aero/",
       "ref": "CIAL/COMMN/BHS/02",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Amount well above threshold BUT announcement >12 months old — excluded by date rule."
+      "notes": "Amount above threshold BUT announcement >12 months old — excluded by date rule. [unchanged]"
     },
     {
       "key": "US-CLE-PBB-DB",
@@ -270,18 +440,7 @@
       "status": "closed", "published": "2025-04-01", "deadline": "2025-04-30",
       "link": "https://www.clevelandairport.com/business-cle/rfqs-rfps",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Out of 12-month window. Had public Exhibit F PBB technical spec."
-    },
-    {
-      "key": "US-DTW-JETBRIDGE-P5",
-      "name": "Detroit DTW — McNamara Jet Bridge Replacement Phase 5",
-      "category": "excluded_out_of_window",
-      "type": "PBB",
-      "country": "USA", "city": "Detroit, Michigan",
-      "status": "closed", "published": "2024-08-01",
-      "link": "https://apps.metroairport.com/Dtw_Procurements_App/public/procurement/opensolicitations",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Out of window. Watch portal for later phases."
+      "notes": "Out of 12-month window. Had public Exhibit F PBB technical spec. [unchanged]"
     },
     {
       "key": "US-LUTON-EDS-FWK",
@@ -291,8 +450,9 @@
       "country": "UK", "city": "Luton",
       "status": "closed", "published": "2025-05-22",
       "link": "https://www.find-tender.service.gov.uk/Notice/025073-2025",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Just outside window; 10-year framework."
+      "ref": "025073-2025",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "10-year zero-value framework; still no award located. Published 2025-05-22 — approaching/at 12-mo edge; treat as out-of-window. [minor recheck 08-10]"
     },
     {
       "key": "SG-CHANGI-T3-BHS",
@@ -300,10 +460,11 @@
       "category": "tracking_lead",
       "type": "BHS",
       "country": "Singapore", "city": "Singapore",
+      "authority": "Changi Airport Group (CAG)",
       "status": "upcoming",
-      "link": "news: futuretravelexperience.com / asianews.network",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "S$3bn program; tender to be called H2 2026. HIGHEST-PRIORITY upcoming BHS lead — no notice doc yet."
+      "link": "policy source caas.gov.sg / asianews.network (announcement only)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "No change 08-10: still pre-tender. 'Tender to be called H2 2026' reaffirmed; H2 window now open → HIGHEST-PRIORITY watch for the actual notice. No notice doc yet."
     },
     {
       "key": "SA-GACA-PBB92",
@@ -312,9 +473,9 @@
       "type": "PBB",
       "country": "Saudi Arabia", "city": "national",
       "status": "upcoming",
-      "link": "news: airportsinternational.com",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Award target 2027. Monitor Etimad for the actual notice."
+      "link": "news: airportsinternational.com (no Etimad notice found)",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "No change 08-10: no Etimad solicitation yet. Award target still 2027. Monitor portal.etimad.sa."
     },
     {
       "key": "TH-AOT-BKK-SAT1-BHS",
@@ -323,20 +484,65 @@
       "type": "BHS",
       "country": "Thailand", "city": "Bangkok",
       "status": "upcoming",
-      "link": "news: maathai.com",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "THB 3.9bn; seeking cabinet approval, tender expected early next year. Monitor AOT."
+      "link": "news: bangkokpost.com / nationthailand.com",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "CHANGE 08-10: timeline slipped to 'tender early next year' (~early 2027), contingent on Cabinet approval of the larger expansion package. THB 3.9bn. No notice yet."
     },
     {
       "key": "KE-KAA-JKIA-EXPANSION",
-      "name": "Kenya KAA/JKIA — expansion & modernization (BHS included)",
+      "name": "Kenya KAA/JKIA — expansion & modernization (BHS bundled in PPP)",
       "category": "tracking_lead",
       "type": "BHS (bundled PPP)",
       "country": "Kenya", "city": "Nairobi",
       "status": "upcoming",
       "link": "https://gaa.go.ke/sites/default/files/2026-04/Kenya%20Airports%20Authority%20Tender%20Notice.pdf",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Whole-airport PPP notice 2026-03-03; BHS not a standalone package. Check for discrete BHS lot."
+      "first_seen": "2026-08-03", "last_updated": "2026-08-10",
+      "notes": "No change to JKIA itself 08-10: modernization 'includes baggage handling' but still NO discrete BHS lot. (Discrete Mombasa Moi PBB tender split out as KE-MBA-MOI-PBB.)"
+    },
+    {
+      "key": "AU-MEL-BHS-TOTE",
+      "name": "Melbourne Airport — new tote-based BHS ($500M)",
+      "category": "tracking_lead",
+      "type": "BHS",
+      "country": "Australia", "city": "Melbourne",
+      "status": "upcoming",
+      "link": "news (part of A$4.5bn expansion, announced Mar 2026)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW lead. ~A$500M tote-based BHS within the A$4.5bn expansion. No tender notice yet. Watch Melbourne Airport procurement."
+    },
+    {
+      "key": "TW-TPE-T3-BHS",
+      "name": "Taiwan Taoyuan T3 — automated BHS (2027 program)",
+      "category": "tracking_lead",
+      "type": "BHS",
+      "country": "Taiwan", "city": "Taoyuan",
+      "status": "upcoming",
+      "link": "news / program stage",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW lead. T3 automated BHS, program stage (2027). No new notice yet."
+    },
+    {
+      "key": "ES-AENA-EDS-STD3-FWK",
+      "name": "AENA — EDS Standard 3 hold-baggage programme (Spain network)",
+      "category": "tracking_lead",
+      "type": "EDS/HBS",
+      "country": "Spain", "city": "national (27 airports)",
+      "status": "upcoming",
+      "link": "TED ref 128058-2026 (referenced, unverified)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW lead. Multi-year framework (~EUR 702M; 380M equipment / 322M works) with rolling call-offs; broader ~EUR 1.5bn security programme. Verify a discrete standalone notice on TED once accessible."
+    },
+    {
+      "key": "IT-FCO-BAGHANDLING-SVC",
+      "name": "Aeroporti di Roma Fiumicino — baggage handling SERVICES (labour/logistics)",
+      "category": "tracking_lead",
+      "type": "baggage handling services (NOT a BHS system)",
+      "country": "Italy", "city": "Rome-Fiumicino",
+      "status": "open",
+      "budget": "EUR 4.92M ex-VAT (24-month, from 2026-07-01)",
+      "link": "TED (open EU tender)",
+      "first_seen": "2026-08-10", "last_updated": "2026-08-10",
+      "notes": "NEW but OUT-OF-CORE-SCOPE: handling-services/labour contract, not BHS/PBB/EDS capital equipment. Logged to avoid re-surfacing. Watch-item only."
     },
     {
       "key": "VN-LONGTHANH-BHS",
@@ -347,7 +553,7 @@
       "status": "awarded",
       "link": "news",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Vanderlande contracted; installing, opening Dec 2026. Awarded — no open tender."
+      "notes": "Vanderlande contracted; installing, opening Dec 2026. Awarded — no open tender. [unchanged]"
     },
     {
       "key": "KW-KIA-PBB55",
@@ -358,7 +564,7 @@
       "status": "awarded",
       "link": "news",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Awarded to TK Elevator. Watch for related BHS packages."
+      "notes": "Awarded to TK Elevator. Watch for related BHS packages. [unchanged]"
     }
   ]
 }

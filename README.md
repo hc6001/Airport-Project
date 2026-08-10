@@ -9,6 +9,9 @@
 ## 파일 구조
 - `ledger.json` — 추적 중인 모든 입찰의 기계판독용 원장(상태·날짜·금액·링크·첨부·first_seen/last_updated)
 - `reports/` — 각 실행일자별 스냅샷 보고서 (사람이 읽는 마크다운)
+- `trend_ledger.json` — (별도 루틴) 전세계 BHS/PBB/PBB부대설비(PC-Air·PWS·AC-GPS)
+  장애사례 및 신기술 동향 추적용 원장. 입찰 추적(`ledger.json`)과는 별개 주제.
+- `reports/trends/` — 위 동향 조사 루틴의 실행일자별 스냅샷
 
 ## 스크리닝 규칙
 - 대상: 실제 **입찰공고문**이 공개 확인된 건만 `confirmed_in_scope`. 뉴스·발표만 있는 건은 `tracking_lead`.

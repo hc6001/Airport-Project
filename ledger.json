@@ -8,9 +8,10 @@
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-11", "weekday": "Tuesday", "note": "tracking run (not Friday → no user-facing weekly report delivered). 3 new tenders captured: KE Moi Intl PBB (confirmed, closed 2026-04-30), AAI Agra BHS (below threshold), US PVD T.F. Green BHS Phase II IFB (confirmed, status to verify). No change on Changi T3 lead or CPK Warsaw PBB. Egress still blocks procurement-portal PDFs → attachment accessibility inferred from listings." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-11"
   },
   "tenders": [
     {
@@ -197,6 +198,53 @@
       "attachments": "RFP PDF + addendum (public on charlottenc.gov)",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "Services. Confirm status next run."
+    },
+    {
+      "key": "KE-MBA-MOI-PBB",
+      "name": "Moi International Airport (Mombasa) — Apron-drive Passenger Boarding Bridges + A-VDGS",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Kenya", "city": "Mombasa",
+      "authority": "Kenya Airports Authority (KAA)",
+      "scope": "Design, manufacture, supply, installation, testing & commissioning of apron-drive PBBs, Advanced Visual Docking Guidance System (A-VDGS) and associated works (PBB count not stated in notice)",
+      "method": "Open tender (online opening)", "budget": "not disclosed (tender security KShs 1,000,000)", "budget_krw_est": null,
+      "status": "closed",
+      "published": "2026-04 (site visit 2026-04-15)", "deadline": "2026-04-30 (bid opening)",
+      "link": "https://tenders.go.ke/storage/Documents/1775836668920-design-manufacture-supply-installation-testing-and-commissioning-of-apron-drive-passenger-boarding-bridges-pbbs-advanced-visual-docking-guidance-system-a-vdgs-and-associated-works-at-moi-international-airport.pdf",
+      "ref": "KAA/OT/MIA/0063/2025-2026",
+      "attachments": "Full tender doc PDF public on tenders.go.ke; complete set via KAA supplier login (kaa.go.ke/corporate/procurement). Direct download blocked by egress this run.",
+      "first_seen": "2026-08-11", "last_updated": "2026-08-11",
+      "notes": "Newly captured (existed at baseline but missed). Within 12-month window. Distinct from JKIA Nairobi PPP. Amount undisclosed — cannot confirm vs PBB threshold; kept in-scope pending amount."
+    },
+    {
+      "key": "US-PVD-BHS-P2",
+      "name": "Rhode Island T.F. Green Intl (PVD) — BHS Improvements, Phase II Mechanical",
+      "category": "confirmed_in_scope",
+      "type": "BHS",
+      "country": "USA", "city": "Providence/Warwick, Rhode Island",
+      "authority": "Rhode Island Airport Corporation (RIAC)",
+      "scope": "Baggage Handling System Improvements — Phase II Mechanical Improvements",
+      "method": "Invitation to Bid (low-bid)", "budget": "not captured", "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "unknown", "deadline": "unknown",
+      "link": "https://flyri.com/downloads/invitation-to-bid-ifb-36516-baggage-handling-system-improvements-phase-ii-mechanical-improvements-rhode-island-t-f-green-international-airport/",
+      "ref": "IFB 36516",
+      "attachments": "IFB + technical specifications/plans downloadable on flyri.com RIAC procurement page (blocked from download this run).",
+      "first_seen": "2026-08-11", "last_updated": "2026-08-11",
+      "notes": "New. Confirmed published IFB. Dates/value/open-or-closed MUST be re-verified next run before Friday report."
+    },
+    {
+      "key": "IN-AAI-AGRA-BHS",
+      "name": "AAI Agra — SITC of Baggage Handling System incl. O&M and AICMC",
+      "category": "excluded_low_amount",
+      "type": "BHS",
+      "country": "India", "city": "Agra (Uttar Pradesh)",
+      "budget": "INR ~21.66 crore (est. value 216,586,209)", "budget_krw_est": 3465000000,
+      "status": "closed", "published": "2025/26", "deadline": "2026-01-06 (bid opening 2026-01-12)",
+      "link": "https://www.tenderdetail.com/Indian-Tender/baggage-handling-system-tenders",
+      "ref": "AAI_CHQ_BHS_AGRA",
+      "first_seen": "2026-08-11", "last_updated": "2026-08-11",
+      "notes": "~34.7억 KRW — below BHS 50억 KRW threshold → name+link only. Within window. On AAI/CPPP eprocure.gov.in."
     },
     {
       "key": "SK-BTS-PBB1",

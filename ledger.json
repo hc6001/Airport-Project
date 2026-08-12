@@ -8,9 +8,10 @@
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-12", "weekday": "Wednesday", "note": "interim mid-week tracking pass (not a Friday report day). New confirmed docs: Kenya Moi Intl PBB, Philadelphia PHL Terminal D/E BHS make-up prequalification. Updated Bagdogra budget (~INR 251cr). No user-facing report issued — held for Friday per weekly cadence rule." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-12"
   },
   "tenders": [
     {
@@ -138,14 +139,14 @@
       "type": "BHS/EDS",
       "country": "India", "city": "Bagdogra/Siliguri (West Bengal)",
       "authority": "Airports Authority of India",
-      "scope": "Inline BHS with CT-EDS incl. O&M/AICMC",
-      "method": "e-tender (CPPP)", "budget": "not captured", "budget_krw_est": null,
+      "scope": "Inline BHS with CT-EDS incl. O&M/AICMC (part of New Civil Enclave development)",
+      "method": "e-tender (CPPP), open", "budget": "~INR 251 crore (aggregator estimate, unconfirmed)", "budget_krw_est": 40160000000,
       "status": "status_unconfirmed",
       "published": "unknown", "deadline": "unknown",
       "link": "https://www.aai.aero/system/files_force/tender/NIT_2066.pdf",
       "attachments": "NIT_2066 public PDF on AAI (not verified this run)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "Parallel Solapur/Imphal BHS tenders also surfaced under AAI portal — check next run."
+      "first_seen": "2026-08-03", "last_updated": "2026-08-12",
+      "notes": "2026-08-12: budget surfaced via aggregator ~INR 251cr (~401억 KRW, above 50억 threshold) — confirm on AAI/CPPP. Parallel Solapur/Imphal BHS tenders also surfaced — check next run."
     },
     {
       "key": "US-TSA-SEDS-CB",
@@ -197,6 +198,39 @@
       "attachments": "RFP PDF + addendum (public on charlottenc.gov)",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "Services. Confirm status next run."
+    },
+    {
+      "key": "KE-MBA-MOI-PBB",
+      "name": "Moi International Airport (Mombasa) — Apron-drive PBBs + A-VDGS",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Kenya", "city": "Mombasa",
+      "authority": "Kenya Airports Authority (KAA)",
+      "scope": "Design, manufacture, supply, installation, testing & commissioning of apron-drive Passenger Boarding Bridges (PBBs), Advanced Visual Docking Guidance System (A-VDGS) and associated works",
+      "method": "Open competitive (sealed tender)", "budget": "not disclosed", "budget_krw_est": null,
+      "status": "closed",
+      "published": "2026-03-31", "deadline": "2026-04-30 (bid opening; pre-bid site visit 2026-04-15)",
+      "link": "https://tenders.go.ke/storage/Documents/1775836668920-design-manufacture-supply-installation-testing-and-commissioning-of-apron-drive-passenger-boarding-bridges-pbbs-advanced-visual-docking-guidance-system-a-vdgs-and-associated-works-at-moi-international-airport.pdf",
+      "attachments": "Full tender PDF on tenders.go.ke (egress-blocked this run — indexed/confirmed to exist; specs & appendices inside the PDF)",
+      "first_seen": "2026-08-12", "last_updated": "2026-08-12",
+      "notes": "Discrete PBB tender at Mombasa — separate from the JKIA whole-airport PPP lead (KE-KAA-JKIA-EXPANSION). Within 12-month window. Amount not disclosed; multi-PBB DMSITC scope so likely above threshold but cannot confirm."
+    },
+    {
+      "key": "US-PHL-DE-BHS",
+      "name": "Philadelphia Intl (PHL) — Terminal D/E Baggage Make-Up expansion + inline EDS",
+      "category": "confirmed_in_scope",
+      "type": "BHS/EDS",
+      "country": "USA", "city": "Philadelphia, Pennsylvania",
+      "authority": "City of Philadelphia, Department of Aviation (Division of Aviation)",
+      "scope": "Retrofit/expansion of baggage make-up areas incl. new baggage conveyor bridge (D/E make-up building to new Terminal E make-up facility) and inline TSA EDS screening; Add-Alt 1 new make-up building at gate D1. FAA FY2026 ATP grant $17.568M",
+      "method": "Prequalification (PQ) → competitive bid to prequalified firms", "budget": "project >USD 5M (FAA grant $17.568M)", "budget_krw_est": 6750000000,
+      "status": "closed",
+      "published": "2026-03-06 (PQ released)", "deadline": "2026-04-21 (PQ close)",
+      "link": "https://starbridge.ai/rfp/pw-pq-bid-6695-phl-1665-15-terminal-d-e-baggage-make",
+      "ref": "PW PQ Bid 6695 / PHL 1665.15",
+      "attachments": "PQ solicitation via PHL eContracts / PW portal (not verified this run); FAA ATP grant announcement at phl.org/newsroom/ATP_2026",
+      "first_seen": "2026-08-12", "last_updated": "2026-08-12",
+      "notes": "Prequalification stage (real formal procurement doc), closed 2026-04-21, within window. Main construction/BHS bid follows to prequalified firms — watch PHL eContracts for the works solicitation."
     },
     {
       "key": "SK-BTS-PBB1",
@@ -302,8 +336,8 @@
       "country": "Singapore", "city": "Singapore",
       "status": "upcoming",
       "link": "news: futuretravelexperience.com / asianews.network",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "S$3bn program; tender to be called H2 2026. HIGHEST-PRIORITY upcoming BHS lead — no notice doc yet."
+      "first_seen": "2026-08-03", "last_updated": "2026-08-12",
+      "notes": "S$3bn program; main tender to be called H2 2026. HIGHEST-PRIORITY upcoming BHS lead. 2026-08-12: preparatory component procurement surfacing (a 'high-tension/high-voltage equipment supply for T3 BHS Redevelopment' listing appeared on aggregators) — signals the main solicitation is nearing. No consolidated notice doc yet."
     },
     {
       "key": "SA-GACA-PBB92",

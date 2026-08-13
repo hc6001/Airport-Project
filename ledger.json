@@ -8,9 +8,10 @@
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-13", "weekday": "Thursday 18:00 UTC = Friday 03:00 KST — weekly report day", "note": "first weekly digest since baseline. NEW confirmed_in_scope: Kenya Moi Intl (Mombasa) PBB+A-VDGS (KAA/OT/MIA/0063/2025-2026, closed 2026-04-30), Calgary YYC PBB purchase+install RFP (MERX 0000316766), Winnipeg PBB. Portal egress still blocked (tenders.go.ke, MERX login) — attachment lists inferred. AAI Patna/Varanasi/Bagdogra + Mexico AICM still unverifiable (portal access blocked) = unchanged from baseline, not re-reported. Changi T3 still H2-2026 lead, no notice doc = unchanged." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-13"
   },
   "tenders": [
     {
@@ -31,6 +32,57 @@
       "attachments": "TED notice documents tab + CPK e-procurement platform (registration; not verified this run)",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "6 consortia applied, 5 admitted. Standout live capital procurement."
+    },
+    {
+      "key": "KE-MIA-PBB-AVDGS",
+      "name": "Kenya KAA Moi International Airport — Apron-drive Passenger Boarding Bridges + A-VDGS",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Kenya", "city": "Mombasa (Moi Intl Airport)",
+      "authority": "Kenya Airports Authority (KAA)",
+      "scope": "Design, manufacture, supply, installation, testing & commissioning of apron-drive PBBs + Advanced Visual Docking Guidance System (A-VDGS) and associated works at Moi Intl",
+      "method": "Open tender (sealed bids)", "budget": "not disclosed in notice", "budget_krw_est": null,
+      "status": "closed",
+      "published": "2026-03 (advertised)", "deadline": "2026-04-30 11:00 (site visit 2026-04-15)",
+      "link": "https://tenders.go.ke/storage/Documents/1775836668920-design-manufacture-supply-installation-testing-and-commissioning-of-apron-drive-passenger-boarding-bridges-pbbs-advanced-visual-docking-guidance-system-a-vdgs-and-associated-works-at-moi-international-airport.pdf",
+      "ref": "KAA/OT/MIA/0063/2025-2026",
+      "attachments": "Full tender document PDF public on tenders.go.ke (specs, BoQ, drawings, bid requirements) — egress-blocked from this environment, not directly verified this run",
+      "first_seen": "2026-08-13", "last_updated": "2026-08-13",
+      "notes": "NEW this run. Discrete PBB tender — distinct from JKIA whole-airport PPP (KE-KAA-JKIA-EXPANSION). Within 12-month window, closed. Amount unknown; multi-bridge intl PBB assumed > PBB 10억 threshold → kept in scope."
+    },
+    {
+      "key": "CA-YYC-PBB",
+      "name": "Calgary Airport Authority (YYC) — Passenger Boarding Bridges: Purchase, Installation & Ongoing Operations Support",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Canada", "city": "Calgary, Alberta",
+      "authority": "The Calgary Airport Authority",
+      "scope": "Purchase, installation and ongoing operations support of passenger boarding bridges",
+      "method": "RFP (best value)", "budget": "not public (behind MERX registration)", "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "2026 (MERX solicitation 0000316766)", "deadline": "not captured — MERX login required",
+      "link": "https://www.merx.com/calgaryairportauthority/solicitations/Passenger-Boarding-Bridges-Purchase-Installation-Ongoing-Operations-Support/0000316766",
+      "ref": "MERX 0000316766 (Calgary Airport Authority #893)",
+      "attachments": "RFP document + annexes on MERX — registration/login required (not accessible this run)",
+      "first_seen": "2026-08-13", "last_updated": "2026-08-13",
+      "notes": "NEW this run. Real MERX solicitation (not news). Confirm closing date/amount/open-closed next run. PBB purchase+install assumed > 10억 threshold."
+    },
+    {
+      "key": "CA-YWG-PBB",
+      "name": "Winnipeg (Richardson) International Airport — Passenger Boarding Bridges",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Canada", "city": "Winnipeg, Manitoba",
+      "authority": "Winnipeg Airports Authority",
+      "scope": "Supply of passenger boarding bridges for Winnipeg airport",
+      "method": "Open tender", "budget": "not captured", "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "published": "2026", "deadline": "not captured",
+      "link": "https://www.canadatenders.com/tender/passenger-boarding-bridges-winnipeg-airport-7bacd08.php",
+      "ref": "Tender Impulse ID 10098821",
+      "attachments": "Listed on canadatenders / Tender Impulse aggregators; primary notice not verified this run",
+      "first_seen": "2026-08-13", "last_updated": "2026-08-13",
+      "notes": "NEW this run. Verify against primary buyer portal (dates/amount/scope) next run before firm classification."
     },
     {
       "key": "IN-COK-CTHBS-T3",

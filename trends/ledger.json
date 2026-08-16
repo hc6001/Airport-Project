@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "purpose": "BHS/PBB/PBB부대설비(PC-Air,PWS,GPU) 전세계 사고 및 신기술 동향 추적 상태저장소. 매 실행마다 이 파일을 읽어 이전 보고 항목과 대조 후 신규/변경분만 채팅으로 보고한다.",
+    "last_run": "2026-08-16",
+    "run_type": "baseline"
+  },
+  "items": [
+    {"id": "BHS-A1", "section": "BHS", "type": "accident", "title": "Heathrow T5 BHS 반복 장애 (2026-05, 5번째)", "date": "2026-05-15", "url": "https://www.traveltourister.com/news/heathrow-terminal-5-baggage-failure-ba-20000-bags-may-2026/"},
+    {"id": "BHS-A2", "section": "BHS", "type": "accident", "title": "Schiphol BHS 장애 (2025-12, 성탄절 성수기)", "date": "2025-12-19", "url": "https://aviationnews.eu/news/2025/12/schiphol-baggage-system-failure-leaves-20000-suitcases-stranded-ahead-of-christmas/"},
+    {"id": "BHS-A3", "section": "BHS", "type": "accident", "title": "Denver 공항 BHS 완전자동화 실패 (1994-95, 역사적 사례)", "date": "1994-1995", "url": "https://www.gao.gov/products/rced-95-35br"},
+    {"id": "BHS-A4", "section": "BHS", "type": "accident", "title": "American Airlines IT장애로 인한 수하물처리 연쇄마비 (2025-06)", "date": "2025-06-27", "url": "https://6abc.com/post/american-airlines-tells-travelers-come-pick-luggage-philadelphia-international-airport-outage-weather-issues/19595892/"},
+    {"id": "BHS-A5", "section": "BHS", "type": "accident", "title": "Newark/O'Hare 컨베이어 끼임사고 패턴", "date": "2025-05-28", "url": "https://abc11.com/post/toddler-rescued-baggage-conveyor-belt-newark-liberty-international-airport-extremely-dangerous/16632408/"},
+    {"id": "BHS-T1", "section": "BHS", "type": "tech_trend", "title": "IATA Resolution 753 이행현황 2025", "date": "2025-12", "url": "https://www.iata.org/contentassets/cb691a38573642d0bbfd2ba380eaf04e/americas-focus-2025/documents/iata-r753-implementation-executive-report-2025.pdf"},
+    {"id": "BHS-T2", "section": "BHS", "type": "tech_trend", "title": "SITA Baggage IT Insights 2026 (분실률 23% 감소)", "date": "2026-06", "url": "https://runwaygirlnetwork.com/2026/06/mishandled-bag-rates-dropped-23-in-2025-sita-finds/"},
+    {"id": "BHS-T3", "section": "BHS", "type": "tech_trend", "title": "BEUMER Heathrow T2 신규 BHS 계약", "date": "2024-01", "url": "https://www.beumergroup.com/press/beumer-group-to-design-and-install-state-of-the-art-baggage-handling-system-crucial-to-heathrow-airport-transformation/"},
+    {"id": "BHS-T4", "section": "BHS", "type": "tech_trend", "title": "Vanderlande Baggage 4.0 (AI/로봇/자율주행)", "date": "2025-2026", "url": "https://www.vanderlande.com/news-insights/baggage-4-0-towards-highly-automated-and-predictable-baggage-operations/"},
+    {"id": "BHS-T5", "section": "BHS", "type": "tech_trend", "title": "인천공항 안면인식 셀프백드롭 + AI 도착예측", "date": "2026-01-26", "url": "https://www.asiae.co.kr/en/article/2026012710420152445"},
+    {"id": "BHS-T6", "section": "BHS", "type": "tech_trend", "title": "EASA EU 최초 지상조업 안전규정 (2025/20, 2025/23)", "date": "2025-03-07", "url": "https://www.easa.europa.eu/en/newsroom-and-events/press-releases/ground-handlings-importance-aviation-safety-recognised-new-rules"},
+
+    {"id": "PBB-A1", "section": "PBB", "type": "accident", "title": "Brisbane 에어로브릿지 반복 충돌 (Qantas/Fiji Airways 737, ATSB조사)", "date": "2025-06/07", "url": "https://www.atsb.gov.au/investigations/ao-2025-047"},
+    {"id": "PBB-A2", "section": "PBB", "type": "accident", "title": "상하이 홍차오 China Eastern A350 날개-탑승교 충돌", "date": "2026-05-02", "url": "https://www.globaltimes.cn/page/202605/1360190.shtml"},
+    {"id": "PBB-A3", "section": "PBB", "type": "accident", "title": "애틀랜타 공항 탑승교 붕괴(15ft 낙하)", "date": "2023-04-21", "url": "https://www.ajc.com/news/jet-bridge-collapse-at-atlanta-airport-injures-several-employees/3T7FECNCL5ESXMG237GORJT5OI/"},
+    {"id": "PBB-A4", "section": "PBB", "type": "accident", "title": "산타바바라 공항 정비중 탑승교 붕괴", "date": "2025-08-26", "url": "https://www.edhat.com/news/jet-bridge-collapses-at-santa-barbara-airport/"},
+    {"id": "PBB-A5", "section": "PBB", "type": "accident", "title": "시드니공항 직원 탑승교 5m 추락", "date": "2025-05-03", "url": "https://travelweekly.com.au/qantas-employee-in-hospital-after-falling-from-aerobridge-at-sydney-airport/"},
+    {"id": "PBB-A6", "section": "PBB", "type": "accident", "title": "포트로더데일 휠체어 승객 탑승교 낙상 사망 (소송)", "date": "2022-02-25", "url": "https://www.aviationpros.com/airlines/news/21273443/family-sues-southwest-airlines-after-jetway-accident-they-say-left-a-25-year-old-woman-paralyzed"},
+    {"id": "PBB-A7", "section": "PBB", "type": "accident", "title": "해리스버그 공항 탑승교 센서 오작동, 승객 3시간 갇힘", "date": "2026-01", "url": "https://www.abc27.com/local-news/passengers-stuck-at-gate-aboard-flight-from-dallas-for-hours-will-airline-face-tarmac-delay-fine/"},
+    {"id": "PBB-T1", "section": "PBB", "type": "tech_trend", "title": "란저우 중촨공항 세계최초 전면 자율주행 탑승교", "date": "2025", "url": "https://aerospaceglobalnews.com/news/autonomous-boarding-bridge-china-lanzhou/"},
+    {"id": "PBB-T2", "section": "PBB", "type": "tech_trend", "title": "TK Elevator MAX Automate 원격탑승교 시연", "date": "2025", "url": "https://www.tkelevator.com/global-en/newsroom/press-releases/tk-elevator-showcases-fully-automated-remotely-controlled-passenger-boarding-bridges-live-at-inter-airport-europe-2025-in-munich-188352.html"},
+    {"id": "PBB-T3", "section": "PBB", "type": "tech_trend", "title": "CLX Engineering 자율탑승교 애틀랜타 8게이트(델타)", "date": "2025", "url": "https://clxengineering.com/clx-tech-news/passenger-boarding-bridge"},
+    {"id": "PBB-T4", "section": "PBB", "type": "tech_trend", "title": "ADELTE ARCOS 세비야 원격탑승교시스템(EU인증)", "date": "2020-2025", "url": "https://www.adelte.com/seville-airport-to-set-up-adeltes-innovative-remote-passenger-boarding-bridge-operating-system/"},
+    {"id": "PBB-T5", "section": "PBB", "type": "tech_trend", "title": "키웨스트공항 허리케인 내풍 전면유리 탑승교", "date": "2025-04-14", "url": "https://www.businesstraveller.com/news/key-west-airport-new-terminal/"},
+    {"id": "PBB-T6", "section": "PBB", "type": "tech_trend", "title": "PBB 전동화(유압→전동식) 시장 트렌드 2025", "date": "2025", "url": "https://www.globenewswire.com/news-release/2026/08/06/3340456/0/en/passenger-boarding-bridges-market-to-reach-usd-1-97-billion-by-2035-as-global-airport-expansion-and-smart-terminal-investments-accelerate-sns-insider.html"},
+
+    {"id": "AUX-A1", "section": "PBB_AUX", "type": "accident", "title": "시애틀 델타 A321neo GPU 연결 직후 화재/비상탈출", "date": "2024-05-06", "url": "https://www.aerotime.aero/articles/delta-a321neo-catches-fire-at-seattle-tacoma-airport-prompting-full-evacuation"},
+    {"id": "AUX-A2", "section": "PBB_AUX", "type": "accident", "title": "벵갈루루 Akasa Air GPU 이탈 충돌", "date": "2025-08-13", "url": "https://aviationa2z.com/index.php/2025/08/13/akasa-air-737-hit-by-ground-equipment-at-bengaluru/"},
+    {"id": "AUX-A3", "section": "PBB_AUX", "type": "accident", "title": "항공기 음용수(PWS) 오염 실태조사 2026", "date": "2025-12/2026-01", "url": "https://foodmedcenter.org/2026-center-for-food-as-medicine-longevity-airline-water-study/"},
+    {"id": "AUX-T1", "section": "PBB_AUX", "type": "tech_trend", "title": "FAA 무공해 공항장비(GSE) 프로그램 추가지원", "date": "2025-2026", "url": "https://www.faa.gov/newsroom/faa-awards-another-204m-electrify-airport-equipment-latest-300m-investment-year"},
+    {"id": "AUX-T2", "section": "PBB_AUX", "type": "tech_trend", "title": "ITW GSE PowerShare (GPU/PCA 여유전력 공유)", "date": "2026", "url": "https://www.aviationpros.com/ground-support-worldwide/gsw-leaders-of-the-year/2026/article/55377189/product-leader-of-the-year-powershare-is-built-for-the-electric-ramp"},
+    {"id": "AUX-T3", "section": "PBB_AUX", "type": "tech_trend", "title": "AEME GSE 브릿지장착형 솔리드스테이트 GPU (중국)", "date": "2025", "url": "https://www.aeme.global/aeme-gse-delivers-over-100-solid-state-ground-power-units-to-support-the-opening-of-hohhot-shengle-international-airport.html"},
+    {"id": "AUX-T4", "section": "PBB_AUX", "type": "tech_trend", "title": "Exeter공항 수소-디젤 하이브리드 GPU 시범사업", "date": "2025-2026", "url": "https://exeter-airport.co.uk/successful-uk-hydrogen-airport-trial-sets-out-roadmap-for-further-studies/"},
+    {"id": "AUX-T5", "section": "PBB_AUX", "type": "tech_trend", "title": "GSE 전면전동화시 전력수요 연구(Nature, 최대20MW)", "date": "2026", "url": "https://www.nature.com/articles/s41467-026-71125-4"}
+  ]
+}

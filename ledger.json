@@ -7,10 +7,14 @@
     "fx_note_2026": { "EUR_KRW": 1450, "USD_KRW": 1350, "INR_KRW": 16, "note": "approximate Aug-2026 rates for threshold screening only" },
     "status_values": ["open", "upcoming", "closed", "awarded", "status_unconfirmed"],
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
+    "user_report_policy": "Consolidated report to user only on Fridays; each run maintains state silently and defers surfacing to the next Friday.",
+    "last_user_report": "2026-08-03",
+    "pending_user_report": ["CA-YYC-PBB", "IN-AAI-AGRA-BHS"],
     "runs": [
-      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" }
+      { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
+      { "date": "2026-08-16", "weekday": "Sunday", "note": "2nd run (not Friday -> no user notification, state only). NEW: Calgary Airport Authority PBB tender (MERX, confirmed in-scope); AAI Agra BHS (~34.6억 KRW, excluded low-amount). CHANGED: CPK PBB decision target now Dec-2026. Egress still blocks TED/MERX/Alberta/AAI/find-tender portals -> deadlines/attachments for new items unverified. AAI Patna/Varanasi/Bagdogra & AICM Mexico could not be re-verified (portal egress blocked); left unchanged." }
     ],
-    "last_run": "2026-08-03"
+    "last_run": "2026-08-16"
   },
   "tenders": [
     {
@@ -26,11 +30,11 @@
       "budget_krw_est": 1450000000000,
       "status": "open",
       "published": "2026-02 (request-to-participate closed 2026-02-20)",
-      "deadline": "price offers Q3 2026; award expected Q1 2027",
+      "deadline": "price offers Q3 2026; tender decision now targeted Dec 2026",
       "link": "https://portpolska.pl/en/news/tender-launched-for-the-supply-of-passenger-boarding-bridges-for-the-new-airport",
       "attachments": "TED notice documents tab + CPK e-procurement platform (registration; not verified this run)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-03",
-      "notes": "6 consortia applied, 5 admitted. Standout live capital procurement."
+      "first_seen": "2026-08-03", "last_updated": "2026-08-16",
+      "notes": "6 consortia applied, 5 admitted. Standout live capital procurement. Aug-2026 update: award/decision timeline refined to Dec-2026 (was Q1-2027)."
     },
     {
       "key": "IN-COK-CTHBS-T3",
@@ -359,6 +363,37 @@
       "link": "news",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "Awarded to TK Elevator. Watch for related BHS packages."
+    },
+    {
+      "key": "CA-YYC-PBB",
+      "name": "Calgary International Airport — Passenger Boarding Bridges: Purchase, Installation & Ongoing Operations Support",
+      "category": "confirmed_in_scope",
+      "type": "PBB",
+      "country": "Canada", "city": "Calgary (Alberta)",
+      "authority": "The Calgary Airport Authority",
+      "scope": "Purchase, installation and ongoing operations support of passenger boarding bridges (YYC International Facilities program: 22 new bridge positions, expandable to 29)",
+      "method": "Open RFP (competitive, via MERX)", "budget": "not disclosed on public listing", "budget_krw_est": null,
+      "status": "open",
+      "published": "2026 (confirm exact date on MERX)", "deadline": "unknown — MERX registration required",
+      "link": "https://www.merx.com/calgaryairportauthority/solicitations/Passenger-Boarding-Bridges-Purchase-Installation-Ongoing-Operations-Support/0000316766",
+      "ref": "MERX 0000316766 (Solicitation 893); mirror on Alberta Purchasing Connection AB-2026-01930",
+      "attachments": "Solicitation documents on MERX (free registration required to download; egress blocked this run)",
+      "first_seen": "2026-08-16", "last_updated": "2026-08-16",
+      "notes": "NEW this run. Fleet purchase+install for a major intl airport -> expected well above PBB 10억 KRW threshold; kept in-scope pending amount confirmation. Verify deadline/budget/attachment list next run."
+    },
+    {
+      "key": "IN-AAI-AGRA-BHS",
+      "name": "AAI Agra — SITC of Baggage Handling System incl. Operation & AICMC",
+      "category": "excluded_low_amount",
+      "type": "BHS",
+      "country": "India", "city": "Agra (Uttar Pradesh)",
+      "authority": "Airports Authority of India",
+      "budget": "INR 21.66 crore (est. tender value)", "budget_krw_est": 3465000000,
+      "status": "closed", "published": "2025-12-15 (docs)", "deadline": "2026-01-06 (bid opening 2026-01-12)",
+      "link": "https://www.tendershark.com/details/uttar-pradesh-tender/airports-authority-of-india/9730087f-fa2b-469b-a683-38719d411fcb",
+      "ref": "AAI_CHQ_BHS_AGRA",
+      "first_seen": "2026-08-16", "last_updated": "2026-08-16",
+      "notes": "NEW this run. ~34.6억 KRW < BHS 50억 threshold -> excluded_low_amount (name+link only). Within 12-month window."
     }
   ]
 }

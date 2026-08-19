@@ -49,6 +49,7 @@
 ## 실행 이력
 - **2026-08-03 (월)** — baseline 최초 실행. 이전 상태 없어 전량 기록. (주의: 실행 환경 egress 정책으로 조달포털 첨부파일 직접 다운로드는 불가 → 첨부 접근성은 추정치)
 - **2026-08-18 (화)** — 2차 실행. baseline 대비 변동분만 보고. 신규 확정공고(AAI Agra/Leh/PBB-AVDGS, 케냐 모이 PBB, 창이 T3 56-PBB, PHL D/E make-up, 캘거리 YYC, 위니펙 PBB) + 주요 변동(HIAL 재공고 OPEN, ACSA 전국 HBS ZAR31.5억·낙찰 법원동결, AAI Bagdogra OPEN 마감08-24, CPK 5개사 대화진출). egress 차단 지속 → 첨부 접근성 여전히 추정. (`reports/2026-08-18_run2.md`)
+- **2026-08-19 (수)** — 3차 실행. 08-18 대비 변동분만. 신규 확정 BHS 공고 2건(AAI Goa Dabolim 추가BHS+Vanderlande 통합 / AAI Lucknow BHS, EMD ₹1.4cr→임계값 상회). 그 외 CPK·Changi T3·ACSA·Bagdogra·HIAL 전부 변동 없음. Billings(2021)·Albany(2024) PBB는 창 초과로 제외. 금요일 아님 → 주간 집계 없음. egress 차단 지속. (`reports/2026-08-19_run3.md`)
 
 ## 운영 메모
 - 이 루틴이 매 실행마다 이 저장소를 자동으로 읽어 대조하려면, Claude Code 웹의 해당

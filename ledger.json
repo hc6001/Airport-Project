@@ -9,9 +9,10 @@
     "category_values": ["confirmed_in_scope", "excluded_low_amount", "excluded_out_of_window", "tracking_lead"],
     "runs": [
       { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
-      { "date": "2026-08-18", "weekday": "Tuesday", "note": "2nd run. Egress policy STILL blocks direct portal fetch (403 on TED/find-tender/SAM.gov/aai.aero/cial.aero/etenders.gov.za/GeBIZ/MERX) — all metadata via search snippets, attachment accessibility inferred. Added new confirmed notices (AAI Agra/Leh/PBB-AVDGS, Kenya Moi, Changi T3 56-PBB, PHL D/E make-up, Calgary YYC, Winnipeg); major updates to HIAL (re-issued OPEN), ACSA (national R3.15bn HBS, award court-frozen), AAI Bagdogra (OPEN, deadline 08-24), CPK (5 of 6 to dialogue)." }
+      { "date": "2026-08-18", "weekday": "Tuesday", "note": "2nd run. Egress policy STILL blocks direct portal fetch (403 on TED/find-tender/SAM.gov/aai.aero/cial.aero/etenders.gov.za/GeBIZ/MERX) — all metadata via search snippets, attachment accessibility inferred. Added new confirmed notices (AAI Agra/Leh/PBB-AVDGS, Kenya Moi, Changi T3 56-PBB, PHL D/E make-up, Calgary YYC, Winnipeg); major updates to HIAL (re-issued OPEN), ACSA (national R3.15bn HBS, award court-frozen), AAI Bagdogra (OPEN, deadline 08-24), CPK (5 of 6 to dialogue)." },
+      { "date": "2026-08-19", "weekday": "Wednesday", "note": "3rd run. Egress STILL blocks direct portal/PDF fetch (aai.aero, tendersontime, flybillings, bidnetdirect, tenderimpulse all blocked) — metadata via search snippets only. NEW confirmed in-scope BHS notices: (1) AAI Goa Dabolim civil enclave — SITC of additional Passenger BHS incl. merging/integration with existing Vanderlande inline BHS (Tender ID 2026_AAI_270590_1, public NIT); (2) AAI Lucknow (CCSI) BHS — SITC of BHS, EMD ₹1,39,93,200 (⇒ est. class ~₹70cr, above 50억 threshold), public NIT. No other changes vs 08-18: CPK (5→dialogue, Dec-2026 decision), Changi T3 BHS lead, ACSA (court-frozen, May-2025 rulings stand), AAI Bagdogra (open, deadline 08-24), HIAL (re-issued open) all UNCHANGED. Ruled out as stale/out-of-window: Billings PBB (2021), Albany PBB A-6/B-6 (2024). Not Friday → no weekly aggregation this run." }
     ],
-    "last_run": "2026-08-18"
+    "last_run": "2026-08-19"
   },
   "tenders": [
     {
@@ -199,6 +200,42 @@
       "attachments": "On AAI / CPPP; not verified",
       "first_seen": "2026-08-18", "last_updated": "2026-08-18",
       "notes": "NEW 08-18. Multi-airport PBB+AVDGS notice. Confirm live dates/scope next run."
+    },
+    {
+      "key": "IN-AAI-GOA-BHS",
+      "name": "AAI Goa (Dabolim civil enclave) — Additional BHS + integration with existing Vanderlande inline BHS",
+      "category": "confirmed_in_scope",
+      "type": "BHS",
+      "country": "India", "city": "Dabolim, Goa (AAI civil enclave — distinct from Mopa/GOX)",
+      "authority": "Airports Authority of India",
+      "scope": "Extension of existing terminal building apron & allied works, Goa civil enclave — SITC of ADDITIONAL Passenger Baggage Handling System including merging & integration with existing Vanderlande inline BHS and associated works",
+      "method": "e-tender (CPPP)",
+      "budget": "not captured (egress-blocked); additional-BHS + integration at intl civil enclave — above-threshold class expected", "budget_krw_est": null,
+      "status": "open",
+      "published": "2026 (Tender ID 2026_AAI_270590_1)", "deadline": "not captured — VERIFY next run",
+      "link": "https://www.aai.aero/system/files_force/tender/NITIBS2026.pdf",
+      "ref": "AAI/GOA/ENGG(E)/BHS/e-NIT; Tender ID 2026_AAI_270590_1 (NIT_3405.pdf / NITIBS2026.pdf, 61-page tender doc)",
+      "attachments": "NIT + 61-page tender document publicly listed on aai.aero (BOQ/full docs login-gated on CPPP; egress-blocked this run)",
+      "first_seen": "2026-08-19", "last_updated": "2026-08-19",
+      "notes": "NEW 08-19. Genuine public NIT confirmed. Augmentation of existing Vanderlande inline BHS at Goa Dabolim. Value/EMD/deadline not captured (egress) — VERIFY value vs 50억 threshold and closing date next run."
+    },
+    {
+      "key": "IN-AAI-LUCKNOW-BHS",
+      "name": "AAI Lucknow (Chaudhary Charan Singh Intl) — SITC of Baggage Handling System",
+      "category": "confirmed_in_scope",
+      "type": "BHS",
+      "country": "India", "city": "Lucknow (Uttar Pradesh)",
+      "authority": "Airports Authority of India",
+      "scope": "Supply, Installation, Testing & Commissioning (SITC) of Baggage Handling System at Lucknow airport",
+      "method": "e-tender (CPPP)",
+      "budget": "not disclosed; EMD ₹1,39,93,200 + tender fee ₹11,200 ⇒ est. value class ~₹70cr (≈112억, above BHS 50억 threshold)", "budget_krw_est": 11200000000,
+      "status": "open",
+      "published": "2026 (BHSWEBNIT.pdf)", "deadline": "not captured — VERIFY next run",
+      "link": "https://www.aai.aero/sites/default/files/tender/BHSWEBNIT.pdf",
+      "ref": "Lucknow BHS 1 (AAI e-NIT, BHSWEBNIT.pdf)",
+      "attachments": "NIT publicly listed on aai.aero; full tender doc/BOQ login-gated on CPPP (egress-blocked this run)",
+      "first_seen": "2026-08-19", "last_updated": "2026-08-19",
+      "notes": "NEW 08-19. Public NIT confirmed. EMD ₹1.399cr signals above-threshold work class (>50억). budget_krw_est is an order-of-magnitude placeholder from EMD — confirm actual estimated cost + closing date next run. NB: Lucknow is Adani-operated since 2020 but this NIT is hosted on aai.aero."
     },
     {
       "key": "KE-MBA-PBB-AVDGS",

@@ -10,9 +10,10 @@
     "runs": [
       { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
       { "date": "2026-08-18", "weekday": "Tuesday", "note": "2nd run. Egress policy STILL blocks direct portal fetch (403 on TED/find-tender/SAM.gov/aai.aero/cial.aero/etenders.gov.za/GeBIZ/MERX) — all metadata via search snippets, attachment accessibility inferred. Added new confirmed notices (AAI Agra/Leh/PBB-AVDGS, Kenya Moi, Changi T3 56-PBB, PHL D/E make-up, Calgary YYC, Winnipeg); major updates to HIAL (re-issued OPEN), ACSA (national R3.15bn HBS, award court-frozen), AAI Bagdogra (OPEN, deadline 08-24), CPK (5 of 6 to dialogue)." },
-      { "date": "2026-08-19", "weekday": "Wednesday", "note": "3rd run. Egress STILL blocks direct portal/PDF fetch (aai.aero, tendersontime, flybillings, bidnetdirect, tenderimpulse all blocked) — metadata via search snippets only. NEW confirmed in-scope BHS notices: (1) AAI Goa Dabolim civil enclave — SITC of additional Passenger BHS incl. merging/integration with existing Vanderlande inline BHS (Tender ID 2026_AAI_270590_1, public NIT); (2) AAI Lucknow (CCSI) BHS — SITC of BHS, EMD ₹1,39,93,200 (⇒ est. class ~₹70cr, above 50억 threshold), public NIT. No other changes vs 08-18: CPK (5→dialogue, Dec-2026 decision), Changi T3 BHS lead, ACSA (court-frozen, May-2025 rulings stand), AAI Bagdogra (open, deadline 08-24), HIAL (re-issued open) all UNCHANGED. Ruled out as stale/out-of-window: Billings PBB (2021), Albany PBB A-6/B-6 (2024). Not Friday → no weekly aggregation this run." }
+      { "date": "2026-08-19", "weekday": "Wednesday", "note": "3rd run. Egress STILL blocks direct portal/PDF fetch (aai.aero, tendersontime, flybillings, bidnetdirect, tenderimpulse all blocked) — metadata via search snippets only. NEW confirmed in-scope BHS notices: (1) AAI Goa Dabolim civil enclave — SITC of additional Passenger BHS incl. merging/integration with existing Vanderlande inline BHS (Tender ID 2026_AAI_270590_1, public NIT); (2) AAI Lucknow (CCSI) BHS — SITC of BHS, EMD ₹1,39,93,200 (⇒ est. class ~₹70cr, above 50억 threshold), public NIT. No other changes vs 08-18: CPK (5→dialogue, Dec-2026 decision), Changi T3 BHS lead, ACSA (court-frozen, May-2025 rulings stand), AAI Bagdogra (open, deadline 08-24), HIAL (re-issued open) all UNCHANGED. Ruled out as stale/out-of-window: Billings PBB (2021), Albany PBB A-6/B-6 (2024). Not Friday → no weekly aggregation this run." },
+      { "date": "2026-08-20", "weekday": "Thursday", "note": "4th run. Egress still blocks aai.aero + highergov.com; TED + other portals reachable via search snippets. UPDATE to US-TSA-SEDS-CB: solicitation number confirmed 70T04026R7672N004, published 2026-04-03, response due 2026-05-15 (Q3 FY2026 as targeted) → status moves from status_unconfirmed to CLOSED, award still unconfirmed. NEW excluded_low_amount notices: (1) Singapore Changi T3 — 'Supply & Delivery of High-Tension Equipment for T3 BHS Redevelopment' component sub-tender (small scope); (2) Wilmington ILM — PBB + BHS PM/repair/inspection RFP (16 gates + 12 belts), due 2026-09-09 (maintenance, below threshold). NEW tracking_leads: (a) AAI Solapur BHS (aggregator hits only, no public NIT confirmed); (b) Miami-Dade MIA BHS design-services PSA (professional services, not equipment); (c) Indianapolis IND — TSA-mandated EDS via existing BHS upgrade, board approval pending, no notice yet. NO CHANGE vs 08-19 (skipping per rule): CPK (Dec-2026 decision, 5 in dialogue), Changi T3 main BHS (H2-2026 tender to be called), ACSA (May-2025 rulings stand), HIAL (re-issued open), AAI Bagdogra (still open, deadline 08-24 Sunday), AAI Goa/Lucknow BHS (value/deadline still egress-blocked). Not Friday → no weekly aggregation this run." }
     ],
-    "last_run": "2026-08-19"
+    "last_run": "2026-08-20"
   },
   "tenders": [
     {
@@ -352,13 +353,13 @@
       "authority": "TSA / DHS",
       "scope": "Deployment, installation, relocation, decommissioning of checked-baggage EDS/ETD screening equipment (recompete; incumbent Vertex Aerospace)",
       "method": "Federal competitive (IDIQ-style)", "budget": "not published", "budget_krw_est": null,
-      "status": "status_unconfirmed",
-      "published": "2025-02-06 sources sought; solicitation ~2025-08", "deadline": "award target Q3 FY2026 (~Apr–Jun 2026) — now passed, award unconfirmed",
+      "status": "closed",
+      "published": "2026-04-03 (synopsis solicitation 70T04026R7672N004)", "deadline": "2026-05-15 (proposals due)",
       "link": "https://sam.gov/opp/0789e38f5a6b4ae08bd42fb52697d9e6/view",
-      "ref": "TSA-25-04-0432",
-      "attachments": "SAM.gov (login required for some attachments)",
-      "first_seen": "2026-08-03", "last_updated": "2026-08-18",
-      "notes": "08-18: award target quarter has passed but no award verified. Re-check SAM.gov next run."
+      "ref": "TSA-25-04-0432 / solicitation 70T04026R7672N004",
+      "attachments": "SAM.gov synopsis solicitation (login required for some attachments); mirrored on highergov.com/federalcompass.com",
+      "first_seen": "2026-08-03", "last_updated": "2026-08-20",
+      "notes": "UPDATE 08-20: TSA formally recompeted via Synopsis Solicitation 70T04026R7672N004 posted 2026-04-03 with 2026-05-15 due date. Now CLOSED. Award still unconfirmed (Leidos referenced only for related checkpoint IDIQ, not this SEDS-CB). Watch SAM.gov for the award notice next run."
     },
     {
       "key": "MX-AICM-CONVEYOR",
@@ -542,6 +543,64 @@
       "link": "https://www.find-tender.service.gov.uk/Notice/025073-2025",
       "first_seen": "2026-08-03", "last_updated": "2026-08-03",
       "notes": "Just outside window; 10-year framework."
+    },
+    {
+      "key": "SG-CHANGI-T3-HTV",
+      "name": "Changi T3 — Supply & Delivery of High-Tension Equipment for T3 BHS Redevelopment",
+      "category": "excluded_low_amount",
+      "type": "BHS (component)",
+      "country": "Singapore", "city": "Singapore",
+      "budget": "not disclosed (HT/electrical supply component only — small scope)", "budget_krw_est": null,
+      "status": "status_unconfirmed",
+      "link": "https://www.singaporetenders.com (search 'audit / high-tension T3 BHS')",
+      "first_seen": "2026-08-20", "last_updated": "2026-08-20",
+      "notes": "NEW 08-20. Component/electrical sub-tender within the S$3bn Changi T3 upgrade programme. Small scope; name+link only."
+    },
+    {
+      "key": "US-ILM-PBB-BHS-MAINT",
+      "name": "New Hanover County / Wilmington ILM — PBB + BHS preventive maintenance, repairs, inspections (16 gates + 12 belts)",
+      "category": "excluded_low_amount",
+      "type": "PBB/BHS (services)",
+      "country": "USA", "city": "Wilmington, North Carolina",
+      "budget": "not disclosed (maintenance)", "budget_krw_est": null,
+      "status": "open",
+      "published": "2026 (site visit 2026-08-11)", "deadline": "2026-09-09 14:00 EDT",
+      "link": "https://flyilm.com/airport-documents/",
+      "first_seen": "2026-08-20", "last_updated": "2026-08-20",
+      "notes": "NEW 08-20. Maintenance RFP (not new supply). Below threshold — name+link only."
+    },
+    {
+      "key": "IN-AAI-SOLAPUR-BHS",
+      "name": "AAI Solapur — Provision of Baggage Handling System",
+      "category": "tracking_lead",
+      "type": "BHS",
+      "country": "India", "city": "Solapur (Maharashtra)",
+      "status": "status_unconfirmed",
+      "link": "https://www.aai.aero/en/tender/tender-search (search Solapur)",
+      "first_seen": "2026-08-20", "last_updated": "2026-08-20",
+      "notes": "NEW LEAD 08-20. Appears in aggregator lists ('Provision of BHS at AAI Solapur Airport'); no confirmed public NIT captured. Small AAI airport → value likely below 50억 threshold. Verify next run."
+    },
+    {
+      "key": "US-MIA-BHS-DESIGN",
+      "name": "Miami-Dade Aviation (MIA) — BHS Design Services PSA (South/Central/North Terminals)",
+      "category": "tracking_lead",
+      "type": "BHS (design services)",
+      "country": "USA", "city": "Miami, Florida",
+      "status": "status_unconfirmed",
+      "link": "https://www.miamidade.gov/Apps/ISD/StratProc/ProcurementNAS/pdf_Files/FutureSolicitations/DB25AV01_Future_Solicitation_final.pdf",
+      "first_seen": "2026-08-20", "last_updated": "2026-08-20",
+      "notes": "NEW LEAD 08-20. Professional services PSA (two 5-year contracts) for BHS design/evaluation across S/C/N terminals — NOT equipment supply. Design consultancy scope; out of our supply-tender class. Track subsequent construction/equipment solicitation only."
+    },
+    {
+      "key": "US-IND-BHS-EDS-UPGRADE",
+      "name": "Indianapolis IND — BHS upgrade to house new TSA-mandated EDS (~USD 140M concept)",
+      "category": "tracking_lead",
+      "type": "BHS/EDS",
+      "country": "USA", "city": "Indianapolis, Indiana",
+      "status": "upcoming",
+      "link": "https://www.ibj.com/articles/airport-eyeing-nearly-140m-upgrade-to-baggage-handling-system",
+      "first_seen": "2026-08-20", "last_updated": "2026-08-20",
+      "notes": "NEW LEAD 08-20. Board-level approval sought; FY2026 federal ATP request USD 15.5M. Implementation from 2026, 2–3 years. No public solicitation on IND/GovWin yet — monitor. Smiths Detection CTX 9800 already selected (via TSA IDIQ) for the EDS equipment side."
     },
     {
       "key": "SG-CHANGI-T3-BHS",

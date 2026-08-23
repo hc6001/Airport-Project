@@ -11,9 +11,10 @@
       { "date": "2026-08-03", "weekday": "Monday", "note": "baseline — first run, no prior state to diff against; egress policy blocked direct attachment download so attachment accessibility is inferred" },
       { "date": "2026-08-18", "weekday": "Tuesday", "note": "2nd run. Egress policy STILL blocks direct portal fetch (403 on TED/find-tender/SAM.gov/aai.aero/cial.aero/etenders.gov.za/GeBIZ/MERX) — all metadata via search snippets, attachment accessibility inferred. Added new confirmed notices (AAI Agra/Leh/PBB-AVDGS, Kenya Moi, Changi T3 56-PBB, PHL D/E make-up, Calgary YYC, Winnipeg); major updates to HIAL (re-issued OPEN), ACSA (national R3.15bn HBS, award court-frozen), AAI Bagdogra (OPEN, deadline 08-24), CPK (5 of 6 to dialogue)." },
       { "date": "2026-08-19", "weekday": "Wednesday", "note": "3rd run. Egress STILL blocks direct portal/PDF fetch (aai.aero, tendersontime, flybillings, bidnetdirect, tenderimpulse all blocked) — metadata via search snippets only. NEW confirmed in-scope BHS notices: (1) AAI Goa Dabolim civil enclave — SITC of additional Passenger BHS incl. merging/integration with existing Vanderlande inline BHS (Tender ID 2026_AAI_270590_1, public NIT); (2) AAI Lucknow (CCSI) BHS — SITC of BHS, EMD ₹1,39,93,200 (⇒ est. class ~₹70cr, above 50억 threshold), public NIT. No other changes vs 08-18: CPK (5→dialogue, Dec-2026 decision), Changi T3 BHS lead, ACSA (court-frozen, May-2025 rulings stand), AAI Bagdogra (open, deadline 08-24), HIAL (re-issued open) all UNCHANGED. Ruled out as stale/out-of-window: Billings PBB (2021), Albany PBB A-6/B-6 (2024). Not Friday → no weekly aggregation this run." },
-      { "date": "2026-08-20", "weekday": "Thursday", "note": "4th run. Egress still blocks aai.aero + highergov.com; TED + other portals reachable via search snippets. UPDATE to US-TSA-SEDS-CB: solicitation number confirmed 70T04026R7672N004, published 2026-04-03, response due 2026-05-15 (Q3 FY2026 as targeted) → status moves from status_unconfirmed to CLOSED, award still unconfirmed. NEW excluded_low_amount notices: (1) Singapore Changi T3 — 'Supply & Delivery of High-Tension Equipment for T3 BHS Redevelopment' component sub-tender (small scope); (2) Wilmington ILM — PBB + BHS PM/repair/inspection RFP (16 gates + 12 belts), due 2026-09-09 (maintenance, below threshold). NEW tracking_leads: (a) AAI Solapur BHS (aggregator hits only, no public NIT confirmed); (b) Miami-Dade MIA BHS design-services PSA (professional services, not equipment); (c) Indianapolis IND — TSA-mandated EDS via existing BHS upgrade, board approval pending, no notice yet. NO CHANGE vs 08-19 (skipping per rule): CPK (Dec-2026 decision, 5 in dialogue), Changi T3 main BHS (H2-2026 tender to be called), ACSA (May-2025 rulings stand), HIAL (re-issued open), AAI Bagdogra (still open, deadline 08-24 Sunday), AAI Goa/Lucknow BHS (value/deadline still egress-blocked). Not Friday → no weekly aggregation this run." }
+      { "date": "2026-08-20", "weekday": "Thursday", "note": "4th run. Egress still blocks aai.aero + highergov.com; TED + other portals reachable via search snippets. UPDATE to US-TSA-SEDS-CB: solicitation number confirmed 70T04026R7672N004, published 2026-04-03, response due 2026-05-15 (Q3 FY2026 as targeted) → status moves from status_unconfirmed to CLOSED, award still unconfirmed. NEW excluded_low_amount notices: (1) Singapore Changi T3 — 'Supply & Delivery of High-Tension Equipment for T3 BHS Redevelopment' component sub-tender (small scope); (2) Wilmington ILM — PBB + BHS PM/repair/inspection RFP (16 gates + 12 belts), due 2026-09-09 (maintenance, below threshold). NEW tracking_leads: (a) AAI Solapur BHS (aggregator hits only, no public NIT confirmed); (b) Miami-Dade MIA BHS design-services PSA (professional services, not equipment); (c) Indianapolis IND — TSA-mandated EDS via existing BHS upgrade, board approval pending, no notice yet. NO CHANGE vs 08-19 (skipping per rule): CPK (Dec-2026 decision, 5 in dialogue), Changi T3 main BHS (H2-2026 tender to be called), ACSA (May-2025 rulings stand), HIAL (re-issued open), AAI Bagdogra (still open, deadline 08-24 Sunday), AAI Goa/Lucknow BHS (value/deadline still egress-blocked). Not Friday → no weekly aggregation this run." },
+      { "date": "2026-08-23", "weekday": "Sunday", "note": "5th run. No run occurred on Fri 08-21 or Sat 08-22. Egress still blocks aai.aero (WebFetch on node 646356 returned EGRESS_BLOCKED). LOW-CHANGE run — no new OPEN in-scope tender announcement surfaced. Two genuine changes vs 08-20: (1) NEW awarded lead UK-LHR-ANALOGIC-HBS — Heathrow (HAL) competitive procurement AWARDED to Analogic for SeleCT Standard-3 HBS/EDS supply+install (announced Mar 2026); awarded → context tracking_lead, not an open tender. (2) UPDATE IN-AAI-PBB-AVDGS — confirmed as public DMSITC NIT (node 646356: 'DMSITC of Apron Drive Glass Walled PBB and SVDGS/AVDGS for Various Airports'); dates/EMD still egress-blocked → stays status_unconfirmed. NO CHANGE (skipping per rule): CPK (still 5-in-dialogue, award Dec-2026/early-2027), US-TSA-SEDS-CB (still closed, award unconfirmed — Leidos $470.7M is the OLD 2021 checkpoint deal, not this CB recompete), Changi T3 main BHS (H2-2026 tender), ACSA (court-frozen), HIAL, AAI Bagdogra (still OPEN, deadline 08-24 tomorrow — no extension/award found), AAI Goa/Lucknow (still egress-blocked), Dubai DWC, Kuwait KIA. Ruled out (not confirmed public notices this run): Asheville AVL BHS+PBB (RFP Jan-2025, work already awarded/under construction → out of window); Minneapolis MAC common-use PBB+BHS maintenance RFP (2024, maintenance/below threshold). Not Friday → no weekly aggregation this run." }
     ],
-    "last_run": "2026-08-20"
+    "last_run": "2026-08-23"
   },
   "tenders": [
     {
@@ -196,11 +197,11 @@
       "scope": "Providing apron-drive glass-walled Passenger Boarding Bridges and Advanced Visual Docking Guidance Systems for various airports",
       "method": "e-tender (CPPP)", "budget": "multi-airport PBB package (above PBB threshold)", "budget_krw_est": null,
       "status": "status_unconfirmed",
-      "published": "unknown (bid ref 027174)", "deadline": "unknown",
-      "link": "https://www.aai.aero (tender search)",
-      "attachments": "On AAI / CPPP; not verified",
-      "first_seen": "2026-08-18", "last_updated": "2026-08-18",
-      "notes": "NEW 08-18. Multi-airport PBB+AVDGS notice. Confirm live dates/scope next run."
+      "published": "unknown (bid ref 027174; AAI node 646356)", "deadline": "unknown",
+      "link": "https://www.aai.aero/en/node/646356",
+      "attachments": "On AAI / CPPP; not verified (aai.aero egress-blocked)",
+      "first_seen": "2026-08-18", "last_updated": "2026-08-23",
+      "notes": "UPDATE 08-23: confirmed as public AAI NIT node 646356 — full scope 'DMSITC (Design, Manufacture, Assembling, Supply, Installation, Testing & Commissioning) of Apron Drive Glass Walled PBB and Smart/Advanced Visual Docking Guidance System (SVDGS/AVDGS) for Various Airports'. Multi-airport PBB+AVDGS package (above PBB threshold class). Dates/EMD still egress-blocked → status_unconfirmed; VERIFY live phase + deadline next run."
     },
     {
       "key": "IN-AAI-GOA-BHS",
@@ -700,6 +701,21 @@
       "link": "news (Leonardo, Dec 2025, >USD 120M)",
       "first_seen": "2026-08-18", "last_updated": "2026-08-18",
       "notes": "NEW LEAD 08-18. Awarded Dec 2025 — logged for context, not an open tender."
+    },
+    {
+      "key": "UK-LHR-ANALOGIC-HBS",
+      "name": "Heathrow (LHR) — 4th-gen Standard-3 Hold Baggage Screening EDS (awarded Analogic)",
+      "category": "tracking_lead",
+      "type": "HBS/EDS",
+      "country": "UK", "city": "London (Heathrow)",
+      "authority": "Heathrow Airport Ltd (HAL)",
+      "scope": "Supply & installation of SeleCT Standard-3 Hold Baggage Screening (HBS) Explosive Detection Systems (EDS) integrating with existing BHS across Heathrow terminals",
+      "method": "Competitive procurement (HAL) — AWARDED", "budget": "not disclosed", "budget_krw_est": null,
+      "status": "awarded",
+      "published": "award announced 2026-03", "deadline": "n/a (awarded)",
+      "link": "https://finance.yahoo.com/news/analogic-corporation-secures-landmark-contract-100000846.html",
+      "first_seen": "2026-08-23", "last_updated": "2026-08-23",
+      "notes": "NEW LEAD 08-23. Analogic Corporation won HAL's competitive procurement to supply/install its 4th-gen SeleCT HBS EDS at Heathrow (announced Mar 2026). AWARDED — logged for context, not an open tender. The underlying HAL solicitation predates our window and is now closed/awarded."
     },
     {
       "key": "AU-MEL-BHS-AWARD",

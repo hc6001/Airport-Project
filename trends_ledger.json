@@ -6,71 +6,608 @@
     "numbering_rule": "1-x = BHS (incidents first, then new tech), 2-x = PBB (incidents first, then new tech), 3-x = PBB ancillary equipment (incidents first, then new tech). Ordered by design relevance/importance within each block. Numbers are renumbered as needed to keep the incidents-before-tech invariant when new incidents are inserted; the 'key' field is the stable identifier across runs.",
     "report_rule": "Only report items that are new or materially updated vs. this ledger. Friday runs additionally roll up the week's new items only.",
     "runs": [
-      { "date": "2026-08-17", "weekday": "Monday", "note": "baseline — first run of this trend-tracking routine, no prior state to diff against" },
-      { "date": "2026-08-18", "weekday": "Tuesday", "note": "9 new items (BHS incident 1, PBB incident 2, BHS tech 3, PBB tech 2, PBB-aux tech 1) + 2 material updates to existing items (Heathrow T5 compensation claim, Shanghai Hongqiao root-cause/compensation). Renumbered blocks to keep incidents-before-tech ordering." },
-      { "date": "2026-08-19", "weekday": "Wednesday", "note": "5 new items (BHS incident 1, PBB incident 2, BHS tech 1, PBB-aux tech 1) + 1 material update (Birmingham BHX recovery timeline). Renumbered blocks to keep incidents-before-tech ordering. Milan Malpensa baggage-cart fire (GSE cart, not BHS/PBB equipment) and NAIA Manila delay (operator denied malfunction) screened out." },
-      { "date": "2026-08-20", "weekday": "Thursday", "note": "1 new item only (BHS tech: AILA Santo Domingo 자동 BHS 1단계 가동). No new BHS/PBB/PBB-aux incidents worldwide in the 08-18~08-20 window. Screened out: Ben Gurion(운항폭주·조업인력 부족), DCA(인력·프로세스), NAIA Manila(운영사 BHS 결함 부인), ORD 2024 컨베이어 사망(관할 사인 자살·기간 밖), SpiceJet SG-105/Ryanair FR7268/Bluebird BZ742 기내 고온(항공기 자체 AC·APU 원인, 지상 PCA 설비 결함 미확인·기간 밖), Oshkosh AeroTech·LGA eGSE·Western Sydney eGSE·Nadi 전동 앰뷸리프트·JAL 하네다 휴머노이드(기간 밖 또는 스코프 밖), BEUMER-EU집행위 Vanderlande/Siemens 인수 반독점 소송(기술동향 아님). BHS tech 블록 재정렬(신규 1-14 삽입, 이후 번호 1씩 이동)." },
-      { "date": "2026-08-23", "weekday": "Sunday", "note": "08-21(금) 정기 실행이 누락되어 08-20~08-23 구간을 소급 조사(주간 롤업 포함). 신규 5건: PBB 장애 1(인천공항 탑승교 타이어교체 사망사고, 금주 최중요), BHS 장애 1(KLIA T1 2차 수하물장애, 4월 정전사고와 별개), BHS 기술 1(KLIA T1 BHS 교체공사 2단계 착공), PBB부대설비 기술 2(ITW GSE Qantas ULR 지상전원 실사례, AEME-JinkoSolar 태양광 MOU). PBB 기존항목 2-8 브리즈번 에어로브릿지 교체 진행상황 구체화(update_note). BHS/PBB/PBB부대설비 블록 재정렬(신규 삽입분 이후 번호 이동). 스코프 제외: Ben Gurion/스페인 지상조업 파업(인력쟁의), AA IT장애(BHS·PBB 무관), Sydney 근접충돌(설비 무관), Cavotec 매각(기술동향 아님). KLIA 8월 장애는 일부 원문(NST·Bernama·TheVibes·FocusMalaysia)이 프록시 차단으로 직접 확인 불가하여 URL 경로·기사 ID 순번으로 4월 사고와 별개 사건임을 교차검증." }
+      {
+        "date": "2026-08-17",
+        "weekday": "Monday",
+        "note": "baseline — first run of this trend-tracking routine, no prior state to diff against"
+      },
+      {
+        "date": "2026-08-18",
+        "weekday": "Tuesday",
+        "note": "9 new items (BHS incident 1, PBB incident 2, BHS tech 3, PBB tech 2, PBB-aux tech 1) + 2 material updates to existing items (Heathrow T5 compensation claim, Shanghai Hongqiao root-cause/compensation). Renumbered blocks to keep incidents-before-tech ordering."
+      },
+      {
+        "date": "2026-08-19",
+        "weekday": "Wednesday",
+        "note": "5 new items (BHS incident 1, PBB incident 2, BHS tech 1, PBB-aux tech 1) + 1 material update (Birmingham BHX recovery timeline). Renumbered blocks to keep incidents-before-tech ordering. Milan Malpensa baggage-cart fire (GSE cart, not BHS/PBB equipment) and NAIA Manila delay (operator denied malfunction) screened out."
+      },
+      {
+        "date": "2026-08-20",
+        "weekday": "Thursday",
+        "note": "1 new item only (BHS tech: AILA Santo Domingo 자동 BHS 1단계 가동). No new BHS/PBB/PBB-aux incidents worldwide in the 08-18~08-20 window. Screened out: Ben Gurion(운항폭주·조업인력 부족), DCA(인력·프로세스), NAIA Manila(운영사 BHS 결함 부인), ORD 2024 컨베이어 사망(관할 사인 자살·기간 밖), SpiceJet SG-105/Ryanair FR7268/Bluebird BZ742 기내 고온(항공기 자체 AC·APU 원인, 지상 PCA 설비 결함 미확인·기간 밖), Oshkosh AeroTech·LGA eGSE·Western Sydney eGSE·Nadi 전동 앰뷸리프트·JAL 하네다 휴머노이드(기간 밖 또는 스코프 밖), BEUMER-EU집행위 Vanderlande/Siemens 인수 반독점 소송(기술동향 아님). BHS tech 블록 재정렬(신규 1-14 삽입, 이후 번호 1씩 이동)."
+      },
+      {
+        "date": "2026-08-23",
+        "weekday": "Sunday",
+        "note": "08-21(금) 정기 실행이 누락되어 08-20~08-23 구간을 소급 조사(주간 롤업 포함). 신규 5건: PBB 장애 1(인천공항 탑승교 타이어교체 사망사고, 금주 최중요), BHS 장애 1(KLIA T1 2차 수하물장애, 4월 정전사고와 별개), BHS 기술 1(KLIA T1 BHS 교체공사 2단계 착공), PBB부대설비 기술 2(ITW GSE Qantas ULR 지상전원 실사례, AEME-JinkoSolar 태양광 MOU). PBB 기존항목 2-8 브리즈번 에어로브릿지 교체 진행상황 구체화(update_note). BHS/PBB/PBB부대설비 블록 재정렬(신규 삽입분 이후 번호 이동). 스코프 제외: Ben Gurion/스페인 지상조업 파업(인력쟁의), AA IT장애(BHS·PBB 무관), Sydney 근접충돌(설비 무관), Cavotec 매각(기술동향 아님). KLIA 8월 장애는 일부 원문(NST·Bernama·TheVibes·FocusMalaysia)이 프록시 차단으로 직접 확인 불가하여 URL 경로·기사 ID 순번으로 4월 사고와 별개 사건임을 교차검증."
+      },
+      {
+        "date": "2026-08-24",
+        "weekday": "Monday",
+        "note": "3건 신규(BHS 장애 1: HNL 터미널2 수하물 보안검색장비 장애 / PBB 기술 1: Oshkosh AeroTech iOPS 원격모니터링·예지보전 신기능 / PBB부대설비 기술 1: ElectroAir EAC-PBB 그리스 카스텔리 신공항 공급). 기존 항목 변동 없음. PBB 장애 신규 없음. 스코프 제외: Ben Gurion 수하물 지연(인력파업, 설비무관), China Eastern 상하이 훙차오 탑승교 충돌(기존 PBB-INC-SHA-2026과 동일 건, 신규 아님), 인천공항 천장작업 추락사(BHS/PBB 무관, 건설안전 사고). BHS/PBB/PBB부대설비 블록 재정렬(신규 삽입분 이후 번호 이동). 금요일 아님 → 주간 집계 없음."
+      }
     ],
-    "last_run": "2026-08-23"
+    "last_run": "2026-08-24"
   },
   "items": [
-    { "key": "BHS-INC-LHR-T5-2026", "num": "1-1", "type": "BHS_incident", "title": "Heathrow T5 반복 수하물시스템 장애 (2026년 5차례)", "date": "2026-05-15", "link": "https://www.foxnews.com/travel/20000-bags-stranded-technical-issue-major-airport-leaves-travelers-scrambling", "first_seen": "2026-08-17", "last_updated": "2026-08-18", "update_note": "British Airways가 Heathrow Airport Limited에 최대 £1,000만 손해배상 공식 청구. 보도에 따르면 T5 수하물설비 소유·유지보수 책임은 항공사가 아닌 공항운영사(HAL)에 있다는 점이 책임소재의 핵심으로 부각됨. https://www.nomadlawyer.org/heathrow-baggage-failure-travel-chaos-british-airways-demands-compensation" },
-    { "key": "BHS-INC-KLIA-2026", "num": "1-2", "type": "BHS_incident", "title": "KLIA T1 변전소 전압강하→BHS 컨트롤러 전체 정지", "date": "2026-04-18", "link": "https://www.thestar.com.my/news/nation/2026/04/21/power-disruption-caused-breakdown", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-INC-AMS-2025", "num": "1-3", "type": "BHS_incident", "title": "스키폴공항 성수기 자동수하물시스템 장애(2만개 적체)", "date": "2025-12-19", "link": "https://nltimes.nl/2025/12/19/20000-bags-left-stranded-schiphol-major-failure-recovery-take-days", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-INC-ZRH-2025", "num": "1-4", "type": "BHS_incident", "title": "취리히공항 정전으로 수하물 선별·검색 동시 마비", "date": "2025-12-27", "link": "https://www.swissinfo.ch/eng/various/power-failure-paralyses-baggage-system-at-zurich-airport/90694893", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-INC-DEN-2024", "num": "1-5", "type": "BHS_incident", "title": "덴버공항 BHS 소프트웨어 결함(2018년 도입분 잠복 결함)", "date": "2024-03", "link": "https://www.9news.com/article/travel/denver-airport-baggage-screening-issues-delay-cancel/73-dad9bac8-a914-4bd3-9155-3b27d83eb5bd", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-INC-BHX-2026", "num": "1-6", "type": "BHS_incident", "title": "버밍엄공항 신호 오류로 출발 수하물 다일간 적체", "date": "2026-08-08", "link": "https://www.birminghamairport.co.uk/important-updates-technical-issue-affecting-baggage-system/", "first_seen": "2026-08-17", "last_updated": "2026-08-19", "update_note": "2026-08-12 03:45 전면 정상화(장애 발생 08-08 대비 약 5일 소요). 공항 CEO가 언론에 직접 사과 성명 발표. https://uk.news.yahoo.com/birmingham-airport-issues-passengers-days-070644555.html ; https://www.yahoo.com/news/us/articles/airport-boss-feel-terrible-over-104400572.html" },
-    { "key": "BHS-INC-IAD-2025", "num": "1-7", "type": "BHS_incident", "title": "덜레스공항 승객 수하물설비 끼임 부상", "date": "2025-12-11", "link": "https://www.washingtontimes.com/news/2025/dec/12/person-injured-dulles-getting-stuck-baggage-claim-equipment/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-INC-EWR-2026", "num": "1-8", "type": "BHS_incident", "title": "뉴어크공항(EWR) 유아가 수하물 컨베이어에 올라타 분류실까지 이동", "date": "2026-05-28", "link": "https://abc7ny.com/post/toddler-rescued-baggage-conveyor-belt-newark-liberty-international-airport-extremely-dangerous/16632408/", "first_seen": "2026-08-18", "last_updated": "2026-08-18" },
-    { "key": "BHS-INC-DTW-2026", "num": "1-9", "type": "BHS_incident", "title": "디트로이트 메트로공항(DTW) Evans터미널 수하물처리설비 장애", "date": "2026-08-18", "link": "https://www.wilx.com/2026/08/18/equipment-failure-causes-baggage-delays-detroit-metro-airport/", "first_seen": "2026-08-19", "last_updated": "2026-08-19" },
-    { "key": "BHS-INC-KLIA2-2026", "num": "1-10", "type": "BHS_incident", "title": "KLIA 터미널1 2차 수하물시스템 장애(4월 정전사고와 별개 건)", "date": "2026-08-09(추정)", "link": "https://www.nst.com.my/news/nation/2026/08/1508322/mahb-confirms-klia-terminal-1-baggage-system-issue-problem-resolved", "first_seen": "2026-08-23", "last_updated": "2026-08-23", "update_note": "운수부 장관 Anthony Loke가 CAAM(민간항공청)에 조사 지시. MAHB는 '문제 오후 5:30 해결' 확인. 4월 18일 변전소 전압강하 사고(1-2, 5시간·22:30 복구)와는 별개의 신규 장애로 판단되나, 세션 네트워크 프록시가 NST·Bernama(id=2548140)·The Vibes·FocusMalaysia 원문을 차단하여 정확한 설비 결함 원인(전원 재발 vs 컨베이어/분류기 결함)은 미확인. 기사 URL 경로(/2026/08/) 및 기사ID 순번(4월 1423921→7월 1485080→8월 1508322)으로 별개 사건임을 교차검증. 후속 조치로 MAHB가 T1에 인력 추가 배치 발표. 원문 접근 가능한 환경에서 재확인 필요." },
-
-    { "key": "BHS-TECH-VDL-CPK-2025", "num": "1-11", "type": "BHS_tech", "title": "Vanderlande ICS(개별운반체) 방식 — 폴란드 CPK 신공항 BHS 수주", "date": "2025-2026", "link": "https://www.vanderlande.com/news-insights/vanderlande-awarded-baggage-handling-system-contract-for-new-cpk-airport-in-warsaw/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-TECH-SIEMENS-CDG-2025", "num": "1-12", "type": "BHS_tech", "title": "Siemens Baggage 360 디지털트윈 + SmartService 360 예지보전 — 파리 CDG", "date": "2025", "link": "https://airportindustry-news.com/siemens-logistics-showcases-smartservice-360-baggage-handling-at-paris-cdg/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-TECH-IATA753-2026", "num": "1-13", "type": "BHS_tech", "title": "IATA Resolution 753 RFID 수하물 추적 의무화 확산", "date": "2026", "link": "https://www.iata.org/en/programs/ops-infra/baggage/baggage-tracking/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-TECH-CT-MANDATE-2026", "num": "1-14", "type": "BHS_tech", "title": "EU/미국 TSA CT 위탁수하물 검색장비 도입 확대", "date": "2025-2026", "link": "https://copenhagenoptimization.com/blog/airport-security-technology", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-TECH-AILA-AERODOM-2026", "num": "1-15", "type": "BHS_tech", "title": "AILA(산토도밍고 라스아메리카스) 자동 BHS 1단계 가동 — CT Standard 3 + SCADA + 자동분류기 + 360도 태그리더", "date": "2026-06 남측구역 가동, 2026-08-12 공식발표, 2026년말 북측 통합완료 예정", "link": "https://listindiario.com/la-republica/20260813/aila-pone-operacion-primera-fase-moderno-sistema-automatizado-manejo-equipajes_917784.html", "first_seen": "2026-08-20", "last_updated": "2026-08-20" },
-    { "key": "BHS-TECH-BEUMER-SECTRO-2025", "num": "1-16", "type": "BHS_tech", "title": "BEUMER SECTRO 자동 기내수하물 보안검색 + 토론토/멜버른 실적", "date": "2025-2026", "link": "https://www.beumergroup.com/press/beumer-pcl-awarded-gtaa-baggage-2025-master-agreement/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-TECH-AUTOTUG-2026", "num": "1-17", "type": "BHS_tech", "title": "자율주행 수하물견인차 실전배치 — dnata DWC / 창이공항", "date": "2025-2026", "link": "https://www.futuretravelexperience.com/2026/01/changi-airport-deploys-autonomous-tractors-in-major-step-towards-airside-automation/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "BHS-TECH-BRU-LOADSTATION-2026", "num": "1-18", "type": "BHS_tech", "title": "브뤼셀공항 자동·반자동 수하물 적재 스테이션 8개소 도입", "date": "2025 발주, 2026 순차가동, 2028 완료", "link": "https://www.passengerterminaltoday.com/news/baggage/brussels-airport-installs-eight-automatic-and-semi-automatic-baggage-loading-areas.html", "first_seen": "2026-08-18", "last_updated": "2026-08-18" },
-    { "key": "BHS-TECH-BEUMER-ROBOT-2026", "num": "1-19", "type": "BHS_tech", "title": "BEUMER — 유럽 공항 자율로봇 수하물 상차 실증(Fraunhofer IML 공동 Enterprise Lab)", "date": "2026", "link": "https://airportindustry-news.com/beumer-group-and-fraunhofer-institute-for-material-flow-and-logistics-iml-launch-joint-enterprise-lab-for-mobile-robotics/", "first_seen": "2026-08-18", "last_updated": "2026-08-18" },
-    { "key": "BHS-TECH-DELTA-AI-ATL-2026", "num": "1-20", "type": "BHS_tech", "title": "델타항공 자체개발 'Baggage AI' 램프견인차 자율배차 — 애틀랜타(ATL) 확대", "date": "2026", "link": "https://news.delta.com/delta-spurs-innovation-worlds-busiest-ramp", "first_seen": "2026-08-18", "last_updated": "2026-08-18" },
-    { "key": "BHS-TECH-JOURNEY-ROBOTICS-2026", "num": "1-21", "type": "BHS_tech", "title": "Journey Robotics 자율 수하물언로딩 로봇 — IAG(히드로) IAGi 액셀러레이터 참여, 세계 최대급 공항 대형 실증 예고", "date": "2025-2026", "link": "https://apex.aero/articles/journey-robotics-automated-baggage-handling-robot-apex-fte-emea-2026/", "first_seen": "2026-08-19", "last_updated": "2026-08-19" },
-    { "key": "BHS-TECH-KLIA-CAROUSEL-2026", "num": "1-22", "type": "BHS_tech", "title": "KLIA 터미널1 BHS 교체공사 2단계 착공 — 도착 수하물수취대(Carousel E·F) 벨트 전면교체", "date": "2026-07-10 보도, E구역 착공, F구역 2026-08-31 착공 예정, 2027-01 완공목표", "link": "https://www.businesstoday.com.my/2026/07/10/klia-terminal-1-begins-baggage-system-upgrade-works-to-run-until-2027/", "first_seen": "2026-08-23", "last_updated": "2026-08-23" },
-
-    { "key": "PBB-INC-DAC-2024", "num": "2-1", "type": "PBB_incident", "title": "다카공항 탑승교 붕괴·기체 도어 파손(쿠웨이트항공)", "date": "2024-11-06", "link": "https://www.tbsnews.net/bangladesh/boarding-bridge-collapse-dhaka-airport-damages-kuwait-airways-aircraft-986021", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-INC-MEL-2026", "num": "2-2", "type": "PBB_incident", "title": "멜버른공항 탑승교 고정구조물에 A350 도어 파손(항공기 후진)", "date": "2026-04-14", "link": "https://aviationa2z.com/index.php/2026/04/15/airbus-a350-door-ripped-off-after-collision-with-jetbridge-at-melbourne-airport/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-INC-SHA-2026", "num": "2-3", "type": "PBB_incident", "title": "상하이 훙차오공항 활주 중 항공기가 탑승교와 충돌", "date": "2026-05-02", "link": "https://www.scmp.com/news/china/politics/article/3352227/china-eastern-says-sorry-boarding-bridge-collision-shanghai-airport", "first_seen": "2026-08-17", "last_updated": "2026-08-18", "update_note": "China Eastern이 피해 승객에게 1인당 300위안 배상, 공식 사과. 항공기가 충돌→후진→재충돌한 것으로 확인됐고, 조종석 경고화면 상 복수의 제동모드가 작동불능 상태였다는 정황이 제기되어 단순 충돌이 아닌 A350 제동시스템 결함 가능성이 제기됨. https://www.republicworld.com/world-news/china-eastern-aircraft-strikes-boarding-bridge-taxiing-in-shanghai-airline-offers-300-yuan-to-delayed-passengers ; https://onemileatatime.com/news/china-eastern-a350-repeatedly-rams-jet-bridge-engine-wing/" },
-    { "key": "PBB-INC-SFO-2024", "num": "2-4", "type": "PBB_incident", "title": "샌프란시스코공항 탑승교 지지대 구조 파손·기체 낙하", "date": "2024-05-02", "link": "https://www.aerotime.aero/articles/hawaiian-airlines-airbus-a321neo-damaged-at-sfo-after-jet-bridge-collapses", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-INC-SYD-A380-2025", "num": "2-5", "type": "PBB_incident", "title": "시드니공항 탑승교가 A380 엔진과 충돌", "date": "2025-07-12", "link": "https://www.abc.net.au/news/2025-07-12/aerobridge-hits-qantas-plane-sydney-airport-nsw/105524954", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-INC-SYD-FALL-2025", "num": "2-6", "type": "PBB_incident", "title": "시드니공항 탑승교에서 지상직 5m 추락 중상", "date": "2025-05-03", "link": "https://www.abc.net.au/news/2025-05-03/qantas-employee-hospital-aerobridge-hospital-sydney-airport/105247512", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-INC-HAR-2026", "num": "2-7", "type": "PBB_incident", "title": "해리스버그공항 탑승교 센서 고장으로 승객 기내 장시간 대기", "date": "2026-01", "link": "https://thehill.com/homenews/5705787-stranded-passengers-american-airlines/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-INC-BNE-2025", "num": "2-8", "type": "PBB_incident", "title": "브리즈번공항 82번 게이트 탑승교, 주기 중인 737 2대와 잇달아 충돌(ATSB 조사보고서)", "date": "2025-06-18 및 2025-07-26 (ATSB 최종보고서 2026-04-02)", "link": "https://www.atsb.gov.au/investigations/ao-2025-047", "first_seen": "2026-08-18", "last_updated": "2026-08-23", "update_note": "ATSB 권고에 따른 후속조치 구체화: 2026년 게이트82 포함 노후 에어로브릿지 8기 우선 교체 착수, 뉴질랜드산 신형 에어로브릿지 총 20기를 순차 도입해 국제·국내터미널 전체 교체(1기당 철거·설치·시험·인증 약 3개월 소요), 조종석·지상요원 시야 확보 개선을 핵심 설계 대응으로 명시. https://www.atsb.gov.au/news/2026/aerobridge-collisions-parked-737s-brisbane ; https://australianaviation.com.au/2026/04/new-brisbane-aerobridges-will-improve-safety-airport-says/" },
-    { "key": "PBB-INC-MYR-2025", "num": "2-9", "type": "PBB_incident", "title": "머틀비치공항 강풍으로 주기 중 항공기가 밀려 탑승교와 충돌, 날개 파손", "date": "2025-05-31", "link": "https://wpde.com/news/local/severe-weather-plane-myrtle-beach-airport-damage-crash-pushed-passenger-beau-rivage-casinos", "first_seen": "2026-08-18", "last_updated": "2026-08-18" },
-    { "key": "PBB-INC-IAD-COLLIDE-2026", "num": "2-10", "type": "PBB_incident", "title": "덜레스공항(IAD) 탑승교 2기 상호충돌(운전원 오조작)", "date": "2026-05-28", "link": "https://www.wusa9.com/article/travel/flights/airport-status/dulles-collision-driver-accidentally-crashed-jet-bridges-together-plane-accident/65-3e98426b-4033-4ed9-8451-84a90dcfa0d7", "first_seen": "2026-08-19", "last_updated": "2026-08-19" },
-    { "key": "PBB-INC-SBA-2025", "num": "2-11", "type": "PBB_incident", "title": "산타바바라공항 탑승교 정비 중 구조붕괴, 작업자 2명 부상", "date": "2025-08-26", "link": "https://www.ksby.com/santa-barbara-south-coast/jet-bridge-at-santa-barbara-airport-collapses-during-maintenance", "first_seen": "2026-08-19", "last_updated": "2026-08-19" },
-    { "key": "PBB-INC-ICN-TIRE-2026", "num": "2-12", "type": "PBB_incident", "title": "인천국제공항 탑승교 타이어 교체작업 중 유압 오작동으로 작업자 사망", "date": "2026-08-19 19:57경", "link": "https://www.joongboo.com/news/articleView.html?idxno=165419", "first_seen": "2026-08-23", "last_updated": "2026-08-23", "update_note": "인천공항 여객터미널 17번 탑승교 계류장에서 협력사(ELP 컨소시엄) 소속 42세 작업자가 탑승교 타이어 교체작업 중 사망, 31세 작업자 1명 부상(인하대병원 치료). 경찰은 조작 부주의로 유압에 의해 타이어가 튕겨나가면서 발생한 것으로 보고 정확한 원인 조사 중. 고용노동부 중부지방고용노동청이 인천국제공항공사·자회사(인천공항시설관리)의 산업안전보건법 위반 여부 조사 착수. 세션 네트워크 프록시가 원문(joongboo.com) 직접 접근을 차단해 복수의 검색 스니펫으로 사실관계를 교차검증함." },
-
-    { "key": "PBB-TECH-TKE-MAD-2025", "num": "2-13", "type": "PBB_tech", "title": "TK Elevator MAX Automate — 마드리드 바라하스 129기 전면 원격자동화", "date": "2024-2025", "link": "https://www.tkelevator.com/global-en/newsroom/press-releases/tk-elevator-transforms-madrid-airport-into-worlds-first-fully-remote-operated-hub-with-max-automate-182400.html", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-TECH-CIMC-LANZHOU-2025", "num": "2-14", "type": "PBB_tech", "title": "CIMC — 란저우공항 86기 전면 자율/원격 탑승교(세계최초 전체기 전환)", "date": "2025-07", "link": "https://news.cgtn.com/news/2025-07-13/China-launches-world-s-first-fully-autonomous-boarding-bridge-system-1EYFVtmRHag/p.html", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-TECH-SHINMAYWA-CHANGI-2023", "num": "2-15", "type": "PBB_tech", "title": "ShinMaywa PAXWAY AI 완전자동 도킹 — 창이공항 기종무관 상용화", "date": "2023-08 (ongoing)", "link": "https://www.shinmaywa.co.jp/english/insight/paxway/news_20230825_1.html", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-TECH-CLX-ATL-2025", "num": "2-16", "type": "PBB_tech", "title": "CLX Engineering 자율도킹 — 애틀랜타공항 도킹시간 절반 단축", "date": "2025", "link": "https://clxengineering.com/clx-tech-news/passenger-boarding-bridge", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-TECH-ELECTRIFY-GPU-PCA-2026", "num": "2-17", "type": "PBB_tech", "title": "탑승교 내장형 전동 GPU·PCA 확산(디젤 대체)", "date": "2025-2026", "link": "https://electroair.eu/innovative-under-bridge-power-and-pca-solutions-meet-the-eac-pbb-series-by-electroair/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-POLICY-AIRSECURITYACT-2024", "num": "2-18", "type": "PBB_tech", "title": "미국 AIR Security Act — 중국보조금 탑승교 연방자금 구매 영구금지", "date": "2024-05-17", "link": "https://www.cornyn.senate.gov/news/cornyn-peters-on-permanent-extension-of-bill-to-protect-u-s-transportation-infrastructure-from-chinese-espionage-signed-into-law", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBB-TECH-TKE-SMARTAPRON-2026", "num": "2-19", "type": "PBB_tech", "title": "TK Elevator — ApronVision(도킹영상가이드)+MAX Automate 통합 'Smart Apron Ecosystem'", "date": "2026-03 (PTE London 공개)", "link": "https://www.tkelevator.com/global-en/newsroom/press-releases/tk-elevator-showcases-unified-smart-apron-ecosystem-for-airport-operations-at-passenger-terminal-expo-london-2026-195648.html", "first_seen": "2026-08-18", "last_updated": "2026-08-18" },
-    { "key": "PBB-TECH-AA-DORMAKABA-DFW-2026", "num": "2-20", "type": "PBB_tech", "title": "American Airlines·dormakaba 전자탑승게이트(Argus Air XS) 대규모 도입 — 댈러스포트워스(DFW)", "date": "2025-11 시범, 2026 여름 확대", "link": "https://www.futuretravelexperience.com/2026/04/american-airlines-to-launch-electronic-boarding-gates-at-dfw-for-a-more-seamless-experience/", "first_seen": "2026-08-18", "last_updated": "2026-08-18" },
-
-    { "key": "PBBAUX-INC-AIX-GPU-2025", "num": "3-1", "type": "PBB_aux_incident", "title": "에어인디아익스프레스 지상전원/PCA 용량부족 기내 고온 반복사고", "date": "2025-04~05", "link": "https://www.travelandtourworld.com/news/article/air-india-express-faces-intense-backlash-after-prolonged-air-conditioning-failure-leaves-passengers-struggling-with-extreme-heat-and-raises-serious-safety-concerns-on-delhi-to-bhubaneswar-flight-new/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBBAUX-INC-SQ-FRA-2025", "num": "3-2", "type": "PBB_aux_incident", "title": "프랑크푸르트공항 싱가포르항공 A380 GPU 화재", "date": "2025-07-02", "link": "https://www.travelandtourworld.com/news/article/singapore-airlines-flight-to-singapore-delayed-more-than-40-minutes-after-gpu-fire-prompts-emergency-response-at-frankfurt-airport-new-update-you-need-to-know/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBBAUX-INC-PWS-CONTAM-2025", "num": "3-3", "type": "PBB_aux_incident", "title": "항공기 식수(PWS 계통) 화학오염 경로 연구 발표", "date": "2025", "link": "https://www.sciltp.com/journals/eccs/articles/2505000603", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBBAUX-TECH-HOHHOT-GPU-2025", "num": "3-4", "type": "PBB_aux_tech", "title": "AEME GSE 브릿지내장형 고체상태 GPU 100기 이상 — 후허하오터 신공항", "date": "2025 하반기", "link": "https://www.aeme.global/aeme-gse-delivers-over-100-solid-state-ground-power-units-to-support-the-opening-of-hohhot-shengle-international-airport.html", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBBAUX-TECH-LBA-POWERSHARE-2026", "num": "3-5", "type": "PBB_aux_tech", "title": "ITW GSE Power Coil + Power Share 부하공유 — 리즈브래드포드공항", "date": "2026-02", "link": "https://itwgse.com/news/powering-progress-at-leeds-bradford-airport/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBBAUX-TECH-CAVOTEC-E3GATE", "num": "3-6", "type": "PBB_aux_tech", "title": "Cavotec E3 Gate — 전원·PCA·상수·오수·연료 지하피트 통합게이트", "date": "진행중", "link": "http://airportfocusinternational.com/ergonomics-economy-and-environment-cavotecs-e3-gate/", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBBAUX-TECH-GUANGTAI-BATTERY-2025", "num": "3-7", "type": "PBB_aux_tech", "title": "Guangtai 배터리식 전동 GPU — 스페인 Swiftair / SATS MOU", "date": "2025", "link": "https://www.stattimes.com/cargo-airports/sats-partners-with-guangtai-to-advance-airport-ground-support-tech-1354861", "first_seen": "2026-08-17", "last_updated": "2026-08-17" },
-    { "key": "PBBAUX-TECH-EXETER-H2GPU-2026", "num": "3-8", "type": "PBB_aux_tech", "title": "엑서터공항 수소 GPU 겨울철 실증 — 항공기 턴어라운드 시뮬레이션", "date": "2026-02~03 (2025-04 최초 실증 후속)", "link": "https://runwaygirlnetwork.com/2026/03/exeter-airport-hopes-hydrogen-powered-ground-equipment-trial/", "first_seen": "2026-08-18", "last_updated": "2026-08-18" },
-    { "key": "PBBAUX-TECH-WATERSTUDY-2026", "num": "3-9", "type": "PBB_aux_tech", "title": "2026 기내 식수(PWS 계통) 안전성 3개년 연구 — 21개 항공사·3.5만 샘플 등급평가", "date": "2026-08 발표(2022-10~2025-09 조사)", "link": "https://foodmedcenter.org/2026-center-for-food-as-medicine-longevity-airline-water-study/", "first_seen": "2026-08-19", "last_updated": "2026-08-19" },
-    { "key": "PBBAUX-TECH-ITWGSE-QANTAS-2026", "num": "3-10", "type": "PBB_aux_tech", "title": "ITW GSE 2400 Power Coil — 콴타스 A350-1000 ULR(툴루즈→멜버른 무착륙 20시간) 지상전원 지원 실사례", "date": "2026-08", "link": "https://itwgse.com/news/supporting-a-new-milestone-in-ultra-long-haul-aviation/", "first_seen": "2026-08-23", "last_updated": "2026-08-23" },
-    { "key": "PBBAUX-TECH-AEME-JINKOSOLAR-2026", "num": "3-11", "type": "PBB_aux_tech", "title": "AEME GSE-JinkoSolar 태양광 연계 업무협약 — 제로카본 공항·격납고용 GPU 구축", "date": "2026-07-08", "link": "https://www.aemegse.com/aeme-gse-to-showcase-latest-ground-power-solutions-at-gse-expo-europe-2026.html", "first_seen": "2026-08-23", "last_updated": "2026-08-23" }
+    {
+      "key": "BHS-INC-LHR-T5-2026",
+      "num": "1-1",
+      "type": "BHS_incident",
+      "title": "Heathrow T5 반복 수하물시스템 장애 (2026년 5차례)",
+      "date": "2026-05-15",
+      "link": "https://www.foxnews.com/travel/20000-bags-stranded-technical-issue-major-airport-leaves-travelers-scrambling",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-18",
+      "update_note": "British Airways가 Heathrow Airport Limited에 최대 £1,000만 손해배상 공식 청구. 보도에 따르면 T5 수하물설비 소유·유지보수 책임은 항공사가 아닌 공항운영사(HAL)에 있다는 점이 책임소재의 핵심으로 부각됨. https://www.nomadlawyer.org/heathrow-baggage-failure-travel-chaos-british-airways-demands-compensation"
+    },
+    {
+      "key": "BHS-INC-KLIA-2026",
+      "num": "1-2",
+      "type": "BHS_incident",
+      "title": "KLIA T1 변전소 전압강하→BHS 컨트롤러 전체 정지",
+      "date": "2026-04-18",
+      "link": "https://www.thestar.com.my/news/nation/2026/04/21/power-disruption-caused-breakdown",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-INC-AMS-2025",
+      "num": "1-3",
+      "type": "BHS_incident",
+      "title": "스키폴공항 성수기 자동수하물시스템 장애(2만개 적체)",
+      "date": "2025-12-19",
+      "link": "https://nltimes.nl/2025/12/19/20000-bags-left-stranded-schiphol-major-failure-recovery-take-days",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-INC-ZRH-2025",
+      "num": "1-4",
+      "type": "BHS_incident",
+      "title": "취리히공항 정전으로 수하물 선별·검색 동시 마비",
+      "date": "2025-12-27",
+      "link": "https://www.swissinfo.ch/eng/various/power-failure-paralyses-baggage-system-at-zurich-airport/90694893",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-INC-DEN-2024",
+      "num": "1-5",
+      "type": "BHS_incident",
+      "title": "덴버공항 BHS 소프트웨어 결함(2018년 도입분 잠복 결함)",
+      "date": "2024-03",
+      "link": "https://www.9news.com/article/travel/denver-airport-baggage-screening-issues-delay-cancel/73-dad9bac8-a914-4bd3-9155-3b27d83eb5bd",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-INC-BHX-2026",
+      "num": "1-6",
+      "type": "BHS_incident",
+      "title": "버밍엄공항 신호 오류로 출발 수하물 다일간 적체",
+      "date": "2026-08-08",
+      "link": "https://www.birminghamairport.co.uk/important-updates-technical-issue-affecting-baggage-system/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-19",
+      "update_note": "2026-08-12 03:45 전면 정상화(장애 발생 08-08 대비 약 5일 소요). 공항 CEO가 언론에 직접 사과 성명 발표. https://uk.news.yahoo.com/birmingham-airport-issues-passengers-days-070644555.html ; https://www.yahoo.com/news/us/articles/airport-boss-feel-terrible-over-104400572.html"
+    },
+    {
+      "key": "BHS-INC-IAD-2025",
+      "num": "1-7",
+      "type": "BHS_incident",
+      "title": "덜레스공항 승객 수하물설비 끼임 부상",
+      "date": "2025-12-11",
+      "link": "https://www.washingtontimes.com/news/2025/dec/12/person-injured-dulles-getting-stuck-baggage-claim-equipment/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-INC-EWR-2026",
+      "num": "1-8",
+      "type": "BHS_incident",
+      "title": "뉴어크공항(EWR) 유아가 수하물 컨베이어에 올라타 분류실까지 이동",
+      "date": "2026-05-28",
+      "link": "https://abc7ny.com/post/toddler-rescued-baggage-conveyor-belt-newark-liberty-international-airport-extremely-dangerous/16632408/",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-18"
+    },
+    {
+      "key": "BHS-INC-DTW-2026",
+      "num": "1-9",
+      "type": "BHS_incident",
+      "title": "디트로이트 메트로공항(DTW) Evans터미널 수하물처리설비 장애",
+      "date": "2026-08-18",
+      "link": "https://www.wilx.com/2026/08/18/equipment-failure-causes-baggage-delays-detroit-metro-airport/",
+      "first_seen": "2026-08-19",
+      "last_updated": "2026-08-19"
+    },
+    {
+      "key": "BHS-INC-KLIA2-2026",
+      "num": "1-10",
+      "type": "BHS_incident",
+      "title": "KLIA 터미널1 2차 수하물시스템 장애(4월 정전사고와 별개 건)",
+      "date": "2026-08-09(추정)",
+      "link": "https://www.nst.com.my/news/nation/2026/08/1508322/mahb-confirms-klia-terminal-1-baggage-system-issue-problem-resolved",
+      "first_seen": "2026-08-23",
+      "last_updated": "2026-08-23",
+      "update_note": "운수부 장관 Anthony Loke가 CAAM(민간항공청)에 조사 지시. MAHB는 '문제 오후 5:30 해결' 확인. 4월 18일 변전소 전압강하 사고(1-2, 5시간·22:30 복구)와는 별개의 신규 장애로 판단되나, 세션 네트워크 프록시가 NST·Bernama(id=2548140)·The Vibes·FocusMalaysia 원문을 차단하여 정확한 설비 결함 원인(전원 재발 vs 컨베이어/분류기 결함)은 미확인. 기사 URL 경로(/2026/08/) 및 기사ID 순번(4월 1423921→7월 1485080→8월 1508322)으로 별개 사건임을 교차검증. 후속 조치로 MAHB가 T1에 인력 추가 배치 발표. 원문 접근 가능한 환경에서 재확인 필요."
+    },
+    {
+      "key": "BHS-INC-HNL-2026",
+      "type": "BHS_incident",
+      "title": "호놀룰루 대니얼K이노우에공항(HNL) 터미널2 수하물 보안검색장비 장애",
+      "date": "2026-08-23",
+      "link": "https://www.hawaiinewsnow.com/2026/08/23/hnl-travelers-with-checked-bags-urged-arrive-early-due-outages/",
+      "first_seen": "2026-08-24",
+      "last_updated": "2026-08-24",
+      "summary_note": "8/23(일) 오전 10시경 HNL 터미널2 위탁수하물 보안검색장비(CBIS/EDS 연계)에 장애 발생. 하와이주 교통국(HDOT)이 체크인 수하물 승객에 출발 2.5시간 전 도착 권고, 탐지견 팀 추가 투입으로 지연 완화. TSA 검색대 대기시간에는 영향 없었음. 같은 날 오후 2:37 복구 완료. 원인은 미공개.",
+      "num": "1-11"
+    },
+    {
+      "key": "BHS-TECH-VDL-CPK-2025",
+      "num": "1-12",
+      "type": "BHS_tech",
+      "title": "Vanderlande ICS(개별운반체) 방식 — 폴란드 CPK 신공항 BHS 수주",
+      "date": "2025-2026",
+      "link": "https://www.vanderlande.com/news-insights/vanderlande-awarded-baggage-handling-system-contract-for-new-cpk-airport-in-warsaw/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-TECH-SIEMENS-CDG-2025",
+      "num": "1-13",
+      "type": "BHS_tech",
+      "title": "Siemens Baggage 360 디지털트윈 + SmartService 360 예지보전 — 파리 CDG",
+      "date": "2025",
+      "link": "https://airportindustry-news.com/siemens-logistics-showcases-smartservice-360-baggage-handling-at-paris-cdg/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-TECH-IATA753-2026",
+      "num": "1-14",
+      "type": "BHS_tech",
+      "title": "IATA Resolution 753 RFID 수하물 추적 의무화 확산",
+      "date": "2026",
+      "link": "https://www.iata.org/en/programs/ops-infra/baggage/baggage-tracking/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-TECH-CT-MANDATE-2026",
+      "num": "1-15",
+      "type": "BHS_tech",
+      "title": "EU/미국 TSA CT 위탁수하물 검색장비 도입 확대",
+      "date": "2025-2026",
+      "link": "https://copenhagenoptimization.com/blog/airport-security-technology",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-TECH-AILA-AERODOM-2026",
+      "num": "1-16",
+      "type": "BHS_tech",
+      "title": "AILA(산토도밍고 라스아메리카스) 자동 BHS 1단계 가동 — CT Standard 3 + SCADA + 자동분류기 + 360도 태그리더",
+      "date": "2026-06 남측구역 가동, 2026-08-12 공식발표, 2026년말 북측 통합완료 예정",
+      "link": "https://listindiario.com/la-republica/20260813/aila-pone-operacion-primera-fase-moderno-sistema-automatizado-manejo-equipajes_917784.html",
+      "first_seen": "2026-08-20",
+      "last_updated": "2026-08-20"
+    },
+    {
+      "key": "BHS-TECH-BEUMER-SECTRO-2025",
+      "num": "1-17",
+      "type": "BHS_tech",
+      "title": "BEUMER SECTRO 자동 기내수하물 보안검색 + 토론토/멜버른 실적",
+      "date": "2025-2026",
+      "link": "https://www.beumergroup.com/press/beumer-pcl-awarded-gtaa-baggage-2025-master-agreement/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-TECH-AUTOTUG-2026",
+      "num": "1-18",
+      "type": "BHS_tech",
+      "title": "자율주행 수하물견인차 실전배치 — dnata DWC / 창이공항",
+      "date": "2025-2026",
+      "link": "https://www.futuretravelexperience.com/2026/01/changi-airport-deploys-autonomous-tractors-in-major-step-towards-airside-automation/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "BHS-TECH-BRU-LOADSTATION-2026",
+      "num": "1-19",
+      "type": "BHS_tech",
+      "title": "브뤼셀공항 자동·반자동 수하물 적재 스테이션 8개소 도입",
+      "date": "2025 발주, 2026 순차가동, 2028 완료",
+      "link": "https://www.passengerterminaltoday.com/news/baggage/brussels-airport-installs-eight-automatic-and-semi-automatic-baggage-loading-areas.html",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-18"
+    },
+    {
+      "key": "BHS-TECH-BEUMER-ROBOT-2026",
+      "num": "1-20",
+      "type": "BHS_tech",
+      "title": "BEUMER — 유럽 공항 자율로봇 수하물 상차 실증(Fraunhofer IML 공동 Enterprise Lab)",
+      "date": "2026",
+      "link": "https://airportindustry-news.com/beumer-group-and-fraunhofer-institute-for-material-flow-and-logistics-iml-launch-joint-enterprise-lab-for-mobile-robotics/",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-18"
+    },
+    {
+      "key": "BHS-TECH-DELTA-AI-ATL-2026",
+      "num": "1-21",
+      "type": "BHS_tech",
+      "title": "델타항공 자체개발 'Baggage AI' 램프견인차 자율배차 — 애틀랜타(ATL) 확대",
+      "date": "2026",
+      "link": "https://news.delta.com/delta-spurs-innovation-worlds-busiest-ramp",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-18"
+    },
+    {
+      "key": "BHS-TECH-JOURNEY-ROBOTICS-2026",
+      "num": "1-22",
+      "type": "BHS_tech",
+      "title": "Journey Robotics 자율 수하물언로딩 로봇 — IAG(히드로) IAGi 액셀러레이터 참여, 세계 최대급 공항 대형 실증 예고",
+      "date": "2025-2026",
+      "link": "https://apex.aero/articles/journey-robotics-automated-baggage-handling-robot-apex-fte-emea-2026/",
+      "first_seen": "2026-08-19",
+      "last_updated": "2026-08-19"
+    },
+    {
+      "key": "BHS-TECH-KLIA-CAROUSEL-2026",
+      "num": "1-23",
+      "type": "BHS_tech",
+      "title": "KLIA 터미널1 BHS 교체공사 2단계 착공 — 도착 수하물수취대(Carousel E·F) 벨트 전면교체",
+      "date": "2026-07-10 보도, E구역 착공, F구역 2026-08-31 착공 예정, 2027-01 완공목표",
+      "link": "https://www.businesstoday.com.my/2026/07/10/klia-terminal-1-begins-baggage-system-upgrade-works-to-run-until-2027/",
+      "first_seen": "2026-08-23",
+      "last_updated": "2026-08-23"
+    },
+    {
+      "key": "PBB-INC-DAC-2024",
+      "num": "2-1",
+      "type": "PBB_incident",
+      "title": "다카공항 탑승교 붕괴·기체 도어 파손(쿠웨이트항공)",
+      "date": "2024-11-06",
+      "link": "https://www.tbsnews.net/bangladesh/boarding-bridge-collapse-dhaka-airport-damages-kuwait-airways-aircraft-986021",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-INC-MEL-2026",
+      "num": "2-2",
+      "type": "PBB_incident",
+      "title": "멜버른공항 탑승교 고정구조물에 A350 도어 파손(항공기 후진)",
+      "date": "2026-04-14",
+      "link": "https://aviationa2z.com/index.php/2026/04/15/airbus-a350-door-ripped-off-after-collision-with-jetbridge-at-melbourne-airport/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-INC-SHA-2026",
+      "num": "2-3",
+      "type": "PBB_incident",
+      "title": "상하이 훙차오공항 활주 중 항공기가 탑승교와 충돌",
+      "date": "2026-05-02",
+      "link": "https://www.scmp.com/news/china/politics/article/3352227/china-eastern-says-sorry-boarding-bridge-collision-shanghai-airport",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-18",
+      "update_note": "China Eastern이 피해 승객에게 1인당 300위안 배상, 공식 사과. 항공기가 충돌→후진→재충돌한 것으로 확인됐고, 조종석 경고화면 상 복수의 제동모드가 작동불능 상태였다는 정황이 제기되어 단순 충돌이 아닌 A350 제동시스템 결함 가능성이 제기됨. https://www.republicworld.com/world-news/china-eastern-aircraft-strikes-boarding-bridge-taxiing-in-shanghai-airline-offers-300-yuan-to-delayed-passengers ; https://onemileatatime.com/news/china-eastern-a350-repeatedly-rams-jet-bridge-engine-wing/"
+    },
+    {
+      "key": "PBB-INC-SFO-2024",
+      "num": "2-4",
+      "type": "PBB_incident",
+      "title": "샌프란시스코공항 탑승교 지지대 구조 파손·기체 낙하",
+      "date": "2024-05-02",
+      "link": "https://www.aerotime.aero/articles/hawaiian-airlines-airbus-a321neo-damaged-at-sfo-after-jet-bridge-collapses",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-INC-SYD-A380-2025",
+      "num": "2-5",
+      "type": "PBB_incident",
+      "title": "시드니공항 탑승교가 A380 엔진과 충돌",
+      "date": "2025-07-12",
+      "link": "https://www.abc.net.au/news/2025-07-12/aerobridge-hits-qantas-plane-sydney-airport-nsw/105524954",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-INC-SYD-FALL-2025",
+      "num": "2-6",
+      "type": "PBB_incident",
+      "title": "시드니공항 탑승교에서 지상직 5m 추락 중상",
+      "date": "2025-05-03",
+      "link": "https://www.abc.net.au/news/2025-05-03/qantas-employee-hospital-aerobridge-hospital-sydney-airport/105247512",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-INC-HAR-2026",
+      "num": "2-7",
+      "type": "PBB_incident",
+      "title": "해리스버그공항 탑승교 센서 고장으로 승객 기내 장시간 대기",
+      "date": "2026-01",
+      "link": "https://thehill.com/homenews/5705787-stranded-passengers-american-airlines/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-INC-BNE-2025",
+      "num": "2-8",
+      "type": "PBB_incident",
+      "title": "브리즈번공항 82번 게이트 탑승교, 주기 중인 737 2대와 잇달아 충돌(ATSB 조사보고서)",
+      "date": "2025-06-18 및 2025-07-26 (ATSB 최종보고서 2026-04-02)",
+      "link": "https://www.atsb.gov.au/investigations/ao-2025-047",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-23",
+      "update_note": "ATSB 권고에 따른 후속조치 구체화: 2026년 게이트82 포함 노후 에어로브릿지 8기 우선 교체 착수, 뉴질랜드산 신형 에어로브릿지 총 20기를 순차 도입해 국제·국내터미널 전체 교체(1기당 철거·설치·시험·인증 약 3개월 소요), 조종석·지상요원 시야 확보 개선을 핵심 설계 대응으로 명시. https://www.atsb.gov.au/news/2026/aerobridge-collisions-parked-737s-brisbane ; https://australianaviation.com.au/2026/04/new-brisbane-aerobridges-will-improve-safety-airport-says/"
+    },
+    {
+      "key": "PBB-INC-MYR-2025",
+      "num": "2-9",
+      "type": "PBB_incident",
+      "title": "머틀비치공항 강풍으로 주기 중 항공기가 밀려 탑승교와 충돌, 날개 파손",
+      "date": "2025-05-31",
+      "link": "https://wpde.com/news/local/severe-weather-plane-myrtle-beach-airport-damage-crash-pushed-passenger-beau-rivage-casinos",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-18"
+    },
+    {
+      "key": "PBB-INC-IAD-COLLIDE-2026",
+      "num": "2-10",
+      "type": "PBB_incident",
+      "title": "덜레스공항(IAD) 탑승교 2기 상호충돌(운전원 오조작)",
+      "date": "2026-05-28",
+      "link": "https://www.wusa9.com/article/travel/flights/airport-status/dulles-collision-driver-accidentally-crashed-jet-bridges-together-plane-accident/65-3e98426b-4033-4ed9-8451-84a90dcfa0d7",
+      "first_seen": "2026-08-19",
+      "last_updated": "2026-08-19"
+    },
+    {
+      "key": "PBB-INC-SBA-2025",
+      "num": "2-11",
+      "type": "PBB_incident",
+      "title": "산타바바라공항 탑승교 정비 중 구조붕괴, 작업자 2명 부상",
+      "date": "2025-08-26",
+      "link": "https://www.ksby.com/santa-barbara-south-coast/jet-bridge-at-santa-barbara-airport-collapses-during-maintenance",
+      "first_seen": "2026-08-19",
+      "last_updated": "2026-08-19"
+    },
+    {
+      "key": "PBB-INC-ICN-TIRE-2026",
+      "num": "2-12",
+      "type": "PBB_incident",
+      "title": "인천국제공항 탑승교 타이어 교체작업 중 유압 오작동으로 작업자 사망",
+      "date": "2026-08-19 19:57경",
+      "link": "https://www.joongboo.com/news/articleView.html?idxno=165419",
+      "first_seen": "2026-08-23",
+      "last_updated": "2026-08-23",
+      "update_note": "인천공항 여객터미널 17번 탑승교 계류장에서 협력사(ELP 컨소시엄) 소속 42세 작업자가 탑승교 타이어 교체작업 중 사망, 31세 작업자 1명 부상(인하대병원 치료). 경찰은 조작 부주의로 유압에 의해 타이어가 튕겨나가면서 발생한 것으로 보고 정확한 원인 조사 중. 고용노동부 중부지방고용노동청이 인천국제공항공사·자회사(인천공항시설관리)의 산업안전보건법 위반 여부 조사 착수. 세션 네트워크 프록시가 원문(joongboo.com) 직접 접근을 차단해 복수의 검색 스니펫으로 사실관계를 교차검증함."
+    },
+    {
+      "key": "PBB-TECH-TKE-MAD-2025",
+      "num": "2-13",
+      "type": "PBB_tech",
+      "title": "TK Elevator MAX Automate — 마드리드 바라하스 129기 전면 원격자동화",
+      "date": "2024-2025",
+      "link": "https://www.tkelevator.com/global-en/newsroom/press-releases/tk-elevator-transforms-madrid-airport-into-worlds-first-fully-remote-operated-hub-with-max-automate-182400.html",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-TECH-CIMC-LANZHOU-2025",
+      "num": "2-14",
+      "type": "PBB_tech",
+      "title": "CIMC — 란저우공항 86기 전면 자율/원격 탑승교(세계최초 전체기 전환)",
+      "date": "2025-07",
+      "link": "https://news.cgtn.com/news/2025-07-13/China-launches-world-s-first-fully-autonomous-boarding-bridge-system-1EYFVtmRHag/p.html",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-TECH-SHINMAYWA-CHANGI-2023",
+      "num": "2-15",
+      "type": "PBB_tech",
+      "title": "ShinMaywa PAXWAY AI 완전자동 도킹 — 창이공항 기종무관 상용화",
+      "date": "2023-08 (ongoing)",
+      "link": "https://www.shinmaywa.co.jp/english/insight/paxway/news_20230825_1.html",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-TECH-CLX-ATL-2025",
+      "num": "2-16",
+      "type": "PBB_tech",
+      "title": "CLX Engineering 자율도킹 — 애틀랜타공항 도킹시간 절반 단축",
+      "date": "2025",
+      "link": "https://clxengineering.com/clx-tech-news/passenger-boarding-bridge",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-TECH-ELECTRIFY-GPU-PCA-2026",
+      "num": "2-17",
+      "type": "PBB_tech",
+      "title": "탑승교 내장형 전동 GPU·PCA 확산(디젤 대체)",
+      "date": "2025-2026",
+      "link": "https://electroair.eu/innovative-under-bridge-power-and-pca-solutions-meet-the-eac-pbb-series-by-electroair/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-POLICY-AIRSECURITYACT-2024",
+      "num": "2-18",
+      "type": "PBB_tech",
+      "title": "미국 AIR Security Act — 중국보조금 탑승교 연방자금 구매 영구금지",
+      "date": "2024-05-17",
+      "link": "https://www.cornyn.senate.gov/news/cornyn-peters-on-permanent-extension-of-bill-to-protect-u-s-transportation-infrastructure-from-chinese-espionage-signed-into-law",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBB-TECH-TKE-SMARTAPRON-2026",
+      "num": "2-19",
+      "type": "PBB_tech",
+      "title": "TK Elevator — ApronVision(도킹영상가이드)+MAX Automate 통합 'Smart Apron Ecosystem'",
+      "date": "2026-03 (PTE London 공개)",
+      "link": "https://www.tkelevator.com/global-en/newsroom/press-releases/tk-elevator-showcases-unified-smart-apron-ecosystem-for-airport-operations-at-passenger-terminal-expo-london-2026-195648.html",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-18"
+    },
+    {
+      "key": "PBB-TECH-AA-DORMAKABA-DFW-2026",
+      "num": "2-20",
+      "type": "PBB_tech",
+      "title": "American Airlines·dormakaba 전자탑승게이트(Argus Air XS) 대규모 도입 — 댈러스포트워스(DFW)",
+      "date": "2025-11 시범, 2026 여름 확대",
+      "link": "https://www.futuretravelexperience.com/2026/04/american-airlines-to-launch-electronic-boarding-gates-at-dfw-for-a-more-seamless-experience/",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-18"
+    },
+    {
+      "key": "PBB-TECH-OSHKOSH-IOPS-2026",
+      "type": "PBB_tech",
+      "title": "JBT/Oshkosh AeroTech iOPS — 탑승교·지상전원·PCA 원격 모니터링·예지보전 플랫폼 신기능 공개(PTE World 2026)",
+      "date": "2026-03-17",
+      "link": "https://www.aviationpros.com/gse/passenger-loading-systems-boarding-bridges-stairs-jetways/article/53042480/how-jbt-iops-boarding-bridge-technology-works",
+      "first_seen": "2026-08-24",
+      "last_updated": "2026-08-24",
+      "summary_note": "Oshkosh AeroTech(구 JBT AeroTech)의 iOPS는 탑승교·GPU·PCA 등 게이트 장비를 인터넷 접속만으로 실시간 원격 모니터링·예지보전할 수 있는 플랫폼. 항공사·공항운영사·정비사·지상조업사·화물사·군까지 고객군으로 확보. 2026-03 PTE World(런던)에서 실시간 가시성·예측 인사이트·모바일 알림 강화 신기능 공개, 신설 탑승교뿐 아니라 기존 노후 탑승교에도 개조 적용 가능함을 강조.",
+      "num": "2-21"
+    },
+    {
+      "key": "PBBAUX-INC-AIX-GPU-2025",
+      "num": "3-1",
+      "type": "PBB_aux_incident",
+      "title": "에어인디아익스프레스 지상전원/PCA 용량부족 기내 고온 반복사고",
+      "date": "2025-04~05",
+      "link": "https://www.travelandtourworld.com/news/article/air-india-express-faces-intense-backlash-after-prolonged-air-conditioning-failure-leaves-passengers-struggling-with-extreme-heat-and-raises-serious-safety-concerns-on-delhi-to-bhubaneswar-flight-new/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBBAUX-INC-SQ-FRA-2025",
+      "num": "3-2",
+      "type": "PBB_aux_incident",
+      "title": "프랑크푸르트공항 싱가포르항공 A380 GPU 화재",
+      "date": "2025-07-02",
+      "link": "https://www.travelandtourworld.com/news/article/singapore-airlines-flight-to-singapore-delayed-more-than-40-minutes-after-gpu-fire-prompts-emergency-response-at-frankfurt-airport-new-update-you-need-to-know/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBBAUX-INC-PWS-CONTAM-2025",
+      "num": "3-3",
+      "type": "PBB_aux_incident",
+      "title": "항공기 식수(PWS 계통) 화학오염 경로 연구 발표",
+      "date": "2025",
+      "link": "https://www.sciltp.com/journals/eccs/articles/2505000603",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBBAUX-TECH-HOHHOT-GPU-2025",
+      "num": "3-4",
+      "type": "PBB_aux_tech",
+      "title": "AEME GSE 브릿지내장형 고체상태 GPU 100기 이상 — 후허하오터 신공항",
+      "date": "2025 하반기",
+      "link": "https://www.aeme.global/aeme-gse-delivers-over-100-solid-state-ground-power-units-to-support-the-opening-of-hohhot-shengle-international-airport.html",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBBAUX-TECH-LBA-POWERSHARE-2026",
+      "num": "3-5",
+      "type": "PBB_aux_tech",
+      "title": "ITW GSE Power Coil + Power Share 부하공유 — 리즈브래드포드공항",
+      "date": "2026-02",
+      "link": "https://itwgse.com/news/powering-progress-at-leeds-bradford-airport/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBBAUX-TECH-CAVOTEC-E3GATE",
+      "num": "3-6",
+      "type": "PBB_aux_tech",
+      "title": "Cavotec E3 Gate — 전원·PCA·상수·오수·연료 지하피트 통합게이트",
+      "date": "진행중",
+      "link": "http://airportfocusinternational.com/ergonomics-economy-and-environment-cavotecs-e3-gate/",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBBAUX-TECH-GUANGTAI-BATTERY-2025",
+      "num": "3-7",
+      "type": "PBB_aux_tech",
+      "title": "Guangtai 배터리식 전동 GPU — 스페인 Swiftair / SATS MOU",
+      "date": "2025",
+      "link": "https://www.stattimes.com/cargo-airports/sats-partners-with-guangtai-to-advance-airport-ground-support-tech-1354861",
+      "first_seen": "2026-08-17",
+      "last_updated": "2026-08-17"
+    },
+    {
+      "key": "PBBAUX-TECH-EXETER-H2GPU-2026",
+      "num": "3-8",
+      "type": "PBB_aux_tech",
+      "title": "엑서터공항 수소 GPU 겨울철 실증 — 항공기 턴어라운드 시뮬레이션",
+      "date": "2026-02~03 (2025-04 최초 실증 후속)",
+      "link": "https://runwaygirlnetwork.com/2026/03/exeter-airport-hopes-hydrogen-powered-ground-equipment-trial/",
+      "first_seen": "2026-08-18",
+      "last_updated": "2026-08-18"
+    },
+    {
+      "key": "PBBAUX-TECH-WATERSTUDY-2026",
+      "num": "3-9",
+      "type": "PBB_aux_tech",
+      "title": "2026 기내 식수(PWS 계통) 안전성 3개년 연구 — 21개 항공사·3.5만 샘플 등급평가",
+      "date": "2026-08 발표(2022-10~2025-09 조사)",
+      "link": "https://foodmedcenter.org/2026-center-for-food-as-medicine-longevity-airline-water-study/",
+      "first_seen": "2026-08-19",
+      "last_updated": "2026-08-19"
+    },
+    {
+      "key": "PBBAUX-TECH-ITWGSE-QANTAS-2026",
+      "num": "3-10",
+      "type": "PBB_aux_tech",
+      "title": "ITW GSE 2400 Power Coil — 콴타스 A350-1000 ULR(툴루즈→멜버른 무착륙 20시간) 지상전원 지원 실사례",
+      "date": "2026-08",
+      "link": "https://itwgse.com/news/supporting-a-new-milestone-in-ultra-long-haul-aviation/",
+      "first_seen": "2026-08-23",
+      "last_updated": "2026-08-23"
+    },
+    {
+      "key": "PBBAUX-TECH-AEME-JINKOSOLAR-2026",
+      "num": "3-11",
+      "type": "PBB_aux_tech",
+      "title": "AEME GSE-JinkoSolar 태양광 연계 업무협약 — 제로카본 공항·격납고용 GPU 구축",
+      "date": "2026-07-08",
+      "link": "https://www.aemegse.com/aeme-gse-to-showcase-latest-ground-power-solutions-at-gse-expo-europe-2026.html",
+      "first_seen": "2026-08-23",
+      "last_updated": "2026-08-23"
+    },
+    {
+      "key": "PBBAUX-TECH-ELECTROAIR-KASTELLI-2026",
+      "type": "PBB_aux_tech",
+      "title": "ElectroAir EAC-PBB 탑승교 내장형 GPU+PCA — 그리스 신공항 카스텔리(크레타) 공급",
+      "date": "2026-03-24",
+      "link": "https://electroair.eu/electroair-kastelli-airport-ground-power-infrastructure/",
+      "first_seen": "2026-08-24",
+      "last_updated": "2026-08-24",
+      "summary_note": "에스토니아 ElectroAir社의 EAC-PBB 시리즈는 탑승교 하부에 400Hz 지상전원+PCA를 내장해 에이프런 디젤 GPU 대차·이동식 공조기 없이 급전 가능. 그리스 크레타 신공항(카스텔리 국제공항)에 지하 PIT 시스템 29기(기 납품)·고정형 90kVA GPU 29기·탑승교 내장형 GPU 10기 및 턴키 엔지니어링·교육·시운전을 공급 중. 유럽·아시아·남미 다수 공항에 기 적용, 에이프런 소음·배출가스 저감 효과 강조.",
+      "num": "3-12"
+    }
   ]
 }

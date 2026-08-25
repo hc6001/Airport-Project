@@ -35,9 +35,14 @@
         "date": "2026-08-24",
         "weekday": "Monday",
         "note": "3건 신규(BHS 장애 1: HNL 터미널2 수하물 보안검색장비 장애 / PBB 기술 1: Oshkosh AeroTech iOPS 원격모니터링·예지보전 신기능 / PBB부대설비 기술 1: ElectroAir EAC-PBB 그리스 카스텔리 신공항 공급). 기존 항목 변동 없음. PBB 장애 신규 없음. 스코프 제외: Ben Gurion 수하물 지연(인력파업, 설비무관), China Eastern 상하이 훙차오 탑승교 충돌(기존 PBB-INC-SHA-2026과 동일 건, 신규 아님), 인천공항 천장작업 추락사(BHS/PBB 무관, 건설안전 사고). BHS/PBB/PBB부대설비 블록 재정렬(신규 삽입분 이후 번호 이동). 금요일 아님 → 주간 집계 없음."
+      },
+      {
+        "date": "2026-08-25",
+        "weekday": "Tuesday",
+        "note": "3건 신규(BHS 장애 1: MCO 올랜도 터미널C 첨단BHS 기계결함 / BHS 기술 1: MCO $6.5억·10개년 BHS 전면개편 계획 / PBB 장애 1: MCO 견인차-탑승교 충돌 델타직원 사망, 금주 최중요). 기존 항목 변동 없음. PBB부대설비 신규 없음(Adelte PCA ADV는 게시일 미상으로 보류). 스코프 제외: 몬트리올 트뤼도공항 French Bee A350 푸시백 중 지상직원 사망(견인/푸시백 사고로 BHS·PBB 설비 무관), HNL 08-24 후속보도(기존 1-11과 동일건 복구 확인 재보도, 신규 아님). BHS/PBB 블록 재정렬(신규 삽입분 이후 번호 이동). 금요일 아님 → 주간 집계 없음."
       }
     ],
-    "last_run": "2026-08-24"
+    "last_run": "2026-08-25"
   },
   "items": [
     {
@@ -155,8 +160,19 @@
       "num": "1-11"
     },
     {
-      "key": "BHS-TECH-VDL-CPK-2025",
+      "key": "BHS-INC-MCO-2026",
       "num": "1-12",
+      "type": "BHS_incident",
+      "title": "올랜도국제공항(MCO) 터미널C 첨단 수하물처리시스템 기계 결함으로 수하물 지연",
+      "date": "2026-07-01",
+      "link": "https://www.wftv.com/news/local/travelers-wait-several-hours-luggage-orlando-international-airport-after-mechanical-failure/OQ7FARCFFNC7RENOMARDC3KFSY/",
+      "first_seen": "2026-08-25",
+      "last_updated": "2026-08-25",
+      "summary_note": "2026-07-01(수) 밤 터미널C(2018년 개장, 스케줄 기반 수하물 저장·불출 방식의 '첨단' BHS 채택)에서 GOAA(올랜도공항공사)가 확인한 '기계식 시스템 오류(mechanical system error)'로 수하물 처리가 지연, 승객들이 수취대에서 2~3시간 대기함. 공항측은 대기 승객에게 생수 제공·사과 성명 발표. 같은 해 6/27 악천후(별건, 스코프 제외)로 인한 지연과 1주일 내 연쇄 발생해 언론의 구조적 결함 논란 촉발."
+    },
+    {
+      "key": "BHS-TECH-VDL-CPK-2025",
+      "num": "1-13",
       "type": "BHS_tech",
       "title": "Vanderlande ICS(개별운반체) 방식 — 폴란드 CPK 신공항 BHS 수주",
       "date": "2025-2026",
@@ -166,7 +182,7 @@
     },
     {
       "key": "BHS-TECH-SIEMENS-CDG-2025",
-      "num": "1-13",
+      "num": "1-14",
       "type": "BHS_tech",
       "title": "Siemens Baggage 360 디지털트윈 + SmartService 360 예지보전 — 파리 CDG",
       "date": "2025",
@@ -176,7 +192,7 @@
     },
     {
       "key": "BHS-TECH-IATA753-2026",
-      "num": "1-14",
+      "num": "1-15",
       "type": "BHS_tech",
       "title": "IATA Resolution 753 RFID 수하물 추적 의무화 확산",
       "date": "2026",
@@ -186,7 +202,7 @@
     },
     {
       "key": "BHS-TECH-CT-MANDATE-2026",
-      "num": "1-15",
+      "num": "1-16",
       "type": "BHS_tech",
       "title": "EU/미국 TSA CT 위탁수하물 검색장비 도입 확대",
       "date": "2025-2026",
@@ -196,7 +212,7 @@
     },
     {
       "key": "BHS-TECH-AILA-AERODOM-2026",
-      "num": "1-16",
+      "num": "1-17",
       "type": "BHS_tech",
       "title": "AILA(산토도밍고 라스아메리카스) 자동 BHS 1단계 가동 — CT Standard 3 + SCADA + 자동분류기 + 360도 태그리더",
       "date": "2026-06 남측구역 가동, 2026-08-12 공식발표, 2026년말 북측 통합완료 예정",
@@ -206,7 +222,7 @@
     },
     {
       "key": "BHS-TECH-BEUMER-SECTRO-2025",
-      "num": "1-17",
+      "num": "1-18",
       "type": "BHS_tech",
       "title": "BEUMER SECTRO 자동 기내수하물 보안검색 + 토론토/멜버른 실적",
       "date": "2025-2026",
@@ -216,7 +232,7 @@
     },
     {
       "key": "BHS-TECH-AUTOTUG-2026",
-      "num": "1-18",
+      "num": "1-19",
       "type": "BHS_tech",
       "title": "자율주행 수하물견인차 실전배치 — dnata DWC / 창이공항",
       "date": "2025-2026",
@@ -226,7 +242,7 @@
     },
     {
       "key": "BHS-TECH-BRU-LOADSTATION-2026",
-      "num": "1-19",
+      "num": "1-20",
       "type": "BHS_tech",
       "title": "브뤼셀공항 자동·반자동 수하물 적재 스테이션 8개소 도입",
       "date": "2025 발주, 2026 순차가동, 2028 완료",
@@ -236,7 +252,7 @@
     },
     {
       "key": "BHS-TECH-BEUMER-ROBOT-2026",
-      "num": "1-20",
+      "num": "1-21",
       "type": "BHS_tech",
       "title": "BEUMER — 유럽 공항 자율로봇 수하물 상차 실증(Fraunhofer IML 공동 Enterprise Lab)",
       "date": "2026",
@@ -246,7 +262,7 @@
     },
     {
       "key": "BHS-TECH-DELTA-AI-ATL-2026",
-      "num": "1-21",
+      "num": "1-22",
       "type": "BHS_tech",
       "title": "델타항공 자체개발 'Baggage AI' 램프견인차 자율배차 — 애틀랜타(ATL) 확대",
       "date": "2026",
@@ -256,7 +272,7 @@
     },
     {
       "key": "BHS-TECH-JOURNEY-ROBOTICS-2026",
-      "num": "1-22",
+      "num": "1-23",
       "type": "BHS_tech",
       "title": "Journey Robotics 자율 수하물언로딩 로봇 — IAG(히드로) IAGi 액셀러레이터 참여, 세계 최대급 공항 대형 실증 예고",
       "date": "2025-2026",
@@ -266,13 +282,24 @@
     },
     {
       "key": "BHS-TECH-KLIA-CAROUSEL-2026",
-      "num": "1-23",
+      "num": "1-24",
       "type": "BHS_tech",
       "title": "KLIA 터미널1 BHS 교체공사 2단계 착공 — 도착 수하물수취대(Carousel E·F) 벨트 전면교체",
       "date": "2026-07-10 보도, E구역 착공, F구역 2026-08-31 착공 예정, 2027-01 완공목표",
       "link": "https://www.businesstoday.com.my/2026/07/10/klia-terminal-1-begins-baggage-system-upgrade-works-to-run-until-2027/",
       "first_seen": "2026-08-23",
       "last_updated": "2026-08-23"
+    },
+    {
+      "key": "BHS-TECH-MCO-RENOVATION-2025",
+      "num": "1-25",
+      "type": "BHS_tech",
+      "title": "올랜도국제공항(MCO) BHS 전면 개편 6.5억달러·10개년 계획 — 2001년 9/11 이후 구축 노후설비 교체",
+      "date": "2025-01 발표, 2026 자금조달(5.5억달러 크레딧라인) 및 시공 진행중",
+      "link": "https://hoodline.com/2025/01/orlando-international-airport-invests-650-million-in-overhaul-to-modernize-baggage-handling-system/",
+      "first_seen": "2026-08-25",
+      "last_updated": "2026-08-25",
+      "summary_note": "GOAA(올랜도공항공사)가 2001년 9/11 직후 구축돼 노후화된 BHS를 6.5억달러·10개년에 걸쳐 전면 교체하는 자본개선계획(CIP)을 발표. 배경은 연간 여객 6,000만명(2019년 대비 대폭 증가)·1일 위탁수하물 처리량 급증(2024년 기준 2022년 대비 1일 약 7,000개 추가) 및 골프백·카시트·유모차 등 비정형 수하물 비중이 세계 최고 수준이라는 점. 2026-02 5.5억달러 신용한도(credit line) 확보로 공사 지속 자금 확보. 신형 시스템은 항공편 스케줄 연동 지연방지·수하물 오분류 최소화를 목표로 함."
     },
     {
       "key": "PBB-INC-DAC-2024",
@@ -398,8 +425,19 @@
       "update_note": "인천공항 여객터미널 17번 탑승교 계류장에서 협력사(ELP 컨소시엄) 소속 42세 작업자가 탑승교 타이어 교체작업 중 사망, 31세 작업자 1명 부상(인하대병원 치료). 경찰은 조작 부주의로 유압에 의해 타이어가 튕겨나가면서 발생한 것으로 보고 정확한 원인 조사 중. 고용노동부 중부지방고용노동청이 인천국제공항공사·자회사(인천공항시설관리)의 산업안전보건법 위반 여부 조사 착수. 세션 네트워크 프록시가 원문(joongboo.com) 직접 접근을 차단해 복수의 검색 스니펫으로 사실관계를 교차검증함."
     },
     {
-      "key": "PBB-TECH-TKE-MAD-2025",
+      "key": "PBB-INC-MCO-TUG-2026",
       "num": "2-13",
+      "type": "PBB_incident",
+      "title": "올랜도국제공항(MCO) 견인차(tug)가 탑승교 하부로 돌진, 델타항공 지상직원 사망",
+      "date": "2026-05-07 (목) 22:55경",
+      "link": "https://www.foxnews.com/travel/delta-worker-dead-tug-vehicle-crashes-jet-bridge-orlando-international-airport",
+      "first_seen": "2026-08-25",
+      "last_updated": "2026-08-25",
+      "summary_note": "델타항공 2593편(A321)이 주기 중이던 게이트에서 견인차(tug)가 탑승교(제트브릿지) 하부와 충돌, 30년 경력 램프요원 Daniel Maldonado(49)가 다발성 둔상으로 사망(검시관 발표). 심장질환 병력이 있던 운전자가 조작 중 의료응급상황을 겪어 탑승교 하부로 그대로 진입했을 가능성이 제기됨(공식 원인은 미확정, FAA·OSHA·경찰 조사중). 사고 여객기는 후방도어·트랩카를 통해 비상 하기 완료, 델타는 MCO 운항을 일시 중단하고 해당 편(미니애폴리스행)을 결항 조치."
+    },
+    {
+      "key": "PBB-TECH-TKE-MAD-2025",
+      "num": "2-14",
       "type": "PBB_tech",
       "title": "TK Elevator MAX Automate — 마드리드 바라하스 129기 전면 원격자동화",
       "date": "2024-2025",
@@ -409,7 +447,7 @@
     },
     {
       "key": "PBB-TECH-CIMC-LANZHOU-2025",
-      "num": "2-14",
+      "num": "2-15",
       "type": "PBB_tech",
       "title": "CIMC — 란저우공항 86기 전면 자율/원격 탑승교(세계최초 전체기 전환)",
       "date": "2025-07",
@@ -419,7 +457,7 @@
     },
     {
       "key": "PBB-TECH-SHINMAYWA-CHANGI-2023",
-      "num": "2-15",
+      "num": "2-16",
       "type": "PBB_tech",
       "title": "ShinMaywa PAXWAY AI 완전자동 도킹 — 창이공항 기종무관 상용화",
       "date": "2023-08 (ongoing)",
@@ -429,7 +467,7 @@
     },
     {
       "key": "PBB-TECH-CLX-ATL-2025",
-      "num": "2-16",
+      "num": "2-17",
       "type": "PBB_tech",
       "title": "CLX Engineering 자율도킹 — 애틀랜타공항 도킹시간 절반 단축",
       "date": "2025",
@@ -439,7 +477,7 @@
     },
     {
       "key": "PBB-TECH-ELECTRIFY-GPU-PCA-2026",
-      "num": "2-17",
+      "num": "2-18",
       "type": "PBB_tech",
       "title": "탑승교 내장형 전동 GPU·PCA 확산(디젤 대체)",
       "date": "2025-2026",
@@ -449,7 +487,7 @@
     },
     {
       "key": "PBB-POLICY-AIRSECURITYACT-2024",
-      "num": "2-18",
+      "num": "2-19",
       "type": "PBB_tech",
       "title": "미국 AIR Security Act — 중국보조금 탑승교 연방자금 구매 영구금지",
       "date": "2024-05-17",
@@ -459,7 +497,7 @@
     },
     {
       "key": "PBB-TECH-TKE-SMARTAPRON-2026",
-      "num": "2-19",
+      "num": "2-20",
       "type": "PBB_tech",
       "title": "TK Elevator — ApronVision(도킹영상가이드)+MAX Automate 통합 'Smart Apron Ecosystem'",
       "date": "2026-03 (PTE London 공개)",
@@ -469,7 +507,7 @@
     },
     {
       "key": "PBB-TECH-AA-DORMAKABA-DFW-2026",
-      "num": "2-20",
+      "num": "2-21",
       "type": "PBB_tech",
       "title": "American Airlines·dormakaba 전자탑승게이트(Argus Air XS) 대규모 도입 — 댈러스포트워스(DFW)",
       "date": "2025-11 시범, 2026 여름 확대",
@@ -486,7 +524,7 @@
       "first_seen": "2026-08-24",
       "last_updated": "2026-08-24",
       "summary_note": "Oshkosh AeroTech(구 JBT AeroTech)의 iOPS는 탑승교·GPU·PCA 등 게이트 장비를 인터넷 접속만으로 실시간 원격 모니터링·예지보전할 수 있는 플랫폼. 항공사·공항운영사·정비사·지상조업사·화물사·군까지 고객군으로 확보. 2026-03 PTE World(런던)에서 실시간 가시성·예측 인사이트·모바일 알림 강화 신기능 공개, 신설 탑승교뿐 아니라 기존 노후 탑승교에도 개조 적용 가능함을 강조.",
-      "num": "2-21"
+      "num": "2-22"
     },
     {
       "key": "PBBAUX-INC-AIX-GPU-2025",

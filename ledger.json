@@ -82,9 +82,14 @@
         "date": "2026-08-31",
         "weekday": "Monday",
         "note": "11th run. Egress STILL blocks aai.aero, airportindustry-news.com, theedgemalaysia.com, business.spokaneairports.net (all EGRESS_BLOCKED) — metadata via search snippets only. TWO genuine new tracking_leads + one low-info lead; NO new confirmed_in_scope OPEN tender notice surfaced. (1) NEW LEAD MY-KLIA-BHS-MAHB — MAHB (Malaysia Airports) board-approved KLIA BHS replacement, RM500-600M/3-yr asset-replacement (up to RM1bn allocated); 'four-horse race' 4 Bursa-listed (MMC/Fajarbaru/Bina Puri/T7 Global) + 6 MNC bidders (Siemens/Beumer/Daifuku/Toyo Kanetsu/Vanderlande/Pteris); consultant appointment underway, tender specifics CONFIDENTIAL → no public NIT → tracking_lead (material forming opportunity, above threshold if confirmed). (2) NEW LEAD DE-HAM-BHS-LEONARDO — Leonardo won Hamburg Airport BHS renewal (T1+Plaza, cross-belt MBHS, 2026-2029), announced 2026-04-29, ~EUR 90M → within window → tracking_lead (awarded, context). (3) NEW low-info lead US-GEG-BHS-SPOKANE — Spokane RFQ #26-44-1897 BHS Upgrade (pre-qual, value unknown, portal egress-blocked) → status_unconfirmed tracking_lead. RULED OUT: BEUMER/MAG Manchester T2 BHS (Phase-1 awarded 2017 — out of window), Leonardo Zurich EUR150M (2018 — out of window), TSA Gold+ USD12.9bn IDIQ (integrated checkpoint+workforce screening SERVICES, offers closed 07-23; not a hold-baggage-screening EQUIPMENT tender → out of scope), Omaha 2026 BHS O&M RFP (already in ledger US-OMA-BHS-OM, closed — no change), Nepal Tribhuvan AMC + KLIA-T2 spare-parts/ops-support (maintenance/below threshold), TSA Rohde&Schwarz World Cup checkpoint screening (checkpoint, out of scope), KLIA T1 baggage-system fault Aug-2026 (incident → trends routine). NO CHANGE (skipping per rule): AAI Bagdogra (still no bid-opening/award notice — aai.aero blocked, deadline passed 08-24), PL-CPK-PBB92 (5-in-dialogue, award Dec-2026/early-2027), PL-CPK-BHS-VANDERLANDE (awarded 2025-10-30, within window), US-TSA-SEDS-CB (closed 05-15, no award), Changi T3 main BHS (H2-2026 tender to be called), ACSA national HBS (court-frozen), HIAL (re-issued open), AAI Lucknow (~₹70cr in-scope), all others. Not Friday → no weekly aggregation (next weekly rollup 09-04 Fri). Push notification SENT (material new forming opportunity: MAHB KLIA BHS ~RM600M + Leonardo Hamburg within-window award)."
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tuesday",
+        "note": "12th run. Egress STILL blocks aai.aero (tender-awarded-list WebFetch returned EGRESS_BLOCKED) — metadata via search snippets only. VERIFICATION-ONLY / NO-CHANGE run — ZERO genuine changes vs 08-31: no new confirmed_in_scope OPEN 입찰공고문 surfaced, no award confirmed on any tracked open item, no reclassification. Verified unchanged: PL-CPK-PBB92 (re-confirmed 6 applications / 5-in-dialogue, award decision Dec-2026 or early-2027 — NOT yet awarded, no winner), Changi T3 main BHS (still tender-to-be-called H2-2026 per Apr-29 announcement, work to begin end-2026 — unchanged), MY-KLIA-BHS-MAHB (no award, no public NIT — still confidential four-horse race), US-TSA-SEDS-CB (still closed 05-15, no award — HigherGov/GovTribe/SAM show opportunity only, no award notice), AAI Bagdogra (still NO bid-opening/award notice; aai.aero tender-awarded-list egress-blocked; deadline passed 08-24, status stays open pending result), AAI Lucknow (~₹70cr in-scope), PL-CPK-BHS-VANDERLANDE (awarded 2025-10-30, within window), DE-HAM-BHS-LEONARDO (awarded 2026-04-29, within window), ACSA national HBS (court-frozen), all others. HIAL note firmed (no classification change): the re-issued Provision of Hold Baggage X-ray Equipment at Six Airports procurement carries internal ref HIA-26-016 (= find-tender notice 012183-2026, published 2026-06-04) — same in-scope open item already in ledger (UK-HIAL-HBS-XRAY), NOT a new notice. RULED OUT: MWAA/IAD 'RFP-21-22745 BHS High Level Controller Software & Hardware Replacement' — 2021 solicitation (pre-proposal 2021-09-02) → out of window; MWAA/IAD RFP-26-23095 (Aeronautical Support Facilities Development & Management — not BHS/PBB) → out of scope. Not Friday → no weekly aggregation (next weekly rollup 09-04 Fri). NO push notification sent (no new valid opportunity; verification-only run)."
       }
     ],
-    "last_run": "2026-08-31"
+    "last_run": "2026-09-01"
   },
   "tenders": [
     {
@@ -189,11 +194,11 @@
       "published": "orig 086560-2025 (2025-12-31); re-issue 2026-06",
       "deadline": "re-issued procurement — tender opening 2026-07-07",
       "link": "https://www.find-tender.service.gov.uk/Notice/012183-2026",
-      "ref": "HIA-25-003; 086560-2025 / 012183-2026; earlier exercise 828798 withdrawn",
+      "ref": "HIA-26-016 (= find-tender 012183-2026); earlier HIA-25-003 / 086560-2025; exercise 828798 withdrawn",
       "attachments": "Procurement docs on Public Contracts Scotland (free registration; not verified)",
       "first_seen": "2026-08-03",
-      "last_updated": "2026-08-18",
-      "notes": "UPDATE 08-18: RE-ISSUED. Original (deadline 2026-02-23) was withdrawn/re-run; new opening 2026-07-07 → now OPEN again. Both notices within 12-month window."
+      "last_updated": "2026-09-01",
+      "notes": "UPDATE 08-18: RE-ISSUED. Original (deadline 2026-02-23) was withdrawn/re-run; new opening 2026-07-07 → now OPEN again. Both notices within 12-month window. 09-01: re-issued procurement's internal ref confirmed HIA-26-016 (= find-tender notice 012183-2026, published 2026-06-04; 1800-day contract + 60-mo option; options: disposal/recycling of 2012 units + secondary screens). Same in-scope open item — NOT a new notice, no classification change."
     },
     {
       "key": "IN-AAI-PATNA-BHS",
@@ -255,8 +260,8 @@
       "link": "https://www.aai.aero/system/files_force/tender/NIT_2066.pdf",
       "attachments": "NIT publicly listed; full RFP/BOQ login-required on CPPP",
       "first_seen": "2026-08-03",
-      "last_updated": "2026-08-26",
-      "notes": "UPDATE 08-18: confirmed OPEN, submission deadline 2026-08-24. 08-24: deadline reached, no opening/award notice; aai.aero egress-blocked. 08-26: still NO opening/award notice found; aai.aero contract-award page still egress-blocked. A recurring ₹114.93cr/22-month snippet surfaced against Bagdogra queries but is a search-engine cached artifact (not verifiable, also equals our Patna estimate) → NOT adopted as Bagdogra's value. Status kept 'open' pending result; watch AAI contract-award pages next run."
+      "last_updated": "2026-09-01",
+      "notes": "UPDATE 08-18: confirmed OPEN, submission deadline 2026-08-24. 08-24: deadline reached, no opening/award notice; aai.aero egress-blocked. 08-26: still NO opening/award notice found; aai.aero contract-award page still egress-blocked. A recurring ₹114.93cr/22-month snippet surfaced against Bagdogra queries but is a search-engine cached artifact (not verifiable, also equals our Patna estimate) → NOT adopted as Bagdogra's value. 09-01: aai.aero tender-awarded-list still egress-blocked, no award notice surfaced via search. Status kept 'open' pending result; watch AAI contract-award pages next run."
     },
     {
       "key": "IN-AAI-AGRA-BHS",

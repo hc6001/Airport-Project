@@ -80,21 +80,26 @@
         "date": "2026-09-06",
         "weekday": "Sunday",
         "note": "09-04(금) 정기실행 누락분 소급 + 이 루틴 첫 주간 롤업. 09-03~09-06 구간 38개 검색어(영문·국문)로 전수 재점검했으나 신규 0건, 기존 항목 변동 0건. 스코프 제외: 인천공항 천장보수 추락사(BHS/PBB 무관), 멜버른 A350 도어파손 재검색(기존 2-2 동일건), 상하이 훙차오 재검색(기존 2-3 동일건), DOT 2026-18040 업계반응 보도(BHS 미특정, 기존 1-29 상태 유지), AEME S28 GPU 사전티저(GSE Expo Europe 개막 09-15 전, 발행일 미확인), Ben Gurion/스페인 파업·Vanderlande-Siemens EU항소·시장전망 홍보성 보도(기존과 동일 사유). 주간 롤업(08-31~09-04): 신규 3건(1-13 EMA 정전, 1-28 CJIA 가이아나, 1-29 美 DOT 규정) — 전부 각 일자 보고서에서 기보고, 이번 회차는 집계만 수행. 알림 미발송(신규 없음, 주간 롤업도 기보고 정보의 재집계라 신규 알림 대상 아님)."
+      },
+      {
+        "date": "2026-09-08",
+        "weekday": "Tuesday",
+        "note": "09-07(월) 정기실행이 누락되어 09-06~09-08 구간을 소급 조사(영문·국문 54개 검색어, 2개 병렬 리서치로 장애/신기술 블록 분리 점검). 실질 변동 2건. (1) 기존 항목 1-1(Heathrow T5) 업데이트 — 2026-09-03(목) T5에서 또다시 BHS 기술결함 발생, 출발 위탁수하물 약 3,000개가 항공기에 실리지 못함(당일 복구). 8월 18일 갱신 이후에도 반복장애 패턴이 해소되지 않았음을 보여주는 재발 사례. (2) 신규 1건(BHS 기술 1-30: 인천공항공사·포스코DX 'AI 기반 수하물 이상탐지 시스템' 특허 출원, 2026-09-07 발표 — 이중적재/손잡이돌출/튜브이탈 3대 이상유형을 비전카메라+딥러닝으로 실시간 감지, T1 시범운영 이상수하물 100% 검출). PBB·PBB부대설비 블록은 신규·변동 없음(전 세계 PBB 충돌·구조파손, PCA/PWS/GPU 사고·신기술 모두 09-06~09-08 구간에서 미확인). 스코프 제외: Ben Gurion 8월 파업 재확인(인력요인, 무관), 몬트리올 트뤼도 마샬링 사망(BHS/PBB 무관), Vanderlande-Siemens EU항소 재유통(비기술), PBB/PCA/GPU 시장전망 홍보성 보도 다수(MarkWide·OpenPR·Fortune Business Insights 등, 계속 미채택), Collins Aerospace MUSE 사이버공격 재유통(2025년 체크인 시스템 사고, BHS/PBB 물리설비 무관), GSE Expo Europe 2026(9/15~17 리스본) 참가사(ElectroAir APA-10 Hybrid GPU, AEME ECOTUG/S-Power/S28, ITW GSE) 사전 티저 다수 확인되었으나 전부 발행일이 09-05~08 구간 내로 확인되지 않아 미채택(개막 후 재확인). 알림 발송(1-1 재발 패턴 확산 + 1-30 인천공항 국내 신기술 신규 1건)."
       }
     ],
-    "last_run": "2026-09-03"
+    "last_run": "2026-09-08"
   },
   "items": [
     {
       "key": "BHS-INC-LHR-T5-2026",
       "num": "1-1",
       "type": "BHS_incident",
-      "title": "Heathrow T5 반복 수하물시스템 장애 (2026년 5차례)",
+      "title": "Heathrow T5 반복 수하물시스템 장애 (2026년 다수 재발, 최근 09-03)",
       "date": "2026-05-15",
       "link": "https://www.foxnews.com/travel/20000-bags-stranded-technical-issue-major-airport-leaves-travelers-scrambling",
       "first_seen": "2026-08-17",
-      "last_updated": "2026-08-18",
-      "update_note": "British Airways가 Heathrow Airport Limited에 최대 £1,000만 손해배상 공식 청구. 보도에 따르면 T5 수하물설비 소유·유지보수 책임은 항공사가 아닌 공항운영사(HAL)에 있다는 점이 책임소재의 핵심으로 부각됨. https://www.nomadlawyer.org/heathrow-baggage-failure-travel-chaos-british-airways-demands-compensation"
+      "last_updated": "2026-09-08",
+      "update_note": "British Airways가 Heathrow Airport Limited에 최대 £1,000만 손해배상 공식 청구. 보도에 따르면 T5 수하물설비 소유·유지보수 책임은 항공사가 아닌 공항운영사(HAL)에 있다는 점이 책임소재의 핵심으로 부각됨. https://www.nomadlawyer.org/heathrow-baggage-failure-travel-chaos-british-airways-demands-compensation [2026-09-08 업데이트] 2026-09-03(목) T5에서 또다시 BHS 기술적 결함이 발생해 출발편 위탁수하물 약 3,000개가 항공기에 실리지 못하고 남겨짐(도착·타 터미널은 정상). 공항·BA 모두 당일 중 복구 완료를 확인. 세션 네트워크 프록시가 cityam.com·archyde.com 원문 직접접근을 차단해 복수의 독립 매체 검색 스니펫(travellingforbusiness.co.uk, streamlinefeed.co.ke, britbrief.co.uk 등)으로 사실관계 교차검증. 언론 보도가 '연중 5번째'라는 표현을 5월 사고와 이번 사고에 중복 사용하고 있어 정확한 누적 횟수는 불명확하나, 8월 18일 갱신 이후에도 T5 BHS가 추가로 장애를 일으킨 것은 명확 — 반복장애 패턴이 8월 이후에도 해소되지 않았음을 시사. 링크: https://travellingforbusiness.co.uk/news/heathrow-terminal-5-baggage-fault/ ; https://www.cityam.com/british-airways-travellers-hit-as-3000-luggage-items-stuck-in-heathrow/"
     },
     {
       "key": "BHS-INC-KLIA-2026",
@@ -763,6 +768,18 @@
       "last_updated": "2026-09-03",
       "summary_note": "미 교통부(DOT)가 FAA Reauthorization Act of 2024 Sec.511(b)를 이행하는 최종규칙(Federal Register 2026-18040)을 공포. 14 CFR 234에 따라 항공사가 의무 제출하는 지연·결항 원인 데이터에서, '항공사 또는 그 계약업체가 통제하지 않는 수하물처리시스템(BHS) 장애로 인한 수하물/화물 적재 지연'을 10개 신설 제외사유 중 하나로 명시해 'Air Carrier(항공사 귀책)' 코드에서 공식 제외. 그 외 제외사유로 승객 사망에 따른 기내청소, 이상기상·이물질(FOD)·사보타주에 의한 기체손상, 사이버공격, 정부시스템 장애, 지연불가한 긴급정비 등이 함께 신설됨. 2026-10-19 발효.",
       "note": "설계 시사점: 공항이 소유·운영(또는 위탁운영)하는 BHS의 정전·기계결함으로 인한 지연이 이제 항공사 책임과 분리된 별도 연방 통계항목으로 공식 집계됨에 따라, 신규/개량 BHS 설계 단계에서 (1) 정전 대비 이중전원·백업계통, (2) 장애 발생시각·원인을 자동 기록하는 모니터링/로그 체계, (3) 공항운영자-항공사 간 SLA·가동률 조항의 사전 반영 필요성이 커짐. 공항측 규제·평판 리스크가 데이터로 가시화되는 최초의 미국 연방 사례."
+    },
+    {
+      "key": "BHS-TECH-ICN-POSCODX-AI-2026",
+      "num": "1-30",
+      "type": "BHS_tech",
+      "title": "인천공항공사·포스코DX 'AI 기반 수하물 이상탐지 시스템' 공동개발 — 특허 출원",
+      "date": "2026-09-07 발표(제1여객터미널 시범운영 완료 후 특허 출원)",
+      "link": "https://www.fnnews.com/news/202609071054001924",
+      "first_seen": "2026-09-08",
+      "last_updated": "2026-09-08",
+      "summary_note": "인천국제공항공사가 포스코DX(옛 포스코ICT)와 공동으로 BHS 컨베이어 라인에 설치된 비전 카메라 영상을 딥러닝 모델로 실시간 분석해 육안·기존 센서로는 포착하기 어려운 수하물 이상 상태를 감지하는 시스템을 개발, 관련 특허를 출원했다고 2026-09-07 발표. 감지 대상은 (1) 수하물 2개가 겹쳐 바코드 인식을 막는 '이중 적재', (2) 캐리어 손잡이가 펴진 채 이송되어 설비 구조물에 걸릴 위험이 있는 상태, (3) 수하물이 BHS 이송용 튜브(tub)에서 이탈한 상태 3가지. 제1여객터미널에 시범 설치·운영한 결과 오분류·파손을 유발할 수 있는 이상 수하물을 100% 검출했다고 밝힘. 인천공항은 100만 개당 약 2개 수준의 세계 최고 수준 수하물 오분류율을 유지 중이라고 자체 홍보. 세션 네트워크 프록시가 fnnews.com·mt.co.kr·segye.com·ngonews.kr 등 원문 직접접근을 차단해 파이낸셜뉴스·세계일보·인천일보·한국NGO신문·24news 등 5개 이상 독립 매체의 검색 스니펫으로 사실관계 교차검증(정확도 수치·특허 출원번호 등 세부사항은 원문 직접확인 필요).",
+      "note": "설계 시사점: 신규/개량 BHS 설계 시 컨베이어·튜브카트 구간에 비전 카메라+AI 이상감지 계층을 표준 사양으로 반영하면 오분류·파손·설비끼임 사고(예: 뉴어크 1-8 사례처럼 이물 진입) 예방에 활용 가능. 특히 '이중적재'·'핸들 돌출'·'튜브이탈' 3대 이상유형은 크로스벨트/토트 방식 등 자동분류설비를 채택하는 신공항(CPK, KLIA, CJIA 등)의 검사 포인트 설계에 참고할 만함. 국내(인천공항) 사례로서 원가·유지보수 측면의 국산화 대안으로도 참고 가치가 있음."
     }
   ]
 }

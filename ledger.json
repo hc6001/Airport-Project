@@ -1237,6 +1237,30 @@
    "first_seen": "2026-09-14",
    "last_updated": "2026-09-14",
    "notes": "NEW 09-14 (run20). Genuine PUBLIC open-procedure 입찰공고문 (BOAMP/JOUE, ref 25-100931) whose PRIMARY subject is the BHS ('système de traitement/tri des bagages'), with induced terminal works — distinct from the SEPARATE 2026 'Extension de l'aérogare commerciale et des bureaux administratifs' notice (BOAMP 3/2672057-2026 / JOUE 005019042026) and the 2025 'extension du bâtiment sûreté' notice, which are building works. Status CLOSED (deadline 2025-10-13); award NOT yet publicly confirmed — works start 2026-09-28. BACKGROUND: TG Concept was selected in 2023 (announced 2023-12) for the *provisional* baggage sorting systems at BOTH Ajaccio-Napoléon-Bonaparte and Figari-Sud-Corse; the current *definitive* phase reportedly involves LEONARDO supplying an automatic baggage sorter — so Leonardo is the likely BHS titulaire/supplier, but no public award notice was found to confirm. WINDOW CAVEAT: deadline 2025-10-13 sits only ~1 month inside the 12-month window; reclassify to excluded_out_of_window after 2026-10-13 unless an award (within-window) is confirmed. Egress blocked all French procurement hosts → deadline/value/attachment-list via search snippets only; FIRM award + attachment list next run."
+  },
+  {
+   "key": "BG-SOF-T2-BHS-ALSTEF",
+   "name": "Vasil Levski Sofia Airport — Terminal 2 new Baggage Handling System (design/manufacture/supply/install/commission)",
+   "category": "excluded_out_of_window",
+   "type": "BHS",
+   "country": "Bulgaria",
+   "city": "Sofia",
+   "authority": "SOF Connect EAD (private concessionaire/operator of Sofia Airport; Meridiam + Munich Airport Intl consortium)",
+   "scope": "Design, manufacture, supply, installation and commissioning of a new BHS at Terminal 2 (departing + arriving), incl. smart/online check-in support and additional reclaim belts. Capacity increased from ~400 to 3,200 bags/h (contracted line ~2,400 bags/h). €15M total system investment.",
+   "method": "PRIVATE concession tender — Expression of Interest (EOI) then invited tender via SOF Connect's own e-procurement portal (procurement.sof-connect.com); NOT a public-sector procurement (not on Bulgaria's public register / TED / find-tender).",
+   "budget": "Contract ≈ 20M BGN (≈ €10.2M / $11.06M) to Alstef; total system investment cited as €15M. Above BHS 50억 threshold, BUT out of window.",
+   "budget_krw_est": "~150억 (contract €10.2M×~1450) / system €15M≈~217억",
+   "status": "awarded",
+   "published": "EOI launched ~2022-07 (offers due 2022-07-15)",
+   "deadline": "2022-07-15 (EOI/offers)",
+   "awarded_to": "Alstef Group (France)",
+   "award_date": "2023-03-28",
+   "golive": "2026-09-02 (operational go-live at T2)",
+   "link": "SOF Connect procurement portal https://procurement.sof-connect.com/ (login-gated) ; procurement info https://sofia-airport.eu/en/business/procurements/ ; news: https://seenews.com/news/sofia-airport-operator-seeks-offers-for-new-baggage-handling-system-1212855 (EOI) , https://seenews.com/news/sofia-airport-signs-contract-for-baggage-handling-system-with-alstef-818639 (award) , https://airportindustry-news.com/alstef-to-upgrade-baggage-handling-system-at-sofia-airport/",
+   "attachments": "NOT publicly accessible. Private concession tender: RFP + technical specification (spec, layouts, BOQ) were released ONLY to companies registered/invited on the SOF Connect e-procurement portal (procurement.sof-connect.com), under commercial confidentiality. EOI closed 2022-07-15 and contract awarded 2023 → the opportunity is closed even for registered users. This environment is additionally egress-blocked from sofia-airport.eu / procurement.sof-connect.com / seenews / globaltenders.",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "notes": "Surfaced 2026-09-15 via user request (deep-dive on the 09-15 excluded signal). EOI July 2022, awarded Alstef 2023-03-28, went live 2026-09-02. Award/notice >12 months old → excluded_out_of_window (the Sep-2026 news is only the operational go-live, not a new tender). Recorded to prevent re-evaluation next run. NOTE distinct from the SEPARATE, current SOF Connect 'Construction of Terminal 3 + Modernization of Terminal 2' mega-tender (~500M BGN, Terminal-3 by 2031) — that one may carry future BHS scope and should be watched separately as a tracking_lead if a discrete BHS/PBB notice appears."
   }
  ]
 }

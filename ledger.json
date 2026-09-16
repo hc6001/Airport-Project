@@ -137,6 +137,11 @@
     "date": "2026-09-16",
     "weekday": "Wednesday",
     "note": "22nd run (2026-09-16 Wed KST; system currentDate showed UTC 2026-09-15, re-checked per README with TZ=Asia/Seoul → actual KST date/weekday = 2026-09-16 Wednesday). Last run 09-15 (21st, no-change). ONE GENUINE NEW confirmed_in_scope item. (1) NEW MY-KLIA-T1-PBB-MAHB — Malaysia Airports (MAHB) official tender No. MAHB-MA(S)/T/33/2026 'Replacement of Passenger Boarding Bridges (PBB) Including Maintenance and Associated Works', KLIA Terminal 1, Sepang. Confirmed via MAHB's own official announcement (X @MY_Airports) + VMS/Procurehere procurement portal; tender briefing 2026-08-27. This is an actual PUBLIC tender advertisement from the procuring authority → confirmed_in_scope, status OPEN (closing date portal-gated/unconfirmed; likely open through late-Sep/Oct 2026). PBB replacement+maintenance at a major hub terminal → clearly above the 10억 PBB threshold; exact value/closing/bridge-count portal-gated (VMS + tendersontime + x.com all egress-blocked). DISTINCT from the pre-existing MY-KLIA-BHS-MAHB (news-only BHS overhaul lead, stays tracking_lead). Attachments: full tender docs on VMS portal (registration-gated, not directly downloadable this run). NO award/status change on any other tracked item. Verified UNCHANGED (skipped per no-change rule): FR-FSC-FIGARI-BHS (closed 2025-10-13, within window until 2026-10-13, no award posted), DK-CPH-BFE-BHS (open, TED 322404-2026 still egress-blocked, deadline/ref/amount unconfirmable), PA-TOCUMEN-T2-MUELLE-SUR (still OPEN on PanamaCompra, USD 208.75M, offers due 2026-09-28, NOT awarded — civil design-build, stays tracking_lead), IN-AAI-BAGDOGRA-BHS (deadline passed 08-24, still NO bid-opening/award notice; aai.aero blocked), PL-CPK-PBB92 (award Dec-2026/early-2027), SG-CHANGI-T3-BHS (H2-2026, no GeBIZ NIT), US-TSA-SEDS-CB (closed 05-15, no award), IN-AAI-LUCKNOW-BHS (~₹70cr), UK-HIAL-HBS-XRAY (re-issued open), CL-SCL-AMB-EXPANSION (design-study precalification), all others. RULED OUT / already-tracked or out-of-scope: Omaha OMA BHS O&M (O&M services), Chandigarh CHIAL BHS operation (O&M), CIAL CT-XBIS T3 (tracked, closed 05-07), Luton S3 EDS 10-yr framework (framework/agg re-surface), Leonardo Houston+Orlando BHS (Dec-2025 awards, out of window/already noted). Korea 인천/김해/제주: only context, no new NIT. Not Friday → no weekly aggregation (next weekly rollup 09-18 Fri KST). PUSH NOTIFICATION SENT (material new confirmed_in_scope PBB 입찰공고문: KLIA T1 PBB replacement, MAHB, open)."
+   },
+   {
+    "date": "2026-09-17",
+    "weekday": "Thursday",
+    "note": "23rd run. KST re-confirmed Thursday (currentDate showed UTC 2026-09-16). Not Friday → no weekly rollup. 2 broad sweeps (BHS+PBB, ~30 searches). NEW: +2 excluded_low_amount real notices (IN-AAI-IMPHAL-BHS ~Rs13.53cr≈21.6億<50億; US-FAY-PBB-GATE4 municipal single-gate ~$0.75-1.5M at/below 10億) + 1 news-only tracking_lead (PH-MNL-NAIA-T3-BHS). NO new confirmed_in_scope above-threshold notice, NO award/status change on any tracked open item (KLIA T1 PBB briefing 08-27 held/deadline ~09-29 uncontradicted; Tocumen offers due 09-28 $208.75M/26 cos; Bagdogra award still unposted; HIAL still no award; DK-CPH-BFE-BHS open). Ruled out (out-of-window/old/dup/out-of-scope): Kuwait T2 BHS Beumer/BBHS (selection MAY-2019, OOW), Vanderlande CPH-T3 BHS (pre-COVID, OOW), CDG BEUMER+ALSTEF (2015), MT Højgaard CPH-BFE building (civil, not BHS equipment; already noted on DK-CPH-BFE-BHS), Cape Town/ACSA BHS conveyor maintenance (O&M), Puerto Montt X-ray (~2億 tiny), Mobile MOB jetbridge refurbish, McAllen/Sacramento/GRR PBB (design-grant/refurbish news), King Salman & Al Maktoum (already/news pipeline), Leonardo Kuwait T4 & US Houston/Orlando (already tracked/OOW). No above-threshold new opportunity → 알림 미발송 (matches run7 precedent). reports/2026-09-17_run23.md"
    }
   ],
   "last_run": "2026-09-15"
@@ -1292,6 +1297,69 @@
    "first_seen": "2026-09-15",
    "last_updated": "2026-09-15",
    "notes": "Surfaced 2026-09-15 via user request (deep-dive on the 09-15 excluded signal). EOI July 2022, awarded Alstef 2023-03-28, went live 2026-09-02. Award/notice >12 months old → excluded_out_of_window (the Sep-2026 news is only the operational go-live, not a new tender). Recorded to prevent re-evaluation next run. NOTE distinct from the SEPARATE, current SOF Connect 'Construction of Terminal 3 + Modernization of Terminal 2' mega-tender (~500M BGN, Terminal-3 by 2031) — that one may carry future BHS scope and should be watched separately as a tracking_lead if a discrete BHS/PBB notice appears."
+  },
+  {
+   "key": "IN-AAI-IMPHAL-BHS",
+   "name": "Provision of Baggage Handling System including Operations and AICMC at Imphal Airport",
+   "category": "excluded_low_amount",
+   "type": "BHS",
+   "country": "India",
+   "city": "Imphal (Manipur)",
+   "authority": "Airports Authority of India (AAI) — North Eastern Region",
+   "scope": "SITC of Baggage Handling System + Operations + AICMC (All-Inclusive Comprehensive Maintenance Contract) at Imphal Airport. SITC 06 months; Operation 120 months; AICMC 96 months.",
+   "method": "Open e-tender (CPP eProcure / etenders.gov.in)",
+   "budget": "Est. Rs 13,52,79,503 total (BHS SITC Rs 6,81,62,785 + Operation & AICMC Rs 6,71,16,718, excl. GST)",
+   "budget_krw_est": 2160000000,
+   "status": "open",
+   "published": "2026 (open)",
+   "deadline": "open (not captured — aai.aero/eprocure egress-blocked)",
+   "link": "https://etenders.gov.in/eprocure/app (Tender ID 2026_AAI_274302_1); https://www.aai.aero/en/tender/tender-search",
+   "attachments": "NIT/e-tender documents on CPP eProcure (registration-gated); direct fetch egress-blocked this run.",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "notes": "NEW 09-17 (23rd run). Real AAI e-tender notice (2026_AAI_274302_1). Total est. ~Rs 13.53cr (≈21.6억), BHS SITC portion ~Rs 6.82cr (≈10.9억) — BOTH below the 50억 BHS threshold → excluded_low_amount (name+link only). Scope is a full small-airport BHS + long O&M."
+  },
+  {
+   "key": "US-FAY-PBB-GATE4",
+   "name": "Gate 4 Passenger Boarding Bridge Replacement Project (RE-Advertisement) — Fayetteville Regional Airport",
+   "category": "excluded_low_amount",
+   "type": "PBB",
+   "country": "USA",
+   "city": "Fayetteville, North Carolina",
+   "authority": "City of Fayetteville (airport owner)",
+   "scope": "Demolish existing 1980s Gate 4 passenger boarding bridge and install a new unit incl. electrical conversion (part of a ~US$1.5M Gates 4 & 5 replacement program).",
+   "method": "Invitation to Bid (sealed bids, construction) — re-advertised",
+   "budget": "~US$1.5M for Gates 4 & 5 combined (single Gate 4 bridge ≈ US$0.75M ≈ ~10억, at/below PBB 10억 threshold)",
+   "budget_krw_est": 1000000000,
+   "status": "closed",
+   "published": "~2026-06",
+   "deadline": "2026-07-16 14:00 (sealed bids) — closed; watch for award",
+   "link": "https://www.fayettevillenc.gov/City-Departments/Finance/Purchasing/Bid-Opportunities/GATE-4-PASSENGER-BOARDING-BRIDGE-REPLACEMENT-PROJECT-RE-Advertisement",
+   "attachments": "ITB PDF publicly downloadable: https://www.fayettevillenc.gov/files/sharedassets/main/v/1/finance/purchasing/bids/2026/june/gate-4-passenger-boarding-bridge-replacement-project.pdf",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "notes": "NEW 09-17 (23rd run). Real municipal ITB (Project COF1517008), re-advertised, bids due 2026-07-16 (within 12-mo window). Single-gate municipal PBB replacement, ~US$0.75-1.5M → at/below PBB 10억 threshold → excluded_low_amount (name+link only). ITB PDF is publicly accessible (unusual — most portals egress-blocked)."
+  },
+  {
+   "key": "PH-MNL-NAIA-T3-BHS",
+   "name": "Manila NAIA Terminal 3 — Baggage Handling System replacement (priority, pipeline)",
+   "category": "tracking_lead",
+   "type": "BHS",
+   "country": "Philippines",
+   "city": "Manila (NAIA)",
+   "authority": "New NAIA Infrastructure Corp (NNIC) / San Miguel-led consortium",
+   "scope": "BHS replacement flagged as a top priority after repeated NAIA T3 baggage-system failures. No public procurement notice yet — trade-news only.",
+   "method": "undetermined (private operator NNIC)",
+   "budget": "undisclosed",
+   "budget_krw_est": null,
+   "status": "upcoming",
+   "published": "news 2026 (no tender notice)",
+   "deadline": "n/a — no notice published",
+   "link": "https://newsinfo.inquirer.net/?p=1997473",
+   "attachments": "none (no tender document published yet)",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "notes": "NEW 09-17 (23rd run). News-only lead (NNIC/San Miguel flagged NAIA T3 BHS replacement as priority after repeated failures). NOT a published 입찰공고문 → tracking_lead for next routine; NOT in the reported bid list."
   }
  ]
 }

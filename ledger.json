@@ -142,9 +142,14 @@
     "date": "2026-09-17",
     "weekday": "Thursday",
     "note": "23rd run. KST re-confirmed Thursday (currentDate showed UTC 2026-09-16). Not Friday → no weekly rollup. 2 broad sweeps (BHS+PBB, ~30 searches). NEW: +2 excluded_low_amount real notices (IN-AAI-IMPHAL-BHS ~Rs13.53cr≈21.6億<50億; US-FAY-PBB-GATE4 municipal single-gate ~$0.75-1.5M at/below 10億) + 1 news-only tracking_lead (PH-MNL-NAIA-T3-BHS). NO new confirmed_in_scope above-threshold notice, NO award/status change on any tracked open item (KLIA T1 PBB briefing 08-27 held/deadline ~09-29 uncontradicted; Tocumen offers due 09-28 $208.75M/26 cos; Bagdogra award still unposted; HIAL still no award; DK-CPH-BFE-BHS open). Ruled out (out-of-window/old/dup/out-of-scope): Kuwait T2 BHS Beumer/BBHS (selection MAY-2019, OOW), Vanderlande CPH-T3 BHS (pre-COVID, OOW), CDG BEUMER+ALSTEF (2015), MT Højgaard CPH-BFE building (civil, not BHS equipment; already noted on DK-CPH-BFE-BHS), Cape Town/ACSA BHS conveyor maintenance (O&M), Puerto Montt X-ray (~2億 tiny), Mobile MOB jetbridge refurbish, McAllen/Sacramento/GRR PBB (design-grant/refurbish news), King Salman & Al Maktoum (already/news pipeline), Leonardo Kuwait T4 & US Houston/Orlando (already tracked/OOW). No above-threshold new opportunity → 알림 미발송 (matches run7 precedent). reports/2026-09-17_run23.md"
+   },
+   {
+    "date": "2026-09-18",
+    "weekday": "Friday",
+    "note": "24th run — FRIDAY WEEKLY ROLLUP (KST re-confirmed Friday 2026-09-18; currentDate showed UTC 2026-09-17). 2 parallel sweeps (BHS+PBB, EN/KO/ES/FR, ~60 searches) + tracked-item verification. DAILY DIFF: no new confirmed_in_scope above-threshold notice; only substantive change = PL-CPK-PBB92 award timeline SLIPPED Dec-2026 → EARLY 2027 (still 5-of-6 competitive dialogue, no award). Data-quality clarifications (no reclassification): CPH-BFE-BHS — TED 322404-2026 confirmed to be a separate electric-apron-bus retender, NOT the BFE-BHS notice; HIAL 012183-2026 possible F14-corrigendum-vs-HIA-26-016 reference conflict flagged for direct find-tender check. No award on Bagdogra / Tocumen (offers due 09-28) / HIAL / KLIA T1 PBB (value+deadline still Procurehere/VMS login-gated, unconfirmable). CA-YYC-PBB re-confirmed active on MERX #893/0000316766 (docs still login-required, dates/value not extractable). No confirmable brand-new capital BHS/EDS/PBB notice in the 09-10~09-18 window. Ruled out/leads-only: Madrid-Barajas SATE €159M (O&M, out-of-scope), CDG TCN Standard-3 migration (verify), PHL D/E BHS (already tracked US-PHL-BHS-MAKEUP), Cochin T3 CT-HBS (already tracked IN-COK-CTHBS-T3), Fraport T1 electrical pkg incl. conveyor (not BHS proper), MSY New Orleans CBIS (news/design), Rosario AR + ADP rampes (unconfirmed leads), Changi T3 (still H2-2026 news). WEEKLY ROLLUP (09-12~09-18): this week newly logged = MY-KLIA-T1-PBB-MAHB (confirmed PBB open, alerted 09-16, week's headline) + FR-FSC-FIGARI-BHS (confirmed BHS closed, 09-14) + IN-AAI-IMPHAL-BHS & US-FAY-PBB-GATE4 (excluded_low_amount, 09-17) + BG-SOF-T2-BHS-ALSTEF (out-of-window note, 09-15) + PH-MNL-NAIA-T3-BHS (tracking_lead, not reported). 알림 발송 (Friday weekly digest — week had substantive new content, unlike 09-11 dead week). reports/2026-09-18_run24.md"
    }
   ],
-  "last_run": "2026-09-15"
+  "last_run": "2026-09-18"
  },
  "tenders": [
   {
@@ -161,12 +166,12 @@
    "budget_krw_est": 1450000000000,
    "status": "open",
    "published": "2026-02-20 (request-to-participate closed)",
-   "deadline": "price offers Q3 2026; award decision targeted Dec 2026; signature expected Q1 2027",
+   "deadline": "price offers Q3 2026; award decision originally targeted Dec 2026 — per 2026-09 reporting now SLIPPED to EARLY 2027; signature after that",
    "link": "https://portpolska.pl/en/news/tender-launched-for-the-supply-of-passenger-boarding-bridges-for-the-new-airport",
    "attachments": "Competitive-dialogue docs restricted to invited/qualified bidders; TED notice + CPK e-procurement platform (not verified this run)",
    "first_seen": "2026-08-03",
-   "last_updated": "2026-08-18",
-   "notes": "UPDATE 08-18: 6 requests-to-participate received; 5 admitted to dialogue (Sezo Invest+ShinMaywa, FMT Sweden, Albert Ziegler, Adelte+TK Airport Solutions, Comsa Instalaciones). No award yet."
+   "last_updated": "2026-09-18",
+   "notes": "UPDATE 08-18: 6 requests-to-participate received; 5 admitted to dialogue (Sezo Invest+ShinMaywa, FMT Sweden, Albert Ziegler, Adelte+TK Airport Solutions, Comsa Instalaciones). No award yet. UPDATE 09-18 (weekly rollup run24): still in competitive dialogue (5 of 6 applicants); award decision now reported as expected EARLY 2027 (slipped from Dec-2026 target). No award yet — classification unchanged (open)."
   },
   {
    "key": "IN-COK-CTHBS-T3",
@@ -253,7 +258,7 @@
    "attachments": "Procurement docs on Public Contracts Scotland (free registration; not verified)",
    "first_seen": "2026-08-03",
    "last_updated": "2026-09-01",
-   "notes": "UPDATE 08-18: RE-ISSUED. Original (deadline 2026-02-23) was withdrawn/re-run; new opening 2026-07-07 → now OPEN again. Both notices within 12-month window. 09-01: re-issued procurement's internal ref confirmed HIA-26-016 (= find-tender notice 012183-2026, published 2026-06-04; 1800-day contract + 60-mo option; options: disposal/recycling of 2012 units + secondary screens). Same in-scope open item — NOT a new notice, no classification change."
+   "notes": "UPDATE 08-18: RE-ISSUED. Original (deadline 2026-02-23) was withdrawn/re-run; new opening 2026-07-07 → now OPEN again. Both notices within 12-month window. 09-01: re-issued procurement's internal ref confirmed HIA-26-016 (= find-tender notice 012183-2026, published 2026-06-04; 1800-day contract + 60-mo option; options: disposal/recycling of 2012 units + secondary screens). Same in-scope open item — NOT a new notice, no classification change. VERIFY-NEXT-RUN 09-18: a re-sweep (snippet-based) suggested find-tender 012183-2026 might instead be an F14 corrigendum of HIA-25-003 (deadline 2026-02-23) rather than HIA-26-016 (2026-06-04) — possible reference-number conflict; NOT overwriting the 09-01 confirmation on one snippet, flag for direct find-tender check. Award notice still not posted → status open, no change this run."
   },
   {
    "key": "IN-AAI-PATNA-BHS",
@@ -1251,7 +1256,7 @@
    "attachments": "NOT publicly accessible — restricted procedure: full tender material (technical specs / drawings / BOQ) is released ONLY to prequalified tenderers after they submit an ESPD + signed NDA. Only the public contract/prequalification notice is open.",
    "first_seen": "2026-09-09",
    "last_updated": "2026-09-09",
-   "notes": "NEW 09-09. Confirmed PUBLIC procurement notice (restricted/prequalification, EU Defence & Security Directive 2009/81/EC) for the supply of a BHS at the new Copenhagen Airport 'Baggage Factory East' automated high-bay-warehouse facility. Published ~2026-07-07 (within window). Corroborated across DIT great.gov.uk export-opportunity relay + globaltenders aggregator + CPH/MT Højgaard project reporting; the BFE building-construction (phase-1 collaboration won by MT Højgaard Danmark Aug-2026; phase-2 turnkey DKK 450M from Q3-2027, delivery before summer 2030) is a SEPARATE contract — this entry is the BHS EQUIPMENT procurement. Value undisclosed but clearly above 50억. Exact deadline / notice reference / itemized value could NOT be independently verified this run (TED/op.europa.eu/great.gov.uk/globaltenders all egress-blocked) → status open pending verification; FIRM deadline + reference + value next run. DISTINCT from the older Vanderlande CPH Terminal-3-expansion BHS (award ~Apr-2025, out of window, context only)."
+   "notes": "NEW 09-09. Confirmed PUBLIC procurement notice (restricted/prequalification, EU Defence & Security Directive 2009/81/EC) for the supply of a BHS at the new Copenhagen Airport 'Baggage Factory East' automated high-bay-warehouse facility. Published ~2026-07-07 (within window). Corroborated across DIT great.gov.uk export-opportunity relay + globaltenders aggregator + CPH/MT Højgaard project reporting; the BFE building-construction (phase-1 collaboration won by MT Højgaard Danmark Aug-2026; phase-2 turnkey DKK 450M from Q3-2027, delivery before summer 2030) is a SEPARATE contract — this entry is the BHS EQUIPMENT procurement. Value undisclosed but clearly above 50억. Exact deadline / notice reference / itemized value could NOT be independently verified this run (TED/op.europa.eu/great.gov.uk/globaltenders all egress-blocked) → status open pending verification; FIRM deadline + reference + value next run. DISTINCT from the older Vanderlande CPH Terminal-3-expansion BHS (award ~Apr-2025, out of window, context only). REF CLARIFICATION 09-18: TED 322404-2026 (Københavns Lufthavne), earlier floated as a possible BFE-BHS reference, is confirmed to be a SEPARATE electric-apron-bus re-tender (published ~2026-05-11), NOT this BHS notice → do not conflate; correct BFE-BHS TED reference still to be captured. Status open, no change this run."
   },
   {
    "key": "FR-FSC-FIGARI-BHS",

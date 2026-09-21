@@ -152,9 +152,14 @@
     "date": "2026-09-21",
     "weekday": "Monday",
     "note": "25th run (2026-09-19 Sat / 2026-09-20 Sun weekend not run; system currentDate showed UTC 2026-09-20 but TZ=Asia/Seoul reconfirmed real KST = 2026-09-21 Monday 03:xx). VERIFICATION-ONLY, NO CHANGE. 2 parallel research agents (BHS/EDS/CBIS + PBB, EN/ES/FR, ~30 searches) + 7+6 tracked-item re-verifications. NO new in-scope published 입찰공고문 worldwide this week; NO confirmed award/status/amount change on any tracked item. Ledger notes only: (a) HIAL 012183-2026 reference conflict RESOLVED = HIA-26-016 contract notice (defenceonline 2026-06-04), 09-18 flag cleared, status open unchanged; (b) CPK PBB92 — new portpolska.pl 'selects supplier' headline exists but egress-blocked & all datable evidence still says Q1-2027 conclusion → NOT adopted, verify-next-run flag added, status open; (c) DTW P5 — WCAA Phase 5 jet-bridge solicitation (up to 37 bridges, BIL-funded) corroborated present-tense but RFB#/dates/value still portal-gated → status_unconfirmed unchanged; (d) Figari window exits 2026-10-13 reminder; (e) SCL minor detail (5 consultancy offers, econ opening 02-18) design-study unchanged. Excluded/noise: BEUMER+ALSTEF CDG (2015 award, out of window), AILA Santo Domingo automated BHS go-live (operational news, award predates window), Fort Wayne PBB RFP (2022/completed 08-13), Chennai PBB bellows (spare parts), DXB TK Elevator 10-yr PBB service (O&M), Winnipeg/Mobile PBB (closed/refurb). Maturing leads (non-reportable, next routine): CDG TCN 'Migration Standard 3' HBS (marches-publics.com listing ref 1643861 exists, date/value not extractable), MSY New Orleans CBIS 5th-EDS ~$45M program (flymsy.com page, no public RFP confirmed). Egress blocked TED/find-tender/aai.aero/GeBIZ/VMS/Procurehere/MERX/PanamaCompra/portpolska.pl/marchesonline/marches-publics.com/apps.metroairport.com → metadata via search snippets. Not Friday → no weekly rollup (next 2026-09-25 Fri). Alert NOT sent (no new opportunity, no confirmed change — run12/13/21/23 precedent). (reports/2026-09-21_run25.md)"
+   },
+   {
+    "date": "2026-09-22",
+    "weekday": "Tuesday",
+    "note": "26th run (KST re-confirmed Tuesday 2026-09-22; system currentDate showed UTC 2026-09-21). Prev run 2026-09-21 (25th, Mon). Not Friday -> no weekly rollup / no user report (next rollup 2026-09-25 Fri). 2 parallel sweeps (BHS/EDS/CBIS + PBB, EN/ES/FR). SUBSTANTIVE CHANGES: (1) PL-CPK-PBB92 run25 'selects supplier' resolved = SHORTLIST to 2 finalists (Adelte + TK Airport Solutions), NOT an award; award still Q1-2027, status open. (2) CDG Migration Std3 TCN lead -> AWARD notice published (marchesonline am-8300172-1; titulaire/amount egress-blocked). NEW confirmed_in_scope notices added (all egress-limited, within window): FR-TLS-BHS-SORTER (closed 06-15), FR-CDG-TBS3S4 (design-build, dates TBD), FR-CDG-T2C-STD3 (Std3 HBS, dates TBD), FR-CDG-TCN-STD3 (awarded). NEW lead: ES-AENA-MELILLA-REMODEL (BHS bundled in EUR18.2M remodel, borderline). MSY CBIS 5th-EDS lead resolved (in construction since 03-2026, no public RFP forthcoming) -> dropped from active watch. DTW P5 gained budget (~$84M total/FY26 ~$23M), still status_unconfirmed. Cochin T3 CT-HBS re-found = already tracked (IN-COK-CTHBS-T3). No award on Bagdogra/Lucknow/HIAL(012183)/CPH-BFE-BHS-equipment/Figari/Changi-T3. Figari window-exit due 2026-10-13. Alert NOT sent (not Friday; no emergency; changes deferred to Fri weekly rollup)."
    }
   ],
-  "last_run": "2026-09-18"
+  "last_run": "2026-09-22"
  },
  "tenders": [
   {
@@ -171,12 +176,12 @@
    "budget_krw_est": 1450000000000,
    "status": "open",
    "published": "2026-02-20 (request-to-participate closed)",
-   "deadline": "price offers Q3 2026; award decision originally targeted Dec 2026 — per 2026-09 reporting now SLIPPED to EARLY 2027; signature after that",
+   "deadline": "price offers Q3 2026; tender conclusion/award EARLY 2027 (slipped from Dec-2026)",
    "link": "https://portpolska.pl/en/news/tender-launched-for-the-supply-of-passenger-boarding-bridges-for-the-new-airport",
    "attachments": "Competitive-dialogue docs restricted to invited/qualified bidders; TED notice + CPK e-procurement platform (not verified this run)",
    "first_seen": "2026-08-03",
-   "last_updated": "2026-09-21",
-   "notes": "UPDATE 08-18: 6 requests-to-participate received; 5 admitted to dialogue (Sezo Invest+ShinMaywa, FMT Sweden, Albert Ziegler, Adelte+TK Airport Solutions, Comsa Instalaciones). No award yet. UPDATE 09-18 (weekly rollup run24): still in competitive dialogue (5 of 6 applicants); award decision now reported as expected EARLY 2027 (slipped from Dec-2026 target). No award yet — classification unchanged (open). 09-21 (run25): a portpolska.pl headline 'Port Polska selects passenger boarding bridge supplier for new airport' now exists, BUT portpolska.pl + all Polish aviation-news hosts are egress-blocked this run and every DATABLE snippet still describes the SAME competitive-dialogue process (5 of 6 applicants, price offers Q3-2026, tender conclusion Q1-2027, 72+20 bridges). Could NOT be fetched to rule out a narrowing-to-finalists vs a genuine award → NOT adopted; status kept 'open'. VERIFY-NEXT-RUN: fetch that specific 'selects supplier' article to confirm/deny an actual award."
+   "last_updated": "2026-09-22",
+   "notes": "UPDATE 08-18: 6 requests-to-participate received; 5 admitted to dialogue (Sezo Invest+ShinMaywa, FMT Sweden, Albert Ziegler, Adelte+TK Airport Solutions, Comsa Instalaciones). No award yet. UPDATE 09-18 (weekly rollup run24): still in competitive dialogue (5 of 6 applicants); award decision now reported as expected EARLY 2027 (slipped from Dec-2026 target). No award yet — classification unchanged (open). 09-21 (run25): a portpolska.pl headline 'Port Polska selects passenger boarding bridge supplier for new airport' now exists, BUT portpolska.pl + all Polish aviation-news hosts are egress-blocked this run and every DATABLE snippet still describes the SAME competitive-dialogue process (5 of 6 applicants, price offers Q3-2026, tender conclusion Q1-2027, 72+20 bridges). Could NOT be fetched to rule out a narrowing-to-finalists vs a genuine award → NOT adopted; status kept 'open'. VERIFY-NEXT-RUN: fetch that specific 'selects supplier' article to confirm/deny an actual award. 09-22 (run26): RESOLVED the run25 'selects supplier' question — it was a SHORTLISTING, NOT a contract award. First stage narrowed the field from 6 applicants / 5 invited down to TWO finalists: ADELTE Airport Technologies (ES) and TK Airport Solutions (ES). These two proceed to the price-offer stage (invitations planned Q3-2026); tender resolution/award still expected Q1-2027. Scope unchanged (72+20=92 bridges, ~EUR 1bn incl. options). NO contractor awarded yet — status kept 'open'. Corroborated across multiple independent snippets (NBI, rynek-lotniczy, wnp, portalsamorzadowy, dlapilota, regionalgateway, airportsinternational)."
   },
   {
    "key": "IN-COK-CTHBS-T3",
@@ -563,8 +568,8 @@
    "link": "https://apps.metroairport.com/Dtw_Procurements_App/public/procurement/opensolicitations",
    "attachments": "DTW procurement portal — notice public; plan holders register",
    "first_seen": "2026-08-03",
-   "last_updated": "2026-09-21",
-   "notes": "UPDATE 08-18: moved from excluded_out_of_window to status_unconfirmed. Conflicting dates — a current/open DTW jet-bridge phase (up to 37 bridges) may be live in 2026. MUST verify exact RFB number/date on portal next run before treating as confirmed open. 09-21 (run25): corroborated that WCAA is soliciting the 'McNamara Terminal Jet Bridge Replacement – Phase 5' (replace UP TO 37 jet bridges, phased; partially FAA/BIL-funded) from GCs/CMs — a real posted construction solicitation on WCAA's open-solicitations portal (present-tense per ACI notice reposting). Prior phase = RFB #241020 (2024-08). However exact Phase 5 solicitation number, posting date and closing date STILL not obtainable (apps.metroairport.com, bidnetdirect, publicpurchase, michiganbids all egress-blocked; no dated Phase 5 snippet). Cannot confirm it was posted this week nor its current open/closed state → status kept status_unconfirmed. VERIFY-NEXT-RUN: Phase 5 RFB#/dates/value."
+   "last_updated": "2026-09-22",
+   "notes": "UPDATE 08-18: moved from excluded_out_of_window to status_unconfirmed. Conflicting dates — a current/open DTW jet-bridge phase (up to 37 bridges) may be live in 2026. MUST verify exact RFB number/date on portal next run before treating as confirmed open. 09-21 (run25): corroborated that WCAA is soliciting the 'McNamara Terminal Jet Bridge Replacement – Phase 5' (replace UP TO 37 jet bridges, phased; partially FAA/BIL-funded) from GCs/CMs — a real posted construction solicitation on WCAA's open-solicitations portal (present-tense per ACI notice reposting). Prior phase = RFB #241020 (2024-08). However exact Phase 5 solicitation number, posting date and closing date STILL not obtainable (apps.metroairport.com, bidnetdirect, publicpurchase, michiganbids all egress-blocked; no dated Phase 5 snippet). Cannot confirm it was posted this week nor its current open/closed state → status kept status_unconfirmed. VERIFY-NEXT-RUN: Phase 5 RFB#/dates/value. 09-22 (run26): NEW budget context from DTW Capital Improvement Plan — total project ~$84M, FY2026 spend ~$23M. Exact Phase-5 solicitation number/posting date/deadline STILL unobtainable (apps.metroairport.com egress-blocked). status_unconfirmed unchanged."
   },
   {
    "key": "US-TSA-SEDS-CB",
@@ -1370,6 +1375,116 @@
    "first_seen": "2026-09-17",
    "last_updated": "2026-09-17",
    "notes": "NEW 09-17 (23rd run). News-only lead (NNIC/San Miguel flagged NAIA T3 BHS replacement as priority after repeated failures). NOT a published 입찰공고문 → tracking_lead for next routine; NOT in the reported bid list."
+  },
+  {
+   "key": "FR-TLS-BHS-SORTER",
+   "name": "Toulouse-Blagnac — Renouvellement du systeme de tri des bagages (baggage sorter renewal)",
+   "category": "confirmed_in_scope",
+   "type": "BHS",
+   "country": "France",
+   "city": "Toulouse (Blagnac)",
+   "authority": "Aeroport Toulouse-Blagnac (ATB)",
+   "scope": "Renewal/replacement of the airport baggage sortation system (1 lot, building + equipment)",
+   "method": "Procedure negociee",
+   "budget": "per-lot not disclosed (part of a ~EUR 20.2M/yr installations-renewal programme)",
+   "budget_krw_est": null,
+   "status": "closed",
+   "published": "2026-04-19",
+   "deadline": "2026-06-15 (closed)",
+   "link": "https://www.toulouse.aeroport.fr (marches / BOAMP — exact notice URL egress-blocked this run)",
+   "ref": "ATB marche - tri des bagages 2026 (portal ref not extracted; francemarches/lacentraledesmarches blocked)",
+   "attachments": "Notice + DCE presumed on ATB buyer profile; not accessible this run (egress-blocked) — VERIFY next run",
+   "first_seen": "2026-09-22",
+   "last_updated": "2026-09-22",
+   "notes": "NEW this run (run26). Genuine public BHS notice, in scope, within 12-month window (published 2026-04). Already CLOSED (2026-06-15). Award/titulaire NOT found. Amount unconfirmed (>50억 threshold likely for a full sorter renewal at a ~9M-pax airport but NOT verified). Corroborated via search snippets; portal egress-blocked."
+  },
+  {
+   "key": "FR-CDG-TBS3S4",
+   "name": "Paris-CDG — Trieur bagages TBS3S4, augmentation de capacite sud S3 (design-build)",
+   "category": "confirmed_in_scope",
+   "type": "BHS",
+   "country": "France",
+   "city": "Paris (Roissy-CDG)",
+   "authority": "Aeroports de Paris (ADP)",
+   "scope": "Design-build (conception-realisation) capacity increase of the CDG south S3 baggage sorter TBS3S4",
+   "method": "Marche de conception-realisation (design-build)",
+   "budget": "not disclosed (egress-blocked)",
+   "budget_krw_est": null,
+   "status": "status_unconfirmed",
+   "published": "not captured (egress-blocked)",
+   "deadline": "not captured (egress-blocked)",
+   "link": "https://www.lacentraledesmarches.com (ref 471467 — exact URL egress-blocked this run)",
+   "ref": "lacentraledesmarches ref 471467",
+   "attachments": "Not accessible this run (egress-blocked) — VERIFY next run",
+   "first_seen": "2026-09-22",
+   "last_updated": "2026-09-22",
+   "notes": "NEW this run (run26). Genuine in-scope ADP BHS notice (design-build sorter capacity expansion, CDG south S3). Distinct from the CDG Migration Standard 3 (TCN/T2C) items. Dates/amount/attachments all egress-blocked → status_unconfirmed pending verification. A CDG design-build sorter expansion is expected well above threshold."
+  },
+  {
+   "key": "FR-CDG-T2C-STD3",
+   "name": "Paris-CDG — Migration standard 3 du systeme de traitement bagages du Terminal 2C (HBS/EDS)",
+   "category": "confirmed_in_scope",
+   "type": "HBS/EDS",
+   "country": "France",
+   "city": "Paris (Roissy-CDG)",
+   "authority": "Aeroports de Paris (ADP)",
+   "scope": "Migration of Terminal 2C hold-baggage handling system to EDS Standard 3 (ECAC Std 3 HBS upgrade)",
+   "method": "not captured (egress-blocked)",
+   "budget": "not disclosed (egress-blocked)",
+   "budget_krw_est": null,
+   "status": "status_unconfirmed",
+   "published": "not captured (egress-blocked)",
+   "deadline": "not captured (egress-blocked)",
+   "link": "https://www.marches-publics.gouv.fr (ref 1614129 — exact URL egress-blocked this run)",
+   "ref": "marches-publics ref 1614129",
+   "attachments": "Not accessible this run (egress-blocked) — VERIFY next run",
+   "first_seen": "2026-09-22",
+   "last_updated": "2026-09-22",
+   "notes": "NEW this run (run26). Genuine in-scope ADP HBS/EDS notice (Std-3 migration of CDG T2C baggage system). Separate live notice from the TCN award below and the TBS3S4 sorter expansion. Dates/amount egress-blocked → status_unconfirmed pending verification."
+  },
+  {
+   "key": "FR-CDG-TCN-STD3",
+   "name": "Paris-CDG — Migration EDS3 / Trieur bagages correspondance nord 'TCN' (AWARD notice published)",
+   "category": "confirmed_in_scope",
+   "type": "HBS/EDS",
+   "country": "France",
+   "city": "Paris (Roissy-CDG)",
+   "authority": "Aeroports de Paris (ADP)",
+   "scope": "EDS Standard 3 migration of the CDG north-connection baggage sorter (TCN)",
+   "method": "Attribution (award notice)",
+   "budget": "not disclosed (egress-blocked)",
+   "budget_krw_est": null,
+   "status": "awarded",
+   "published": "contract notice ref 1643861; award (attribution) notice now published",
+   "deadline": "n/a (award notice published; titulaire/montant/date pending)",
+   "link": "https://www.marchesonline.com (award ref am-8300172-1 — exact URL egress-blocked this run)",
+   "ref": "marchesonline award am-8300172-1 (from contract notice ref 1643861)",
+   "attachments": "Award notice; titulaire + montant + award date NOT extractable this run (marchesonline egress-blocked) — VERIFY next run",
+   "first_seen": "2026-09-22",
+   "last_updated": "2026-09-22",
+   "notes": "NEW this run (run26). Was a run25 lead ('CDG TCN Migration Standard 3', ref 1643861). Now an ATTRIBUTION (award) notice EXISTS (marchesonline am-8300172-1) → moved from lead to confirmed_in_scope/awarded. Titulaire, amount and award date all egress-blocked → to be captured next run. In scope (HBS/EDS Std-3 migration), within window."
+  },
+  {
+   "key": "ES-AENA-MELILLA-REMODEL",
+   "name": "Aena Melilla — Remodelacion integral de terminal (incl. renovacion completa del BHS) [borderline]",
+   "category": "tracking_lead",
+   "type": "BHS",
+   "country": "Spain",
+   "city": "Melilla",
+   "authority": "Aena S.M.E., S.A.",
+   "scope": "Integral terminal remodel; includes complete renewal of the baggage handling system as a component of the building works",
+   "method": "Aena licitacion (obras)",
+   "budget": "EUR 18,197,838 (whole terminal-remodel contract; BHS portion not separately valued)",
+   "budget_krw_est": null,
+   "status": "upcoming",
+   "published": "~2025-12 (late Dec 2025)",
+   "deadline": "not captured",
+   "link": "https://contrataciondelestado.es (Aena — exact notice URL not extracted)",
+   "ref": "Aena Melilla terminal remodel (~EUR 18.2M)",
+   "attachments": "Not verified this run",
+   "first_seen": "2026-09-22",
+   "last_updated": "2026-09-22",
+   "notes": "NEW lead this run (run26). BORDERLINE: BHS is a bundled component of a EUR 18.2M building-works contract, not a standalone BHS tender, so tracked as a lead (not counted as a standalone confirmed BHS notice). Distinct from ES-AENA-BHS (TED 384078-2026, EUR 789k, excluded_low_amount). Watch for whether BHS scope/value is broken out."
   }
  ]
 }

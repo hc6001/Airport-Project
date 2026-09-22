@@ -157,9 +157,14 @@
     "date": "2026-09-22",
     "weekday": "Tuesday",
     "note": "26th run (KST re-confirmed Tuesday 2026-09-22; system currentDate showed UTC 2026-09-21). Prev run 2026-09-21 (25th, Mon). Not Friday -> no weekly rollup / no user report (next rollup 2026-09-25 Fri). 2 parallel sweeps (BHS/EDS/CBIS + PBB, EN/ES/FR). SUBSTANTIVE CHANGES: (1) PL-CPK-PBB92 run25 'selects supplier' resolved = SHORTLIST to 2 finalists (Adelte + TK Airport Solutions), NOT an award; award still Q1-2027, status open. (2) CDG Migration Std3 TCN lead -> AWARD notice published (marchesonline am-8300172-1; titulaire/amount egress-blocked). NEW confirmed_in_scope notices added (all egress-limited, within window): FR-TLS-BHS-SORTER (closed 06-15), FR-CDG-TBS3S4 (design-build, dates TBD), FR-CDG-T2C-STD3 (Std3 HBS, dates TBD), FR-CDG-TCN-STD3 (awarded). NEW lead: ES-AENA-MELILLA-REMODEL (BHS bundled in EUR18.2M remodel, borderline). MSY CBIS 5th-EDS lead resolved (in construction since 03-2026, no public RFP forthcoming) -> dropped from active watch. DTW P5 gained budget (~$84M total/FY26 ~$23M), still status_unconfirmed. Cochin T3 CT-HBS re-found = already tracked (IN-COK-CTHBS-T3). No award on Bagdogra/Lucknow/HIAL(012183)/CPH-BFE-BHS-equipment/Figari/Changi-T3. Figari window-exit due 2026-10-13. Alert NOT sent (not Friday; no emergency; changes deferred to Fri weekly rollup)."
+   },
+   {
+    "date": "2026-09-23",
+    "weekday": "Wednesday",
+    "note": "27th run (KST Wednesday 2026-09-23 03:11; system currentDate showed UTC 2026-09-22). Prev run 2026-09-22 (26th, Tue). Not Friday -> no weekly rollup / no user report (next rollup 2026-09-25 Fri). 2 parallel sweeps (BHS/EDS/CBIS + PBB, EN/ES/FR). VERIFICATION-ONLY, NO SUBSTANTIVE CHANGE vs run26: no new confirmed_in_scope 입찰공고문 at/above threshold, no confirmed award/status/amount change on any tracked item. Re-confirmed unchanged: CPK-PBB92 (5->2 finalists Adelte+TK per run26, decision Dec-2026/award Q1-2027, status open); MY-KLIA-T1-PBB-MAHB (MAHB-MA(S)/T/33/2026 open, no award, VMS/Procurehere gated); IN-AAI-BAGDOGRA-BHS & IN-AAI-LUCKNOW-BHS (no award posted, aai.aero/CPPP gated); DK-CPH-BFE-BHS (MT Hojgaard 2026-08-21 phase-1 design-build DKK450M reconfirmed = building works, NOT the BHS equipment notice; no BHS-equipment award); no award on HIAL 012183/Bagdogra/Figari. Figari (FR-FSC-FIGARI-BHS, notice 2025-10-13) still within 12-mo window; window-exit due 2026-10-13 (~3 weeks) -> reclassify excluded_out_of_window next run if still no in-window award. Checked & NOT added: Asheville AVL Forward (regional; BHS/CBIS + 4 PBBs already in construction since 2025, partial baggage claim opened 2026-04-17; AVL-RFP-BHS-PBB is an old already-awarded RFP, not a live notice). TSA SEDS II checked-baggage EDS/ETD IDIQ still pre-solicitation (unchanged). Egress still blocks direct portal fetch (TED/find-tender/SAM/aai.aero/MERX/GeBIZ) -> metadata via snippets, attachment accessibility inferred. Alert NOT sent (not Friday; no emergency; no change to defer)."
    }
   ],
-  "last_run": "2026-09-22"
+  "last_run": "2026-09-23"
  },
  "tenders": [
   {

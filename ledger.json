@@ -162,6 +162,11 @@
     "date": "2026-09-23",
     "weekday": "Wednesday",
     "note": "27th run (KST Wednesday 2026-09-23 03:11; system currentDate showed UTC 2026-09-22). Prev run 2026-09-22 (26th, Tue). Not Friday -> no weekly rollup / no user report (next rollup 2026-09-25 Fri). 2 parallel sweeps (BHS/EDS/CBIS + PBB, EN/ES/FR). VERIFICATION-ONLY, NO SUBSTANTIVE CHANGE vs run26: no new confirmed_in_scope 입찰공고문 at/above threshold, no confirmed award/status/amount change on any tracked item. Re-confirmed unchanged: CPK-PBB92 (5->2 finalists Adelte+TK per run26, decision Dec-2026/award Q1-2027, status open); MY-KLIA-T1-PBB-MAHB (MAHB-MA(S)/T/33/2026 open, no award, VMS/Procurehere gated); IN-AAI-BAGDOGRA-BHS & IN-AAI-LUCKNOW-BHS (no award posted, aai.aero/CPPP gated); DK-CPH-BFE-BHS (MT Hojgaard 2026-08-21 phase-1 design-build DKK450M reconfirmed = building works, NOT the BHS equipment notice; no BHS-equipment award); no award on HIAL 012183/Bagdogra/Figari. Figari (FR-FSC-FIGARI-BHS, notice 2025-10-13) still within 12-mo window; window-exit due 2026-10-13 (~3 weeks) -> reclassify excluded_out_of_window next run if still no in-window award. Checked & NOT added: Asheville AVL Forward (regional; BHS/CBIS + 4 PBBs already in construction since 2025, partial baggage claim opened 2026-04-17; AVL-RFP-BHS-PBB is an old already-awarded RFP, not a live notice). TSA SEDS II checked-baggage EDS/ETD IDIQ still pre-solicitation (unchanged). Egress still blocks direct portal fetch (TED/find-tender/SAM/aai.aero/MERX/GeBIZ) -> metadata via snippets, attachment accessibility inferred. Alert NOT sent (not Friday; no emergency; no change to defer)."
+   },
+   {
+    "date": "2026-09-24",
+    "weekday": "Thursday",
+    "note": "28th run (KST re-confirmed Thursday 2026-09-24 03:11; system currentDate showed UTC 2026-09-23). Prev run 2026-09-23 (27th, Wed). Not Friday -> no weekly rollup / no user report yet (next rollup 2026-09-25 Fri). 2 parallel sweeps (BHS/EDS/CBIS + PBB, EN/ES/FR/DE). SUBSTANTIVE CHANGE: 1 (new confirmed_in_scope PBB backfill). NEW confirmed_in_scope: AT-VIE-PBB-REPLACE — Flughafen Wien 'Austausch und Neuerrichtung von Fluggastbrücken' (TED 64909-2026 / e-Beschaffung 2440260 / ausschreibung.at 567820), published 2025-11-12, deadline 2025-11-24 12:00, scope = replace all 40 existing PBBs + 13 NEW after Pier Nord expansion, 4 phases, ANKO e-Vergabe+. Notice date within 12-mo window (valid to ~2026-11-12); above PBB threshold -> confirmed_in_scope, status closed (submission passed; multi-stage negotiated, award unconfirmed). Value/exact procedure/awardee egress-blocked. Baseline-missed backfill. NEW tracking_lead (non-reported): ES-BIO-EXPANSION-PBB — Aena Bilbao expansion PM/supervision services notice (~2026-09-18, EUR22.96M) whose expansion scope includes 6 new PBBs; PBB supply itself not yet tendered -> lead. NO change on all other tracked items: CPK-PBB92 (Polish ~09-22 'selects supplier' headlines just restate the 2-finalist Adelte+TK stage, decision Dec-2026/contract Q1-2027, open); MY-KLIA-T1-PBB-MAHB (open, no award); IN-AAI-BAGDOGRA/LUCKNOW (no award, gated); UK-HIAL 012183 (no award); DK-CPH-BFE-BHS-equipment (no award; MT Hojgaard building works separate); PA-TOCUMEN-T2 (offer deadline 2026-09-28 not yet reached); CA-YYC-PBB (MERX, no change); SA-GACA-PBB92 (no actual notice yet); US-DTW-JETBRIDGE-P5 (ACI-NA reconfirms live RFB up to 37 bridges but solicitation no./date/value still portal-gated -> status_unconfirmed unchanged); ACSA National HBS 2026 ('VOL 1 Tender document BHS 2026.pdf' publicly hosted on etenders.gov.za, enquiries closed 2026-03-13, CTIA -> maps to existing tracked item, award still court-frozen, no new ruling). Figari (FR-FSC-FIGARI-BHS, notice 2025-10-13) still within window; window-exit due 2026-10-13 -> reclassify next run if still no in-window award. Checked & NOT added: Vienna Graz/Karlsruhe EDS leads (dates unconfirmed), SureScan-AOT HBS award (2026-05 news, out of scope/window), Aena EDS EUR702M framework (background), RSW/Sioux City/Fayetteville single-bridge PBB (low-value/pre-window leads). Egress still blocks TED/find-tender/SAM/aai.aero/MERX/etenders/e-beschaffung/ausschreibung.at -> metadata via snippets, attachment accessibility inferred. Alert SENT (genuinely new valid in-scope tender surfaced - Vienna PBB; contrast no-change runs 12/13/21/23/27)."
    }
   ],
   "last_run": "2026-09-23"
@@ -1490,6 +1495,48 @@
    "first_seen": "2026-09-22",
    "last_updated": "2026-09-22",
    "notes": "NEW lead this run (run26). BORDERLINE: BHS is a bundled component of a EUR 18.2M building-works contract, not a standalone BHS tender, so tracked as a lead (not counted as a standalone confirmed BHS notice). Distinct from ES-AENA-BHS (TED 384078-2026, EUR 789k, excluded_low_amount). Watch for whether BHS scope/value is broken out."
+  },
+  {
+   "key": "AT-VIE-PBB-REPLACE",
+   "name": "Flughafen Wien (Vienna Intl, VIE) — Austausch und Neuerrichtung von Fluggastbrücken (PBB 전량 교체 + 13기 신설)",
+   "category": "confirmed_in_scope",
+   "type": "PBB",
+   "country": "Austria",
+   "city": "Schwechat (Vienna International Airport, VIE)",
+   "authority": "Flughafen Wien AG",
+   "scope": "기존 여객 탑승교(PBB) 전량 교체(현행 East/West/North Pier 40기) + Pier Nord(북부두) 확장 완료 후 신규 13기 신설. Pier별·확장별 4개 단계(4 successive phases)로 순차 시행.",
+   "method": "전자조달(ANKÖ e-Vergabe+ 플랫폼). TED Wettbewerb(경쟁) 유형(64909-2026). 공고~마감 간격 12일 → 다단계(참가신청/사전자격) 절차로 판단.",
+   "budget": "공고 추정가 스니펫상 미명시. 대형 허브 PBB 40기 교체 + 13기 신설 규모 → PBB 10억 임계값 명백 초과.",
+   "budget_krw_est": null,
+   "status": "closed",
+   "published": "2025-11-12",
+   "deadline": "2025-11-24 12:00 (Angebots-/Teilnahmefrist, 이미 경과 → 제출 마감). 다단계 협상절차인 경우 협상·낙찰 단계 진행 중일 수 있음(미확인).",
+   "link": "https://ted.europa.eu/de/notice/-/detail/64909-2026 (TED) · https://e-beschaffung.at/publications/show/2440260 · https://www.ausschreibung.at/Ausschreibung/567820",
+   "attachments": "참가/입찰문서(Teilnahmeunterlagen)는 ANKÖ e-Vergabe+ 조달플랫폼에서 무료 제공(free of charge)이라 명시되나 플랫폼 접근 필요. 본 환경 egress 차단(ted.europa.eu·e-beschaffung.at·ausschreibung.at 전부 403) → 첨부 목록 직접 확인 불가(규격서·도면·계약조건 포함 추정).",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "notes": "NEW 09-24 (run28, backfill). 실제 공개 입찰공고문 확인: TED 64909-2026 'Austausch und Neuerrichtung von Fluggastbrücken', 발주처 Flughafen Wien AG, e-Beschaffung 게시 ID 2440260 / ausschreibung.at 567820. 공고 2025-11-12·마감 2025-11-24(12:00). 스코프: East/West/North Pier 현행 PBB 40기 교체 + Pier Nord 확장 후 신규 13기, 4단계. 조달은 ANKÖ e-Vergabe+ 전자플랫폼. 공고일이 12개월 창 이내(~2026-11-12까지 유효)이고 규모상 PBB 임계값 초과 → confirmed_in_scope. 제출마감 경과로 status=closed 등재(단 공고~마감 12일 간격은 협상절차 참가신청 단계 특성 → 실제 낙찰 여부 미확인). 값·정확 절차유형·낙찰자 egress 차단으로 미확정. baseline(08-03) 이후 미포착분 backfill.",
+   "verify_next": "낙찰자·낙찰일·추정가·정확 절차유형(협상/경쟁적대화) TED/e-Vergabe+ 직접 확인"
+  },
+  {
+   "key": "ES-BIO-EXPANSION-PBB",
+   "name": "Aena — Bilbao Airport(BIO) 확장(신규 PBB 6기 포함) — 현재는 PM/기술감리 용역 공고 단계",
+   "category": "tracking_lead",
+   "type": "PBB",
+   "country": "Spain",
+   "city": "Bilbao (Loiu)",
+   "authority": "Aena S.M.E., S.A.",
+   "scope": "빌바오 공항 확장(2027-2031, 총투자 €364.5M)에 신규 PBB 6기 + 원격주기장 5개 포함. 단 2026-09-18경 공개된 것은 확장사업의 PM/기술총괄·감리 용역(€22,959,220.59, 60개월)으로 PBB 공급 입찰공고문 자체는 아직 미발주.",
+   "budget": "PM/감리 용역 €22.96M(≈333억). PBB 공급분은 별도·미발주.",
+   "budget_krw_est": null,
+   "status": "upcoming",
+   "published": "2026-09-18 (PM/감리 용역 공고)",
+   "deadline": null,
+   "link": "https://www.forbes.es/ultima-hora/1023555 · https://www.eleconomista.es/empresas-finanzas/noticias/14015062 (뉴스)",
+   "attachments": "PBB 공급 공고 미발주 → 스코프 내 첨부 없음(용역 공고 첨부는 별개).",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "notes": "NEW 09-24 (run28) tracking_lead(비보고). Aena 빌바오 확장 PM/감리 용역 공고(2026-09-18경, €22.96M/60개월)가 확장 스코프에 신규 PBB 6기·원격주기장 5개를 포함하나, 이는 엔지니어링 감리 용역 공고이지 PBB 공급 입찰공고문이 아님 → tracking_lead. 향후 PBB 공급 공고 발주 시 confirmed_in_scope 전환 후보. 근거 뉴스보도(forbes.es·eleconomista·deia). 다음 루틴에서 실제 PBB 공급 공고 발주 여부 추적."
   }
  ]
 }

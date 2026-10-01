@@ -99,6 +99,8 @@ UTC 날짜가 항상 전날이므로(예: KST 2026-09-04 03:00 금요일 = UTC 2
 - **2026-08-23 (일)** — 5차 실행(08-21 금·08-22 토 미실행). 08-20 대비 변동분만. **저변동 실행 — 신규 진행중 공고 없음.** 실질 변동 2건: (1) 신규 낙찰리드 Heathrow LHR — Analogic SeleCT Standard-3 HBS/EDS 공급·설치(2026-03 낙찰, 맥락 기록·입찰리스트 미포함), (2) AAI 다공항 PBB+AVDGS 공개 NIT 실체 확인(node 646356, DMSITC 풀스코프; 날짜·EMD 여전히 egress 차단 → status_unconfirmed 유지). 그 외 CPK·TSA SEDS·Changi T3·ACSA·HIAL·Bagdogra(08-24 마감 임박, 변동 없음)·Goa·Lucknow·DWC·Kuwait 전부 동일. Asheville AVL·Minneapolis MAC 후보는 창 초과/유지보수로 기각. 금요일 아님 → 주간 집계 없음. egress 차단 지속. (`reports/2026-08-23_run5.md`)
 
 - **2026-09-30 (수)** — 신규 0건, 기존 항목 변동 없음. 금요일 아님 → 주간 집계 없음(다음 10-02 금). 알림 미발송. (`reports/trends/2026-09-30_daily.md`)
+- **2026-10-01 (목)** — 신규 0건, 변동 없음. 알림 미발송. (`reports/trends/2026-10-01_daily.md`)
+- **2026-10-02 (금, 주간 롤업)** — 신규 0건, 변동 없음. 금주 항목(2-25, 2-12 업데이트) 모두 기보고라 재통보 없음. 알림 미발송. (`reports/trends/2026-10-02_daily.md`)
 
 ## 운영 메모
 - 이 루틴이 매 실행마다 이 저장소를 자동으로 읽어 대조하려면, Claude Code 웹의 해당

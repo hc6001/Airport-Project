@@ -43,6 +43,22 @@ UTC 날짜가 항상 전날이므로(예: KST 2026-09-04 03:00 금요일 = UTC 2
 발화 순간의 UTC 날짜가 이미 같은 날로 넘어와 있어 이 오인식 자체가 발생하지 않음. 다만 발화 시각
 조정은 세션 내부가 아니라 claude.ai 예약 작업 설정에서 처리해야 함.)
 
+## 🎯 최우선 검색 목표 — 자동분류장치(Sorter) 포함 BHS 기술규격서 원문 확보 (2026-10-06 사용자 지정)
+이 입찰 추적 루틴의 궁극 목적은 공고 목록화가 아니라, **자동분류장치(sorter)가 포함된 BHS 기술규격서(Technical Specification) 원문 파일**을 찾아 확보하는 것이다.
+- **목표물**: 입찰 홈페이지·조달포털에 첨부된 *원문* — 기술시방서(예: CSI Division 34 77 13 Baggage Handling Equipment), 도면, RFP/ITT 기술부속서, BOQ, 애드엔덤. 뉴스·요약·애그리게이터 설명문은 목표물이 아님(단서로만 사용).
+- **자동분류장치(sorter) 범위**: tilt-tray, cross-belt, bomb-bay, push-tray, ICS/DCV(개별캐리어·trolley), 고속 diverter/merge 기반 자동 sortation, 자동 make-up 분류, EBS(조기수하물저장)와 연동된 자동 분류. 현지어: trieur / tri bagages (FR), Sortieranlage / Gepäcksortierung (DE), clasificador / clasificación de equipajes (ES), triagem automática (PT).
+- **기준 사례(2026-10-06)**: 사용자가 Eastern Iowa Airport(CID) 입찰 홈페이지(flycid.com)에서 BHS 기술규격서 원문을 직접 확보함 → **이런 형태의 원문 파일이 찾아야 할 대상**. 단, CID 규격서는 **sorter 미포함** → 목표 미충족(참고용, `US-CID-BHS` sorter=no).
+
+### 실행 지침 (입찰추적 루틴 매 실행)
+1. **Sorter 판정**: 모든 BHS(및 HBS/CBIS 연계) 건에 `sorter` = `yes` / `no` / `unknown` 판정. 근거는 공고 제목·스코프·규격서 목차의 키워드(위 범위). 판정 근거 문구를 ledger `notes`에 남김.
+2. **규격서 원문 경로 끝까지 추적** (`sorter` = yes/unknown 우선): 공항 공식 조달페이지 → 설계 엔지니어/컨설턴트(예: CID=Foth) → 문서 배포 플랫폼(QuestCDN, PlanetBids, BidNet, Bonfire, OpenGov, eContractPhilly, TED 문서탭, PLACSP pliegos, DCE(dossier de consultation des entreprises), xvergabe Vergabeunterlagen, GeBIZ, CPPP/eprocure 등) → 애드엔덤·plan-holder 목록.
+3. **접근성 4단계로 기록** (`spec_access`): `public`(무등록 직접 다운로드) / `registration`(등록·로그인 후 다운로드) / `restricted`(NDA·사전자격 통과자만 배포) / `unknown`(미확인·차단). 문서명과 **직접 URL**을 `spec_original`에 기록.
+4. **egress 차단 시에도** 원문의 *위치*(URL·문서명·배포 플랫폼·프로젝트번호)까지는 반드시 특정해 사용자에게 제시 → 사용자가 브라우저로 직접 확보할 수 있게 함. "차단되어 모름"으로 끝내지 말 것.
+5. **보고 표기**: 각 BHS 건에 `[Sorter: 포함/미포함/미확인]` `[규격서 원문: URL · 접근조건]` 표기. **sorter 포함 + 원문 접근 가능(public/registration)** 건은 보고서 최상단에 ★로 강조하고 알림 대상으로 한다(다른 변동이 없어도 알림).
+6. **검색어 확장**(기존 BHS/PBB/EDS 검색에 추가): "baggage sortation system specification", "tilt tray sorter airport tender/RFP", "cross-belt sorter baggage", "individual carrier system baggage tender", "34 77 13 baggage handling specification", "baggage handling system technical specification pdf", "trieur bagages cahier des clauses techniques (CCTP)", "Gepäcksortieranlage Ausschreibung Leistungsverzeichnis", "clasificador de equipajes pliego de prescripciones técnicas" 등.
+7. 사용자가 직접 원문을 확보해 알려준 건은 ledger에 `spec_original`·`sorter`를 반영하고 이후 실행에서 재조사하지 않는다(변동 시에만 보고).
+- PBB·EDS(HBS/CBIS) 추적, 금액 임계값, 1년 창, 보고 순서 등 기존 규칙은 그대로 유지하되, **우선순위는 sorter 포함 BHS 규격서 원문**이다.
+
 ## 루틴 1) 입찰 추적 (주간)
 - `ledger.json` — 추적 중인 모든 입찰의 기계판독용 원장(상태·날짜·금액·링크·첨부·first_seen/last_updated)
 - `reports/` — 각 실행일자별 스냅샷 보고서 (사람이 읽는 마크다운)
@@ -58,6 +74,7 @@ UTC 날짜가 항상 전날이므로(예: KST 2026-09-04 03:00 금요일 = UTC 2
 - 금액 임계값(KRW): **BHS 50억 미만 제외**, **PBB 10억 미만 제외** → `excluded_low_amount` (사업명·링크만)
 - 마감 건은 **공고일 1년 이내**만 유효 → 초과 시 `excluded_out_of_window`
 - 보고 순서: 1) 진행중 → 2) 예정 → 3) 마감 → 4) 금액 미달 제외
+- **최우선 목표**: sorter 포함 BHS 기술규격서 원문 확보(상단 🎯 섹션). BHS 건마다 `sorter`(yes/no/unknown)·`spec_access`(public/registration/restricted/unknown)·`spec_original`(원문 URL·문서명) 필드를 ledger에 기록.
 
 ## 카테고리(category)
 | 값 | 의미 |

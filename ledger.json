@@ -1787,8 +1787,8 @@
    "link": "aena.es (egress blocked); via search snippets",
    "attachments": "n/a (not yet tendered)",
    "first_seen": "2026-10-01",
-   "last_updated": "2026-10-02",
-   "notes": "NEW LEAD 10-01 (run33). Tenerife Sur ~€550M 리모델 Jul-2026 발주, BHS Phase 3(~€69M)는 후속 단계 발주 예정 → 공개 BHS 입찰공고문 미등장 → tracking_lead(upcoming). BHS 발주 감시. Src: 검색 스니펫. | 10-02 (run34): 컨텍스트 변동 — Aena Tenerife Sur 주(主) €464M 터미널 리모델 로트가 ~2026-09-22 **입찰 desierta(응찰 0건)** 선언, Aena는 자체 수행(assume) 가능성 언급. SATE/BHS Phase3(~€69M, 56개월)는 별도 후속 발주 예정분 → 독립 BHS 공개 입찰공고문 여전 미등장, tracking_lead(upcoming) 유지. Src: aviaciondigital.com·diariodeavisos·aena.es prensa."
+   "last_updated": "2026-10-06",
+   "notes": "NEW LEAD 10-01 (run33). Tenerife Sur ~€550M 리모델 Jul-2026 발주, BHS Phase 3(~€69M)는 후속 단계 발주 예정 → 공개 BHS 입찰공고문 미등장 → tracking_lead(upcoming). BHS 발주 감시. Src: 검색 스니펫. | 10-02 (run34): 컨텍스트 변동 — Aena Tenerife Sur 주(主) €464M 터미널 리모델 로트가 ~2026-09-22 **입찰 desierta(응찰 0건)** 선언, Aena는 자체 수행(assume) 가능성 언급. SATE/BHS Phase3(~€69M, 56개월)는 별도 후속 발주 예정분 → 독립 BHS 공개 입찰공고문 여전 미등장, tracking_lead(upcoming) 유지. Src: aviaciondigital.com·diariodeavisos·aena.es prensa. | 10-06 (사용자 조회): 주 터미널 리모델 €464M(40개월) 공고 2026-07-30 → 2026-09-15 마감, 응찰 0건(desierta). BHS 구역 개조 €69M/56개월은 '추후 발주'로 명시됨, 별도 공고 아직 없음."
   },
   {
    "key": "US-DFW-BHS-VANDERLANDE",
@@ -1798,9 +1798,9 @@
    "country": "USA",
    "city": "Dallas-Fort Worth, Texas",
    "authority": "DFW International Airport Board",
-   "scope": "Enterprise BHS Program, Terminals D & E — Vanderlande Industries Inc.(Marietta, GA) 낙찰. 계약 PA2092, 기본 487 calendar days.",
+   "scope": "PA2092 = T E 인라인 BHS 운영·유지보수(O&M) + T D BHS 제어실 운영 지원, 5년(2026-10 개시). 자본 BHS 공급 아님.",
    "method": "Board-approved award (competitive tender existence to verify)",
-   "budget": "USD 66,836,905 (기본 487일) + 변경 허용 ≤USD 6,680,000 → 총 ≤USD 73,516,905 (계약 PA2092)",
+   "budget": "NTE USD 66,847,668.72 / 5년",
    "budget_krw_est": null,
    "status": "awarded",
    "published": "Board approval 2026-08-06 (계약 PA2092)",
@@ -1808,8 +1808,8 @@
    "link": "DFW board agenda (egress blocked); via search snippets",
    "attachments": "DFW procurement portal (not fetched)",
    "first_seen": "2026-10-01",
-   "last_updated": "2026-10-02",
-   "notes": "NEW LEAD 10-01 (run33). DFW 'Enterprise BHS Program' T D&E → Vanderlande ~$66.85M/5yr, 이사회 승인 2026-08-06, 착공 10월. 낙찰 자체는 12개월 창 이내이나 공개 경쟁입찰공고문 존재·자본 BHS vs 프로그램/서비스(5년 기간) 성격 미확정 → tracking_lead(awarded), 확정 리스트 미포함. 다음 실행: 원 입찰공고·스코프(자본/O&M) 확인. | 10-02 (run34): 세부 확정 — 계약 **PA2092** 'Enterprise BHS Program, Terminals D & E', 낙찰자 **Vanderlande Industries Inc.(Marietta, GA)**, 금액 **USD 66,836,905**(기본 487일) + 변경허용 ≤USD 6.68M → 총 ≤USD 73.52M, 이사회 승인 2026-08-06. 공개 경쟁 입찰공고문이 아닌 **이사회 승인 프로그램 낙찰** → tracking_lead 유지(확정 리스트 미포함). Src: apps.dfwairport.com board agenda 148858·airport-technology.com."
+   "last_updated": "2026-10-06",
+   "notes": "NEW LEAD 10-01 (run33). DFW 'Enterprise BHS Program' T D&E → Vanderlande ~$66.85M/5yr, 이사회 승인 2026-08-06, 착공 10월. 낙찰 자체는 12개월 창 이내이나 공개 경쟁입찰공고문 존재·자본 BHS vs 프로그램/서비스(5년 기간) 성격 미확정 → tracking_lead(awarded), 확정 리스트 미포함. 다음 실행: 원 입찰공고·스코프(자본/O&M) 확인. | 10-02 (run34): 세부 확정 — 계약 **PA2092** 'Enterprise BHS Program, Terminals D & E', 낙찰자 **Vanderlande Industries Inc.(Marietta, GA)**, 금액 **USD 66,836,905**(기본 487일) + 변경허용 ≤USD 6.68M → 총 ≤USD 73.52M, 이사회 승인 2026-08-06. 공개 경쟁 입찰공고문이 아닌 **이사회 승인 프로그램 낙찰** → tracking_lead 유지(확정 리스트 미포함). Src: apps.dfwairport.com board agenda 148858·airport-technology.com. | 10-06 (사용자 조회): 이사회 안건 원문 요약으로 PA2092 성격 확정 = **O&M 서비스 계약**(T E BHS 운영·유지보수 + T D 제어실 운영), NTE $66,847,668.72/5년, SBE 31.32%. run34의 'USD 66,836,905/487일·변경 ≤$6.68M'은 오류로 정정. 스코프상 O&M → 확정 리스트 대상 아님(리드 유지, 추적 우선순위 하향)."
   },
   {
    "key": "US-PSP-BHS",
@@ -1829,8 +1829,8 @@
    "link": "FAA AIG grant 보도 2026-09-30 (news); 원 solicitation 미확인",
    "attachments": "n/a (조달단계 경과)",
    "first_seen": "2026-10-02",
-   "last_updated": "2026-10-05",
-   "notes": "NEW LEAD 10-02 (run34). Palm Springs PSP outbound BHS ~$93.6M, FAA AIG 보도 2026-09-30($5.5M 추가, 최종단계=SW통합·시험·커미셔닝). 이미 조달·시공 단계(공개 신규 입찰공고 미등장) → tracking_lead(awarded), 확정 리스트 미포함. 뉴스 리드, 다음 루틴 추적 아이템. | 10-05 (run35): 자금 마일스톤 — 2026-09-30 PSP가 FAA AIG 최종 $5,501,525 교부 확보(최종단계 SW통합·커미셔닝·시험·CA/PM), 연방지원 누계 >$66.5M(~70%). 시공중·완공 2028말 예정. 공개 신규 입찰공고 아님(자금 이벤트) → tracking_lead(awarded) 불변."
+   "last_updated": "2026-10-06",
+   "notes": "NEW LEAD 10-02 (run34). Palm Springs PSP outbound BHS ~$93.6M, FAA AIG 보도 2026-09-30($5.5M 추가, 최종단계=SW통합·시험·커미셔닝). 이미 조달·시공 단계(공개 신규 입찰공고 미등장) → tracking_lead(awarded), 확정 리스트 미포함. 뉴스 리드, 다음 루틴 추적 아이템. | 10-05 (run35): 자금 마일스톤 — 2026-09-30 PSP가 FAA AIG 최종 $5,501,525 교부 확보(최종단계 SW통합·커미셔닝·시험·CA/PM), 연방지원 누계 >$66.5M(~70%). 시공중·완공 2028말 예정. 공개 신규 입찰공고 아님(자금 이벤트) → tracking_lead(awarded) 불변. | 10-06 (사용자 조회): 원 시공입찰 'PSP Baggage Handling In-Line System' 입찰일 2025-03-20, 추정 $75M → 2025-04-23 공항위원회에서 경쟁 부족으로 **전량 유찰(all bids rejected)**, 설계 수정 후 재입찰 → 현재 시공 진행 중. 원 공고 2025-03 = 12개월 창 밖, 재입찰 공고일·낙찰자 미확인."
   },
   {
    "key": "ES-AGP-BHS",
@@ -1850,8 +1850,8 @@
    "link": "aena.es (egress 차단); via 검색 스니펫",
    "attachments": "n/a (BHS 미발주)",
    "first_seen": "2026-10-02",
-   "last_updated": "2026-10-02",
-   "notes": "NEW LEAD 10-02 (run34). Málaga AGP ~€1.5bn 확장. 현재 Aena는 기술지원/설계 용역(~€36.5M, 이전 이의제기 후 2026-12~2027-01 재공고 예정)만 진행; BHS 재설계/갱신 본 발주는 DORA III(2027+) 연계 → 공개 BHS 입찰공고문 미등장 → tracking_lead(upcoming), 확정 리스트 미포함. BHS 발주 감시. Src: 검색 스니펫."
+   "last_updated": "2026-10-06",
+   "notes": "NEW LEAD 10-02 (run34). Málaga AGP ~€1.5bn 확장. 현재 Aena는 기술지원/설계 용역(~€36.5M, 이전 이의제기 후 2026-12~2027-01 재공고 예정)만 진행; BHS 재설계/갱신 본 발주는 DORA III(2027+) 연계 → 공개 BHS 입찰공고문 미등장 → tracking_lead(upcoming), 확정 리스트 미포함. BHS 발주 감시. Src: 검색 스니펫. | 10-06 (사용자 조회): Málaga 관련 공고는 설계 기술지원(€36.525M)·PM 기술지원(€52.159M) 용역뿐(2025-10-31 공고 → TACRC 이의제기 우려로 Aena가 철회 → 재공고). BHS 공급 공고 없음."
   },
   {
    "key": "US-CID-BHS",

@@ -217,6 +217,11 @@
     "date": "2026-10-08",
     "weekday": "Thursday",
     "note": "38th run. NEW confirmed: CPK TED 621613-2026 security equipment (Lot1 12 HBS-EDS, RTP 10-15). Updates: PHL PQ due 10-08 (GovCB), CID bid page 404 (NTB PDF still up), IND I-25-006 closed 08-28 (aggregator), VIE awarded TK Airport Solutions EUR 64.5M, KLIA PBB possible 10-14 extension. New leads: MUC GSH-113 BHS, MUC T2 GSH-E loops, FRA PBB PIN, DUS PBB17. No sorter+public-spec BHS. Non-Friday (KST Thu) -> no notification; weekly rollup 10-09."
+   },
+   {
+    "date": "2026-10-09",
+    "weekday": "Friday",
+    "note": "39th run, Friday weekly rollup (10-03~10-09). NEW confirmed: US-TUS-CBIS-CMAR (RFQ 10123546, SOQ 10-27). Reclass: IN-AAI-LUCKNOW (2019 notice -> out_of_window), IN-AAI-BAGDOGRA (wrong link -> lead), UK-HIAL (GBP1.265M -> excluded_low_amount). Data: CPH BFE TED 189628-2026 EUR80M RTP 04-17 -> closed; FSC TED 401952 deadline 06-26; TLS TED 273666; IND PlanetBids 140568; PHL Bid 6718 not found on official portal. New leads: CLT TX3, TSA EBSP recap, US PBB Part A, JAC CBIS, BFN BHS. No sorter+public-spec BHS. Notification sent (Friday)."
    }
   ],
   "last_run": "2026-10-02",
@@ -322,24 +327,24 @@
   {
    "key": "UK-HIAL-HBS-XRAY",
    "name": "HIAL — Hold Baggage X-ray equipment, six Scottish airports",
-   "category": "confirmed_in_scope",
+   "category": "excluded_low_amount",
    "type": "HBS/EDS",
    "country": "UK (Scotland)",
    "city": "Inverness HQ (6 regional/island airports)",
    "authority": "Highlands and Islands Airports Ltd",
    "scope": "Supply of 6 hold-baggage X-ray inspection units (Standard 3), replacing 2012 equipment, ≥10-year life + maintenance support",
    "method": "Open (via Public Contracts Scotland)",
-   "budget": "not stated",
-   "budget_krw_est": null,
-   "status": "open",
+   "budget": "GBP 1,265,000 (재공고 052108-2026)",
+   "budget_krw_est": 2340000000,
+   "status": "closed",
    "published": "orig 086560-2025 (2025-12-31); re-issue 2026-06",
    "deadline": "re-issued procurement — tender opening 2026-07-07",
-   "link": "https://www.find-tender.service.gov.uk/Notice/012183-2026",
+   "link": "https://www.find-tender.service.gov.uk/Notice/052108-2026",
    "ref": "HIA-26-016 (= find-tender 012183-2026); earlier HIA-25-003 / 086560-2025; exercise 828798 withdrawn",
    "attachments": "Procurement docs on Public Contracts Scotland (free registration; not verified)",
    "first_seen": "2026-08-03",
-   "last_updated": "2026-09-21",
-   "notes": "UPDATE 08-18: RE-ISSUED. Original (deadline 2026-02-23) was withdrawn/re-run; new opening 2026-07-07 → now OPEN again. Both notices within 12-month window. 09-01: re-issued procurement's internal ref confirmed HIA-26-016 (= find-tender notice 012183-2026, published 2026-06-04; 1800-day contract + 60-mo option; options: disposal/recycling of 2012 units + secondary screens). Same in-scope open item — NOT a new notice, no classification change. VERIFY-NEXT-RUN 09-18: a re-sweep (snippet-based) suggested find-tender 012183-2026 might instead be an F14 corrigendum of HIA-25-003 (deadline 2026-02-23) rather than HIA-26-016 (2026-06-04) — possible reference-number conflict; NOT overwriting the 09-01 confirmation on one snippet, flag for direct find-tender check. Award notice still not posted → status open, no change this run. 09-21 (run25): VERIFY-NEXT-RUN flag from 09-18 RESOLVED in favour of the 09-01 reading — an independent source (defenceonline.co.uk, published 2026-06-04) corroborates find-tender 012183-2026 = internal ref HIA-26-016, 'Provision of Hold Baggage X-ray Equipment at Six Airports', a contract notice (NOT an F14 corrigendum of HIA-25-003), tender opening 2026-07-07, expressly superseding withdrawn ref 828798. Reference-number conflict cleared. Award notice still not posted → status open, no classification change."
+   "last_updated": "2026-10-09",
+   "notes": "UPDATE 08-18: RE-ISSUED. Original (deadline 2026-02-23) was withdrawn/re-run; new opening 2026-07-07 → now OPEN again. Both notices within 12-month window. 09-01: re-issued procurement's internal ref confirmed HIA-26-016 (= find-tender notice 012183-2026, published 2026-06-04; 1800-day contract + 60-mo option; options: disposal/recycling of 2012 units + secondary screens). Same in-scope open item — NOT a new notice, no classification change. VERIFY-NEXT-RUN 09-18: a re-sweep (snippet-based) suggested find-tender 012183-2026 might instead be an F14 corrigendum of HIA-25-003 (deadline 2026-02-23) rather than HIA-26-016 (2026-06-04) — possible reference-number conflict; NOT overwriting the 09-01 confirmation on one snippet, flag for direct find-tender check. Award notice still not posted → status open, no change this run. 09-21 (run25): VERIFY-NEXT-RUN flag from 09-18 RESOLVED in favour of the 09-01 reading — an independent source (defenceonline.co.uk, published 2026-06-04) corroborates find-tender 012183-2026 = internal ref HIA-26-016, 'Provision of Hold Baggage X-ray Equipment at Six Airports', a contract notice (NOT an F14 corrigendum of HIA-25-003), tender opening 2026-07-07, expressly superseding withdrawn ref 828798. Reference-number conflict cleared. Award notice still not posted → status open, no classification change. | 2026-10-09 (run39): Find a Tender OCDS ocds-h6vhtk-05fe88: 086560-2025 원공고 → 012183-2026 갱신 → 031707-2026 낙찰 unsuccessful → 052108-2026 재공고(2026-06-03, 마감 07-07 12:00, 가치 GBP 1,265,000≈23억원). BHS 연계 HBS 임계값 50억 미달 → excluded_low_amount 재분류."
   },
   {
    "key": "IN-AAI-PATNA-BHS",
@@ -386,7 +391,7 @@
   {
    "key": "IN-AAI-BAGDOGRA-BHS",
    "name": "AAI Bagdogra — Inline BHS with CT-EDS (new civil enclave)",
-   "category": "confirmed_in_scope",
+   "category": "tracking_lead",
    "type": "BHS/EDS",
    "country": "India",
    "city": "Bagdogra/Siliguri (West Bengal)",
@@ -395,14 +400,14 @@
    "method": "e-tender (CPPP)",
    "budget": "not confirmed; peer packages ~INR 100+ cr (above threshold)",
    "budget_krw_est": null,
-   "status": "open",
+   "status": "status_unconfirmed",
    "published": "2026 (refs 147411575 / 147411574)",
    "deadline": "2026-08-24",
    "link": "https://www.aai.aero/system/files_force/tender/NIT_2066.pdf",
    "attachments": "NIT publicly listed; full RFP/BOQ login-required on CPPP",
    "first_seen": "2026-08-03",
-   "last_updated": "2026-09-08",
-   "notes": "UPDATE 08-18: confirmed OPEN, submission deadline 2026-08-24. 08-24: deadline reached, no opening/award notice; aai.aero egress-blocked. 08-26: still NO opening/award notice found; aai.aero contract-award page still egress-blocked. A recurring ₹114.93cr/22-month snippet surfaced against Bagdogra queries but is a search-engine cached artifact (not verifiable, also equals our Patna estimate) → NOT adopted as Bagdogra's value. 09-01: aai.aero tender-awarded-list still egress-blocked, no award notice surfaced via search. 09-03: still NO bid-opening/award notice; aai.aero tender-awarded-list still egress-blocked. Status kept 'open' pending result; watch AAI contract-award pages next run. 09-08: still NO bid-opening/award notice via search; aai.aero contract-award pages still egress-blocked. Status kept 'open' pending result."
+   "last_updated": "2026-10-09",
+   "notes": "UPDATE 08-18: confirmed OPEN, submission deadline 2026-08-24. 08-24: deadline reached, no opening/award notice; aai.aero egress-blocked. 08-26: still NO opening/award notice found; aai.aero contract-award page still egress-blocked. A recurring ₹114.93cr/22-month snippet surfaced against Bagdogra queries but is a search-engine cached artifact (not verifiable, also equals our Patna estimate) → NOT adopted as Bagdogra's value. 09-01: aai.aero tender-awarded-list still egress-blocked, no award notice surfaced via search. 09-03: still NO bid-opening/award notice; aai.aero tender-awarded-list still egress-blocked. Status kept 'open' pending result; watch AAI contract-award pages next run. 09-08: still NO bid-opening/award notice via search; aai.aero contract-award pages still egress-blocked. Status kept 'open' pending result. | 2026-10-09 (run39): 링크 NIT_2066.pdf는 2022 바그도그라 토목 보수 단가계약(2022_AAI_107021_1, Rs75.6 lakh)으로 본 건 아님. 2026 BHS/CT-EDS 공식 NIT 미발견(애그리 ID 147411575/574만) → 공식 공고 미입증으로 tracking_lead(status_unconfirmed) 하향."
   },
   {
    "key": "IN-AAI-AGRA-BHS",
@@ -493,7 +498,7 @@
   {
    "key": "IN-AAI-LUCKNOW-BHS",
    "name": "AAI Lucknow (Chaudhary Charan Singh Intl) — SITC of Baggage Handling System",
-   "category": "confirmed_in_scope",
+   "category": "excluded_out_of_window",
    "type": "BHS",
    "country": "India",
    "city": "Lucknow (Uttar Pradesh)",
@@ -502,15 +507,15 @@
    "method": "e-tender (CPPP)",
    "budget": "not disclosed; EMD ₹1,39,93,200 + tender fee ₹11,200 ⇒ est. value class ~₹70cr (≈112억, above BHS 50억 threshold)",
    "budget_krw_est": 11200000000,
-   "status": "open",
-   "published": "2026 (BHSWEBNIT.pdf)",
-   "deadline": "not captured — VERIFY next run",
+   "status": "closed",
+   "published": "2019-06-03",
+   "deadline": "2019-07-08",
    "link": "https://www.aai.aero/sites/default/files/tender/BHSWEBNIT.pdf",
    "ref": "Lucknow BHS 1 (AAI e-NIT, BHSWEBNIT.pdf)",
    "attachments": "NIT publicly listed on aai.aero; full tender doc/BOQ login-gated on CPPP (egress-blocked this run)",
    "first_seen": "2026-08-19",
-   "last_updated": "2026-08-19",
-   "notes": "NEW 08-19. Public NIT confirmed. EMD ₹1.399cr signals above-threshold work class (>50억). budget_krw_est is an order-of-magnitude placeholder from EMD — confirm actual estimated cost + closing date next run. NB: Lucknow is Adani-operated since 2020 but this NIT is hosted on aai.aero."
+   "last_updated": "2026-10-09",
+   "notes": "NEW 08-19. Public NIT confirmed. EMD ₹1.399cr signals above-threshold work class (>50억). budget_krw_est is an order-of-magnitude placeholder from EMD — confirm actual estimated cost + closing date next run. NB: Lucknow is Adani-operated since 2020 but this NIT is hosted on aai.aero. | 2026-10-09 (run39): aai.aero 접근 가능해져 원문 확인: BHSWEBNIT.pdf = Bid 2019_AAI_26791_1(러크나우 신터미널 BHS+CT-EDS, Rs114.93cr, 게시 2019-06-03·마감 2019-07-08). 2026 공고 부존재 → 12개월 창 초과 재분류."
   },
   {
    "key": "KE-MBA-PBB-AVDGS",
@@ -971,8 +976,8 @@
    "status": "closed",
    "link": "https://www.ibj.com/articles/airport-eyeing-nearly-140m-upgrade-to-baggage-handling-system",
    "first_seen": "2026-08-20",
-   "last_updated": "2026-10-08",
-   "notes": "NEW LEAD 08-20. Board-level approval sought; FY2026 federal ATP request USD 15.5M. Implementation from 2026, 2–3 years. No public solicitation on IND/GovWin yet — monitor. Smiths Detection CTX 9800 already selected (via TSA IDIQ) for the EDS equipment side. | 2026-10-08: 38차: 실제 solicitation 존재 확인(애그리게이터 기준) — IAA Project I-25-006 \"BHS Centralized CBIS – Bid Package #1 – Baggage Handling System OEM\", PlanetBids #140568, 게시 2026-07-02, 필수 사전입찰회의 07-20, 입찰마감 2026-08-28 15:00 → 마감. 낙찰 미공개. 프로그램 추정 ~USD 138.5M. Sorter 미확인. 링크 https://app.govly.com/public/opportunities/16834778 (IAA PlanetBids 원문 미직접확인 → 원문 확인 시 confirmed_in_scope(closed) 승격).",
+   "last_updated": "2026-10-09",
+   "notes": "NEW LEAD 08-20. Board-level approval sought; FY2026 federal ATP request USD 15.5M. Implementation from 2026, 2–3 years. No public solicitation on IND/GovWin yet — monitor. Smiths Detection CTX 9800 already selected (via TSA IDIQ) for the EDS equipment side. | 2026-10-08: 38차: 실제 solicitation 존재 확인(애그리게이터 기준) — IAA Project I-25-006 \"BHS Centralized CBIS – Bid Package #1 – Baggage Handling System OEM\", PlanetBids #140568, 게시 2026-07-02, 필수 사전입찰회의 07-20, 입찰마감 2026-08-28 15:00 → 마감. 낙찰 미공개. 프로그램 추정 ~USD 138.5M. Sorter 미확인. 링크 https://app.govly.com/public/opportunities/16834778 (IAA PlanetBids 원문 미직접확인 → 원문 확인 시 confirmed_in_scope(closed) 승격). | 2026-10-09 (run39): 공식 IAA PlanetBids 페이지 식별: https://vendors.planetbids.com/portal/32621/bo/bo-detail/140568 (브라우저 전용, 내용 미열람). 애그리간 스코프 상충(Govly \"BHS Management and Maintenance\" vs \"Centralized CBIS BP#1 BHS OEM\") → 리드 유지.",
    "deadline": "2026-08-28 15:00 (I-25-006 Bid Package #1, 마감)"
   },
   {
@@ -1206,8 +1211,8 @@
    "link": "https://theedgemalaysia.com/article/fourhorse-race-mahbs-baggage-handling-system-contract",
    "attachments": "No public tender document confirmed (MAHB corporate procurement; specifics confidential) — news-based only",
    "first_seen": "2026-08-31",
-   "last_updated": "2026-09-03",
-   "notes": "NEW LEAD 08-31. MAHB board approved a KLIA BHS replacement (part of RM500-600M/3-yr asset-replacement incl. aerotrains; up to RM1bn allocated for BHS modernization). 'Four-horse race': 4 Bursa-listed firms (MMC Corp, Fajarbaru, Bina Puri, T7 Global) + 6 MNCs (Siemens, Beumer, Daifuku, Toyo Kanetsu, Vanderlande, Pteris Global) among joint bidders. NO public 입찰공고문 confirmed (specifics confidential) → tracking_lead, not reportable in-scope. Value clearly above 50억 BHS threshold if/when it becomes a confirmed notice. Distinct from KLIA T2 spare-parts/ops-support tenders (maintenance, low-amount) and the Aug-2026 KLIA T1 baggage-system fault (incident → trends routine). ✅ CAVEAT RESOLVED 09-03: the 09-02 2021-source ambiguity is cleared — the four-horse-race/RM1bn KLIA BHS overhaul is confirmed CURRENT-2026, corroborated by multiple 2026 sources (theedgemalaysia 'Four-horse race for MAHB's baggage handling system contract'; FMT 2026-04-20 'Ministry orders overhaul of KLIA's baggage handling system'; NST 2026-08 'MAHB confirms KLIA Terminal 1 baggage system issue'; KLSE Screener 'KLIA baggage system upgrade enters next phase'). Ministry-ordered overhaul followed the Apr/Aug-2026 T1 baggage faults; tender in progress, spans several years. Confidence RESTORED. Tender specifics remain CONFIDENTIAL → still NO public 입찰공고문 → stays tracking_lead (non-reportable). Watch for the actual public NIT / award."
+   "last_updated": "2026-10-09",
+   "notes": "NEW LEAD 08-31. MAHB board approved a KLIA BHS replacement (part of RM500-600M/3-yr asset-replacement incl. aerotrains; up to RM1bn allocated for BHS modernization). 'Four-horse race': 4 Bursa-listed firms (MMC Corp, Fajarbaru, Bina Puri, T7 Global) + 6 MNCs (Siemens, Beumer, Daifuku, Toyo Kanetsu, Vanderlande, Pteris Global) among joint bidders. NO public 입찰공고문 confirmed (specifics confidential) → tracking_lead, not reportable in-scope. Value clearly above 50억 BHS threshold if/when it becomes a confirmed notice. Distinct from KLIA T2 spare-parts/ops-support tenders (maintenance, low-amount) and the Aug-2026 KLIA T1 baggage-system fault (incident → trends routine). ✅ CAVEAT RESOLVED 09-03: the 09-02 2021-source ambiguity is cleared — the four-horse-race/RM1bn KLIA BHS overhaul is confirmed CURRENT-2026, corroborated by multiple 2026 sources (theedgemalaysia 'Four-horse race for MAHB's baggage handling system contract'; FMT 2026-04-20 'Ministry orders overhaul of KLIA's baggage handling system'; NST 2026-08 'MAHB confirms KLIA Terminal 1 baggage system issue'; KLSE Screener 'KLIA baggage system upgrade enters next phase'). Ministry-ordered overhaul followed the Apr/Aug-2026 T1 baggage faults; tender in progress, spans several years. Confidence RESTORED. Tender specifics remain CONFIDENTIAL → still NO public 입찰공고문 → stays tracking_lead (non-reportable). Watch for the actual public NIT / award. | 2026-10-09 (run39): KLIA T1 BHS는 2022 Vanderlande-T7 낙찰·2025-11-25 보충계약 → 리드 실효 가능성 높음(신규 발주 신호 없음)."
   },
   {
    "key": "MY-KLIA-T1-PBB-MAHB",
@@ -1295,8 +1300,8 @@
    "link": "https://www.panamacompra.gob.pa (Tocumen T2 Muelle Sur); news: https://www.prensa.com/economia/tocumen-lanza-licitacion-para-ampliar-terminal-2-por-2087-millones-y-atrae-a-25-empresas/",
    "attachments": "Pliego de cargos / bases on PanamaCompra (public portal; not fetched this run)",
    "first_seen": "2026-09-06",
-   "last_updated": "2026-10-05",
-   "notes": "NEW LEAD 09-06. Real public tender on PanamaCompra (published 2026-07-16, offers due 2026-09-28; original 08-31 deadline extended 20 business days). USD 208.75M design-build-equip of the T2 South Pier — 13 contact gate positions (10 new + 3 reconfigured, incl. reconditioning/relocating 3 existing PBBs), 4 remote gates, platforms, drainage, 'airport facilities and systems' (baggage handling embedded). ~26 interested parties are civil/engineering firms (Constructora Meco, ICA, Mota-Engil, Ingeniería Estrella, Mallol & Mallol, Grupo ITESA, Airportgurus) → PBB & BHS are embedded sub-components of a civil design-build, NOT a standalone BHS/PBB lot with its own 입찰공고문 → tracking_lead (not reportable confirmed_in_scope), analogous to KE-KAA-JKIA-EXPANSION / VN-LONGTHANH-BHS. Watch for a discrete PBB supply / BHS sub-package + spec. Part of Tocumen's ~USD 306.7M capacity-expansion plan (Muelle Sur + airfield). 09-08: re-verified still OPEN, offers due 2026-09-28, NOT awarded. Now framed as part of a combined ~USD 306.75M Tocumen investment (T2 South Pier $208.75M + airfield/campo-de-vuelo works); classification unchanged (tracking_lead — PBB/BHS embedded in civil design-build). | 09-28 (run30): offer deadline 2026-09-28 is PANAMA LOCAL time (UTC-5). KST Mon 2026-09-28 = Panama Sun 09-27, so the deadline has NOT yet lapsed at run time; NO apertura/adjudicación reported. Still OPEN, not awarded. Re-check PanamaCompra for apertura/acta after Panama Mon 09-28 (≈ late KST 09-28 / early KST 09-29). | 09-29 (run31): PanamaCompra egress 차단 지속. La Prensa/Infobae 스니펫상 마감 09-28은 파나마 현지시각이고 'homologación' 후 실제 제안서 접수·apertura는 '10월 초'로 예상 → 09-28 경과만으로 공개 apertura·낙찰 확정 아님. 낙찰 미확인. 주의: prensa.com 'Dos consorcios…Tocumen' 기사는 활주로/유도로 재포장(Pycrat=Mota-Engil+Meco, $56.9M 낙찰) 별건이며 T2 BHS/PBB와 무관 — 혼동 금지. status open/tracking_lead 유지, 10월 초 재확인. | 10-01 (run33): 제출마감 2026-09-28 경과 확정. Tocumen는 제안서를 '10월 초' 접수 예정이라 밝힘 — apertura/adjudicación 아직 미보도(25개사 homologación). 분류·상태 불변(tracking_lead, open). 며칠 내 재확인. | 10-05 (run35): 일정 변동(스니펫 기반) — 복수 파나마 소스(prensa.com·destinopanama.com.pa·panamaamerica)가 제안서 접수/apertura를 2026-11-06으로 재조정(09-28 마감에서 이연) 보도. 개찰·낙찰 미게시, 등록 25~26개사(Meco, Constructora Urbana, Mallol & Mallol, ICA, Grupo ITESA, Airportgurus). PanamaCompra 직접 미열람 → 11-06은 스니펫 추정, 11월 초 재확인. 분류·상태 불변(tracking_lead, open — PBB/BHS는 토목 design-build 내장)."
+   "last_updated": "2026-10-09",
+   "notes": "NEW LEAD 09-06. Real public tender on PanamaCompra (published 2026-07-16, offers due 2026-09-28; original 08-31 deadline extended 20 business days). USD 208.75M design-build-equip of the T2 South Pier — 13 contact gate positions (10 new + 3 reconfigured, incl. reconditioning/relocating 3 existing PBBs), 4 remote gates, platforms, drainage, 'airport facilities and systems' (baggage handling embedded). ~26 interested parties are civil/engineering firms (Constructora Meco, ICA, Mota-Engil, Ingeniería Estrella, Mallol & Mallol, Grupo ITESA, Airportgurus) → PBB & BHS are embedded sub-components of a civil design-build, NOT a standalone BHS/PBB lot with its own 입찰공고문 → tracking_lead (not reportable confirmed_in_scope), analogous to KE-KAA-JKIA-EXPANSION / VN-LONGTHANH-BHS. Watch for a discrete PBB supply / BHS sub-package + spec. Part of Tocumen's ~USD 306.7M capacity-expansion plan (Muelle Sur + airfield). 09-08: re-verified still OPEN, offers due 2026-09-28, NOT awarded. Now framed as part of a combined ~USD 306.75M Tocumen investment (T2 South Pier $208.75M + airfield/campo-de-vuelo works); classification unchanged (tracking_lead — PBB/BHS embedded in civil design-build). | 09-28 (run30): offer deadline 2026-09-28 is PANAMA LOCAL time (UTC-5). KST Mon 2026-09-28 = Panama Sun 09-27, so the deadline has NOT yet lapsed at run time; NO apertura/adjudicación reported. Still OPEN, not awarded. Re-check PanamaCompra for apertura/acta after Panama Mon 09-28 (≈ late KST 09-28 / early KST 09-29). | 09-29 (run31): PanamaCompra egress 차단 지속. La Prensa/Infobae 스니펫상 마감 09-28은 파나마 현지시각이고 'homologación' 후 실제 제안서 접수·apertura는 '10월 초'로 예상 → 09-28 경과만으로 공개 apertura·낙찰 확정 아님. 낙찰 미확인. 주의: prensa.com 'Dos consorcios…Tocumen' 기사는 활주로/유도로 재포장(Pycrat=Mota-Engil+Meco, $56.9M 낙찰) 별건이며 T2 BHS/PBB와 무관 — 혼동 금지. status open/tracking_lead 유지, 10월 초 재확인. | 10-01 (run33): 제출마감 2026-09-28 경과 확정. Tocumen는 제안서를 '10월 초' 접수 예정이라 밝힘 — apertura/adjudicación 아직 미보도(25개사 homologación). 분류·상태 불변(tracking_lead, open). 며칠 내 재확인. | 10-05 (run35): 일정 변동(스니펫 기반) — 복수 파나마 소스(prensa.com·destinopanama.com.pa·panamaamerica)가 제안서 접수/apertura를 2026-11-06으로 재조정(09-28 마감에서 이연) 보도. 개찰·낙찰 미게시, 등록 25~26개사(Meco, Constructora Urbana, Mallol & Mallol, ICA, Grupo ITESA, Airportgurus). PanamaCompra 직접 미열람 → 11-06은 스니펫 추정, 11월 초 재확인. 분류·상태 불변(tracking_lead, open — PBB/BHS는 토목 design-build 내장). | 2026-10-09 (run39): Destino Panamá(10월초) 오퍼 11-06 보도, 공식 Addendum 3 미확인(최종 확인 Addendum 2)."
   },
   {
    "key": "CL-SCL-AMB-EXPANSION",
@@ -1329,16 +1334,19 @@
    "authority": "Københavns Lufthavne A/S (Copenhagen Airports A/S)",
    "scope": "Purchase (supply) of a baggage handling system for the new 'Baggage Factory East' (BFE) — a new building for baggage handling and storage in an automatic high-bay warehouse, located east of the existing Baggage Factory 3 (BF3), to meet future capacity needs at Copenhagen Airport. A connecting bridge transports baggage between the new baggage factory and BF3.",
    "method": "Restricted procedure / prequalification under EU Defence & Security Directive (2009/81/EC) — candidates apply with a completed ESPD + signed NDA; tender material released only to prequalified tenderers",
-   "budget": "not disclosed in the public notice (above BHS 50억 threshold — a full new automated high-bay-warehouse BHS; the separate BFE building-construction turnkey alone is DKK 450M ≈ ~1,000억)",
-   "budget_krw_est": null,
-   "status": "open",
+   "budget": "EUR 80,000,000 (TED 189628-2026 추정가)",
+   "budget_krw_est": 116000000000,
+   "status": "closed",
    "published": "~2026-07-07 (contract/prequalification notice)",
-   "deadline": "prequalification/request-to-participate 마감 2026-04-03 (경과, egress 해제분 교차확인) — BFE-BHS는 제한절차로 사전자격 마감 후 적격자 대상 ITT 진행",
-   "link": "https://ted.europa.eu (Københavns Lufthavne A/S, 'Baggage Factory East' BHS); DIT export opportunity: https://www.great.gov.uk/export-opportunities/opportunities/ ; aggregator: https://www.globaltenders.com/tender-detail/baggage-handling-system-for-baggage-factory-oxxddSwqvNtwZDBH",
+   "deadline": "2026-04-17 12:00Z (참가신청, 경과)",
+   "link": "https://ted.europa.eu/en/notice/-/detail/189628-2026",
    "attachments": "NOT publicly accessible — restricted procedure: full tender material (technical specs / drawings / BOQ) is released ONLY to prequalified tenderers after they submit an ESPD + signed NDA. Only the public contract/prequalification notice is open.",
    "first_seen": "2026-09-09",
-   "last_updated": "2026-10-06",
-   "notes": "NEW 09-09. Confirmed PUBLIC procurement notice (restricted/prequalification, EU Defence & Security Directive 2009/81/EC) for the supply of a BHS at the new Copenhagen Airport 'Baggage Factory East' automated high-bay-warehouse facility. Published ~2026-07-07 (within window). Corroborated across DIT great.gov.uk export-opportunity relay + globaltenders aggregator + CPH/MT Højgaard project reporting; the BFE building-construction (phase-1 collaboration won by MT Højgaard Danmark Aug-2026; phase-2 turnkey DKK 450M from Q3-2027, delivery before summer 2030) is a SEPARATE contract — this entry is the BHS EQUIPMENT procurement. Value undisclosed but clearly above 50억. Exact deadline / notice reference / itemized value could NOT be independently verified this run (TED/op.europa.eu/great.gov.uk/globaltenders all egress-blocked) → status open pending verification; FIRM deadline + reference + value next run. DISTINCT from the older Vanderlande CPH Terminal-3-expansion BHS (award ~Apr-2025, out of window, context only). REF CLARIFICATION 09-18: TED 322404-2026 (Københavns Lufthavne), earlier floated as a possible BFE-BHS reference, is confirmed to be a SEPARATE electric-apron-bus re-tender (published ~2026-05-11), NOT this BHS notice → do not conflate; correct BFE-BHS TED reference still to be captured. Status open, no change this run. | 09-28 (run30): 2nd independent BHS sweep re-confirmed a REAL separate BFE-BHS EQUIPMENT invitation-to-tender exists (Københavns Lufthavne 'invitation to tender for purchase of a baggage handling system for Baggage Factory East'), distinct from both the apron e-bus tender (TED 322404-2026) and the MT Højgaard building/civil turnkey (won 2026-08-21, phase-2 ~DKK450M). Notice date/deadline/award still egress-blocked (TED). Classification unchanged (open, no award). | 10-06 (run36): 사전자격 마감일 포착 — BHS 사전자격 공고 ~2026-03-20 공개(ESPD+NDA), 사전자격 마감 **2026-04-03(경과)**. 제한절차 특성상 공개 진입창은 마감되었으나 BHS 장비 계약 낙찰은 미게시 → 상태 open 유지(다단계 제한절차 진행중). 건축 Phase1(MT Højgaard, 2026-08-21 수주, phase-2 턴키 ~DKK450M)은 별개 재확인. Vanderlande는 CPH T3 BHS 건으로 별도 거명."
+   "last_updated": "2026-10-09",
+   "notes": "NEW 09-09. Confirmed PUBLIC procurement notice (restricted/prequalification, EU Defence & Security Directive 2009/81/EC) for the supply of a BHS at the new Copenhagen Airport 'Baggage Factory East' automated high-bay-warehouse facility. Published ~2026-07-07 (within window). Corroborated across DIT great.gov.uk export-opportunity relay + globaltenders aggregator + CPH/MT Højgaard project reporting; the BFE building-construction (phase-1 collaboration won by MT Højgaard Danmark Aug-2026; phase-2 turnkey DKK 450M from Q3-2027, delivery before summer 2030) is a SEPARATE contract — this entry is the BHS EQUIPMENT procurement. Value undisclosed but clearly above 50억. Exact deadline / notice reference / itemized value could NOT be independently verified this run (TED/op.europa.eu/great.gov.uk/globaltenders all egress-blocked) → status open pending verification; FIRM deadline + reference + value next run. DISTINCT from the older Vanderlande CPH Terminal-3-expansion BHS (award ~Apr-2025, out of window, context only). REF CLARIFICATION 09-18: TED 322404-2026 (Københavns Lufthavne), earlier floated as a possible BFE-BHS reference, is confirmed to be a SEPARATE electric-apron-bus re-tender (published ~2026-05-11), NOT this BHS notice → do not conflate; correct BFE-BHS TED reference still to be captured. Status open, no change this run. | 09-28 (run30): 2nd independent BHS sweep re-confirmed a REAL separate BFE-BHS EQUIPMENT invitation-to-tender exists (Københavns Lufthavne 'invitation to tender for purchase of a baggage handling system for Baggage Factory East'), distinct from both the apron e-bus tender (TED 322404-2026) and the MT Højgaard building/civil turnkey (won 2026-08-21, phase-2 ~DKK450M). Notice date/deadline/award still egress-blocked (TED). Classification unchanged (open, no award). | 10-06 (run36): 사전자격 마감일 포착 — BHS 사전자격 공고 ~2026-03-20 공개(ESPD+NDA), 사전자격 마감 **2026-04-03(경과)**. 제한절차 특성상 공개 진입창은 마감되었으나 BHS 장비 계약 낙찰은 미게시 → 상태 open 유지(다단계 제한절차 진행중). 건축 Phase1(MT Højgaard, 2026-08-21 수주, phase-2 턴키 ~DKK450M)은 별개 재확인. Vanderlande는 CPH T3 BHS 건으로 별도 거명. | 2026-10-09 (run39): 공식 TED 189628-2026(2026-03-19) 확인: Baggage handling system for Baggage Factory East, 협상절차(사전공고), 추정가 EUR 80,000,000(≈1,160억원), 참가신청 마감 2026-04-17 12:00Z(기존 04-03 정정) → open→closed(협상 진행·낙찰 미게시). 문서 EU-Supply 등록: https://eu.eu-supply.com/app/rfq/rwlentrance_s.asp?PID=450674&TID=200411636 . sorter 형식 미기재(unknown).",
+   "sorter": "unknown",
+   "spec_access": "registration",
+   "spec_original": "EU-Supply PID=450674 TID=200411636 (등록 필요)"
   },
   {
    "key": "FR-FSC-FIGARI-BHS",
@@ -1354,14 +1362,15 @@
    "budget_krw_est": null,
    "status": "closed",
    "published": "2026 'phase définitive' 통지(marchesonline ao-9593551-1 / ao-9480860-1, rewording 26-40525; 발주 EPIC CCI de Corse) 게시 2026-04-25 — 창 이내. (2025-10-13 원 통지 25-100931는 동일 조달의 선행 워딩.)",
-   "deadline": "2026-05-28(2026 phase définitive 오퍼마감, 경과) → closed, 낙찰 미게시. (원 통지 마감 2025-10-13.)",
+   "deadline": "2026-06-26 10:00 (TED 401952-2026, 경과)",
    "link": "marchesonline: https://www.marchesonline.com/appels-offres/avis/conception-realisation-d-un-systeme-definitif-de-tra/ao-9593551-1 ; https://www.marchesonline.com/appels-offres/avis/conception-et-realisation-d-un-systeme-de-traitement/ao-9480860-1 ; lacentraledesmarches: https://lacentraledesmarches.com/marches-publics/Bastia-CCI-de-Corse-Conception-et-realisation-d-un-systeme-de-traitement-des-bagages--Phase-definitive-Aeroport-Figari-Sud-Corse/460398 ; DCE: https://betterplace.info/dce/2847289 ; CCI Corse buyer profile (AWS): https://www.marches-publics.info (IDM=1833830)",
    "attachments": "PUBLICLY ACCESSIBLE during the open procedure (unlike Copenhagen's NDA-gated restricted procedure): the DCE (dossier de consultation des entreprises — règlement de consultation, CCTP/cahier des charges techniques, plans/plans d'aérogare, cadre de réponse) was downloadable free via the CCI Corse buyer profile on the AWS-Achat / marches-publics.info platform during the open procedure. Now closed (deadline passed 2025-10-13). This environment's egress blocks marchesonline / lacentraledesmarches / betterplace / marches-publics.info, so the exact attachment file list could NOT be enumerated directly this run.",
    "first_seen": "2026-09-14",
-   "last_updated": "2026-10-02",
-   "notes": "NEW 09-14 (run20). Genuine PUBLIC open-procedure 입찰공고문 (BOAMP/JOUE, ref 25-100931) whose PRIMARY subject is the BHS ('système de traitement/tri des bagages'), with induced terminal works — distinct from the SEPARATE 2026 'Extension de l'aérogare commerciale et des bureaux administratifs' notice (BOAMP 3/2672057-2026 / JOUE 005019042026) and the 2025 'extension du bâtiment sûreté' notice, which are building works. Status CLOSED (deadline 2025-10-13); award NOT yet publicly confirmed — works start 2026-09-28. BACKGROUND: TG Concept was selected in 2023 (announced 2023-12) for the *provisional* baggage sorting systems at BOTH Ajaccio-Napoléon-Bonaparte and Figari-Sud-Corse; the current *definitive* phase reportedly involves LEONARDO supplying an automatic baggage sorter — so Leonardo is the likely BHS titulaire/supplier, but no public award notice was found to confirm. WINDOW CAVEAT: deadline 2025-10-13 sits only ~1 month inside the 12-month window; reclassify to excluded_out_of_window after 2026-10-13 unless an award (within-window) is confirmed. Egress blocked all French procurement hosts → deadline/value/attachment-list via search snippets only; FIRM award + attachment list next run. 09-21 (run25): reconfirmed no public award notice (ref 25-100931; deadline was 2025-10-13); aeroportlemag still points to TG Concept (partnered with Leonardo for the automatic sorter) as likely titulaire but no formal award notice found. ⚠️ WINDOW EXITS 2026-10-13 (~3 weeks) → reclassify to excluded_out_of_window after that date UNLESS a within-window award is confirmed. | 09-28 (run30): still NO avis d'attribution (no titulaire). Reconfirmed the 2026-09-28 date = CONSTRUCTION START of the définitive HBS (~20-month build), NOT an award. TG Concept was selected Dec-2023 for Ajaccio+Figari sorters w/ Leonardo sorter supply. Still within 12-mo window (exit due ~2026-10-13, ~15 days) → reclassify excluded_out_of_window next run if still no in-window award. | 09-29 (run31): 여전히 avis d'attribution(낙찰공고) 미게시. 병렬 스윕에서 2026 design-build 통지 n° 26-40525(marchesonline ao-9593551-1) 세부 재확인 — 'conception réalisation d'un système définitif de traitement des bagages de soute au départ + travaux induits… extension aérogare Figari', ~20개월, 착공 ~2026-09-28: 기존 25-100931(phase définitive)과 동일 조달의 2026년 재공고/재워딩으로 판단(별건 아님). ⚠️ 12개월 창 이탈 임박(마감 2025-10-13 기준 ~2026-10-13, 약 14일) → 창 내 낙찰 미확인 시 다음 실행 excluded_out_of_window 재분류 예정. 09-30(run32): 2026 conception-réalisation 통지(ao-9593551-1 / rewording 26-40525, 발주 Etablissement Public CCI de Corse) 게시 2026-04-25·오퍼마감 2026-05-28(경과) 세부 확인, 낙찰/titulaire 여전 미게시. 12개월 창 이탈 ~2026-10-13(약 13일) 임박 → 창 내 낙찰 미확인 시 다음 실행 excluded_out_of_window 재분류 예정. 참고: aeroportlemag 2023-12 \"TG Concept 선정\"(Ajaccio+Figari) 스니펫은 2023 별건(초기 phase/원 통지 25-100931 계열) 가능성 — 현 2026 통지 낙찰과 혼동 주의. | 10-01 (run33): avis d'attribution/titulaire 여전 미게시(BOAMP/marchesonline 차단). TG Concept+Leonardo는 2023-12 프로그램 선정(Ajaccio+Figari 분류기) 컨소시엄으로 재확인되나 본 2026 lot 낙찰통지 아님. **12개월 창 이탈 2026-10-13(약 12일) 임박** → 창 내 낙찰 미확인 시 다음(차차) 실행 excluded_out_of_window 재분류 예정. | 10-02 (run34): ★창 이탈 우려 해소 — 검증 결과 현재 활성 조달은 **2026 'phase définitive' 통지**('Conception-réalisation d'un système définitif de traitement des bagages de soute au départ + réaménagement/extension aérogare', marchesonline ao-9593551-1/ao-9480860-1, 오퍼마감 2026-05-28, 발주 EPIC CCI de Corse). 이 2026 통지가 창 이내(게시 2026-04-25·마감 2026-05-28)이고 2025-10-13 원 통지를 **대체/포함** → 트래커를 2026 통지 기준으로 re-key. 따라서 **2026-10-13 창 이탈 재분류 불필요**, confirmed_in_scope(closed) 유지(창 이내). avis d'attribution/titulaire 여전 미게시(차단), TG Concept+Leonardo는 2023 선정 컨소시엄(본 lot 낙찰 아님). 착공 ~2026-09-28(공사개시, 낙찰 아님). | 10-06: sorter 판정=yes(제목/스코프에 trieur·tri bagages/sorter 명시). 규격서 원문(DCE/CCTP) 경로 추적 우선대상. | 10-06 범위축소: sorter 범위를 loop형 4종(tilt-tray/cross-belt/bomb-bay/push-tray)으로 국한 → 형식 미명시이므로 yes→unknown 재판정. 규격서 원문(DCE/CCTP)에서 형식 확인 필요.",
+   "last_updated": "2026-10-09",
+   "notes": "NEW 09-14 (run20). Genuine PUBLIC open-procedure 입찰공고문 (BOAMP/JOUE, ref 25-100931) whose PRIMARY subject is the BHS ('système de traitement/tri des bagages'), with induced terminal works — distinct from the SEPARATE 2026 'Extension de l'aérogare commerciale et des bureaux administratifs' notice (BOAMP 3/2672057-2026 / JOUE 005019042026) and the 2025 'extension du bâtiment sûreté' notice, which are building works. Status CLOSED (deadline 2025-10-13); award NOT yet publicly confirmed — works start 2026-09-28. BACKGROUND: TG Concept was selected in 2023 (announced 2023-12) for the *provisional* baggage sorting systems at BOTH Ajaccio-Napoléon-Bonaparte and Figari-Sud-Corse; the current *definitive* phase reportedly involves LEONARDO supplying an automatic baggage sorter — so Leonardo is the likely BHS titulaire/supplier, but no public award notice was found to confirm. WINDOW CAVEAT: deadline 2025-10-13 sits only ~1 month inside the 12-month window; reclassify to excluded_out_of_window after 2026-10-13 unless an award (within-window) is confirmed. Egress blocked all French procurement hosts → deadline/value/attachment-list via search snippets only; FIRM award + attachment list next run. 09-21 (run25): reconfirmed no public award notice (ref 25-100931; deadline was 2025-10-13); aeroportlemag still points to TG Concept (partnered with Leonardo for the automatic sorter) as likely titulaire but no formal award notice found. ⚠️ WINDOW EXITS 2026-10-13 (~3 weeks) → reclassify to excluded_out_of_window after that date UNLESS a within-window award is confirmed. | 09-28 (run30): still NO avis d'attribution (no titulaire). Reconfirmed the 2026-09-28 date = CONSTRUCTION START of the définitive HBS (~20-month build), NOT an award. TG Concept was selected Dec-2023 for Ajaccio+Figari sorters w/ Leonardo sorter supply. Still within 12-mo window (exit due ~2026-10-13, ~15 days) → reclassify excluded_out_of_window next run if still no in-window award. | 09-29 (run31): 여전히 avis d'attribution(낙찰공고) 미게시. 병렬 스윕에서 2026 design-build 통지 n° 26-40525(marchesonline ao-9593551-1) 세부 재확인 — 'conception réalisation d'un système définitif de traitement des bagages de soute au départ + travaux induits… extension aérogare Figari', ~20개월, 착공 ~2026-09-28: 기존 25-100931(phase définitive)과 동일 조달의 2026년 재공고/재워딩으로 판단(별건 아님). ⚠️ 12개월 창 이탈 임박(마감 2025-10-13 기준 ~2026-10-13, 약 14일) → 창 내 낙찰 미확인 시 다음 실행 excluded_out_of_window 재분류 예정. 09-30(run32): 2026 conception-réalisation 통지(ao-9593551-1 / rewording 26-40525, 발주 Etablissement Public CCI de Corse) 게시 2026-04-25·오퍼마감 2026-05-28(경과) 세부 확인, 낙찰/titulaire 여전 미게시. 12개월 창 이탈 ~2026-10-13(약 13일) 임박 → 창 내 낙찰 미확인 시 다음 실행 excluded_out_of_window 재분류 예정. 참고: aeroportlemag 2023-12 \"TG Concept 선정\"(Ajaccio+Figari) 스니펫은 2023 별건(초기 phase/원 통지 25-100931 계열) 가능성 — 현 2026 통지 낙찰과 혼동 주의. | 10-01 (run33): avis d'attribution/titulaire 여전 미게시(BOAMP/marchesonline 차단). TG Concept+Leonardo는 2023-12 프로그램 선정(Ajaccio+Figari 분류기) 컨소시엄으로 재확인되나 본 2026 lot 낙찰통지 아님. **12개월 창 이탈 2026-10-13(약 12일) 임박** → 창 내 낙찰 미확인 시 다음(차차) 실행 excluded_out_of_window 재분류 예정. | 10-02 (run34): ★창 이탈 우려 해소 — 검증 결과 현재 활성 조달은 **2026 'phase définitive' 통지**('Conception-réalisation d'un système définitif de traitement des bagages de soute au départ + réaménagement/extension aérogare', marchesonline ao-9593551-1/ao-9480860-1, 오퍼마감 2026-05-28, 발주 EPIC CCI de Corse). 이 2026 통지가 창 이내(게시 2026-04-25·마감 2026-05-28)이고 2025-10-13 원 통지를 **대체/포함** → 트래커를 2026 통지 기준으로 re-key. 따라서 **2026-10-13 창 이탈 재분류 불필요**, confirmed_in_scope(closed) 유지(창 이내). avis d'attribution/titulaire 여전 미게시(차단), TG Concept+Leonardo는 2023 선정 컨소시엄(본 lot 낙찰 아님). 착공 ~2026-09-28(공사개시, 낙찰 아님). | 10-06: sorter 판정=yes(제목/스코프에 trieur·tri bagages/sorter 명시). 규격서 원문(DCE/CCTP) 경로 추적 우선대상. | 10-06 범위축소: sorter 범위를 loop형 4종(tilt-tray/cross-belt/bomb-bay/push-tray)으로 국한 → 형식 미명시이므로 yes→unknown 재판정. 규격서 원문(DCE/CCTP)에서 형식 확인 필요. | 2026-10-09 (run39): 최신 TED 401952-2026(2026-06-11) 오퍼마감 2026-06-26 10:00(이전 280267-2026·327073-2026). DCE marches-publics.info IDM=1833830(등록). 낙찰 미게시. sorter 미기재.",
    "sorter": "unknown",
-   "spec_access": "unknown"
+   "spec_access": "registration",
+   "spec_original": "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&type=DCE&IDM=1833830"
   },
   {
    "key": "BG-SOF-T2-BHS-ALSTEF",
@@ -1447,8 +1456,8 @@
    "link": "https://newsinfo.inquirer.net/?p=1997473",
    "attachments": "none (no tender document published yet)",
    "first_seen": "2026-09-17",
-   "last_updated": "2026-09-17",
-   "notes": "NEW 09-17 (23rd run). News-only lead (NNIC/San Miguel flagged NAIA T3 BHS replacement as priority after repeated failures). NOT a published 입찰공고문 → tracking_lead for next routine; NOT in the reported bid list."
+   "last_updated": "2026-10-09",
+   "notes": "NEW 09-17 (23rd run). News-only lead (NNIC/San Miguel flagged NAIA T3 BHS replacement as priority after repeated failures). NOT a published 입찰공고문 → tracking_lead for next routine; NOT in the reported bid list. | 2026-10-09 (run39): NAIA T3 BHS는 NNIC가 2024 직접 조달 → 리드 실효 가능성."
   },
   {
    "key": "FR-TLS-BHS-SORTER",
@@ -1465,14 +1474,14 @@
    "status": "closed",
    "published": "2026-04-19",
    "deadline": "2026-06-15 (closed)",
-   "link": "https://www.toulouse.aeroport.fr (marches / BOAMP — exact notice URL egress-blocked this run)",
+   "link": "https://ted.europa.eu/en/notice/-/detail/273666-2026",
    "ref": "ATB marche - tri des bagages 2026 (portal ref not extracted; francemarches/lacentraledesmarches blocked)",
    "attachments": "Notice + DCE presumed on ATB buyer profile; not accessible this run (egress-blocked) — VERIFY next run",
    "first_seen": "2026-09-22",
-   "last_updated": "2026-09-22",
-   "notes": "NEW this run (run26). Genuine public BHS notice, in scope, within 12-month window (published 2026-04). Already CLOSED (2026-06-15). Award/titulaire NOT found. Amount unconfirmed (>50억 threshold likely for a full sorter renewal at a ~9M-pax airport but NOT verified). Corroborated via search snippets; portal egress-blocked. | 10-06: sorter 판정=yes(제목/스코프에 trieur·tri bagages/sorter 명시). 규격서 원문(DCE/CCTP) 경로 추적 우선대상. | 10-06 범위축소: sorter 범위를 loop형 4종(tilt-tray/cross-belt/bomb-bay/push-tray)으로 국한 → 형식 미명시이므로 yes→unknown 재판정. 규격서 원문(DCE/CCTP)에서 형식 확인 필요.",
+   "last_updated": "2026-10-09",
+   "notes": "NEW this run (run26). Genuine public BHS notice, in scope, within 12-month window (published 2026-04). Already CLOSED (2026-06-15). Award/titulaire NOT found. Amount unconfirmed (>50억 threshold likely for a full sorter renewal at a ~9M-pax airport but NOT verified). Corroborated via search snippets; portal egress-blocked. | 10-06: sorter 판정=yes(제목/스코프에 trieur·tri bagages/sorter 명시). 규격서 원문(DCE/CCTP) 경로 추적 우선대상. | 10-06 범위축소: sorter 범위를 loop형 4종(tilt-tray/cross-belt/bomb-bay/push-tray)으로 국한 → 형식 미명시이므로 yes→unknown 재판정. 규격서 원문(DCE/CCTP)에서 형식 확인 필요. | 2026-10-09 (run39): 공식 TED 273666-2026(2026-04-22) 확인: Renouvellement du système de tri des bagages(B·C·D홀 출발), 2단계 설계시공, 마감 2026-06-15. 바이어 포털 https://toulouse-aeroport.e-marchespublics.com/ (등록). 낙찰 미게시. sorter 형식 미기재.",
    "sorter": "unknown",
-   "spec_access": "unknown"
+   "spec_access": "registration"
   },
   {
    "key": "FR-CDG-TBS3S4",
@@ -1606,8 +1615,8 @@
    "link": "https://www.forbes.es/ultima-hora/1023555 · https://www.eleconomista.es/empresas-finanzas/noticias/14015062 (뉴스)",
    "attachments": "PBB 공급 공고 미발주 → 스코프 내 첨부 없음(용역 공고 첨부는 별개).",
    "first_seen": "2026-09-24",
-   "last_updated": "2026-09-24",
-   "notes": "NEW 09-24 (run28) tracking_lead(비보고). Aena 빌바오 확장 PM/감리 용역 공고(2026-09-18경, €22.96M/60개월)가 확장 스코프에 신규 PBB 6기·원격주기장 5개를 포함하나, 이는 엔지니어링 감리 용역 공고이지 PBB 공급 입찰공고문이 아님 → tracking_lead. 향후 PBB 공급 공고 발주 시 confirmed_in_scope 전환 후보. 근거 뉴스보도(forbes.es·eleconomista·deia). 다음 루틴에서 실제 PBB 공급 공고 발주 여부 추적."
+   "last_updated": "2026-10-09",
+   "notes": "NEW 09-24 (run28) tracking_lead(비보고). Aena 빌바오 확장 PM/감리 용역 공고(2026-09-18경, €22.96M/60개월)가 확장 스코프에 신규 PBB 6기·원격주기장 5개를 포함하나, 이는 엔지니어링 감리 용역 공고이지 PBB 공급 입찰공고문이 아님 → tracking_lead. 향후 PBB 공급 공고 발주 시 confirmed_in_scope 전환 후보. 근거 뉴스보도(forbes.es·eleconomista·deia). 다음 루틴에서 실제 PBB 공급 공고 발주 여부 추적. | 2026-10-09 (run39): 관련 신호: Aena TED 648525-2026(09-21) 빌바오 공사 PM·감리 EUR 27.55M(마감 10-21) — PBB 공고 아님."
   },
   {
    "key": "SA-MED-PMIA-T2-BHS-LEONARDO",
@@ -1733,8 +1742,8 @@
    "link": "https://www.phlcontracts.phila.gov (PW Prequalification Bid 6718 / PHL-1940.54); City forecast: https://www.phila.gov/media/20260518152029/otis-procurement-forecast-2026-spring.pdf",
    "attachments": "PHLContracts bid 6718 documents (phlcontracts.phila.gov egress 차단으로 첨부 목록·규격 직접 미확인)",
    "first_seen": "2026-09-30",
-   "last_updated": "2026-10-08",
-   "notes": "NEW LEAD 09-30(run32, 신규 스윕). PHL은 기추적 'Philadelphia PHL — Terminal D/E Baggage Make-Up expansion'(BHS)과 별개의 PBB 프로그램. 실제 공개 solicitation 게시 여부가 상충(공식 조달예보=TBD/예보 vs 애그리게이터=09-15 게시) → 규칙상 확정 입찰공고문 미검증이므로 tracking_lead(status_unconfirmed)로만 등재, 확정 리스트 미포함. VERIFY next run: phlcontracts 실제 solicitation 번호·게시일·마감·규모(다게이트 대형 vs ~1기 저규모). | 10-01 (run33): 상충 미해소 — 애그리게이터는 RFP 게시 ~2026-09-11·질의마감 09-21(마감설 10-29) 표기하나, 필라델피아 시 자료는 2026 봄 조달예보(OTIS, TBD/2026-07) 수준·실제 phlcontracts solicitation 번호(B2626934/B2624866 등)는 Phase 4 PBB 건으로 미확인(포털 차단). PHL 뉴스룸은 PBB 프로그램 '완료 임박' → Phase 4 소규모/후기단계 가능성. tracking_lead 유지(승격 안 함). | 10-02 (run34, Fri 주간롤업): ★상충 해소·승격 — 전세계 스윕에서 실제 공개 solicitation 확인: City of Philadelphia 'PW Prequalification Bid **6718 / PHL-1940.54**', 게시 2026-09-15·마감 2026-10-29, 기존 PBB 철거·교체(remove-and-replace). 봄 조달예보(2026-07 예정)가 09-15 PW 사전자격입찰로 현실화 = 예보+실제공고 2신호 정합 → tracking_lead → **confirmed_in_scope(open)** 승격. ⚠️정확 금액·게이트수 미확정(PHL PBB 프로그램 '완료 임박'으로 Phase4가 소규모일 가능성 잔존) → 임계값(PBB 10억) 충족 여부 다음 실행 phlcontracts 원문 재확인; 미달 시 excluded_low_amount로 하향. (사전자격=prequalification 단계이나 공개 게시된 공식 solicitation으로 실제 입찰공고문 기준 충족.) | 10-05 (run35): 검증 — 예산·게이트수 여전 미획득(phlcontracts/phl.org 차단). ⚠️마감일 상충: 애그리게이터(starbridge.ai) 입찰마감 2026-10-14 15:00 EDT 표기(원장 10-29와 상이, 사전자격 vs 입찰 하위마감 가능성) → 다음 실행 조정. PHL 뉴스룸 'PBB 교체·개선 프로그램 완료 임박' 문맥상 Phase4 소규모 가능성 → 임계값(PBB 10억) 충족 여부 미확정, '값 확인·미달 시 하향' 플래그 유지. 분류 불변(confirmed_in_scope, open). | 10-06 (run36): ★run35 마감일 상충 해소 — 전담 검증 결과 공식 solicitation은 City of Philadelphia Dept. of Aviation 'PW Prequalification Bid 6718 / PHL-1940.54', 게시 2026-09-15, bid closing **2026-10-29**로 재확인(원장치 정합). 애그리게이터(starbridge.ai)의 2026-10-14는 다른/이른 필드로 판단 → 10-29 채택. 단계=사전자격(prequalification); 승인된 셀러만 후속 폐쇄입찰 초청. 예산·게이트수 여전 미공개(phl.org/phlcontracts egress 차단) → 임계값(PBB 10억) 충족 여부 미확정, '값 확인·미달 시 하향' 플래그 유지. 분류 불변(confirmed_in_scope, open). | 10-07 (run37): 검색요약에 \"PW Prequalification Bid 6718 – PASSENGER BOARDING BRIDGE REPLACEMENT – PHASE 4\" 마감 10/08/2026 표기 포착(미검증 — 사전자격/질의 마감일 가능성). 원장 10-29 유지, 다음 실행 phlcontracts 재확인. 예산 여전 TBD. | 2026-10-08: 38차: GovCB 목록에서 PW Prequalification Bid 6718 (PHL-1940.54) Posted 2026-09-29 / Due 2026-10-08 (사전자격 마감) 확인. 10-29는 사전자격 통과자 대상 본입찰 일자 가능성(미검증). phl.org 403, BSO는 JSF 검색 필요."
+   "last_updated": "2026-10-09",
+   "notes": "NEW LEAD 09-30(run32, 신규 스윕). PHL은 기추적 'Philadelphia PHL — Terminal D/E Baggage Make-Up expansion'(BHS)과 별개의 PBB 프로그램. 실제 공개 solicitation 게시 여부가 상충(공식 조달예보=TBD/예보 vs 애그리게이터=09-15 게시) → 규칙상 확정 입찰공고문 미검증이므로 tracking_lead(status_unconfirmed)로만 등재, 확정 리스트 미포함. VERIFY next run: phlcontracts 실제 solicitation 번호·게시일·마감·규모(다게이트 대형 vs ~1기 저규모). | 10-01 (run33): 상충 미해소 — 애그리게이터는 RFP 게시 ~2026-09-11·질의마감 09-21(마감설 10-29) 표기하나, 필라델피아 시 자료는 2026 봄 조달예보(OTIS, TBD/2026-07) 수준·실제 phlcontracts solicitation 번호(B2626934/B2624866 등)는 Phase 4 PBB 건으로 미확인(포털 차단). PHL 뉴스룸은 PBB 프로그램 '완료 임박' → Phase 4 소규모/후기단계 가능성. tracking_lead 유지(승격 안 함). | 10-02 (run34, Fri 주간롤업): ★상충 해소·승격 — 전세계 스윕에서 실제 공개 solicitation 확인: City of Philadelphia 'PW Prequalification Bid **6718 / PHL-1940.54**', 게시 2026-09-15·마감 2026-10-29, 기존 PBB 철거·교체(remove-and-replace). 봄 조달예보(2026-07 예정)가 09-15 PW 사전자격입찰로 현실화 = 예보+실제공고 2신호 정합 → tracking_lead → **confirmed_in_scope(open)** 승격. ⚠️정확 금액·게이트수 미확정(PHL PBB 프로그램 '완료 임박'으로 Phase4가 소규모일 가능성 잔존) → 임계값(PBB 10억) 충족 여부 다음 실행 phlcontracts 원문 재확인; 미달 시 excluded_low_amount로 하향. (사전자격=prequalification 단계이나 공개 게시된 공식 solicitation으로 실제 입찰공고문 기준 충족.) | 10-05 (run35): 검증 — 예산·게이트수 여전 미획득(phlcontracts/phl.org 차단). ⚠️마감일 상충: 애그리게이터(starbridge.ai) 입찰마감 2026-10-14 15:00 EDT 표기(원장 10-29와 상이, 사전자격 vs 입찰 하위마감 가능성) → 다음 실행 조정. PHL 뉴스룸 'PBB 교체·개선 프로그램 완료 임박' 문맥상 Phase4 소규모 가능성 → 임계값(PBB 10억) 충족 여부 미확정, '값 확인·미달 시 하향' 플래그 유지. 분류 불변(confirmed_in_scope, open). | 10-06 (run36): ★run35 마감일 상충 해소 — 전담 검증 결과 공식 solicitation은 City of Philadelphia Dept. of Aviation 'PW Prequalification Bid 6718 / PHL-1940.54', 게시 2026-09-15, bid closing **2026-10-29**로 재확인(원장치 정합). 애그리게이터(starbridge.ai)의 2026-10-14는 다른/이른 필드로 판단 → 10-29 채택. 단계=사전자격(prequalification); 승인된 셀러만 후속 폐쇄입찰 초청. 예산·게이트수 여전 미공개(phl.org/phlcontracts egress 차단) → 임계값(PBB 10억) 충족 여부 미확정, '값 확인·미달 시 하향' 플래그 유지. 분류 불변(confirmed_in_scope, open). | 10-07 (run37): 검색요약에 \"PW Prequalification Bid 6718 – PASSENGER BOARDING BRIDGE REPLACEMENT – PHASE 4\" 마감 10/08/2026 표기 포착(미검증 — 사전자격/질의 마감일 가능성). 원장 10-29 유지, 다음 실행 phlcontracts 재확인. 예산 여전 TBD. | 2026-10-08: 38차: GovCB 목록에서 PW Prequalification Bid 6718 (PHL-1940.54) Posted 2026-09-29 / Due 2026-10-08 (사전자격 마감) 확인. 10-29는 사전자격 통과자 대상 본입찰 일자 가능성(미검증). phl.org 403, BSO는 JSF 검색 필요. | 2026-10-09 (run39): phlcontracts.phila.gov 접근 가능: B2726800~B2728300 전수 키워드 검색에서 Bid 6718/PHL-1940.54 미발견. 다른 항공 공사(PW 6709)는 사전자격 마감→본입찰일 2레코드 패턴 → 10-08 PQ/10-29 본입찰 해석 개연성(미검증). 공식 레코드 미확인 플래그(분류 유지, 다음 실행 미확인 시 리드 하향 검토)."
   },
   {
    "key": "SV-CEPA-SAL-BHS-DESIGN",
@@ -1798,9 +1807,10 @@
    "link": "onda.ma (ONDA appel d'offres / consultation); via ledesk.ma / lebrief.ma / francemarches.com / telquel.ma (2026-08-20, blocked) snippets",
    "attachments": "DCE(onda.ma 구매 입찰공고 목록) — 이 환경에서 onda.ma·marchespublics.gov.ma 및 애그리게이터가 조직 egress 정책으로 403 차단(2026-10-06 확인). 경쟁대화 절차상 참가신청(09-15) 이후 대화용 문서(기능프로그램 등)는 선정된 후보에게만 배포될 가능성 큼. 공개 확인 사항: 2개 트랜치(확정=공급·설치·시운전, 조건부=유지보수).",
    "first_seen": "2026-10-01",
-   "last_updated": "2026-10-07",
-   "notes": "NEW 10-01 (run33). Formal ONDA appel d'offres (dialogue compétitif) for Casablanca CMN new-terminal BHS+EBS — real published notice, procedure LIVE (candidature session 09-15, dialogue → financial offers to come). Major hub BHS (독립카트 DCV + EBS) in ~15 MMDH program → 임계값 상회 추정(정확 값 대화단계서 확정). ⚠️candidature 09-15 개시(최근 7~10일 창 직전)이나 절차 현재 진행중 → confirmed_in_scope(open) 등재. egress 차단(onda.ma/telquel/openprocurements)으로 원문·발주일·첨부 직접 미확인, 스니펫 기반. 별도 ONDA 엔지니어링/pilotage(PMO) mission 재공고(Médias24 09-22)는 설계·감리 용역 = 별개 리드. | 10-02 (run34): 검증 결과 공식 공고번호·일정 확정 = **Tender N° 153/26/CO/ONDA, 게시 2026-08-19, candidature 마감 2026-09-15 10:00(경과)** → status open→**closed**(참가신청 마감, dialogue/평가 진행 추정, titulaire 미게시). 사전자격 요건이 유사실적 2건 각 ≥700M MAD·평균매출 ≥2.5bn MAD·유동성 ≥500M MAD로 대형 확정 → 임계값 상회 재확인. 별도 ONDA ~15 MMDH 엔지니어링/pilotage(PMO) 재공고(~09-22)는 별건 용역(혼동 금지). Src: telquel.ma 08-20·ledesk.ma·lebrief.ma·medias24 09-22. | 10-06 (사용자 요청 첨부 접근 시도): onda.ma/www.onda.ma/marchespublics.gov.ma/telquel/ledesk/globaltenders/tendersontime/dgmarket/francemarches 전부 프록시 CONNECT 403(정책 차단) → DCE 미열람. 해결책: 환경 Network access에 onda.ma·www.onda.ma·marchespublics.gov.ma·www.marchespublics.gov.ma 허용 추가 후 재시도. 추가 공개정보: 확정 트랜치(공급·설치·시운전)+조건부 트랜치(유지보수) 2구조. | 10-07 (run37): Le Desk 기사 \"Trois candidats pour moderniser la gestion des bagages à l'aéroport Mohammed V\" — 후보 3개사 압축 보도(유료, 업체명·게재일 미확인). onda.ma 여전히 403(새 컨테이너도 egress 차단 지속).",
-   "verify_next": "★우선: 사용자가 2026-10-06 네트워크를 전체 허용으로 변경(이 세션 컨테이너에는 미반영 — example.com까지 403). 다음 실행(새 컨테이너)에서 https://www.onda.ma/Je-suis-Professionnel/Appels-d%27offres/Appels-d%27offres-Achats 접속 → AO 153/26/CO/ONDA 원문·DCE 첨부 목록(RC, 자격서류, 기술규격/기능프로그램, 도면) 수집·다운로드 가능 여부 보고. 대체: www.marchespublics.gov.ma."
+   "last_updated": "2026-10-09",
+   "notes": "NEW 10-01 (run33). Formal ONDA appel d'offres (dialogue compétitif) for Casablanca CMN new-terminal BHS+EBS — real published notice, procedure LIVE (candidature session 09-15, dialogue → financial offers to come). Major hub BHS (독립카트 DCV + EBS) in ~15 MMDH program → 임계값 상회 추정(정확 값 대화단계서 확정). ⚠️candidature 09-15 개시(최근 7~10일 창 직전)이나 절차 현재 진행중 → confirmed_in_scope(open) 등재. egress 차단(onda.ma/telquel/openprocurements)으로 원문·발주일·첨부 직접 미확인, 스니펫 기반. 별도 ONDA 엔지니어링/pilotage(PMO) mission 재공고(Médias24 09-22)는 설계·감리 용역 = 별개 리드. | 10-02 (run34): 검증 결과 공식 공고번호·일정 확정 = **Tender N° 153/26/CO/ONDA, 게시 2026-08-19, candidature 마감 2026-09-15 10:00(경과)** → status open→**closed**(참가신청 마감, dialogue/평가 진행 추정, titulaire 미게시). 사전자격 요건이 유사실적 2건 각 ≥700M MAD·평균매출 ≥2.5bn MAD·유동성 ≥500M MAD로 대형 확정 → 임계값 상회 재확인. 별도 ONDA ~15 MMDH 엔지니어링/pilotage(PMO) 재공고(~09-22)는 별건 용역(혼동 금지). Src: telquel.ma 08-20·ledesk.ma·lebrief.ma·medias24 09-22. | 10-06 (사용자 요청 첨부 접근 시도): onda.ma/www.onda.ma/marchespublics.gov.ma/telquel/ledesk/globaltenders/tendersontime/dgmarket/francemarches 전부 프록시 CONNECT 403(정책 차단) → DCE 미열람. 해결책: 환경 Network access에 onda.ma·www.onda.ma·marchespublics.gov.ma·www.marchespublics.gov.ma 허용 추가 후 재시도. 추가 공개정보: 확정 트랜치(공급·설치·시운전)+조건부 트랜치(유지보수) 2구조. | 10-07 (run37): Le Desk 기사 \"Trois candidats pour moderniser la gestion des bagages à l'aéroport Mohammed V\" — 후보 3개사 압축 보도(유료, 업체명·게재일 미확인). onda.ma 여전히 403(새 컨테이너도 egress 차단 지속). | 2026-10-09 (run39): Telquel 08-20: 독립카트 DCV+EBS 확인 → sorter=no(loop형 아님). shortlist 미공개, onda.ma 403.",
+   "verify_next": "★우선: 사용자가 2026-10-06 네트워크를 전체 허용으로 변경(이 세션 컨테이너에는 미반영 — example.com까지 403). 다음 실행(새 컨테이너)에서 https://www.onda.ma/Je-suis-Professionnel/Appels-d%27offres/Appels-d%27offres-Achats 접속 → AO 153/26/CO/ONDA 원문·DCE 첨부 목록(RC, 자격서류, 기술규격/기능프로그램, 도면) 수집·다운로드 가능 여부 보고. 대체: www.marchespublics.gov.ma.",
+   "sorter": "no"
   },
   {
    "key": "ES-TFS-BHS-PHASE3",
@@ -1904,8 +1914,8 @@
    "link": "https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ (공식) · Notice PDF: https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf",
    "attachments": "Notice to Bidders PDF(공개). Plans/Specs/Addenda: https://www.cidplanroom.com/projects/3144/details/teia-03-19-0012-tbd-baggage-handling-system-terminal-expansion (등록·로그인 필요) 또는 Rapids Reproductions. 애드엔덤 현재 없음.",
    "first_seen": "2026-10-06",
-   "last_updated": "2026-10-08",
-   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인.",
+   "last_updated": "2026-10-09",
+   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음.",
    "sorter": "no",
    "spec_access": "registration",
    "spec_original": "flycid.com 입찰 홈페이지 게시 BHS 기술규격서 원문 (2026-10-06 사용자 직접 확보)"
@@ -2068,6 +2078,137 @@
    "first_seen": "2026-10-08",
    "last_updated": "2026-10-08",
    "notes": "38차 신규 리드."
+  },
+  {
+   "key": "US-TUS-CBIS-CMAR",
+   "name": "Tucson International Airport (TUS) — CMAR for Checked Baggage Inspection System (CBIS) Modernization",
+   "category": "confirmed_in_scope",
+   "type": "HBS/CBIS",
+   "country": "USA",
+   "city": "Tucson, AZ",
+   "authority": "Tucson Airport Authority",
+   "scope": "터미널 부속 신규 CBIS/CBRA 시설 시공 + 신형 BHS·검색시스템 설치·통합, 기존 TSA 검색 pod·수하물설비 철거, MEP·제어·시운전·단계시공. 설계 RS&H.",
+   "method": "CMAR(Construction Manager at Risk) 자격기반 선정(RFQ No. 10123546, SOQ에 가격 불포함)",
+   "budget": "미공개",
+   "budget_krw_est": null,
+   "status": "open",
+   "published": "2026-09-24",
+   "deadline": "2026-10-27 14:00 MST (SOQ 하드카피 원본1+사본5) — 사전회의 2026-10-08 09:00",
+   "link": "https://www.flytucson.com/taa/business_development/doing_business_with_taa/bids_rfps.php · Notice PDF: https://flytucson.com/Notice%20of%20Request%20for%20Qualifications%20-%20CMAR%20%E2%80%93%20Checked%20Baggage%20Inspection%20System.pdf",
+   "attachments": "Notice PDF 공개. RFQ 전문은 mgarry@flytucson.com 요청 시 무상 제공. 규격서·도면 미게시(CMAR 선정 후 BHS/EDS 하도급 패키지로 발주 예정).",
+   "sorter": "no",
+   "spec_access": "registration",
+   "spec_original": "RFQ 전문 이메일 요청(mgarry@flytucson.com)",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "notes": "NEW 10-09(run39) 공식 공고 확인. CBIS 현대화 = BHS 연계 HBS. 예산 미공개 → 임계값(50억) 미확정(신규 CBIS 시설+BHS 규모상 상회 추정). sorter 미명시."
+  },
+  {
+   "key": "US-CLT-BHS-TX3",
+   "name": "Charlotte Douglas (CLT) — AVIA ITB 27-06 BHS Transfer Line (TX3)",
+   "category": "tracking_lead",
+   "type": "BHS",
+   "country": "USA",
+   "city": "Charlotte, NC",
+   "authority": "City of Charlotte Aviation",
+   "scope": "BHS 환승 라인(TX3) — 세부 미확인",
+   "method": "ITB(최저 적격 응찰)",
+   "budget": "미확인",
+   "budget_krw_est": null,
+   "status": "status_unconfirmed",
+   "published": "2026-09-10 (GovCB)",
+   "deadline": "2026-10-08 (GovCB/TendersOnTime 149486704)",
+   "link": "https://www.govcb.com/government-bids/AVIA-ITB-BHS-TRANSFER-LINE-AND-23888952.htm",
+   "attachments": "unknown (charlottenc.gov 403)",
+   "sorter": "unknown",
+   "spec_access": "unknown",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "notes": "애그리게이터만 확인, 공식 페이지 미도달 → 리드."
+  },
+  {
+   "key": "US-TSA-EBSP-RECAP",
+   "name": "TSA EBSP Recapitalization EDS Industry Engagement (SAM special notice)",
+   "category": "tracking_lead",
+   "type": "HBS/EDS",
+   "country": "USA",
+   "city": "(national)",
+   "authority": "TSA",
+   "scope": "차기 EDS 재자본화(recap) 검출·기술요건 초안 산업설명회",
+   "method": "사전공고(special notice)",
+   "budget": "미공개",
+   "budget_krw_est": null,
+   "status": "upcoming",
+   "published": "2026-09-24",
+   "deadline": "응답 2026-10-16",
+   "link": "https://sam.gov/opp/83071f1c20df430192cdb1a1b21fea07/view",
+   "attachments": "SAM.gov",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "notes": "입찰공고 아님(사전공고) → 리드."
+  },
+  {
+   "key": "US-PBB-REPLACE-PARTA-UNK",
+   "name": "Passenger Boarding Bridges Replacement – Part A (USA, 공항 미상)",
+   "category": "tracking_lead",
+   "type": "PBB",
+   "country": "USA",
+   "city": "unknown",
+   "authority": "unknown",
+   "scope": "PBB 교체 Part A",
+   "method": "unknown",
+   "budget": "unknown",
+   "budget_krw_est": null,
+   "status": "status_unconfirmed",
+   "published": "unknown",
+   "deadline": "2026-10-30 (TendersOnTime 150138643)",
+   "link": "TendersOnTime ref 150138643",
+   "attachments": "unknown",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "notes": "애그리게이터만, 공항 식별 필요."
+  },
+  {
+   "key": "US-JAC-CBIS",
+   "name": "Jackson Hole (JAC) inline BHS/CBIS",
+   "category": "tracking_lead",
+   "type": "HBS/CBIS",
+   "country": "USA",
+   "city": "Jackson, WY",
+   "authority": "Jackson Hole Airport Board",
+   "scope": "인라인 BHS/CBIS 신설 — 오너대리인 공모 2026-09-09, 설계 중 → 시공 발주 예정",
+   "method": "-",
+   "budget": "-",
+   "budget_krw_est": null,
+   "status": "upcoming",
+   "published": null,
+   "deadline": null,
+   "link": "-",
+   "attachments": "-",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "notes": "리드."
+  },
+  {
+   "key": "ZA-BFN-BHS",
+   "name": "ACSA Bram Fischer (BFN) BHS replacement",
+   "category": "tracking_lead",
+   "type": "BHS",
+   "country": "South Africa",
+   "city": "Bloemfontein",
+   "authority": "ACSA",
+   "scope": "BHS 교체 — 전문용역(설계) 입찰 2026-10-03 마감, 후속 공급 발주 예상",
+   "method": "-",
+   "budget": "-",
+   "budget_krw_est": null,
+   "status": "upcoming",
+   "published": null,
+   "deadline": null,
+   "link": "-",
+   "attachments": "-",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "notes": "리드."
   }
  ]
 }

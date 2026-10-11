@@ -180,6 +180,11 @@
     "date": "2026-10-09",
     "weekday": "Friday",
     "note": "KST 재확인 2026-10-09(금) 03:06, 여섯번째 주간 롤업. 검색 8건, 신규 0건·기존 변동 0건. 주간 신규(Leonardo HAM, PSP AIG)는 10-06 기보고라 재보고 없음."
+   },
+   {
+    "date": "2026-10-12",
+    "weekday": "Monday",
+    "note": "KST 재확인 월요일. 검색 4건, 신규 1건(2-15 ATL 탑승교 정렬불량, 2-15 이후 PBB 신기술 +1 재넘버링). 알림은 사용자 보고(채팅)로 대체."
    }
   ],
   "last_run": "2026-09-25"
@@ -311,6 +316,17 @@
    "summary_note": "2026-07-01(수) 밤 터미널C(2018년 개장, 스케줄 기반 수하물 저장·불출 방식의 '첨단' BHS 채택)에서 GOAA(올랜도공항공사)가 확인한 '기계식 시스템 오류(mechanical system error)'로 수하물 처리가 지연, 승객들이 수취대에서 2~3시간 대기함. 공항측은 대기 승객에게 생수 제공·사과 성명 발표. 같은 해 6/27 악천후(별건, 스코프 제외)로 인한 지연과 1주일 내 연쇄 발생해 언론의 구조적 결함 논란 촉발."
   },
   {
+   "key": "BHS-INC-EMA-2026",
+   "num": "1-13",
+   "type": "BHS_incident",
+   "title": "이스트미들랜즈공항(EMA, 영국) 새벽 정전으로 출발 수하물처리시스템 마비",
+   "date": "2026-08-31",
+   "link": "https://westbridgfordwire.com/east-midlands-airport-baggage-system-out-of-action-after-power-cut/",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "summary_note": "2026-08-31(월, 영국 뱅크홀리데이) 새벽 짧은 정전이 발생해 다른 공항 시스템은 곧 복구됐으나 출발(outbound) 수하물처리시스템만 장시간 정지. 도착 수하물처리는 정상 운영. 공항측은 SNS 공지로 사과하고, 영향받는 승객에게 복용 중인 의약품은 위탁수하물이 아닌 기내 휴대수하물에 넣어둘 것을 권고(일부 위탁수하물이 승객과 같은 항공편에 실리지 못할 가능성을 시사). 엔지니어들이 오전 내내 복구작업을 지속."
+  },
+  {
    "key": "BHS-TECH-VDL-CPK-2025",
    "num": "1-14",
    "type": "BHS_tech",
@@ -440,6 +456,88 @@
    "first_seen": "2026-08-25",
    "last_updated": "2026-08-25",
    "summary_note": "GOAA(올랜도공항공사)가 2001년 9/11 직후 구축돼 노후화된 BHS를 6.5억달러·10개년에 걸쳐 전면 교체하는 자본개선계획(CIP)을 발표. 배경은 연간 여객 6,000만명(2019년 대비 대폭 증가)·1일 위탁수하물 처리량 급증(2024년 기준 2022년 대비 1일 약 7,000개 추가) 및 골프백·카시트·유모차 등 비정형 수하물 비중이 세계 최고 수준이라는 점. 2026-02 5.5억달러 신용한도(credit line) 확보로 공사 지속 자금 확보. 신형 시스템은 항공편 스케줄 연동 지연방지·수하물 오분류 최소화를 목표로 함."
+  },
+  {
+   "key": "BHS-TECH-AZALEA-ARC1-2026",
+   "num": "1-27",
+   "type": "BHS_tech",
+   "title": "Azalea Robotics ARC 1 — 세계 최초 완전자율 이동형 수하물 분류 코봇(백룸 자동화)",
+   "date": "2026-01-21",
+   "link": "https://www.azalearobotics.com/insights/introducing-arc-1",
+   "first_seen": "2026-08-30",
+   "last_updated": "2026-08-30"
+  },
+  {
+   "key": "BHS-TECH-CJIA-GUYANA-2026",
+   "num": "1-28",
+   "type": "BHS_tech",
+   "title": "가이아나 체디자간국제공항(CJIA) 신규 BHS — 체크인 병목 해소 위한 워크플로 재설계",
+   "date": "2026-06(공사착수 보도) / 2026-09말 완공 예정(2026-08-28~29 진행상황 보도)",
+   "link": "https://kaieteurnewsonline.com/2026/08/29/new-baggage-system-to-replace-congested-check-in-screening-at-cjia/",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "summary_note": "가이아나 체디자간국제공항(CJIA)이 GYD 5억1,230만(약 미화 245만달러) 규모 신규 자동 BHS를 2026년 9월말 완공 목표로 설치 중. 기존에는 체크인 카운터 이전 단계에서 수하물을 수동 검색해 터미널 혼잡을 유발했으나, 신규 시스템은 카운터에서 체크인·계중 후 컨베이어로 이송해 후단에서 원격 스크리닝하는 방식으로 전환. 체크인부터 탑재까지 수하물 전 구간 CCTV 상시 촬영과 검색요원·보안요원 바디캠 착용을 의무화해 수하물 이동 이력 추적성을 강화.",
+   "note": "예산 규모는 소형이나(약 245만달러), '검색 위치를 체크인 카운터 이전 단계에서 컨베이어 후단으로 이동'하는 워크플로 설계와 전 구간 CCTV/바디캠 추적성 확보라는 설계개념 자체가 참고가치가 있어 채택."
+  },
+  {
+   "key": "BHS-POLICY-US-DOT-DELAYCAUSE-2026",
+   "num": "1-29",
+   "type": "BHS_tech",
+   "title": "美 DOT 항공지연·결항 원인신고 규정 개정 — 항공사 비통제 BHS 장애를 'Air Carrier' 귀책코드에서 명시 제외",
+   "date": "2026-09-03 관보(Federal Register) 게재, 2026-10-19 발효",
+   "link": "https://www.federalregister.gov/documents/2026/09/03/2026-18040/cause-of-airline-delay-and-cancellation-categories-under-section-511b-of-the-faa-reauthorization-act",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "summary_note": "미 교통부(DOT)가 FAA Reauthorization Act of 2024 Sec.511(b)를 이행하는 최종규칙(Federal Register 2026-18040)을 공포. 14 CFR 234에 따라 항공사가 의무 제출하는 지연·결항 원인 데이터에서, '항공사 또는 그 계약업체가 통제하지 않는 수하물처리시스템(BHS) 장애로 인한 수하물/화물 적재 지연'을 10개 신설 제외사유 중 하나로 명시해 'Air Carrier(항공사 귀책)' 코드에서 공식 제외. 그 외 제외사유로 승객 사망에 따른 기내청소, 이상기상·이물질(FOD)·사보타주에 의한 기체손상, 사이버공격, 정부시스템 장애, 지연불가한 긴급정비 등이 함께 신설됨. 2026-10-19 발효.",
+   "note": "설계 시사점: 공항이 소유·운영(또는 위탁운영)하는 BHS의 정전·기계결함으로 인한 지연이 이제 항공사 책임과 분리된 별도 연방 통계항목으로 공식 집계됨에 따라, 신규/개량 BHS 설계 단계에서 (1) 정전 대비 이중전원·백업계통, (2) 장애 발생시각·원인을 자동 기록하는 모니터링/로그 체계, (3) 공항운영자-항공사 간 SLA·가동률 조항의 사전 반영 필요성이 커짐. 공항측 규제·평판 리스크가 데이터로 가시화되는 최초의 미국 연방 사례."
+  },
+  {
+   "key": "BHS-TECH-ICN-POSCODX-AI-2026",
+   "num": "1-30",
+   "type": "BHS_tech",
+   "title": "인천공항공사·포스코DX 'AI 기반 수하물 이상탐지 시스템' 공동개발 — 특허 출원",
+   "date": "2026-09-07 발표(제1여객터미널 시범운영 완료 후 특허 출원)",
+   "link": "https://www.fnnews.com/news/202609071054001924",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "summary_note": "인천국제공항공사가 포스코DX(옛 포스코ICT)와 공동으로 BHS 컨베이어 라인에 설치된 비전 카메라 영상을 딥러닝 모델로 실시간 분석해 육안·기존 센서로는 포착하기 어려운 수하물 이상 상태를 감지하는 시스템을 개발, 관련 특허를 출원했다고 2026-09-07 발표. 감지 대상은 (1) 수하물 2개가 겹쳐 바코드 인식을 막는 '이중 적재', (2) 캐리어 손잡이가 펴진 채 이송되어 설비 구조물에 걸릴 위험이 있는 상태, (3) 수하물이 BHS 이송용 튜브(tub)에서 이탈한 상태 3가지. 제1여객터미널에 시범 설치·운영한 결과 오분류·파손을 유발할 수 있는 이상 수하물을 100% 검출했다고 밝힘. 인천공항은 100만 개당 약 2개 수준의 세계 최고 수준 수하물 오분류율을 유지 중이라고 자체 홍보. 세션 네트워크 프록시가 fnnews.com·mt.co.kr·segye.com·ngonews.kr 등 원문 직접접근을 차단해 파이낸셜뉴스·세계일보·인천일보·한국NGO신문·24news 등 5개 이상 독립 매체의 검색 스니펫으로 사실관계 교차검증(정확도 수치·특허 출원번호 등 세부사항은 원문 직접확인 필요).",
+   "note": "설계 시사점: 신규/개량 BHS 설계 시 컨베이어·튜브카트 구간에 비전 카메라+AI 이상감지 계층을 표준 사양으로 반영하면 오분류·파손·설비끼임 사고(예: 뉴어크 1-8 사례처럼 이물 진입) 예방에 활용 가능. 특히 '이중적재'·'핸들 돌출'·'튜브이탈' 3대 이상유형은 크로스벨트/토트 방식 등 자동분류설비를 채택하는 신공항(CPK, KLIA, CJIA 등)의 검사 포인트 설계에 참고할 만함. 국내(인천공항) 사례로서 원가·유지보수 측면의 국산화 대안으로도 참고 가치가 있음."
+  },
+  {
+   "key": "BHS-TECH-TOMPKINS-FTEGLOBAL-2026",
+   "num": "1-31",
+   "type": "BHS_tech",
+   "title": "Tompkins Robotics tSort — 컨베이어 없는 로봇 소팅을 TSA 체크포인트·위탁수하물 보안검색 흐름에 적용, FTE Global 2026 전시",
+   "date": "2026-09-08~10 FTE Global(댈러스, 20주년) Booth MB1 전시·발표",
+   "link": "https://www.tompkinsrobotics.com/blog/fte-global-2026",
+   "first_seen": "2026-09-10",
+   "last_updated": "2026-09-10",
+   "summary_note": "Tompkins Robotics(미국)가 자사의 모듈형 로봇 소팅 시스템 tSort를 공항 TSA 보안검색 체크포인트 및 위탁수하물 흐름에 적용하는 '차세대 공항보안 자동화 솔루션'을 FTE Global 2026(2026-09-08~10, 댈러스, 20주년 행사, Booth MB1)에서 공개·전시했다고 발표. tSort는 기존 컨베이어·고정 트랙 방식과 달리 자율주행 로봇이 수하물을 최적 경로로 동적 라우팅하는 방식으로, 시간당 최대 40,000개 처리·최대 610,000개 목적지 분류가 가능하다고 제작사가 밝힘(전자상거래·물류 분야 기 상용화 제품을 공항 보안검색 응용으로 확장하는 단계이며, 특정 공항 실배치 사례는 아직 확인되지 않은 전시·발표 단계). 세션 네트워크 프록시가 제작사·업계지 원문 직접접근을 차단해 검색 스니펫으로 교차검증(원문 직접 확인 시 실배치 일정·계약 공항 등 세부사항 재확인 필요).",
+   "note": "설계 시사점: 컨베이어·고정 트랙이 없는 로봇 기반 동적 소팅 방식이 실용화되면 TSA 체크포인트 연계 보안검색(CBIS/EDS in-line screening)과 위탁수하물 처리 구간의 설비 배치 자유도가 높아져, 기존 컨베이어 중심 설계 대비 터미널 리노베이션·증축 시 구조적 제약(고정 컨베이어 경로 변경의 어려움)을 줄일 수 있는 대안으로 참고 가치 있음. 다만 아직 실제 공항 배치사례가 확인되지 않아 신뢰도는 '전시·발표' 단계로 한정, 실배치 사례 확인 시 재평가 필요."
+  },
+  {
+   "key": "BHS-TECH-LEONARDO-CROSSBELT-HAM-MED-2026",
+   "num": "1-32",
+   "type": "BHS_tech",
+   "title": "Leonardo 크로스벨트(MBHS) 소터 — 함부르크공항 BHS 전면교체(2026~2029, 가동 중 단계시공) + 메디나(PMIA) 공급(09-18)",
+   "date": "2026-04-29 / 2026-09-18",
+   "link": "https://www.leonardo.com/en/press-release-detail/-/detail/leonardo-relaizes-cross-belt-technology-for-hamburg-airport ; https://www.defaiya.com/news/Aviation%20Space/Aviation%20Space/2026/09/18/leonardo-to-supply-cross-belt-sorter-technology-to-prince-mohammed-bin-abdulaziz-int-l-airport",
+   "first_seen": "2026-10-06",
+   "last_updated": "2026-10-06",
+   "summary_note": "함부르크 T1·Plaza 구역 기존 BHS를 크로스벨트 소터로 전면 교체, 공항 운영을 유지한 단계적 시공, IoT 센서·AI 기반 유지보수 최적화 적용. 메디나 신공항에도 동일 기술 공급. (본문은 검색 요약 기반, 원문 접속 차단으로 직접 열람 미확인)",
+   "note": "설계 주안점: 운영 중 터미널 BHS 교체 시 단계별 전환 계획(임시 동선·병행운전), 크로스벨트 소터의 취급 가능 수하물 형상 범위와 파손 저감, IoT/AI 예지보전을 위한 센서·데이터 인터페이스를 초기 설계에 반영."
+  },
+  {
+   "key": "BHS-POLICY-PSP-AIG-2026",
+   "num": "1-33",
+   "type": "BHS_tech",
+   "title": "팜스프링스공항(PSP) 신규 출발 BHS 사업 — FAA AIG 최종 $5.5M, 총사업비 $93.6M 중 연방 $66.5M(70%+), 2028년 말 완공",
+   "date": "2026-09-30",
+   "link": "https://flypsp.com/psp-secures-final-5-5-million-federal-grant-for-new-baggage-handling-system/ ; https://www.nbcpalmsprings.com/local-and-community/2026/09/30/palm-springs-airport-secures-final-55-million-for-new-baggage-system",
+   "first_seen": "2026-10-06",
+   "last_updated": "2026-10-06",
+   "summary_note": "출발 위탁수하물 체크인→보안검색→분류→항공사 인계 전 구간 신설. 최종 연차 보조금은 소프트웨어 통합·시운전·시험·사업관리 단계에 배정, 향후 15년 수요 대응.",
+   "note": "설계 주안점: 중소공항도 TSA 기준 인라인 CBIS 신설이 대형 재정(연방 보조 70%+)과 4~5년 공정으로 추진됨 — 15년 수요 대비 용량, 소프트웨어 통합·시운전 비용 별도 산정 필요."
   },
   {
    "key": "PBB-INC-DAC-2024",
@@ -587,8 +685,20 @@
    "summary_note": "2025-01-07 오전 5시20분경 미국 LA발 대한항공 012편(B747-8)이 인천국제공항 제2여객터미널 확장구역(2024-12-03 개항한 4단계 사업 구역)에 접안하던 중 왼쪽 날개 끝단이 인접 탑승교와 접촉해 파손. 국토교통부가 즉시 사실조사 착수, 탑승교 위치가 잘못 설정돼 있었던 것으로 파악됨(원문: 인천투데이 단독보도). 노조는 4단계 확장으로 터미널 면적(34만㎡)은 늘었으나 인력 충원이 부족했던 점을 사고 배경으로 지목(공사 자회사가 결원 충원 인력 등 총 836명 모집공고를 낸 시점과 겹침). 여객 탑승 중 발생한 사고로 인명피해는 없었음. 세션 네트워크 프록시가 incheontoday.com 원문 직접접근을 차단해 두 개의 독립된 검색 스니펫(기사 idxno 260806, 260908)으로 사실관계 교차검증."
   },
   {
-   "key": "PBB-TECH-TKE-MAD-2025",
+   "key": "PBB-INC-ATL-FRONTIER-2026",
    "num": "2-15",
+   "type": "PBB_incident",
+   "title": "애틀랜타공항(ATL) 탑승교 정렬불량으로 프런티어항공 승객 하기 장시간 지연(10-06 야간)",
+   "date": "2026-10-06",
+   "link": "https://www.thetraveler.org/frontier-flight-attendant-stops-passenger-lunging-for-exit-door/",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "summary_note": "뉴올리언스발 프런티어 2052편 도착 후 탑승교가 기체 도어와 정렬되지 않아 하기 불가, 정비인력이 해결할 때까지 승객 장시간 기내 대기. 이 과정에서 승객 도어 개방 시도 소동 발생(부상 미보고).",
+   "note": "설계 주안점: 자동도킹 실패 시 수동 복구 절차·정비인력 대기 및 신속 호출 체계, 장시간 지연 시 승객 비상구 오조작 방지(도어 인터락) 고려. 소규모 사고(저중요도)."
+  },
+  {
+   "key": "PBB-TECH-TKE-MAD-2025",
+   "num": "2-16",
    "type": "PBB_tech",
    "title": "TK Elevator MAX Automate — 마드리드 바라하스 129기 전면 원격자동화",
    "date": "2024-2025",
@@ -598,7 +708,7 @@
   },
   {
    "key": "PBB-TECH-CIMC-LANZHOU-2025",
-   "num": "2-16",
+   "num": "2-17",
    "type": "PBB_tech",
    "title": "CIMC — 란저우공항 86기 전면 자율/원격 탑승교(세계최초 전체기 전환)",
    "date": "2025-07",
@@ -608,7 +718,7 @@
   },
   {
    "key": "PBB-TECH-SHINMAYWA-CHANGI-2023",
-   "num": "2-17",
+   "num": "2-18",
    "type": "PBB_tech",
    "title": "ShinMaywa PAXWAY AI 완전자동 도킹 — 창이공항 기종무관 상용화",
    "date": "2023-08 (ongoing)",
@@ -618,7 +728,7 @@
   },
   {
    "key": "PBB-TECH-CLX-ATL-2025",
-   "num": "2-18",
+   "num": "2-19",
    "type": "PBB_tech",
    "title": "CLX Engineering 자율도킹 — 애틀랜타공항 도킹시간 절반 단축",
    "date": "2025",
@@ -628,7 +738,7 @@
   },
   {
    "key": "PBB-TECH-ELECTRIFY-GPU-PCA-2026",
-   "num": "2-19",
+   "num": "2-20",
    "type": "PBB_tech",
    "title": "탑승교 내장형 전동 GPU·PCA 확산(디젤 대체)",
    "date": "2025-2026",
@@ -638,7 +748,7 @@
   },
   {
    "key": "PBB-POLICY-AIRSECURITYACT-2024",
-   "num": "2-20",
+   "num": "2-21",
    "type": "PBB_tech",
    "title": "미국 AIR Security Act — 중국보조금 탑승교 연방자금 구매 영구금지",
    "date": "2024-05-17",
@@ -648,7 +758,7 @@
   },
   {
    "key": "PBB-TECH-TKE-SMARTAPRON-2026",
-   "num": "2-21",
+   "num": "2-22",
    "type": "PBB_tech",
    "title": "TK Elevator — ApronVision(도킹영상가이드)+MAX Automate 통합 'Smart Apron Ecosystem'",
    "date": "2026-03 (PTE London 공개)",
@@ -658,7 +768,7 @@
   },
   {
    "key": "PBB-TECH-AA-DORMAKABA-DFW-2026",
-   "num": "2-22",
+   "num": "2-23",
    "type": "PBB_tech",
    "title": "American Airlines·dormakaba 전자탑승게이트(Argus Air XS) 대규모 도입 — 댈러스포트워스(DFW)",
    "date": "2025-11 시범, 2026 여름 확대",
@@ -675,11 +785,11 @@
    "first_seen": "2026-08-24",
    "last_updated": "2026-08-24",
    "summary_note": "Oshkosh AeroTech(구 JBT AeroTech)의 iOPS는 탑승교·GPU·PCA 등 게이트 장비를 인터넷 접속만으로 실시간 원격 모니터링·예지보전할 수 있는 플랫폼. 항공사·공항운영사·정비사·지상조업사·화물사·군까지 고객군으로 확보. 2026-03 PTE World(런던)에서 실시간 가시성·예측 인사이트·모바일 알림 강화 신기능 공개, 신설 탑승교뿐 아니라 기존 노후 탑승교에도 개조 적용 가능함을 강조.",
-   "num": "2-23"
+   "num": "2-24"
   },
   {
    "key": "PBB-TECH-BRU-PIERA-2026",
-   "num": "2-24",
+   "num": "2-25",
    "type": "PBB_tech",
    "title": "브뤼셀공항 Pier A 탑승교 33기 전면 개보수(€2,500만) — 2031년까지 단계적 시행",
    "date": "2026-09-21",
@@ -687,6 +797,18 @@
    "first_seen": "2026-09-22",
    "last_updated": "2026-09-22",
    "summary_note": "브뤼셀공항이 2002년 개장한 Pier A(주로 솅겐권 노선) 탑승교 33기 전량을 대상으로 단계적 개보수 프로그램(2031년까지)을 착수(발표 2026-09-21). 브릿지별 개별 상태진단 후 제어시스템 교체, 센서 추가, 노후 바닥재·창호 등 교체. 목표는 설비수명 15년 이상 연장, 지상조업 효율성 개선, 현행 안전기준 충족. 예산 €2,500만(약 US$2,900만). 기존 추적 중인 '브뤼셀공항 자동·반자동 수하물 적재 스테이션'(BHS-TECH-BRU-LOADSTATION-2026, 1-21, BHS 항목)과는 별개 사업(탑승교 vs 수하물시설). 교차확인: https://www.aviation24.be/airports/brussels-airport-bru/brussels-airport-begins-e25-million-renovation-of-pier-a-boarding-bridges/ ; https://www.airport-suppliers.com/airport_press_release/brussels-airport-renovates-33-passenger-boarding-bridges-in-pier-a/"
+  },
+  {
+   "key": "PBB-TECH-TKE-ATH-AVDGS-2026",
+   "num": "2-26",
+   "type": "PBB_tech",
+   "title": "TK Elevator — 아테네국제공항(AIA) 에이프런 전면 디지털화 전략적 파트너 선정, ApronVision A-VDGS 104기 공급계약",
+   "date": "2026-09 (정확 게시일 미확인, 약 09-18~09-24 사이로 추정)",
+   "link": "https://airsideint.com/tk-elevator-wins-landmark-digital-apron-operations-project-at-athens-international-airport/ ; https://www.tkelevator.com/global-en/newsroom/press-releases/tk-elevator-launches-apronvision-expanding-its-digital-product-portfolio-for-airports-142592.html",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "summary_note": "TK Elevator가 아테네국제공항(AIA)의 에이프런 운영 전면 디지털화 전략적 파트너로 선정되어 ApronVision Advanced Visual Docking Guidance System(A-VDGS) 104기 공급계약을 체결. ApronVision은 3D LiDAR(초당 최대 260만 포인트, 최대 360도 스캔)로 에이프런 전역을 고정밀 감지하여 완전자동 도킹 유도·안전 확보·회전율 향상을 지원하며, 기존 2026-03 PTE London에서 공개된 TK Elevator 'Smart Apron Ecosystem'(기존 추적 2-21, MAX Automate 탑승교 자동화와 통합)의 실제 대규모 공항 도입사례.",
+   "note": "설계 주안점: 기존 2-21(제품 출시 발표)에 이어 등장한 실제 대규모(104기) 공항 적용사례로, 탑승교 자동원격운영(MAX Automate)과 에이프런 도킹유도(A-VDGS)를 하나의 디지털 플랫폼으로 통합하는 추세가 실증 단계로 진입했음을 보여줌. 신공항 또는 대규모 리노베이션 설계 시 개별 게이트 단위 도킹시스템을 개별 발주하기보다 탑승교 제어시스템·에이프런 감시(LiDAR)·자동화 소프트웨어를 처음부터 하나의 통합 플랫폼으로 규격화해 발주하면 향후 자동화 확장(원격/무인 운영 전환)이 용이함을 시사."
   },
   {
    "key": "PBBAUX-INC-AIX-GPU-2025",
@@ -821,16 +943,6 @@
    "num": "3-13"
   },
   {
-   "key": "BHS-TECH-AZALEA-ARC1-2026",
-   "num": "1-27",
-   "type": "BHS_tech",
-   "title": "Azalea Robotics ARC 1 — 세계 최초 완전자율 이동형 수하물 분류 코봇(백룸 자동화)",
-   "date": "2026-01-21",
-   "link": "https://www.azalearobotics.com/insights/introducing-arc-1",
-   "first_seen": "2026-08-30",
-   "last_updated": "2026-08-30"
-  },
-  {
    "key": "PBBAUX-TECH-AUSTRIA-FUNDING-2026",
    "num": "3-14",
    "type": "PBB_aux_tech",
@@ -839,65 +951,6 @@
    "link": "https://www.bmimi.gv.at/en/service/press/releases/2026/0623-airports.html",
    "first_seen": "2026-08-30",
    "last_updated": "2026-08-30"
-  },
-  {
-   "key": "BHS-INC-EMA-2026",
-   "num": "1-13",
-   "type": "BHS_incident",
-   "title": "이스트미들랜즈공항(EMA, 영국) 새벽 정전으로 출발 수하물처리시스템 마비",
-   "date": "2026-08-31",
-   "link": "https://westbridgfordwire.com/east-midlands-airport-baggage-system-out-of-action-after-power-cut/",
-   "first_seen": "2026-08-31",
-   "last_updated": "2026-08-31",
-   "summary_note": "2026-08-31(월, 영국 뱅크홀리데이) 새벽 짧은 정전이 발생해 다른 공항 시스템은 곧 복구됐으나 출발(outbound) 수하물처리시스템만 장시간 정지. 도착 수하물처리는 정상 운영. 공항측은 SNS 공지로 사과하고, 영향받는 승객에게 복용 중인 의약품은 위탁수하물이 아닌 기내 휴대수하물에 넣어둘 것을 권고(일부 위탁수하물이 승객과 같은 항공편에 실리지 못할 가능성을 시사). 엔지니어들이 오전 내내 복구작업을 지속."
-  },
-  {
-   "key": "BHS-TECH-CJIA-GUYANA-2026",
-   "num": "1-28",
-   "type": "BHS_tech",
-   "title": "가이아나 체디자간국제공항(CJIA) 신규 BHS — 체크인 병목 해소 위한 워크플로 재설계",
-   "date": "2026-06(공사착수 보도) / 2026-09말 완공 예정(2026-08-28~29 진행상황 보도)",
-   "link": "https://kaieteurnewsonline.com/2026/08/29/new-baggage-system-to-replace-congested-check-in-screening-at-cjia/",
-   "first_seen": "2026-08-31",
-   "last_updated": "2026-08-31",
-   "summary_note": "가이아나 체디자간국제공항(CJIA)이 GYD 5억1,230만(약 미화 245만달러) 규모 신규 자동 BHS를 2026년 9월말 완공 목표로 설치 중. 기존에는 체크인 카운터 이전 단계에서 수하물을 수동 검색해 터미널 혼잡을 유발했으나, 신규 시스템은 카운터에서 체크인·계중 후 컨베이어로 이송해 후단에서 원격 스크리닝하는 방식으로 전환. 체크인부터 탑재까지 수하물 전 구간 CCTV 상시 촬영과 검색요원·보안요원 바디캠 착용을 의무화해 수하물 이동 이력 추적성을 강화.",
-   "note": "예산 규모는 소형이나(약 245만달러), '검색 위치를 체크인 카운터 이전 단계에서 컨베이어 후단으로 이동'하는 워크플로 설계와 전 구간 CCTV/바디캠 추적성 확보라는 설계개념 자체가 참고가치가 있어 채택."
-  },
-  {
-   "key": "BHS-POLICY-US-DOT-DELAYCAUSE-2026",
-   "num": "1-29",
-   "type": "BHS_tech",
-   "title": "美 DOT 항공지연·결항 원인신고 규정 개정 — 항공사 비통제 BHS 장애를 'Air Carrier' 귀책코드에서 명시 제외",
-   "date": "2026-09-03 관보(Federal Register) 게재, 2026-10-19 발효",
-   "link": "https://www.federalregister.gov/documents/2026/09/03/2026-18040/cause-of-airline-delay-and-cancellation-categories-under-section-511b-of-the-faa-reauthorization-act",
-   "first_seen": "2026-09-03",
-   "last_updated": "2026-09-03",
-   "summary_note": "미 교통부(DOT)가 FAA Reauthorization Act of 2024 Sec.511(b)를 이행하는 최종규칙(Federal Register 2026-18040)을 공포. 14 CFR 234에 따라 항공사가 의무 제출하는 지연·결항 원인 데이터에서, '항공사 또는 그 계약업체가 통제하지 않는 수하물처리시스템(BHS) 장애로 인한 수하물/화물 적재 지연'을 10개 신설 제외사유 중 하나로 명시해 'Air Carrier(항공사 귀책)' 코드에서 공식 제외. 그 외 제외사유로 승객 사망에 따른 기내청소, 이상기상·이물질(FOD)·사보타주에 의한 기체손상, 사이버공격, 정부시스템 장애, 지연불가한 긴급정비 등이 함께 신설됨. 2026-10-19 발효.",
-   "note": "설계 시사점: 공항이 소유·운영(또는 위탁운영)하는 BHS의 정전·기계결함으로 인한 지연이 이제 항공사 책임과 분리된 별도 연방 통계항목으로 공식 집계됨에 따라, 신규/개량 BHS 설계 단계에서 (1) 정전 대비 이중전원·백업계통, (2) 장애 발생시각·원인을 자동 기록하는 모니터링/로그 체계, (3) 공항운영자-항공사 간 SLA·가동률 조항의 사전 반영 필요성이 커짐. 공항측 규제·평판 리스크가 데이터로 가시화되는 최초의 미국 연방 사례."
-  },
-  {
-   "key": "BHS-TECH-ICN-POSCODX-AI-2026",
-   "num": "1-30",
-   "type": "BHS_tech",
-   "title": "인천공항공사·포스코DX 'AI 기반 수하물 이상탐지 시스템' 공동개발 — 특허 출원",
-   "date": "2026-09-07 발표(제1여객터미널 시범운영 완료 후 특허 출원)",
-   "link": "https://www.fnnews.com/news/202609071054001924",
-   "first_seen": "2026-09-08",
-   "last_updated": "2026-09-08",
-   "summary_note": "인천국제공항공사가 포스코DX(옛 포스코ICT)와 공동으로 BHS 컨베이어 라인에 설치된 비전 카메라 영상을 딥러닝 모델로 실시간 분석해 육안·기존 센서로는 포착하기 어려운 수하물 이상 상태를 감지하는 시스템을 개발, 관련 특허를 출원했다고 2026-09-07 발표. 감지 대상은 (1) 수하물 2개가 겹쳐 바코드 인식을 막는 '이중 적재', (2) 캐리어 손잡이가 펴진 채 이송되어 설비 구조물에 걸릴 위험이 있는 상태, (3) 수하물이 BHS 이송용 튜브(tub)에서 이탈한 상태 3가지. 제1여객터미널에 시범 설치·운영한 결과 오분류·파손을 유발할 수 있는 이상 수하물을 100% 검출했다고 밝힘. 인천공항은 100만 개당 약 2개 수준의 세계 최고 수준 수하물 오분류율을 유지 중이라고 자체 홍보. 세션 네트워크 프록시가 fnnews.com·mt.co.kr·segye.com·ngonews.kr 등 원문 직접접근을 차단해 파이낸셜뉴스·세계일보·인천일보·한국NGO신문·24news 등 5개 이상 독립 매체의 검색 스니펫으로 사실관계 교차검증(정확도 수치·특허 출원번호 등 세부사항은 원문 직접확인 필요).",
-   "note": "설계 시사점: 신규/개량 BHS 설계 시 컨베이어·튜브카트 구간에 비전 카메라+AI 이상감지 계층을 표준 사양으로 반영하면 오분류·파손·설비끼임 사고(예: 뉴어크 1-8 사례처럼 이물 진입) 예방에 활용 가능. 특히 '이중적재'·'핸들 돌출'·'튜브이탈' 3대 이상유형은 크로스벨트/토트 방식 등 자동분류설비를 채택하는 신공항(CPK, KLIA, CJIA 등)의 검사 포인트 설계에 참고할 만함. 국내(인천공항) 사례로서 원가·유지보수 측면의 국산화 대안으로도 참고 가치가 있음."
-  },
-  {
-   "key": "BHS-TECH-TOMPKINS-FTEGLOBAL-2026",
-   "num": "1-31",
-   "type": "BHS_tech",
-   "title": "Tompkins Robotics tSort — 컨베이어 없는 로봇 소팅을 TSA 체크포인트·위탁수하물 보안검색 흐름에 적용, FTE Global 2026 전시",
-   "date": "2026-09-08~10 FTE Global(댈러스, 20주년) Booth MB1 전시·발표",
-   "link": "https://www.tompkinsrobotics.com/blog/fte-global-2026",
-   "first_seen": "2026-09-10",
-   "last_updated": "2026-09-10",
-   "summary_note": "Tompkins Robotics(미국)가 자사의 모듈형 로봇 소팅 시스템 tSort를 공항 TSA 보안검색 체크포인트 및 위탁수하물 흐름에 적용하는 '차세대 공항보안 자동화 솔루션'을 FTE Global 2026(2026-09-08~10, 댈러스, 20주년 행사, Booth MB1)에서 공개·전시했다고 발표. tSort는 기존 컨베이어·고정 트랙 방식과 달리 자율주행 로봇이 수하물을 최적 경로로 동적 라우팅하는 방식으로, 시간당 최대 40,000개 처리·최대 610,000개 목적지 분류가 가능하다고 제작사가 밝힘(전자상거래·물류 분야 기 상용화 제품을 공항 보안검색 응용으로 확장하는 단계이며, 특정 공항 실배치 사례는 아직 확인되지 않은 전시·발표 단계). 세션 네트워크 프록시가 제작사·업계지 원문 직접접근을 차단해 검색 스니펫으로 교차검증(원문 직접 확인 시 실배치 일정·계약 공항 등 세부사항 재확인 필요).",
-   "note": "설계 시사점: 컨베이어·고정 트랙이 없는 로봇 기반 동적 소팅 방식이 실용화되면 TSA 체크포인트 연계 보안검색(CBIS/EDS in-line screening)과 위탁수하물 처리 구간의 설비 배치 자유도가 높아져, 기존 컨베이어 중심 설계 대비 터미널 리노베이션·증축 시 구조적 제약(고정 컨베이어 경로 변경의 어려움)을 줄일 수 있는 대안으로 참고 가치 있음. 다만 아직 실제 공항 배치사례가 확인되지 않아 신뢰도는 '전시·발표' 단계로 한정, 실배치 사례 확인 시 재평가 필요."
   },
   {
    "key": "PBBAUX-TECH-GERMANY-BMV-GPUPCA-2026",
@@ -910,42 +963,6 @@
    "last_updated": "2026-09-23",
    "summary_note": "독일 연방교통부(BMV) 산하 연방행정서비스청(BAV)이 베를린브란덴부르크·뒤셀도르프·프랑크푸르트·하노버·뮌스터/오스나브뤼크·파더보른/리프슈타트·로스토크-라게·슈투트가르트 등 공항 운영사·지상조업사에 총 15건의 보조금 교부결정서(2,560만유로)를 발급했다고 2026-09-21 보도됨. 2023년 프로그램 개시 이후 누적 지원액은 22개 공항 대상 약 5,000만유로(지상전원장치 258기, 충전소 87개소, PCA 설비 80기)에 달함. 이번 회차부터 처음으로 지상전원(GPU) 외에 PCA(항공기 공조용 냉난방공기 공급) 설비도 지원대상에 포함 — EU AFIR(공항 지상전원 2030년 의무화)·TEN-T(주요공항 PCA 2031년 의무화) 규정 대응 목적. 광동체기 기준 시간당 최대 300리터 항공유 절감 효과 주장.",
    "note": "설계 시사점: 오스트리아(3-14, 2026-06)에 이어 유럽 국가정책 사례가 'GPU 단독 지원'에서 'GPU+PCA 동시 지원'으로 확대되는 흐름이 재확인됨. EU AFIR(2030년 GPU 의무화)·TEN-T(2031년 주요공항 PCA 의무화) 시한을 앞두고 각국이 노후 디젤 GPU·이동식 PCA 유닛을 전동화·고정설비로 전환하도록 재정 인센티브를 제공하는 패턴이 반복 확인됨 — 국내 신공항(가덕도 등) 설계 시에도 향후 국제기준(상시 전동 GPU·PCA 공급)의 선제 반영과 국고보조 연계 가능성을 참고할 만함. 세션 네트워크 프록시가 aviationpros.com·now-gmbh.de 원문 직접접근을 차단해 두 개 독립 출처(AviationPros·NOW GmbH 공식 보도자료)의 WebSearch 스니펫으로 교차검증."
-  },
-  {
-   "key": "PBB-TECH-TKE-ATH-AVDGS-2026",
-   "num": "2-25",
-   "type": "PBB_tech",
-   "title": "TK Elevator — 아테네국제공항(AIA) 에이프런 전면 디지털화 전략적 파트너 선정, ApronVision A-VDGS 104기 공급계약",
-   "date": "2026-09 (정확 게시일 미확인, 약 09-18~09-24 사이로 추정)",
-   "link": "https://airsideint.com/tk-elevator-wins-landmark-digital-apron-operations-project-at-athens-international-airport/ ; https://www.tkelevator.com/global-en/newsroom/press-releases/tk-elevator-launches-apronvision-expanding-its-digital-product-portfolio-for-airports-142592.html",
-   "first_seen": "2026-09-28",
-   "last_updated": "2026-09-28",
-   "summary_note": "TK Elevator가 아테네국제공항(AIA)의 에이프런 운영 전면 디지털화 전략적 파트너로 선정되어 ApronVision Advanced Visual Docking Guidance System(A-VDGS) 104기 공급계약을 체결. ApronVision은 3D LiDAR(초당 최대 260만 포인트, 최대 360도 스캔)로 에이프런 전역을 고정밀 감지하여 완전자동 도킹 유도·안전 확보·회전율 향상을 지원하며, 기존 2026-03 PTE London에서 공개된 TK Elevator 'Smart Apron Ecosystem'(기존 추적 2-21, MAX Automate 탑승교 자동화와 통합)의 실제 대규모 공항 도입사례.",
-   "note": "설계 주안점: 기존 2-21(제품 출시 발표)에 이어 등장한 실제 대규모(104기) 공항 적용사례로, 탑승교 자동원격운영(MAX Automate)과 에이프런 도킹유도(A-VDGS)를 하나의 디지털 플랫폼으로 통합하는 추세가 실증 단계로 진입했음을 보여줌. 신공항 또는 대규모 리노베이션 설계 시 개별 게이트 단위 도킹시스템을 개별 발주하기보다 탑승교 제어시스템·에이프런 감시(LiDAR)·자동화 소프트웨어를 처음부터 하나의 통합 플랫폼으로 규격화해 발주하면 향후 자동화 확장(원격/무인 운영 전환)이 용이함을 시사."
-  },
-  {
-   "key": "BHS-TECH-LEONARDO-CROSSBELT-HAM-MED-2026",
-   "num": "1-32",
-   "type": "BHS_tech",
-   "title": "Leonardo 크로스벨트(MBHS) 소터 — 함부르크공항 BHS 전면교체(2026~2029, 가동 중 단계시공) + 메디나(PMIA) 공급(09-18)",
-   "date": "2026-04-29 / 2026-09-18",
-   "link": "https://www.leonardo.com/en/press-release-detail/-/detail/leonardo-relaizes-cross-belt-technology-for-hamburg-airport ; https://www.defaiya.com/news/Aviation%20Space/Aviation%20Space/2026/09/18/leonardo-to-supply-cross-belt-sorter-technology-to-prince-mohammed-bin-abdulaziz-int-l-airport",
-   "first_seen": "2026-10-06",
-   "last_updated": "2026-10-06",
-   "summary_note": "함부르크 T1·Plaza 구역 기존 BHS를 크로스벨트 소터로 전면 교체, 공항 운영을 유지한 단계적 시공, IoT 센서·AI 기반 유지보수 최적화 적용. 메디나 신공항에도 동일 기술 공급. (본문은 검색 요약 기반, 원문 접속 차단으로 직접 열람 미확인)",
-   "note": "설계 주안점: 운영 중 터미널 BHS 교체 시 단계별 전환 계획(임시 동선·병행운전), 크로스벨트 소터의 취급 가능 수하물 형상 범위와 파손 저감, IoT/AI 예지보전을 위한 센서·데이터 인터페이스를 초기 설계에 반영."
-  },
-  {
-   "key": "BHS-POLICY-PSP-AIG-2026",
-   "num": "1-33",
-   "type": "BHS_tech",
-   "title": "팜스프링스공항(PSP) 신규 출발 BHS 사업 — FAA AIG 최종 $5.5M, 총사업비 $93.6M 중 연방 $66.5M(70%+), 2028년 말 완공",
-   "date": "2026-09-30",
-   "link": "https://flypsp.com/psp-secures-final-5-5-million-federal-grant-for-new-baggage-handling-system/ ; https://www.nbcpalmsprings.com/local-and-community/2026/09/30/palm-springs-airport-secures-final-55-million-for-new-baggage-system",
-   "first_seen": "2026-10-06",
-   "last_updated": "2026-10-06",
-   "summary_note": "출발 위탁수하물 체크인→보안검색→분류→항공사 인계 전 구간 신설. 최종 연차 보조금은 소프트웨어 통합·시운전·시험·사업관리 단계에 배정, 향후 15년 수요 대응.",
-   "note": "설계 주안점: 중소공항도 TSA 기준 인라인 CBIS 신설이 대형 재정(연방 보조 70%+)과 4~5년 공정으로 추진됨 — 15년 수요 대비 용량, 소프트웨어 통합·시운전 비용 별도 산정 필요."
   }
  ]
 }

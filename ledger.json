@@ -2488,8 +2488,8 @@
    "authority": "Pakistan Airports Authority (PAA), Logistics ANS, JIAP Karachi",
    "scope": "위탁수하물 CT 검색장비 3기 공급·설치·시운전·교육·FAT/SAT, 기존 인라인 BHS(출발 라인) 연동. 규격: ECAC EDS Std3/TSA, 터널 ≥1000×750mm, ≥1800 bph, Standalone+BHS 겸용, 기존 BHS 제어 연동 현장조사. 납기 120일, 보증 2년.",
    "method": "National, Single Stage-Two Envelope, Least Cost Based Selection(기술 100% 적합 pass/fail 후 최저가). JV 불허. 이행보증 10%.",
-   "budget": "미공개. 입찰보증금 PKR 36,112,500 → 보증률 5%면 추정가 ≈PKR 722M(≈35억원), 2%면 ≈PKR 1.81bn(≈87억원). Std3 CT 3기+연동 시장가 고려 시 BHS 임계값(50억) 경계 — 금액 판정 보류",
-   "budget_krw_est": null,
+   "budget": "추정가격 비공개(파키스탄 PPRA 관행상 입찰문서에 미기재). 역산: 최초 공고~Corr#5 입찰보증금 PKR 72,225,000(3기 동일) — PPRA Rules 2004 Rule 27 상 입찰보증 ≤ 추정가의 5% → 추정가 ≥ PKR 1,444,500,000(≈USD 5.16M ≈ 70억원, 기당 ≈PKR 481.5M). Corr#6(09-10)부터 보증금 PKR 36,112,500으로 정확히 절반 → 동일 추정가의 2.5%로 해석이 가장 정합(물량 3기 불변). → 추정 기준금액 ≈ PKR 1.44bn(약 70억원), BHS 임계값(50억) 상회.",
+   "budget_krw_est": 6960000000,
    "status": "open",
    "published": "2026-07경 최초(EPADS P66794, 사전입찰회의 08-11) → 정정공고 9회, 최신 Corrigendum #9 2026-09-30",
    "deadline": "2026-10-15 11:00 PKT (개찰 동일, EPADS v2.0)",
@@ -2500,7 +2500,7 @@
    "spec_original": "bidding-document.pdf_010 (Corrigendum #9, 2026-09-30) — 'OPERATIONAL AND TECHNICAL SPECIFICATIONS/COMPLIANCE SHEET' 포함",
    "first_seen": "2026-10-14",
    "last_updated": "2026-10-14",
-   "notes": "42차 신규. globaltenders 목록(정정공고 09-30)에서 단서 → EPADS 원문 PDF 직접 확보·확인. 마감 이력: 09-15 → 10-01(Corr#6) → 10-15(Corr#8/9). 별도 기내수하물 CT(P58724)는 스코프 외. | 2026-10-14(사용자 요청 상세조사): I/T No. HQPAA/1992/371/XXLN, 내부 procurement 57427. 기존 BHS=Leonardo, 기존 HBS=Smiths HS10080XCT/EDX·CTX5800. 10-09 Addendum: 납기 200일, Leonardo(또는 공인 통합사) 프로젝트 확인서 없는 입찰은 부적합. 입찰보증 72.225M→36.1125M PKR(물량/추정가 축소 시사). 연락: humayun.azhar@paa.gov.pk, sajid.noor@paa.gov.pk, +92-21-9907-2264/2265."
+   "notes": "42차 신규. globaltenders 목록(정정공고 09-30)에서 단서 → EPADS 원문 PDF 직접 확보·확인. 마감 이력: 09-15 → 10-01(Corr#6) → 10-15(Corr#8/9). 별도 기내수하물 CT(P58724)는 스코프 외. | 2026-10-14(사용자 요청 상세조사): I/T No. HQPAA/1992/371/XXLN, 내부 procurement 57427. 기존 BHS=Leonardo, 기존 HBS=Smiths HS10080XCT/EDX·CTX5800. 10-09 Addendum: 납기 200일, Leonardo(또는 공인 통합사) 프로젝트 확인서 없는 입찰은 부적합. 입찰보증 72.225M→36.1125M PKR(물량/추정가 축소 시사). 연락: humayun.azhar@paa.gov.pk, sajid.noor@paa.gov.pk, +92-21-9907-2264/2265. | 2026-10-14(사용자 요청 예산 재조사): 첨부 16건·SBD 164쪽·Corr#0~9 전수 확인, 추정가 명시 없음. Corr#0/1 보증금 72,225,000 → Corr#6~9 36,112,500(물량 3기 동일) 확인 → Rule 27(5% 상한) 역산으로 추정가 ≥ PKR 1.4445bn 산출."
   },
   {
    "key": "FI-RVN-BHS-MOD",

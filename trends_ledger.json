@@ -190,6 +190,11 @@
         "date": "2026-10-13",
         "weekday": "Tuesday",
         "note": "KST 재확인 화요일. 검색 4건, 신규·변동 없음(ATL 탑승교 건은 기보고). 금요일 아님."
+      },
+      {
+        "date": "2026-10-14",
+        "weekday": "Wednesday",
+        "note": "KST 재확인 수요일(금요일 아님). 검색 6건, 신규 1건(3-16 CIAL 탑승교 부착형 GPU·PCA). BHS/PBB 신규 장애 없음."
       }
     ],
     "last_run": "2026-09-25"
@@ -968,6 +973,18 @@
       "last_updated": "2026-09-23",
       "summary_note": "독일 연방교통부(BMV) 산하 연방행정서비스청(BAV)이 베를린브란덴부르크·뒤셀도르프·프랑크푸르트·하노버·뮌스터/오스나브뤼크·파더보른/리프슈타트·로스토크-라게·슈투트가르트 등 공항 운영사·지상조업사에 총 15건의 보조금 교부결정서(2,560만유로)를 발급했다고 2026-09-21 보도됨. 2023년 프로그램 개시 이후 누적 지원액은 22개 공항 대상 약 5,000만유로(지상전원장치 258기, 충전소 87개소, PCA 설비 80기)에 달함. 이번 회차부터 처음으로 지상전원(GPU) 외에 PCA(항공기 공조용 냉난방공기 공급) 설비도 지원대상에 포함 — EU AFIR(공항 지상전원 2030년 의무화)·TEN-T(주요공항 PCA 2031년 의무화) 규정 대응 목적. 광동체기 기준 시간당 최대 300리터 항공유 절감 효과 주장.",
       "note": "설계 시사점: 오스트리아(3-14, 2026-06)에 이어 유럽 국가정책 사례가 'GPU 단독 지원'에서 'GPU+PCA 동시 지원'으로 확대되는 흐름이 재확인됨. EU AFIR(2030년 GPU 의무화)·TEN-T(2031년 주요공항 PCA 의무화) 시한을 앞두고 각국이 노후 디젤 GPU·이동식 PCA 유닛을 전동화·고정설비로 전환하도록 재정 인센티브를 제공하는 패턴이 반복 확인됨 — 국내 신공항(가덕도 등) 설계 시에도 향후 국제기준(상시 전동 GPU·PCA 공급)의 선제 반영과 국고보조 연계 가능성을 참고할 만함. 세션 네트워크 프록시가 aviationpros.com·now-gmbh.de 원문 직접접근을 차단해 두 개 독립 출처(AviationPros·NOW GmbH 공식 보도자료)의 WebSearch 스니펫으로 교차검증."
+    },
+    {
+      "key": "PBBAUX-TECH-CIAL-BRIDGEMOUNT-2026",
+      "num": "3-16",
+      "type": "PBB_aux_tech",
+      "title": "코친국제공항(CIAL, 인도) 탑승교 부착형 GPU·PCA 도입 — 90kVA GPU 10기 + 90TR PCA 10기(Rs 15.04 crore)",
+      "date": "2026-09-18 보도 (개소 예정 09-24)",
+      "link": "https://www.onmanorama.com/news/kerala/2026/09/18/cial-to-power-parked-aircraft-with-bridge-mounted-equipment-cut-ground-emissions.html ; https://www.newkerala.com/news/a/keralam-cochin-international-airport-install-bridge-mounted-equipment-power-736.htm",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "summary_note": "CIAL이 탑승교 부착형 90kVA GPU 10기, 90TR PCA 10기, 이동식 GPU·PCA 각 1기(총 Rs 15.04 crore)를 도입. 시간당 CO2 122~145kg 감축 및 에이프런 소음 저감 주장. 09-24 개소 예정으로 보도(개소 확정은 미확인).",
+      "note": "설계 시사점: 탑승교 부착형 GPU·PCA의 용량(90kVA/90TR)을 기종 혼재 게이트에 맞춰 산정하고, 교량 구조하중·전원/냉수 인입 경로·소음 기준을 초기 설계에 반영. 이동식 예비 1기 병행은 용량부족 사고(3-1) 대비 참고."
     }
   ]
 }

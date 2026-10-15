@@ -2579,7 +2579,9 @@
    "first_seen": "2026-10-14",
    "last_updated": "2026-10-15",
    "deadline": "2026-05-05 14:00 NZT (마감)",
-   "notes": "42차 신규 리드. 애그리게이터(GETS 전재): 03-03 공고, CT-EDSHB 최대 30기(+옵션) ECAC Std3/TSA, 유지보수계약 포함, 06월 계약·2027-06 설치. 규모상 임계값 대폭 상회 추정. GETS 원문 미확인 → 원문/낙찰 확인 시 confirmed_in_scope(closed/awarded) 승격. | 2026-10-15 (43차): GETS 공식 RFP 원문 확인 → confirmed_in_scope(closed) 승격. RFx ID 33811330(공개 2026-03-30, 마감 2026-05-05 14:00 NZT), 사전공고 NOI RFx 33631163(03-03). 대상 공항: 오클랜드·해밀턴·웰링턴·인버카길·퀸스타운·크라이스트처치·더니든. 낙찰(RFx Outcome) 미게시."
+   "notes": "42차 신규 리드. 애그리게이터(GETS 전재): 03-03 공고, CT-EDSHB 최대 30기(+옵션) ECAC Std3/TSA, 유지보수계약 포함, 06월 계약·2027-06 설치. 규모상 임계값 대폭 상회 추정. GETS 원문 미확인 → 원문/낙찰 확인 시 confirmed_in_scope(closed/awarded) 승격. | 2026-10-15 (43차): GETS 공식 RFP 원문 확인 → confirmed_in_scope(closed) 승격. RFx ID 33811330(공개 2026-03-30, 마감 2026-05-05 14:00 NZT), 사전공고 NOI RFx 33631163(03-03). 대상 공항: 오클랜드·해밀턴·웰링턴·인버카길·퀸스타운·크라이스트처치·더니든. 낙찰(RFx Outcome) 미게시. | 2026-10-15(사용자 요청 RFP 원문 조사): GETS 공개 페이지(로그아웃 상태)에 첨부 링크 없음 → 등록 공급자 전용. 웹상 RFP PDF 유출본 없음. RFP 유형=Request for Proposals, 가격/비가격 분리제출(split file responses), 분류 UNSPSC 46000000/92000000, 담당 Malcolm Morrison(procurement@caa.govt.nz). 마감 후라 GETS 계정으로도 다운로드 불가할 수 있음 → CAA에 직접 요청 필요.",
+   "spec_access": "registration",
+   "spec_original": "GETS RFx 33811330 첨부(RFP 본문·가격/비가격 분리 응답양식) — GETS 공급자 로그인 후에만 열람, 공개 페이지에는 문서 목록 미노출. 문의 Malcolm Morrison, procurement@caa.govt.nz"
   },
   {
    "key": "PY-ASU-PBB2-DINAC",

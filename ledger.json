@@ -247,6 +247,11 @@
     "date": "2026-10-16",
     "weekday": "Friday",
     "note": "44th run (KST Friday weekly rollup 10-10~10-16). PBB: new TUL(awarded USD 4.4M), CGN 4 PBB(awarded EUR 3.4M), OTP Bucharest(rejected/retender). BHS: FRA VE2225 Pier G sorter (closed EOI, restricted/registration), SZG controls. Low: VCE HBS L4 VEAT, MAD SATE e-stop, PRG carousel 14. Updates: ASU PBB deadline 10-20, VIE value conflict resolved, Gimhae = design service only (g2b official files)."
+   },
+   {
+    "date": "2026-10-19",
+    "weekday": "Monday",
+    "note": "45th run (KST 10-19 Mon). Changes: PY-ASU PBB deadline → 10-28; TSA EBSP Amd1 → 10-23; MUC GSH-113 TED 711341 (GFA follow-up); FRA VE9132 = early-bag storage. New leads: OTP large-tunnel X-ray (TED 709694, scope unclear), Sweden domestic arrival BHS. VCE 4th Std3 line VEAT TED 714445 (= existing IT-VCE-BHS-NORD-L4). No new confirmed. Not Friday → no notification."
    }
   ],
   "last_run": "2026-10-02",
@@ -1809,8 +1814,8 @@
    "link": "xvergabe.de (Los-ID 3183752 = VE9131/M10; Los-ID 3180787 = VE9132/M11); bauportal-deutschland.de listing (egress blocked); via dtad.com / bidfix.ai snippets ; VE9132 TED 공식: https://ted.europa.eu/en/notice/-/detail/647357-2026",
    "attachments": "On xvergabe.de after registration (not publicly fetchable in this env).",
    "first_seen": "2026-10-01",
-   "last_updated": "2026-10-07",
-   "notes": "NEW 10-01 (run33). Genuine published Bekanntmachung(en) (VOB/A) on xvergabe.de for two Frankfurt T3 BHS lots — distinct from tracked Hamburg HAM BHS. Real OPEN tender (deadline 2026-10-16). Budget not disclosed in snippets → BHS 임계값 충족 여부 미확정(개별 컨베이어 lot일 수 있어 다음 실행 값 확인 필요). egress 차단(xvergabe/bauportal/openprocurements)으로 발주일·값·첨부목록 직접 미확인, dtad/bidfix 스니펫 기반. | 10-07 (run37): VE9132 \"Erweiterung Frühgepäckspeicher (M11)\" TED 647357-2026 확인(게시 2026-09-21, 참가신청 마감 2026-10-26 23:59, 협상절차, 가격 단일기준). 범위: 토트 컨베이어 ~2,400m + 디스태커 1기 공급·설치, ~150m 철거·재사용, 구동부 ~400개, 신규 기능구역 제어 3식(PLC+셀컨트롤러)·기존 9식 개조, 비상정지·저압배전·시각화 연동, 상세설계~시운전. 일정: 착수 2027 Q2, 설치 2028 Q1, 사용개시 2028 Q4, 준공 2029 Q2. 금액 미기재(규모상 50억 상회 추정). sorter: 토트(ICS) 방식 EBS → loop sorter 아님(sorter=no). VE9131 변동 없음(TED 미게재, 자체 포털).",
+   "last_updated": "2026-10-19",
+   "notes": "NEW 10-01 (run33). Genuine published Bekanntmachung(en) (VOB/A) on xvergabe.de for two Frankfurt T3 BHS lots — distinct from tracked Hamburg HAM BHS. Real OPEN tender (deadline 2026-10-16). Budget not disclosed in snippets → BHS 임계값 충족 여부 미확정(개별 컨베이어 lot일 수 있어 다음 실행 값 확인 필요). egress 차단(xvergabe/bauportal/openprocurements)으로 발주일·값·첨부목록 직접 미확인, dtad/bidfix 스니펫 기반. | 10-07 (run37): VE9132 \"Erweiterung Frühgepäckspeicher (M11)\" TED 647357-2026 확인(게시 2026-09-21, 참가신청 마감 2026-10-26 23:59, 협상절차, 가격 단일기준). 범위: 토트 컨베이어 ~2,400m + 디스태커 1기 공급·설치, ~150m 철거·재사용, 구동부 ~400개, 신규 기능구역 제어 3식(PLC+셀컨트롤러)·기존 9식 개조, 비상정지·저압배전·시각화 연동, 상세설계~시운전. 일정: 착수 2027 Q2, 설치 2028 Q1, 사용개시 2028 Q4, 준공 2029 Q2. 금액 미기재(규모상 50억 상회 추정). sorter: 토트(ICS) 방식 EBS → loop sorter 아님(sorter=no). VE9131 변동 없음(TED 미게재, 자체 포털). | 45차(2026-10-19): VE9132 TED 647357-2026 제목 = \"Erweiterung Frühgepäckspeicher (M11)\"(조기수하물보관 확장). 변경공고 없음.",
    "sorter": "no",
    "spec_access": "registration"
   },
@@ -2035,8 +2040,8 @@
    "spec_access": "unknown",
    "spec_original": null,
    "first_seen": "2026-10-08",
-   "last_updated": "2026-10-08",
-   "notes": "38차 신규 리드. 후속 BHS(Gepäckförderanlage) 공고 감시 — loop sorter 후보."
+   "last_updated": "2026-10-19",
+   "notes": "38차 신규 리드. 후속 BHS(Gepäckförderanlage) 공고 감시 — loop sorter 후보. | 45차(2026-10-19): TED 711341-2026(10-15, 변경/재게시) — 건물 GC 공고. 수하물 컨베이어(GFA) 별도 GC 입찰·교량 별도 계약 후속 예정 명시. 문서: https://www.dtvp.de/Satellite/notice/CXP4Y9DMPQS/documents"
   },
   {
    "key": "DE-MUC-T2-GSHE-BHS",
@@ -2165,12 +2170,12 @@
    "budget_krw_est": null,
    "status": "upcoming",
    "published": "2026-09-24",
-   "deadline": "응답 2026-10-16",
+   "deadline": "응답 2026-10-23 (Amd 00001)",
    "link": "https://sam.gov/opp/83071f1c20df430192cdb1a1b21fea07/view",
    "attachments": "SAM.gov",
    "first_seen": "2026-10-09",
-   "last_updated": "2026-10-09",
-   "notes": "입찰공고 아님(사전공고) → 리드."
+   "last_updated": "2026-10-19",
+   "notes": "입찰공고 아님(사전공고) → 리드. | 45차(2026-10-19): Amendment 00001(10-17, GlobalTenders 경유): 누락 첨부 추가, 응답기한 10-23으로 연장. SAM.gov 원문 미확인."
   },
   {
    "key": "US-PBB-REPLACE-PARTA-UNK",
@@ -2474,8 +2479,8 @@
    "country": "USA",
    "status": "status_unconfirmed",
    "first_seen": "2026-10-13",
-   "last_updated": "2026-10-15",
-   "notes": "NEW lead 10-13(run41). MAC 미니애폴리스(MSP) 탑승교 교체 Phase 2(1기 개보수·이설, 07-14 마감) — 애그리게이터(SamSearch 241681)만, MAC 공식공고 미확인 | 2026-10-15 (43차): MAC Solicitation 181, 입찰 2026-07-14 마감(ConstructConnect \"Post-Bid\") — 애그리게이터 정보, 낙찰·개찰표 미확인."
+   "last_updated": "2026-10-19",
+   "notes": "NEW lead 10-13(run41). MAC 미니애폴리스(MSP) 탑승교 교체 Phase 2(1기 개보수·이설, 07-14 마감) — 애그리게이터(SamSearch 241681)만, MAC 공식공고 미확인 | 2026-10-15 (43차): MAC Solicitation 181, 입찰 2026-07-14 마감(ConstructConnect \"Post-Bid\") — 애그리게이터 정보, 낙찰·개찰표 미확인. | 45차(2026-10-19): 공식 입찰문서 미확인(변동 없음)."
   },
   {
    "key": "US-SBN-PBB-GATE7",
@@ -2485,8 +2490,8 @@
    "country": "USA",
    "status": "status_unconfirmed",
    "first_seen": "2026-10-13",
-   "last_updated": "2026-10-13",
-   "notes": "NEW lead 10-13(run41). South Bend(SBN) Gate 7 탑승교 교체 RFP(08-28 게시, 09-17 마감) — Starbridge만, 공식공고 미확인"
+   "last_updated": "2026-10-19",
+   "notes": "NEW lead 10-13(run41). South Bend(SBN) Gate 7 탑승교 교체 RFP(08-28 게시, 09-17 마감) — Starbridge만, 공식공고 미확인 | 45차(2026-10-19): 공식 입찰문서 미확인(변동 없음)."
   },
   {
    "key": "PK-ISB-HBS-CT3",
@@ -2509,8 +2514,8 @@
    "spec_access": "public",
    "spec_original": "bidding-document.pdf_010 (Corrigendum #9, 2026-09-30) — 'OPERATIONAL AND TECHNICAL SPECIFICATIONS/COMPLIANCE SHEET' 포함",
    "first_seen": "2026-10-14",
-   "last_updated": "2026-10-16",
-   "notes": "42차 신규. globaltenders 목록(정정공고 09-30)에서 단서 → EPADS 원문 PDF 직접 확보·확인. 마감 이력: 09-15 → 10-01(Corr#6) → 10-15(Corr#8/9). 별도 기내수하물 CT(P58724)는 스코프 외. | 2026-10-14(사용자 요청 상세조사): I/T No. HQPAA/1992/371/XXLN, 내부 procurement 57427. 기존 BHS=Leonardo, 기존 HBS=Smiths HS10080XCT/EDX·CTX5800. 10-09 Addendum: 납기 200일, Leonardo(또는 공인 통합사) 프로젝트 확인서 없는 입찰은 부적합. 입찰보증 72.225M→36.1125M PKR(물량/추정가 축소 시사). 연락: humayun.azhar@paa.gov.pk, sajid.noor@paa.gov.pk, +92-21-9907-2264/2265. | 2026-10-14(사용자 요청 예산 재조사): 첨부 16건·SBD 164쪽·Corr#0~9 전수 확인, 추정가 명시 없음. Corr#0/1 보증금 72,225,000 → Corr#6~9 36,112,500(물량 3기 동일) 확인 → Rule 27(5% 상한) 역산으로 추정가 ≥ PKR 1.4445bn 산출. | 2026-10-15 (43차): Addendum-3(2026-10-14) — 조항 2.6(j) BHS 연동 재기술, 하위항목(vi)[OEM 확인서 없는 자체확약=부적합] 삭제 → Leonardo 확인서 요건 완화. 마감 10-15 11:00/개찰 11:30 PKT 불변, 착수 예정 2026-11-24. https://pa.epads.gov.pk/gallery/procurement/57427/annexure/Hold_Baggage_CT_Scann-1992-371-XXLN.pdf | 2026-10-15 17:30 KST(사용자 요청 개찰결과 확인): 마감 10-15 11:00 PKT 그대로 경과(Corrigendum #10 = 10-09, Addendum 반영만·일정 변동 없음, 그 이후 정정 없음). 개찰기록·응찰사 목록은 EPADS 공개면·PPRA·웹 어디에도 미게시(공개 첨부 17건 불변). 1단계 2봉투라 가격봉투는 기술평가 후 별도 개봉. 다음 확인 10-16 14:30 KST. | 44차(2026-10-16): Corr#1~10 확인, 제출 10-15 11:00/개찰 11:30. 평가보고서 탭 비활성 → 개찰결과 미공개. | 2026-10-16 14:30 KST(2차 개찰결과 확인): 여전히 미게시 — SBD 첨부 17건 불변, 신규 정정공고 없음(corrigendum _012 이후 서버 타임아웃), PPRA·웹 검색 결과 없음. 참고: propakistani 2026-10-10 보도(총리 지시로 주요공항 스캐너 항공운송·설치 지시) — 본 건 연관 여부 미확인. 이후 정규 입찰추적 루틴에서 계속 추적(평가보고서/낙찰공고)."
+   "last_updated": "2026-10-19",
+   "notes": "42차 신규. globaltenders 목록(정정공고 09-30)에서 단서 → EPADS 원문 PDF 직접 확보·확인. 마감 이력: 09-15 → 10-01(Corr#6) → 10-15(Corr#8/9). 별도 기내수하물 CT(P58724)는 스코프 외. | 2026-10-14(사용자 요청 상세조사): I/T No. HQPAA/1992/371/XXLN, 내부 procurement 57427. 기존 BHS=Leonardo, 기존 HBS=Smiths HS10080XCT/EDX·CTX5800. 10-09 Addendum: 납기 200일, Leonardo(또는 공인 통합사) 프로젝트 확인서 없는 입찰은 부적합. 입찰보증 72.225M→36.1125M PKR(물량/추정가 축소 시사). 연락: humayun.azhar@paa.gov.pk, sajid.noor@paa.gov.pk, +92-21-9907-2264/2265. | 2026-10-14(사용자 요청 예산 재조사): 첨부 16건·SBD 164쪽·Corr#0~9 전수 확인, 추정가 명시 없음. Corr#0/1 보증금 72,225,000 → Corr#6~9 36,112,500(물량 3기 동일) 확인 → Rule 27(5% 상한) 역산으로 추정가 ≥ PKR 1.4445bn 산출. | 2026-10-15 (43차): Addendum-3(2026-10-14) — 조항 2.6(j) BHS 연동 재기술, 하위항목(vi)[OEM 확인서 없는 자체확약=부적합] 삭제 → Leonardo 확인서 요건 완화. 마감 10-15 11:00/개찰 11:30 PKT 불변, 착수 예정 2026-11-24. https://pa.epads.gov.pk/gallery/procurement/57427/annexure/Hold_Baggage_CT_Scann-1992-371-XXLN.pdf | 2026-10-15 17:30 KST(사용자 요청 개찰결과 확인): 마감 10-15 11:00 PKT 그대로 경과(Corrigendum #10 = 10-09, Addendum 반영만·일정 변동 없음, 그 이후 정정 없음). 개찰기록·응찰사 목록은 EPADS 공개면·PPRA·웹 어디에도 미게시(공개 첨부 17건 불변). 1단계 2봉투라 가격봉투는 기술평가 후 별도 개봉. 다음 확인 10-16 14:30 KST. | 44차(2026-10-16): Corr#1~10 확인, 제출 10-15 11:00/개찰 11:30. 평가보고서 탭 비활성 → 개찰결과 미공개. | 2026-10-16 14:30 KST(2차 개찰결과 확인): 여전히 미게시 — SBD 첨부 17건 불변, 신규 정정공고 없음(corrigendum _012 이후 서버 타임아웃), PPRA·웹 검색 결과 없음. 참고: propakistani 2026-10-10 보도(총리 지시로 주요공항 스캐너 항공운송·설치 지시) — 본 건 연관 여부 미확인. 이후 정규 입찰추적 루틴에서 계속 추적(평가보고서/낙찰공고). | 45차(2026-10-19): Corr#10(10-09) 이후 정정 없음(_012 403). 개찰기록·응찰사 미게시."
   },
   {
    "key": "FI-RVN-BHS-MOD",
@@ -2568,9 +2573,9 @@
    "status": "status_unconfirmed",
    "link": "https://www.globaltenders.com/tender-detail/were-working-on-a-construction-phase-to-rep-Hqwg9p93jEjozCk1",
    "first_seen": "2026-10-14",
-   "last_updated": "2026-10-16",
+   "last_updated": "2026-10-19",
    "deadline": "2026-11-04 (애그리게이터 표기)",
-   "notes": "42차 신규 리드. globaltenders: 발주 '한국공항공사 김해공항', 10-02 게시, 마감 11-04, 영문 오역 제목 'construction phase to replace the international shipping(=수하물) system at Kimhae airport'. 선행: 국제선 수하물처리시설 제조구매설치 설계용역 R26BK01452305(04-09 공고, 추정 2.16억). 나라장터 원문·공고번호·금액 미확인 → 다음 실행에서 g2b 원문 확인 시 승격. | 44차(2026-10-16): g2b 첨부 다운로드 엔드포인트로 공식 원문 확인: 현재 공고는 설계용역(R26BK01452305-000, KAC 김해 공고 제2026-75호, 제한경쟁·적격심사, 기초금액 238,010,520원, 180일, 국제선 출발 BHS 1·2라인 재설계·용량산정·시뮬레이션·향후 CT 연계·시방서·내역). 제조설치 공사 입찰은 미공고(2027년경 예상). 애그리게이터 11-04 마감 건은 공식 확인 안 됨."
+   "notes": "42차 신규 리드. globaltenders: 발주 '한국공항공사 김해공항', 10-02 게시, 마감 11-04, 영문 오역 제목 'construction phase to replace the international shipping(=수하물) system at Kimhae airport'. 선행: 국제선 수하물처리시설 제조구매설치 설계용역 R26BK01452305(04-09 공고, 추정 2.16억). 나라장터 원문·공고번호·금액 미확인 → 다음 실행에서 g2b 원문 확인 시 승격. | 44차(2026-10-16): g2b 첨부 다운로드 엔드포인트로 공식 원문 확인: 현재 공고는 설계용역(R26BK01452305-000, KAC 김해 공고 제2026-75호, 제한경쟁·적격심사, 기초금액 238,010,520원, 180일, 국제선 출발 BHS 1·2라인 재설계·용량산정·시뮬레이션·향후 CT 연계·시방서·내역). 제조설치 공사 입찰은 미공고(2027년경 예상). 애그리게이터 11-04 마감 건은 공식 확인 안 됨. | 45차(2026-10-19): 나라장터 제조설치 공사 공고 여전히 미확인."
   },
   {
    "key": "NZ-CAA-HBS-CTEDS30",
@@ -2598,10 +2603,10 @@
    "status": "open",
    "link": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1f1aba99-3ed6-6724-a478-d3e9ceb38de5.html",
    "first_seen": "2026-10-15",
-   "last_updated": "2026-10-16",
-   "deadline": "2026-10-20 07:30 (개찰 08:00, PYT) — 10-16에서 연기",
+   "last_updated": "2026-10-19",
+   "deadline": "2026-10-28 07:30 (개찰 08:00, PYT) — 10-16→10-20→10-28 연기",
    "budget": "PYG 16,800,000,000 (≈USD 2.1M ≈ 28억원)",
-   "notes": "43차 신규. DNCP 공식 공고(LPN, Ley 7021/22, 단일 총액 로트). 탑승교 2기 공급·시운전. 입찰보증 5%, 선급금 10%, 현장설명 10-07(필수), 질의마감 10-12. 공고 2026-09-25. 평가기준은 PBC(동적 로딩, 미판독) — 최저가 적격 추정. 첨부 공개: PBC(참가요건·평가기준·기술규격·계약조건·계약서 양식), 가격표 xlsx, 기술의견서(dictamen técnico), 원가산정 근거, CDP 418·다년도 예산증명·PBC 승인결의, 선급금·현장설명 사유서. 관련 별건(건축, PBB 공급 아님): 483536 북측 Espigón PBB 7번 구역 확장 PYG 28.66bn(10-23), 483729 Manga 4·5 확장 PYG 17.25bn(10-19). | 44차(2026-10-16): DNCP 상태 En Convocatoria(Abierta), 마감·개찰 10-20로 연기 확인."
+   "notes": "43차 신규. DNCP 공식 공고(LPN, Ley 7021/22, 단일 총액 로트). 탑승교 2기 공급·시운전. 입찰보증 5%, 선급금 10%, 현장설명 10-07(필수), 질의마감 10-12. 공고 2026-09-25. 평가기준은 PBC(동적 로딩, 미판독) — 최저가 적격 추정. 첨부 공개: PBC(참가요건·평가기준·기술규격·계약조건·계약서 양식), 가격표 xlsx, 기술의견서(dictamen técnico), 원가산정 근거, CDP 418·다년도 예산증명·PBC 승인결의, 선급금·현장설명 사유서. 관련 별건(건축, PBB 공급 아님): 483536 북측 Espigón PBB 7번 구역 확장 PYG 28.66bn(10-23), 483729 Manga 4·5 확장 PYG 17.25bn(10-19). | 44차(2026-10-16): DNCP 상태 En Convocatoria(Abierta), 마감·개찰 10-20로 연기 확인. | 45차(2026-10-19): DNCP 이력 Prórroga 2건(10-15 07:20, 10-16 07:05) → 마감 10-28 07:30/개찰 08:00 PYT로 재연기."
   },
   {
    "key": "ES-IBZ-PBB-RENOV",
@@ -2628,9 +2633,9 @@
    "status": "status_unconfirmed",
    "link": null,
    "first_seen": "2026-10-15",
-   "last_updated": "2026-10-16",
+   "last_updated": "2026-10-19",
    "deadline": "2026-10-19 (애그리게이터)",
-   "notes": "43차 신규 리드. Biddetail ref 118686798(대행 Gongcheng Management Consulting), 공식 장비 공고 원문 미확인. | 44차(2026-10-16): zhaobiao.cn 제목 확인(09-28 게시), 공식 chinabidding/ccgp 원문 미도달."
+   "notes": "43차 신규 리드. Biddetail ref 118686798(대행 Gongcheng Management Consulting), 공식 장비 공고 원문 미확인. | 44차(2026-10-16): zhaobiao.cn 제목 확인(09-28 게시), 공식 chinabidding/ccgp 원문 미도달. | 45차(2026-10-19): zhaobiao 스니펫: 招标编号 1379-264202606230(09-28 게시). 예산·개찰시각 미확인. 관련 토목 재입찰 hntba.com/new-7107.html(05-08, 902–903 원격주기장 탑승교 1기, 자체자금)."
   },
   {
    "key": "US-TUL-PBB-70740",
@@ -2821,9 +2826,9 @@
    "city": "Bridgetown",
    "status": "status_unconfirmed",
    "link": null,
-   "notes": "44차 신규 리드. 뉴스(Barbados Today 10-08), USD 80M 확장. 입찰 미공고.",
+   "notes": "44차 신규 리드. 뉴스(Barbados Today 10-08), USD 80M 확장. 입찰 미공고. | 45차(2026-10-19): 공식 입찰문서 미확인(변동 없음).",
    "first_seen": "2026-10-16",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-19"
   },
   {
    "key": "US-MFE-PBB2",
@@ -2834,9 +2839,9 @@
    "city": "McAllen, TX",
    "status": "status_unconfirmed",
    "link": null,
-   "notes": "44차 신규 리드. 설계자 선정(04월), 시공입찰 예정.",
+   "notes": "44차 신규 리드. 설계자 선정(04월), 시공입찰 예정. | 45차(2026-10-19): 공식 입찰문서 미확인(변동 없음).",
    "first_seen": "2026-10-16",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-19"
   },
   {
    "key": "US-LIT-BHS-CONTROLS",
@@ -2851,6 +2856,43 @@
    "first_seen": "2026-10-12",
    "last_updated": "2026-10-16",
    "notes": "44차: ACI-NA RFP 목록으로 공고번호 식별(공식 포털 원문 직접 미열람). 추정 USD 5M(애그리게이터). 공식 원문 확인 시 마감건으로 승격."
+  },
+  {
+   "key": "RO-OTP-XRAY-LARGETUNNEL",
+   "name": "CNAB Henri Coandă (OTP) — 대형터널 X-ray 검색장비 프레임워크(TED 709694-2026)",
+   "category": "tracking_lead",
+   "type": "HBS/EDS?",
+   "country": "Romania",
+   "city": "Bucharest/Otopeni",
+   "authority": "Compania Națională Aeroporturi București",
+   "scope": "대형터널 X-ray+부속, 중앙관리 플랫폼(서버·라이선스), 설치·시운전·교육·보증/보증후 유지보수. 개별계약 최대 52개월, 납기 90일.",
+   "method": "공개경쟁, 가격+품질",
+   "budget": "프레임워크 최대 EUR 3,786,156(최소 1,608,288), VAT 별도 ≈55억원",
+   "budget_krw_est": 5490000000,
+   "status": "open",
+   "published": "2026-10-14",
+   "deadline": "2026-10-28",
+   "link": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100212169",
+   "attachments": "SEAP(e-licitatie) — 첨부 접근 미확인(차단)",
+   "sorter": "n/a",
+   "spec_access": "unknown",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "notes": "45차 신규. TED 공식 공고이나 위탁수하물(HBS/EDS·BHS 연계)인지 대형화물/oversize 검색용인지 미기재 → 스코프 미확정으로 리드 보류. 규격서 확인 시 confirmed 승격."
+  },
+  {
+   "key": "SE-DOM-ARR-BHS",
+   "name": "스웨덴 — Domestic arrival baggage handling system (발주처 미상, Swedavia 추정)",
+   "category": "tracking_lead",
+   "type": "BHS",
+   "country": "Sweden",
+   "city": "미상",
+   "status": "status_unconfirmed",
+   "deadline": "2026-11-03 (애그리게이터)",
+   "link": null,
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "notes": "45차 신규 리드. TenderNews ID 2081616261017(10-17 게재). TED(~10-16) 미검출. Visma Opic/e-Avrop/Mercell 원문 확인 필요."
   }
  ]
 }

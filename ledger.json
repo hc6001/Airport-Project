@@ -252,6 +252,11 @@
     "date": "2026-10-19",
     "weekday": "Monday",
     "note": "45th run (KST 10-19 Mon). Changes: PY-ASU PBB deadline → 10-28; TSA EBSP Amd1 → 10-23; MUC GSH-113 TED 711341 (GFA follow-up); FRA VE9132 = early-bag storage. New leads: OTP large-tunnel X-ray (TED 709694, scope unclear), Sweden domestic arrival BHS. VCE 4th Std3 line VEAT TED 714445 (= existing IT-VCE-BHS-NORD-L4). No new confirmed. Not Friday → no notification."
+   },
+   {
+    "date": "2026-10-20",
+    "weekday": "Tuesday",
+    "note": "46th run (KST 10-20 Tue, not Friday → no rollup/notification). Deltas: TSA EBSP SAM.gov original confirmed (4 public attachments); RO-OTP X-ray judged non-HBS; SE lead = Malmö MMX; new low-amount UK-DCN-HBS-XRAY (direct award GBP 872.5k); new leads Schiphol C-Pier PIN, unknown PBB market-exploration PIN. Keflavík checkpoint CT (TED 718664) out of scope (cabin). No new in-scope open notices; no sorter ★."
    }
   ],
   "last_run": "2026-10-02",
@@ -1968,8 +1973,8 @@
    "link": "https://www.mwaa.com/business/current-contracting-opportunities (RFP-26-23972)",
    "attachments": "RFP 문서·추정가는 MWAA Contract Lifecycle Management System(Odyssey) 등록 후 열람: https://mwaa.odysseyautomation.com/odyssey/index.ody?hlk=c4014cba . 공개페이지엔 첨부 미게시, 수정공고(amendment) 없음.",
    "first_seen": "2026-10-06",
-   "last_updated": "2026-10-07",
-   "notes": "NEW LEAD 10-06(run36, 신규 스윕). MWAA IAD 'BHS Refurbishment Services' RFP. 'Refurbishment Services' 명칭상 정비/용역(O&M) 성격일 수 있어 스코프·임계값 미확정 → 확정 리스트 미포함, tracking_lead(status_unconfirmed). 기존 IAD HLC SW/HW 교체 RFP-21-22745(별건)와 구분. VERIFY: 범위(capex vs O&M)·금액·마감. | 10-07 (run37): ★공식 공고 확인 — mwaa.com에 RFP-26-23972 게시(발행 09-21, 마감 10-29) → tracking_lead → confirmed_in_scope(open) 승격. 단 범위는 캐러셀 복원 리퍼비시 용역(신규 설비 공급 아님, sorter 없음) + 금액 미공개 → 임계값(50억) 미확정 플래그.",
+   "last_updated": "2026-10-20",
+   "notes": "NEW LEAD 10-06(run36, 신규 스윕). MWAA IAD 'BHS Refurbishment Services' RFP. 'Refurbishment Services' 명칭상 정비/용역(O&M) 성격일 수 있어 스코프·임계값 미확정 → 확정 리스트 미포함, tracking_lead(status_unconfirmed). 기존 IAD HLC SW/HW 교체 RFP-21-22745(별건)와 구분. VERIFY: 범위(capex vs O&M)·금액·마감. | 10-07 (run37): ★공식 공고 확인 — mwaa.com에 RFP-26-23972 게시(발행 09-21, 마감 10-29) → tracking_lead → confirmed_in_scope(open) 승격. 단 범위는 캐러셀 복원 리퍼비시 용역(신규 설비 공급 아님, sorter 없음) + 금액 미공개 → 임계값(50억) 미확정 플래그. | 46차(2026-10-20): MWAA 페이지상 스코프=수하물 캐러셀 점검·수리·리퍼비시(서비스 성격). 변동 없음, 10-29.",
    "sorter": "no",
    "spec_access": "registration",
    "spec_original": "MWAA Odyssey CLM 내 RFP-26-23972 문서(등록 필요)"
@@ -2040,8 +2045,8 @@
    "spec_access": "unknown",
    "spec_original": null,
    "first_seen": "2026-10-08",
-   "last_updated": "2026-10-19",
-   "notes": "38차 신규 리드. 후속 BHS(Gepäckförderanlage) 공고 감시 — loop sorter 후보. | 45차(2026-10-19): TED 711341-2026(10-15, 변경/재게시) — 건물 GC 공고. 수하물 컨베이어(GFA) 별도 GC 입찰·교량 별도 계약 후속 예정 명시. 문서: https://www.dtvp.de/Satellite/notice/CXP4Y9DMPQS/documents"
+   "last_updated": "2026-10-20",
+   "notes": "38차 신규 리드. 후속 BHS(Gepäckförderanlage) 공고 감시 — loop sorter 후보. | 45차(2026-10-19): TED 711341-2026(10-15, 변경/재게시) — 건물 GC 공고. 수하물 컨베이어(GFA) 별도 GC 입찰·교량 별도 계약 후속 예정 명시. 문서: https://www.dtvp.de/Satellite/notice/CXP4Y9DMPQS/documents | 46차(2026-10-20): TED 711341-2026 참가신청 마감 10-19 13:00 CEST 경과(건축 GÜ, MEAT). GFA(BHS) 별도 GÜ 공고 대기."
   },
   {
    "key": "DE-MUC-T2-GSHE-BHS",
@@ -2174,8 +2179,8 @@
    "link": "https://sam.gov/opp/83071f1c20df430192cdb1a1b21fea07/view",
    "attachments": "SAM.gov",
    "first_seen": "2026-10-09",
-   "last_updated": "2026-10-19",
-   "notes": "입찰공고 아님(사전공고) → 리드. | 45차(2026-10-19): Amendment 00001(10-17, GlobalTenders 경유): 누락 첨부 추가, 응답기한 10-23으로 연장. SAM.gov 원문 미확인."
+   "last_updated": "2026-10-20",
+   "notes": "입찰공고 아님(사전공고) → 리드. | 45차(2026-10-19): Amendment 00001(10-17, GlobalTenders 경유): 누락 첨부 추가, 응답기한 10-23으로 연장. SAM.gov 원문 미확인. | 46차(2026-10-20): SAM.gov 원문 확인(https://sam.gov/opp/cd7b23580edd443cab852a3dada6dfc9/view) Special Notice \"EBSP Recap EDS Industry Engagement Events\". Amd 00001 게시 10-16 18:29 UTC(10-17 아님). 응답 10-23 17:00 ET. 첨부 4종 공개: Special Notice, Amendment 1, Att1 TSA Vetting Request.xlsx, Att2 NDA Form 11000-6."
   },
   {
    "key": "US-PBB-REPLACE-PARTA-UNK",
@@ -2869,7 +2874,7 @@
    "method": "공개경쟁, 가격+품질",
    "budget": "프레임워크 최대 EUR 3,786,156(최소 1,608,288), VAT 별도 ≈55억원",
    "budget_krw_est": 5490000000,
-   "status": "open",
+   "status": "status_unconfirmed",
    "published": "2026-10-14",
    "deadline": "2026-10-28",
    "link": "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100212169",
@@ -2877,8 +2882,8 @@
    "sorter": "n/a",
    "spec_access": "unknown",
    "first_seen": "2026-10-19",
-   "last_updated": "2026-10-19",
-   "notes": "45차 신규. TED 공식 공고이나 위탁수하물(HBS/EDS·BHS 연계)인지 대형화물/oversize 검색용인지 미기재 → 스코프 미확정으로 리드 보류. 규격서 확인 시 confirmed 승격."
+   "last_updated": "2026-10-20",
+   "notes": "45차 신규. TED 공식 공고이나 위탁수하물(HBS/EDS·BHS 연계)인지 대형화물/oversize 검색용인지 미기재 → 스코프 미확정으로 리드 보류. 규격서 확인 시 confirmed 승격. | 46차(2026-10-20): 공고문 재검토: 일반 대형터널 X-ray 프레임워크(+중앙관리플랫폼·교육·유지보수), CPV 35121000, EDS/ECAC/CT/BHS 연동 언급 없음 → HBS 아님으로 판단(규격서 SEAP 100212169 미열람). 추적 종료 후보."
   },
   {
    "key": "SE-DOM-ARR-BHS",
@@ -2886,13 +2891,55 @@
    "category": "tracking_lead",
    "type": "BHS",
    "country": "Sweden",
-   "city": "미상",
+   "city": "Malmö (MMX, 애그리게이터 기준)",
    "status": "status_unconfirmed",
    "deadline": "2026-11-03 (애그리게이터)",
    "link": null,
    "first_seen": "2026-10-19",
-   "last_updated": "2026-10-19",
-   "notes": "45차 신규 리드. TenderNews ID 2081616261017(10-17 게재). TED(~10-16) 미검출. Visma Opic/e-Avrop/Mercell 원문 확인 필요."
+   "last_updated": "2026-10-20",
+   "notes": "45차 신규 리드. TenderNews ID 2081616261017(10-17 게재). TED(~10-16) 미검출. Visma Opic/e-Avrop/Mercell 원문 확인 필요. | 46차(2026-10-20): 애그리게이터상 Malmö(MMX) 공항 건으로 식별, 10-17 재게시(이전 마감 10-22 → 11-03). TED·Swedavia 공식 원문 여전히 미확인."
+  },
+  {
+   "key": "UK-DCN-HBS-XRAY",
+   "name": "Doncaster Sheffield(City of Doncaster Council) — Hold Baggage Screening (HBS) X-ray Replacement and Repair",
+   "category": "excluded_low_amount",
+   "type": "HBS",
+   "country": "United Kingdom",
+   "city": "Doncaster",
+   "status": "awarded",
+   "deadline": "n/a (직접계약, Find a Tender 098577-2026, 2026-10-19)",
+   "link": "https://www.find-tender.service.gov.uk/Notice/098577-2026",
+   "first_seen": "2026-10-20",
+   "last_updated": "2026-10-20",
+   "notes": "SCAN-X Security Ltd 직접계약. HBS 1대 교체+UPS+BHS 연동+5년 지원. GBP 872,500(VAT 별도) ≈ 16억원 < 50억 → 금액 미달."
+  },
+  {
+   "key": "NL-AMS-CPIER-PIN",
+   "name": "Schiphol C-Pier 신축 — 통합 설계·시공사 시장조사(PIN)",
+   "category": "tracking_lead",
+   "type": "BHS/PBB(가능성)",
+   "country": "Netherlands",
+   "city": "Amsterdam",
+   "status": "upcoming",
+   "deadline": "n/a (PIN)",
+   "link": "https://ted.europa.eu/en/notice/-/detail/718771-2026",
+   "first_seen": "2026-10-20",
+   "last_updated": "2026-10-20",
+   "notes": "TED 718771-2026(10-19) 시장조사 PIN. PBB/BHS 스코프 포함 여부 미상 — 본공고 감시."
+  },
+  {
+   "key": "XX-PBB-MARKET-PIN-NOV",
+   "name": "'Prior Information Notice – Market Exploration – Passenger Boarding Bridges'(발주처 미상)",
+   "category": "tracking_lead",
+   "type": "PBB",
+   "country": "미상",
+   "city": "미상",
+   "status": "status_unconfirmed",
+   "deadline": "11-04/05/07 (애그리게이터)",
+   "link": null,
+   "first_seen": "2026-10-20",
+   "last_updated": "2026-10-20",
+   "notes": "애그리게이터 스니펫만, TED 미검출. 출처 확인 필요."
   }
  ]
 }

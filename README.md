@@ -139,3 +139,4 @@ UTC 날짜가 항상 전날이므로(예: KST 2026-09-04 03:00 금요일 = UTC 2
 - **2026-10-12 (월, 동향조사 루틴)** — KST 월요일. 검색 4건, 신규 1건(2-15 ATL 탑승교 정렬불량). (`reports/trends/2026-10-12_daily.md`)
 - **2026-10-15 (목, 동향조사 루틴)** — KST 목요일. 검색 4건, 신규 0건·변동 0건. 알림 미발송. (`reports/trends/2026-10-15_daily.md`)
 - **2026-10-19 (월, 동향조사 루틴)** — KST 월요일. 검색 5건, 신규 0건·변동 0건. 알림 미발송. (`reports/trends/2026-10-19_daily.md`)
+- **2026-10-20 (화, 입찰추적 46차)** — KST 화요일. 신규 진행중 0건, sorter★ 없음. TSA EBSP SAM.gov 원문 확인, OTP X-ray HBS 아님 판단, 스웨덴 리드=Malmö MMX, 신규 저금액 UK-DCN-HBS-XRAY, 신규 리드 Schiphol C-Pier PIN·미상 PBB 시장조사 PIN. 알림 미발송. (`reports/2026-10-20_run46.md`)

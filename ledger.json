@@ -257,6 +257,11 @@
     "date": "2026-10-20",
     "weekday": "Tuesday",
     "note": "46th run (KST 10-20 Tue, not Friday → no rollup/notification). Deltas: TSA EBSP SAM.gov original confirmed (4 public attachments); RO-OTP X-ray judged non-HBS; SE lead = Malmö MMX; new low-amount UK-DCN-HBS-XRAY (direct award GBP 872.5k); new leads Schiphol C-Pier PIN, unknown PBB market-exploration PIN. Keflavík checkpoint CT (TED 718664) out of scope (cabin). No new in-scope open notices; no sorter ★."
+   },
+   {
+    "date": "2026-10-21",
+    "weekday": "Wednesday",
+    "note": "47차. 신규 confirmed 0, sorter★ 없음. XX-PBB PIN→Fraport 통합, CID 개찰결과 미게시, 신규 리드 BWI PBB·오스트리아 Förderanlagenplaner. 수요일 → 알림 미발송."
    }
   ],
   "last_run": "2026-10-02",
@@ -1949,8 +1954,8 @@
    "link": "https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ (공식) · Notice PDF: https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf",
    "attachments": "Notice to Bidders PDF(공개). Plans/Specs/Addenda: https://www.cidplanroom.com/projects/3144/details/teia-03-19-0012-tbd-baggage-handling-system-terminal-expansion (등록·로그인 필요) 또는 Rapids Reproductions. 애드엔덤 현재 없음.",
    "first_seen": "2026-10-06",
-   "last_updated": "2026-10-09",
-   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음.",
+   "last_updated": "2026-10-21",
+   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음. | 47차(2026-10-21): 10-20 개찰 후에도 bid tab/최저응찰자 미게시(공식 페이지 일정만 표시, 낙찰권고 10-26). 페이지 제목 \"Baggage Handling System & Terminal Expansion\"으로 변경. https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/",
    "sorter": "no",
    "spec_access": "registration",
    "spec_original": "flycid.com 입찰 홈페이지 게시 BHS 기술규격서 원문 (2026-10-06 사용자 직접 확보)"
@@ -2045,8 +2050,8 @@
    "spec_access": "unknown",
    "spec_original": null,
    "first_seen": "2026-10-08",
-   "last_updated": "2026-10-20",
-   "notes": "38차 신규 리드. 후속 BHS(Gepäckförderanlage) 공고 감시 — loop sorter 후보. | 45차(2026-10-19): TED 711341-2026(10-15, 변경/재게시) — 건물 GC 공고. 수하물 컨베이어(GFA) 별도 GC 입찰·교량 별도 계약 후속 예정 명시. 문서: https://www.dtvp.de/Satellite/notice/CXP4Y9DMPQS/documents | 46차(2026-10-20): TED 711341-2026 참가신청 마감 10-19 13:00 CEST 경과(건축 GÜ, MEAT). GFA(BHS) 별도 GÜ 공고 대기."
+   "last_updated": "2026-10-21",
+   "notes": "38차 신규 리드. 후속 BHS(Gepäckförderanlage) 공고 감시 — loop sorter 후보. | 45차(2026-10-19): TED 711341-2026(10-15, 변경/재게시) — 건물 GC 공고. 수하물 컨베이어(GFA) 별도 GC 입찰·교량 별도 계약 후속 예정 명시. 문서: https://www.dtvp.de/Satellite/notice/CXP4Y9DMPQS/documents | 46차(2026-10-20): TED 711341-2026 참가신청 마감 10-19 13:00 CEST 경과(건축 GÜ, MEAT). GFA(BHS) 별도 GÜ 공고 대기. | 47차(2026-10-21): GFA(BHS) 별도 GÜ 공고 아직 미게시(TED ~10-20 확인)."
   },
   {
    "key": "DE-MUC-T2-GSHE-BHS",
@@ -2087,11 +2092,11 @@
    "status": "upcoming",
    "published": "2026-09-03 (PIN)",
    "deadline": null,
-   "link": "https://ted.europa.eu/en/notice/-/detail/607852-2026",
+   "link": "https://ted.europa.eu/en/notice/-/detail/611391-2026",
    "attachments": null,
    "first_seen": "2026-10-08",
-   "last_updated": "2026-10-08",
-   "notes": "38차 신규 리드(PIN, 입찰공고 아님)."
+   "last_updated": "2026-10-21",
+   "notes": "38차 신규 리드(PIN, 입찰공고 아님). | 47차(2026-10-21): XX-PBB-MARKET-PIN-NOV를 본 건으로 통합 — 발주처 Fraport AG(Procurement, Claim and Mobility, ref BEK-2026-0005 애그리게이터). TED PIN 485866/487052(07-14), 607852/606453(09-03), 611391/611065(09-04, 회신 09-30). 11-04~07 날짜는 biddetail 애그리게이터 표기일 뿐 공식 아님. 10-01~10-20 TED 신규 PBB 공고 없음."
   },
   {
    "key": "DE-DUS-PBB17",
@@ -2519,8 +2524,8 @@
    "spec_access": "public",
    "spec_original": "bidding-document.pdf_010 (Corrigendum #9, 2026-09-30) — 'OPERATIONAL AND TECHNICAL SPECIFICATIONS/COMPLIANCE SHEET' 포함",
    "first_seen": "2026-10-14",
-   "last_updated": "2026-10-19",
-   "notes": "42차 신규. globaltenders 목록(정정공고 09-30)에서 단서 → EPADS 원문 PDF 직접 확보·확인. 마감 이력: 09-15 → 10-01(Corr#6) → 10-15(Corr#8/9). 별도 기내수하물 CT(P58724)는 스코프 외. | 2026-10-14(사용자 요청 상세조사): I/T No. HQPAA/1992/371/XXLN, 내부 procurement 57427. 기존 BHS=Leonardo, 기존 HBS=Smiths HS10080XCT/EDX·CTX5800. 10-09 Addendum: 납기 200일, Leonardo(또는 공인 통합사) 프로젝트 확인서 없는 입찰은 부적합. 입찰보증 72.225M→36.1125M PKR(물량/추정가 축소 시사). 연락: humayun.azhar@paa.gov.pk, sajid.noor@paa.gov.pk, +92-21-9907-2264/2265. | 2026-10-14(사용자 요청 예산 재조사): 첨부 16건·SBD 164쪽·Corr#0~9 전수 확인, 추정가 명시 없음. Corr#0/1 보증금 72,225,000 → Corr#6~9 36,112,500(물량 3기 동일) 확인 → Rule 27(5% 상한) 역산으로 추정가 ≥ PKR 1.4445bn 산출. | 2026-10-15 (43차): Addendum-3(2026-10-14) — 조항 2.6(j) BHS 연동 재기술, 하위항목(vi)[OEM 확인서 없는 자체확약=부적합] 삭제 → Leonardo 확인서 요건 완화. 마감 10-15 11:00/개찰 11:30 PKT 불변, 착수 예정 2026-11-24. https://pa.epads.gov.pk/gallery/procurement/57427/annexure/Hold_Baggage_CT_Scann-1992-371-XXLN.pdf | 2026-10-15 17:30 KST(사용자 요청 개찰결과 확인): 마감 10-15 11:00 PKT 그대로 경과(Corrigendum #10 = 10-09, Addendum 반영만·일정 변동 없음, 그 이후 정정 없음). 개찰기록·응찰사 목록은 EPADS 공개면·PPRA·웹 어디에도 미게시(공개 첨부 17건 불변). 1단계 2봉투라 가격봉투는 기술평가 후 별도 개봉. 다음 확인 10-16 14:30 KST. | 44차(2026-10-16): Corr#1~10 확인, 제출 10-15 11:00/개찰 11:30. 평가보고서 탭 비활성 → 개찰결과 미공개. | 2026-10-16 14:30 KST(2차 개찰결과 확인): 여전히 미게시 — SBD 첨부 17건 불변, 신규 정정공고 없음(corrigendum _012 이후 서버 타임아웃), PPRA·웹 검색 결과 없음. 참고: propakistani 2026-10-10 보도(총리 지시로 주요공항 스캐너 항공운송·설치 지시) — 본 건 연관 여부 미확인. 이후 정규 입찰추적 루틴에서 계속 추적(평가보고서/낙찰공고). | 45차(2026-10-19): Corr#10(10-09) 이후 정정 없음(_012 403). 개찰기록·응찰사 미게시."
+   "last_updated": "2026-10-21",
+   "notes": "42차 신규. globaltenders 목록(정정공고 09-30)에서 단서 → EPADS 원문 PDF 직접 확보·확인. 마감 이력: 09-15 → 10-01(Corr#6) → 10-15(Corr#8/9). 별도 기내수하물 CT(P58724)는 스코프 외. | 2026-10-14(사용자 요청 상세조사): I/T No. HQPAA/1992/371/XXLN, 내부 procurement 57427. 기존 BHS=Leonardo, 기존 HBS=Smiths HS10080XCT/EDX·CTX5800. 10-09 Addendum: 납기 200일, Leonardo(또는 공인 통합사) 프로젝트 확인서 없는 입찰은 부적합. 입찰보증 72.225M→36.1125M PKR(물량/추정가 축소 시사). 연락: humayun.azhar@paa.gov.pk, sajid.noor@paa.gov.pk, +92-21-9907-2264/2265. | 2026-10-14(사용자 요청 예산 재조사): 첨부 16건·SBD 164쪽·Corr#0~9 전수 확인, 추정가 명시 없음. Corr#0/1 보증금 72,225,000 → Corr#6~9 36,112,500(물량 3기 동일) 확인 → Rule 27(5% 상한) 역산으로 추정가 ≥ PKR 1.4445bn 산출. | 2026-10-15 (43차): Addendum-3(2026-10-14) — 조항 2.6(j) BHS 연동 재기술, 하위항목(vi)[OEM 확인서 없는 자체확약=부적합] 삭제 → Leonardo 확인서 요건 완화. 마감 10-15 11:00/개찰 11:30 PKT 불변, 착수 예정 2026-11-24. https://pa.epads.gov.pk/gallery/procurement/57427/annexure/Hold_Baggage_CT_Scann-1992-371-XXLN.pdf | 2026-10-15 17:30 KST(사용자 요청 개찰결과 확인): 마감 10-15 11:00 PKT 그대로 경과(Corrigendum #10 = 10-09, Addendum 반영만·일정 변동 없음, 그 이후 정정 없음). 개찰기록·응찰사 목록은 EPADS 공개면·PPRA·웹 어디에도 미게시(공개 첨부 17건 불변). 1단계 2봉투라 가격봉투는 기술평가 후 별도 개봉. 다음 확인 10-16 14:30 KST. | 44차(2026-10-16): Corr#1~10 확인, 제출 10-15 11:00/개찰 11:30. 평가보고서 탭 비활성 → 개찰결과 미공개. | 2026-10-16 14:30 KST(2차 개찰결과 확인): 여전히 미게시 — SBD 첨부 17건 불변, 신규 정정공고 없음(corrigendum _012 이후 서버 타임아웃), PPRA·웹 검색 결과 없음. 참고: propakistani 2026-10-10 보도(총리 지시로 주요공항 스캐너 항공운송·설치 지시) — 본 건 연관 여부 미확인. 이후 정규 입찰추적 루틴에서 계속 추적(평가보고서/낙찰공고). | 45차(2026-10-19): Corr#10(10-09) 이후 정정 없음(_012 403). 개찰기록·응찰사 미게시. | 47차(2026-10-21): EPADS P66794 평가보고서/낙찰 여전히 미게시."
   },
   {
    "key": "FI-RVN-BHS-MOD",
@@ -2896,8 +2901,8 @@
    "deadline": "2026-11-03 (애그리게이터)",
    "link": null,
    "first_seen": "2026-10-19",
-   "last_updated": "2026-10-20",
-   "notes": "45차 신규 리드. TenderNews ID 2081616261017(10-17 게재). TED(~10-16) 미검출. Visma Opic/e-Avrop/Mercell 원문 확인 필요. | 46차(2026-10-20): 애그리게이터상 Malmö(MMX) 공항 건으로 식별, 10-17 재게시(이전 마감 10-22 → 11-03). TED·Swedavia 공식 원문 여전히 미확인."
+   "last_updated": "2026-10-21",
+   "notes": "45차 신규 리드. TenderNews ID 2081616261017(10-17 게재). TED(~10-16) 미검출. Visma Opic/e-Avrop/Mercell 원문 확인 필요. | 46차(2026-10-20): 애그리게이터상 Malmö(MMX) 공항 건으로 식별, 10-17 재게시(이전 마감 10-22 → 11-03). TED·Swedavia 공식 원문 여전히 미확인. | 47차(2026-10-21): TED에 Swedavia Malmö 수하물 공고 없음(Athena=헬기격납고). 국내 임계값 미만 Mercell/Opic 공고 추정 — 로그인 필요, 여전히 미확인."
   },
   {
    "key": "UK-DCN-HBS-XRAY",
@@ -2934,12 +2939,40 @@
    "type": "PBB",
    "country": "미상",
    "city": "미상",
-   "status": "status_unconfirmed",
+   "status": "merged_into:DE-FRA-PBB-MARKET",
    "deadline": "11-04/05/07 (애그리게이터)",
    "link": null,
    "first_seen": "2026-10-20",
-   "last_updated": "2026-10-20",
-   "notes": "애그리게이터 스니펫만, TED 미검출. 출처 확인 필요."
+   "last_updated": "2026-10-21",
+   "notes": "애그리게이터 스니펫만, TED 미검출. 출처 확인 필요. | 47차: Fraport AG PBB 시장조사 PIN(DE-FRA-PBB-MARKET)과 동일 건으로 식별 → 통합."
+  },
+  {
+   "key": "US-BWI-PBB-MAA-CO-24-017",
+   "name": "BWI Marshall (MAA) — 탑승교 교체 MAA-CO-24-017 (예고표 기반)",
+   "category": "tracking_lead",
+   "type": "PBB",
+   "country": "USA",
+   "city": "Baltimore, MD",
+   "status": "status_unconfirmed",
+   "deadline": "예고: 공고 11-02, 사전회의 11-09, 입찰 12-15 (다른 사업 행과 혼동 가능성)",
+   "link": null,
+   "first_seen": "2026-10-21",
+   "last_updated": "2026-10-21",
+   "notes": "47차 신규 리드. MAA 조달 예고표 스니펫 기반, MAA 사이트 TLS 실패로 미확인. 2025-07 BPW 17기 PBB TK Airport Solutions $21.5M 낙찰 기록과 중복 여부 확인 필요."
+  },
+  {
+   "key": "AT-FOERDERANLAGEN-SANIERUNGSCHECK",
+   "name": "오스트리아 — Förderanlagenplaner – Sanierungscheck (발주처 미상)",
+   "category": "tracking_lead",
+   "type": "BHS",
+   "country": "Austria",
+   "city": "미상",
+   "status": "status_unconfirmed",
+   "deadline": "2026-10-30 (애그리게이터)",
+   "link": null,
+   "first_seen": "2026-10-21",
+   "last_updated": "2026-10-21",
+   "notes": "47차 신규 리드. TenderNews 3032616261006(10-06 게재), 발주처 로그인 뒤. 공항 BHS 리노베이션 설계용역 가능성 — 공식 원문 미확인."
   }
  ]
 }

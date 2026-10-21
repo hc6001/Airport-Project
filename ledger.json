@@ -262,9 +262,14 @@
     "date": "2026-10-21",
     "weekday": "Wednesday",
     "note": "47차. 신규 confirmed 0, sorter★ 없음. XX-PBB PIN→Fraport 통합, CID 개찰결과 미게시, 신규 리드 BWI PBB·오스트리아 Förderanlagenplaner. 수요일 → 알림 미발송."
+   },
+   {
+    "date": "2026-10-22",
+    "weekday": "Thursday",
+    "note": "48차. 신규 confirmed 1(IN-AAI-AGRA-PBB-RELOC, 마감 10-01), sorter★ 없음. TUS Addendum 1·2(sorter=no), MUC 711341 연장(경과), BWI PBB 정정→2025 낙찰·창 초과, GEG RFQ closed 확인, TSA 링크 갱신, 리드 NRT PBB·알제 T1·칼리. 목요일 → 알림 미발송(금요일 롤업 대상)."
    }
   ],
-  "last_run": "2026-10-02",
+  "last_run": "2026-10-22",
   "search_goal": {
    "set": "2026-10-06",
    "by": "user",
@@ -1313,14 +1318,14 @@
    "method": "RFQ (Request for Qualifications) — pre-qualification",
    "budget": "not disclosed",
    "budget_krw_est": null,
-   "status": "status_unconfirmed",
+   "status": "closed",
    "published": "2026 (RFQ #26-44-1897; addendum dated 2026-04-13)",
    "deadline": "not confirmed (egress-blocked: business.spokaneairports.net)",
    "link": "https://business.spokaneairports.net/rfp/",
    "attachments": "RFQ portal egress-blocked this run — accessibility unverified",
    "first_seen": "2026-08-31",
-   "last_updated": "2026-08-31",
-   "notes": "NEW LEAD 08-31. RFQ #26-44-1897 'Baggage Handling System Upgrade' at Spokane GEG, addendum 2026-04-13. Pre-qualification (RFQ), value/scope not public; portal egress-blocked so cannot confirm threshold or attachments → tracking_lead / status_unconfirmed, not reportable in-scope yet. Watch for the follow-on RFP with an estimated value."
+   "last_updated": "2026-10-22",
+   "notes": "NEW LEAD 08-31. RFQ #26-44-1897 'Baggage Handling System Upgrade' at Spokane GEG, addendum 2026-04-13. Pre-qualification (RFQ), value/scope not public; portal egress-blocked so cannot confirm threshold or attachments → tracking_lead / status_unconfirmed, not reportable in-scope yet. Watch for the follow-on RFP with an estimated value. | 48차(2026-10-22): 공식 입찰 페이지 도달 https://www.spokaneairports.com/corporate/business-opportunities/bids/ — RFQ #26-44-1897 \"Baggage Handling System Upgrade\" Closed(2026-05-06, Addendum 1, 문서 직접 링크·등록요건 미명시). 낙찰 미게시, 금액 미확인. 관련 가능: TREX Central Hall BHS controls 하도급 RFQ ~$16.5M(애그리게이터만)."
   },
   {
    "key": "PA-TOCUMEN-T2-MUELLE-SUR",
@@ -1340,8 +1345,8 @@
    "link": "https://www.panamacompra.gob.pa (Tocumen T2 Muelle Sur); news: https://www.prensa.com/economia/tocumen-lanza-licitacion-para-ampliar-terminal-2-por-2087-millones-y-atrae-a-25-empresas/",
    "attachments": "Pliego de cargos / bases on PanamaCompra (public portal; not fetched this run)",
    "first_seen": "2026-09-06",
-   "last_updated": "2026-10-09",
-   "notes": "NEW LEAD 09-06. Real public tender on PanamaCompra (published 2026-07-16, offers due 2026-09-28; original 08-31 deadline extended 20 business days). USD 208.75M design-build-equip of the T2 South Pier — 13 contact gate positions (10 new + 3 reconfigured, incl. reconditioning/relocating 3 existing PBBs), 4 remote gates, platforms, drainage, 'airport facilities and systems' (baggage handling embedded). ~26 interested parties are civil/engineering firms (Constructora Meco, ICA, Mota-Engil, Ingeniería Estrella, Mallol & Mallol, Grupo ITESA, Airportgurus) → PBB & BHS are embedded sub-components of a civil design-build, NOT a standalone BHS/PBB lot with its own 입찰공고문 → tracking_lead (not reportable confirmed_in_scope), analogous to KE-KAA-JKIA-EXPANSION / VN-LONGTHANH-BHS. Watch for a discrete PBB supply / BHS sub-package + spec. Part of Tocumen's ~USD 306.7M capacity-expansion plan (Muelle Sur + airfield). 09-08: re-verified still OPEN, offers due 2026-09-28, NOT awarded. Now framed as part of a combined ~USD 306.75M Tocumen investment (T2 South Pier $208.75M + airfield/campo-de-vuelo works); classification unchanged (tracking_lead — PBB/BHS embedded in civil design-build). | 09-28 (run30): offer deadline 2026-09-28 is PANAMA LOCAL time (UTC-5). KST Mon 2026-09-28 = Panama Sun 09-27, so the deadline has NOT yet lapsed at run time; NO apertura/adjudicación reported. Still OPEN, not awarded. Re-check PanamaCompra for apertura/acta after Panama Mon 09-28 (≈ late KST 09-28 / early KST 09-29). | 09-29 (run31): PanamaCompra egress 차단 지속. La Prensa/Infobae 스니펫상 마감 09-28은 파나마 현지시각이고 'homologación' 후 실제 제안서 접수·apertura는 '10월 초'로 예상 → 09-28 경과만으로 공개 apertura·낙찰 확정 아님. 낙찰 미확인. 주의: prensa.com 'Dos consorcios…Tocumen' 기사는 활주로/유도로 재포장(Pycrat=Mota-Engil+Meco, $56.9M 낙찰) 별건이며 T2 BHS/PBB와 무관 — 혼동 금지. status open/tracking_lead 유지, 10월 초 재확인. | 10-01 (run33): 제출마감 2026-09-28 경과 확정. Tocumen는 제안서를 '10월 초' 접수 예정이라 밝힘 — apertura/adjudicación 아직 미보도(25개사 homologación). 분류·상태 불변(tracking_lead, open). 며칠 내 재확인. | 10-05 (run35): 일정 변동(스니펫 기반) — 복수 파나마 소스(prensa.com·destinopanama.com.pa·panamaamerica)가 제안서 접수/apertura를 2026-11-06으로 재조정(09-28 마감에서 이연) 보도. 개찰·낙찰 미게시, 등록 25~26개사(Meco, Constructora Urbana, Mallol & Mallol, ICA, Grupo ITESA, Airportgurus). PanamaCompra 직접 미열람 → 11-06은 스니펫 추정, 11월 초 재확인. 분류·상태 불변(tracking_lead, open — PBB/BHS는 토목 design-build 내장). | 2026-10-09 (run39): Destino Panamá(10월초) 오퍼 11-06 보도, 공식 Addendum 3 미확인(최종 확인 Addendum 2)."
+   "last_updated": "2026-10-22",
+   "notes": "NEW LEAD 09-06. Real public tender on PanamaCompra (published 2026-07-16, offers due 2026-09-28; original 08-31 deadline extended 20 business days). USD 208.75M design-build-equip of the T2 South Pier — 13 contact gate positions (10 new + 3 reconfigured, incl. reconditioning/relocating 3 existing PBBs), 4 remote gates, platforms, drainage, 'airport facilities and systems' (baggage handling embedded). ~26 interested parties are civil/engineering firms (Constructora Meco, ICA, Mota-Engil, Ingeniería Estrella, Mallol & Mallol, Grupo ITESA, Airportgurus) → PBB & BHS are embedded sub-components of a civil design-build, NOT a standalone BHS/PBB lot with its own 입찰공고문 → tracking_lead (not reportable confirmed_in_scope), analogous to KE-KAA-JKIA-EXPANSION / VN-LONGTHANH-BHS. Watch for a discrete PBB supply / BHS sub-package + spec. Part of Tocumen's ~USD 306.7M capacity-expansion plan (Muelle Sur + airfield). 09-08: re-verified still OPEN, offers due 2026-09-28, NOT awarded. Now framed as part of a combined ~USD 306.75M Tocumen investment (T2 South Pier $208.75M + airfield/campo-de-vuelo works); classification unchanged (tracking_lead — PBB/BHS embedded in civil design-build). | 09-28 (run30): offer deadline 2026-09-28 is PANAMA LOCAL time (UTC-5). KST Mon 2026-09-28 = Panama Sun 09-27, so the deadline has NOT yet lapsed at run time; NO apertura/adjudicación reported. Still OPEN, not awarded. Re-check PanamaCompra for apertura/acta after Panama Mon 09-28 (≈ late KST 09-28 / early KST 09-29). | 09-29 (run31): PanamaCompra egress 차단 지속. La Prensa/Infobae 스니펫상 마감 09-28은 파나마 현지시각이고 'homologación' 후 실제 제안서 접수·apertura는 '10월 초'로 예상 → 09-28 경과만으로 공개 apertura·낙찰 확정 아님. 낙찰 미확인. 주의: prensa.com 'Dos consorcios…Tocumen' 기사는 활주로/유도로 재포장(Pycrat=Mota-Engil+Meco, $56.9M 낙찰) 별건이며 T2 BHS/PBB와 무관 — 혼동 금지. status open/tracking_lead 유지, 10월 초 재확인. | 10-01 (run33): 제출마감 2026-09-28 경과 확정. Tocumen는 제안서를 '10월 초' 접수 예정이라 밝힘 — apertura/adjudicación 아직 미보도(25개사 homologación). 분류·상태 불변(tracking_lead, open). 며칠 내 재확인. | 10-05 (run35): 일정 변동(스니펫 기반) — 복수 파나마 소스(prensa.com·destinopanama.com.pa·panamaamerica)가 제안서 접수/apertura를 2026-11-06으로 재조정(09-28 마감에서 이연) 보도. 개찰·낙찰 미게시, 등록 25~26개사(Meco, Constructora Urbana, Mallol & Mallol, ICA, Grupo ITESA, Airportgurus). PanamaCompra 직접 미열람 → 11-06은 스니펫 추정, 11월 초 재확인. 분류·상태 불변(tracking_lead, open — PBB/BHS는 토목 design-build 내장). | 2026-10-09 (run39): Destino Panamá(10월초) 오퍼 11-06 보도, 공식 Addendum 3 미확인(최종 확인 Addendum 2). | 48차(2026-10-22): 09-28 마감 이후 공식·뉴스 추가 없음, 낙찰 미확인."
   },
   {
    "key": "CL-SCL-AMB-EXPANSION",
@@ -1954,8 +1959,8 @@
    "link": "https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ (공식) · Notice PDF: https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf",
    "attachments": "Notice to Bidders PDF(공개). Plans/Specs/Addenda: https://www.cidplanroom.com/projects/3144/details/teia-03-19-0012-tbd-baggage-handling-system-terminal-expansion (등록·로그인 필요) 또는 Rapids Reproductions. 애드엔덤 현재 없음.",
    "first_seen": "2026-10-06",
-   "last_updated": "2026-10-21",
-   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음. | 47차(2026-10-21): 10-20 개찰 후에도 bid tab/최저응찰자 미게시(공식 페이지 일정만 표시, 낙찰권고 10-26). 페이지 제목 \"Baggage Handling System & Terminal Expansion\"으로 변경. https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/",
+   "last_updated": "2026-10-22",
+   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음. | 47차(2026-10-21): 10-20 개찰 후에도 bid tab/최저응찰자 미게시(공식 페이지 일정만 표시, 낙찰권고 10-26). 페이지 제목 \"Baggage Handling System & Terminal Expansion\"으로 변경. https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ | 48차(2026-10-22): 10-26 낙찰권고 일정 유지, bid tab·최저응찰자 여전히 미게시.",
    "sorter": "no",
    "spec_access": "registration",
    "spec_original": "flycid.com 입찰 홈페이지 게시 BHS 기술규격서 원문 (2026-10-06 사용자 직접 확보)"
@@ -2050,8 +2055,8 @@
    "spec_access": "unknown",
    "spec_original": null,
    "first_seen": "2026-10-08",
-   "last_updated": "2026-10-21",
-   "notes": "38차 신규 리드. 후속 BHS(Gepäckförderanlage) 공고 감시 — loop sorter 후보. | 45차(2026-10-19): TED 711341-2026(10-15, 변경/재게시) — 건물 GC 공고. 수하물 컨베이어(GFA) 별도 GC 입찰·교량 별도 계약 후속 예정 명시. 문서: https://www.dtvp.de/Satellite/notice/CXP4Y9DMPQS/documents | 46차(2026-10-20): TED 711341-2026 참가신청 마감 10-19 13:00 CEST 경과(건축 GÜ, MEAT). GFA(BHS) 별도 GÜ 공고 대기. | 47차(2026-10-21): GFA(BHS) 별도 GÜ 공고 아직 미게시(TED ~10-20 확인)."
+   "last_updated": "2026-10-22",
+   "notes": "38차 신규 리드. 후속 BHS(Gepäckförderanlage) 공고 감시 — loop sorter 후보. | 45차(2026-10-19): TED 711341-2026(10-15, 변경/재게시) — 건물 GC 공고. 수하물 컨베이어(GFA) 별도 GC 입찰·교량 별도 계약 후속 예정 명시. 문서: https://www.dtvp.de/Satellite/notice/CXP4Y9DMPQS/documents | 46차(2026-10-20): TED 711341-2026 참가신청 마감 10-19 13:00 CEST 경과(건축 GÜ, MEAT). GFA(BHS) 별도 GÜ 공고 대기. | 47차(2026-10-21): GFA(BHS) 별도 GÜ 공고 아직 미게시(TED ~10-20 확인). | 48차(2026-10-22): TED 변경공고 711341-2026(10-15): 건물 GÜ 참가신청 마감 10-14→10-19 13:00 연장(경과). GFA(BHS) GÜ는 별도 후속 발주 재확인, 홀 최대 2,500 bags/h, sorter 형식 미명시. DTVP 문서 공개 https://www.dtvp.de/Satellite/notice/CXP4Y9DMPQS/documents"
   },
   {
    "key": "DE-MUC-T2-GSHE-BHS",
@@ -2135,13 +2140,13 @@
    "published": "2026-09-24",
    "deadline": "2026-10-27 14:00 MST (SOQ 하드카피 원본1+사본5) — 사전회의 2026-10-08 09:00",
    "link": "https://www.flytucson.com/taa/business_development/doing_business_with_taa/bids_rfps.php · Notice PDF: https://flytucson.com/Notice%20of%20Request%20for%20Qualifications%20-%20CMAR%20%E2%80%93%20Checked%20Baggage%20Inspection%20System.pdf",
-   "attachments": "Notice PDF 공개. RFQ 전문은 mgarry@flytucson.com 요청 시 무상 제공. 규격서·도면 미게시(CMAR 선정 후 BHS/EDS 하도급 패키지로 발주 예정).",
+   "attachments": "RFQ·Addendum #1·#2(Appendix A 도면·설계개요) 공식 페이지 공개 다운로드 https://www.flytucson.com/taa/business_development/doing_business_with_taa/bids_rfps.php · 상세 설계기록은 선정 CMAR 한정(NDA)",
    "sorter": "no",
-   "spec_access": "registration",
+   "spec_access": "public",
    "spec_original": "RFQ 전문 이메일 요청(mgarry@flytucson.com)",
    "first_seen": "2026-10-09",
-   "last_updated": "2026-10-09",
-   "notes": "NEW 10-09(run39) 공식 공고 확인. CBIS 현대화 = BHS 연계 HBS. 예산 미공개 → 임계값(50억) 미확정(신규 CBIS 시설+BHS 규모상 상회 추정). sorter 미명시."
+   "last_updated": "2026-10-22",
+   "notes": "NEW 10-09(run39) 공식 공고 확인. CBIS 현대화 = BHS 연계 HBS. 예산 미공개 → 임계값(50억) 미확정(신규 CBIS 시설+BHS 규모상 상회 추정). sorter 미명시. | 48차(2026-10-22): Addendum #1(10-12, 사전회의 요약·질의마감 10-19·2027-01 낙찰 목표·TAA+TSA OTA 재원) https://flytucson.com/10123546%20CBIS%20CMAR%20Addendum%201.pdf, Addendum #2(10-21, 최종·48p: Appendix A 건축 A101–A103·토목·BHS RFQ 도면·설계개요 초안, 숏리스트 통보 2026-11-13, PM/CM Jacobs, GMP 2028-05-01, 준공 ~2030-05) https://flytucson.com/10123546%20CBIS%20CMAR%20Addendum%202.pdf. SOQ 마감 10-27 14:00 불변. 첨부 public(설계 전체·현황자료는 선정 CMAR에만, NDA 가능). sorter=no 확정: CTX-9800 EDS 3기(+1 공간), 고속 paddle diverter·vertical sorter/merge·flat-plate make-up."
   },
   {
    "key": "US-CLT-BHS-TX3",
@@ -2181,11 +2186,11 @@
    "status": "upcoming",
    "published": "2026-09-24",
    "deadline": "응답 2026-10-23 (Amd 00001)",
-   "link": "https://sam.gov/opp/83071f1c20df430192cdb1a1b21fea07/view",
+   "link": "https://sam.gov/opp/cd7b23580edd443cab852a3dada6dfc9/view",
    "attachments": "SAM.gov",
    "first_seen": "2026-10-09",
-   "last_updated": "2026-10-20",
-   "notes": "입찰공고 아님(사전공고) → 리드. | 45차(2026-10-19): Amendment 00001(10-17, GlobalTenders 경유): 누락 첨부 추가, 응답기한 10-23으로 연장. SAM.gov 원문 미확인. | 46차(2026-10-20): SAM.gov 원문 확인(https://sam.gov/opp/cd7b23580edd443cab852a3dada6dfc9/view) Special Notice \"EBSP Recap EDS Industry Engagement Events\". Amd 00001 게시 10-16 18:29 UTC(10-17 아님). 응답 10-23 17:00 ET. 첨부 4종 공개: Special Notice, Amendment 1, Att1 TSA Vetting Request.xlsx, Att2 NDA Form 11000-6."
+   "last_updated": "2026-10-22",
+   "notes": "입찰공고 아님(사전공고) → 리드. | 45차(2026-10-19): Amendment 00001(10-17, GlobalTenders 경유): 누락 첨부 추가, 응답기한 10-23으로 연장. SAM.gov 원문 미확인. | 46차(2026-10-20): SAM.gov 원문 확인(https://sam.gov/opp/cd7b23580edd443cab852a3dada6dfc9/view) Special Notice \"EBSP Recap EDS Industry Engagement Events\". Amd 00001 게시 10-16 18:29 UTC(10-17 아님). 응답 10-23 17:00 ET. 첨부 4종 공개: Special Notice, Amendment 1, Att1 TSA Vetting Request.xlsx, Att2 NDA Form 11000-6. | 48차(2026-10-22): SAM.gov 최신 버전 링크 https://sam.gov/opp/cd7b23580edd443cab852a3dada6dfc9/view (10-16 수정, 응답 10-23 17:00 ET). 기존 83071f1c… 링크는 구버전."
   },
   {
    "key": "US-PBB-REPLACE-PARTA-UNK",
@@ -2718,9 +2723,9 @@
    "spec_access": "registration",
    "spec_original": "RIB meinauftrag 포털 https://www.meinauftrag.rib.de (등록)",
    "attachments": "RIB meinauftrag 등록 후",
-   "notes": "44차 신규(과거 1년 스캔 발굴). 컨베이어 약 1,300m·드라이브 약 400, 완전자동 sorter 1기(약 110m, 투입 4, 목적지 16·스파이럴 슈트), 체크인 20, 평판 수취 캐러셀 2, 100% 다단계 HBS 연동, SCADA/리드컴퓨터, T3 토트시스템 인터페이스. 착수 Q2 2026·설치 Q2 2027·인수 Q3 2029. sorter 형식 미기재(loop형 가능성) → unknown. 낙찰공고 미게시. 관련 PIN VE2222/2223/2224/2229/2230, VE9104(303248-2026), VE7301(468460-2026).",
+   "notes": "44차 신규(과거 1년 스캔 발굴). 컨베이어 약 1,300m·드라이브 약 400, 완전자동 sorter 1기(약 110m, 투입 4, 목적지 16·스파이럴 슈트), 체크인 20, 평판 수취 캐러셀 2, 100% 다단계 HBS 연동, SCADA/리드컴퓨터, T3 토트시스템 인터페이스. 착수 Q2 2026·설치 Q2 2027·인수 Q3 2029. sorter 형식 미기재(loop형 가능성) → unknown. 낙찰공고 미게시. 관련 PIN VE2222/2223/2224/2229/2230, VE9104(303248-2026), VE7301(468460-2026). | 48차(2026-10-22): TED 859299-2025/30023-2026(참가 마감 2026-01-26) 낙찰공지 여전히 없음. 공고상 완전자동 sorter 1기(~110m, 투입 4·목적지 16 spiral chute) — loop형 추정이나 형식(tilt-tray/cross-belt 등) 미명시 → sorter=unknown 유지. VE9132(647357-2026) 10-26 마감 정정 없음.",
    "first_seen": "2026-10-16",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-22"
   },
   {
    "key": "AT-SZG-BHS-CONTROLS",
@@ -2810,9 +2815,9 @@
    "city": "Guangxi",
    "status": "status_unconfirmed",
    "link": null,
-   "notes": "44차 신규 리드. 애그리게이터, 10-09 후보자 공시. 수량·금액 미상.",
+   "notes": "44차 신규 리드. 애그리게이터, 10-09 후보자 공시. 수량·금액 미상. | 48차(2026-10-22): 스니펫상 10-09 중표후보인 공시(미검증).",
    "first_seen": "2026-10-16",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-22"
   },
   {
    "key": "CN-YIW-PBB4",
@@ -2823,9 +2828,9 @@
    "city": "Yiwu",
    "status": "status_unconfirmed",
    "link": null,
-   "notes": "44차 신규 리드. 애그리게이터, 10-10 공고 11N7177159X720262001.",
+   "notes": "44차 신규 리드. 애그리게이터, 10-10 공고 11N7177159X720262001. | 48차(2026-10-22): 스니펫상 10-10 계약공고 단계(미검증).",
    "first_seen": "2026-10-16",
-   "last_updated": "2026-10-16"
+   "last_updated": "2026-10-22"
   },
   {
    "key": "BB-BGI-PBB4",
@@ -2949,16 +2954,16 @@
   {
    "key": "US-BWI-PBB-MAA-CO-24-017",
    "name": "BWI Marshall (MAA) — 탑승교 교체 MAA-CO-24-017 (예고표 기반)",
-   "category": "tracking_lead",
+   "category": "excluded_out_of_window",
    "type": "PBB",
    "country": "USA",
    "city": "Baltimore, MD",
-   "status": "status_unconfirmed",
+   "status": "awarded",
    "deadline": "예고: 공고 11-02, 사전회의 11-09, 입찰 12-15 (다른 사업 행과 혼동 가능성)",
    "link": null,
    "first_seen": "2026-10-21",
-   "last_updated": "2026-10-21",
-   "notes": "47차 신규 리드. MAA 조달 예고표 스니펫 기반, MAA 사이트 TLS 실패로 미확인. 2025-07 BPW 17기 PBB TK Airport Solutions $21.5M 낙찰 기록과 중복 여부 확인 필요."
+   "last_updated": "2026-10-22",
+   "notes": "47차 신규 리드. MAA 조달 예고표 스니펫 기반, MAA 사이트 TLS 실패로 미확인. 2025-07 BPW 17기 PBB TK Airport Solutions $21.5M 낙찰 기록과 중복 여부 확인 필요. | 48차(2026-10-22): 정정: 이미 입찰·낙찰된 건. MAA 개찰결과 PDF(Aero Bridgeworks 기본 $17.91M/전체 $21.34M, TK Airport Solutions 기본 $18.25M/전체 $21.46M) https://maa.maryland.gov/wp-content/uploads/2026/07/MAA-CO-24-017-Bid-Opening-Results-A.pdf, 메릴랜드 BPW 2025-07-02 TK 17기 $21.5M 승인. 공고일 2024~2025 → 1년 창 초과. 예고표 11-02/12-15는 타 사업 행 혼동. 추적 종료."
   },
   {
    "key": "AT-FOERDERANLAGEN-SANIERUNGSCHECK",
@@ -2973,6 +2978,87 @@
    "first_seen": "2026-10-21",
    "last_updated": "2026-10-21",
    "notes": "47차 신규 리드. TenderNews 3032616261006(10-06 게재), 발주처 로그인 뒤. 공항 BHS 리노베이션 설계용역 가능성 — 공식 원문 미확인."
+  },
+  {
+   "category": "confirmed_in_scope",
+   "budget_krw_est": 1180000000,
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "attachments": "AAI e-tender 포털(CPPP 등록 후 NIT·BOQ 다운로드, registration)",
+   "method": "AAI e-tender(CPPP) 2-envelope(기술/가격) L1 추정",
+   "key": "IN-AAI-AGRA-PBB-RELOC",
+   "name": "AAI Agra — PBB 해체·이설·재설치·리퍼비시 + 운영·AICMC",
+   "type": "PBB",
+   "country": "India",
+   "city": "Agra",
+   "authority": "Airports Authority of India",
+   "scope": "기존 탑승교 해체·이설·재설치 및 리퍼비시, 운영·종합유지보수(AICMC)",
+   "budget": "INR 73.9M (≈KRW 11.8억)",
+   "status": "closed",
+   "published": "2026-09 (AAI e-tender)",
+   "deadline": "2026-10-01",
+   "link": "https://www.aai.aero/en/tender (AAI tender search: Agra PBB)",
+   "notes": "48차 신규(신규탐색 에이전트, AAI 공식 tender search). 신규 공급 아닌 이설·리퍼비시 → 임계값(10억)은 상회. 정확 tender ID 다음 실행 재확인."
+  },
+  {
+   "category": "tracking_lead",
+   "budget_krw_est": 13000000000,
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "attachments": "미확인",
+   "method": "미확인",
+   "key": "JP-NRT-PBB-1PTB-SAT1",
+   "name": "成田国際空港(NAA) — 1PTB第1サテライト他搭乗橋更新工事 (PBB 9기)",
+   "type": "PBB",
+   "country": "Japan",
+   "city": "Narita",
+   "authority": "成田国際空港株式会社",
+   "scope": "제1터미널 제1위성 등 탑승교 9기 갱신",
+   "budget": "상한 JPY 1,402.5M(税込, ≈KRW 130억)",
+   "status": "awarded",
+   "deadline": "2026-07-09",
+   "link": "https://www.narita-airport.jp/files/1d8ddc663e0aa5dfba1ef1b52d45ca098fa2c4afb81b498da2f3c173955dd9ad (NAA 발주예정표)",
+   "notes": "48차 신규 리드: NAA 발주예정 PDF + 계약결과 스니펫(2026-08-13 全日空モーターサービス 계약). 공식 入札公告 원문 미확인 → 원문 확인 시 confirmed(마감·1년 이내)로 승격. VERIFY: NAA 入札公告/契約結果 페이지."
+  },
+  {
+   "category": "tracking_lead",
+   "budget_krw_est": null,
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "attachments": "미확인",
+   "method": "미확인",
+   "key": "DZ-ALG-T1-BHS",
+   "name": "Alger Houari Boumediene T1 — 수하물처리시스템 갱신 입찰(보도)",
+   "type": "BHS",
+   "country": "Algeria",
+   "city": "Algiers",
+   "authority": "SGSIA(추정)",
+   "scope": "T1 BHS 갱신",
+   "budget": "미확인",
+   "status": "status_unconfirmed",
+   "deadline": null,
+   "link": "https://www.observalgerie.com (2026-02-19 보도)",
+   "notes": "48차 신규 리드(뉴스만). 공식 공고문(BOMOP/SGSIA) 미확인."
+  },
+  {
+   "category": "tracking_lead",
+   "budget_krw_est": null,
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "attachments": "미확인",
+   "method": "미확인",
+   "key": "CO-CLO-AEROCIVIL-MOD",
+   "name": "Cali Alfonso Bonilla Aragón(Aerocivil) 현대화 — 신규 BHS·탑승교 포함(Conpes 2026–2030, COP 215,657백만)",
+   "type": "BHS+PBB",
+   "country": "Colombia",
+   "city": "Cali",
+   "authority": "Aerocivil",
+   "scope": "터미널 현대화, 신규 BHS·PBB",
+   "budget": "COP 215.657bn(사업 전체)",
+   "status": "upcoming",
+   "deadline": null,
+   "link": "https://www.eltiempo.com (Conpes 보도)",
+   "notes": "48차 신규 리드(계획 단계, SECOP 공고 없음)."
   }
  ]
 }

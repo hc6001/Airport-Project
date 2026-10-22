@@ -145,3 +145,4 @@ UTC 날짜가 항상 전날이므로(예: KST 2026-09-04 03:00 금요일 = UTC 2
 - **2026-10-22 (목, 입찰추적 48차)** — KST 목요일. 신규 confirmed 1건(AAI 아그라 PBB 이설·리퍼비시, 마감 10-01), sorter★ 없음. TUS Addendum 1·2(sorter 미포함), MUC 711341 연장 경과, BWI PBB 정정(2025 낙찰·창 초과), GEG RFQ closed, TSA 링크 갱신, 리드 NRT PBB·알제 T1·칼리. 알림 미발송. (`reports/2026-10-22_run48.md`)
 - **2026-10-22 (목, 동향조사 루틴)** — KST 목요일. 검색 6건, 신규 0건·변동 0건. 알림 미발송. (`reports/trends/2026-10-22_daily.md`)
 - **2026-10-23 (금, 입찰추적 49차·주간 롤업)** — KST 금요일. 신규 confirmed 0건, sorter★ 없음. PY-ASU PBB 마감 11-04 재연기, PHL PBB Phase4 개찰 10-29(애그리게이터), CID bid tab 미게시, 리드 HPN BHS. 45~49차 집계 알림 발송. (`reports/2026-10-23_run49.md`)
+- **2026-10-23 (금, 동향조사 루틴)** — KST 금요일, 주간 롤업. 검색 8건, 신규 0건·변동 0건. 알림 미발송. (`reports/trends/2026-10-23_daily.md`)

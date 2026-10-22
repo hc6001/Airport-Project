@@ -267,6 +267,11 @@
     "date": "2026-10-22",
     "weekday": "Thursday",
     "note": "48차. 신규 confirmed 1(IN-AAI-AGRA-PBB-RELOC, 마감 10-01), sorter★ 없음. TUS Addendum 1·2(sorter=no), MUC 711341 연장(경과), BWI PBB 정정→2025 낙찰·창 초과, GEG RFQ closed 확인, TSA 링크 갱신, 리드 NRT PBB·알제 T1·칼리. 목요일 → 알림 미발송(금요일 롤업 대상)."
+   },
+   {
+    "date": "2026-10-23",
+    "weekday": "Friday",
+    "note": "49차·주간 롤업(45~49차 집계, 알림 발송). 신규 confirmed 0, sorter★ 없음. PY-ASU PBB 마감 11-04 재연기, PHL PBB Phase4 개찰 10-29(애그리게이터), CID bid tab 미게시, 리드 HPN BHS. 나머지 추적건 불변."
    }
   ],
   "last_run": "2026-10-22",
@@ -1783,12 +1788,12 @@
    "budget_krw_est": null,
    "status": "open",
    "published": "2026-09-29 (GovCB 게시일; 기존 09-15 표기와 상이)",
-   "deadline": "2026-10-08 (사전자격 제출 마감, GovCB 기준) · 10-29 본입찰 일자 여부 미검증",
+   "deadline": "2026-10-29 본입찰 개찰(Zoom, 애그리게이터 Bid Banana 기준·공식 미검증) · 사전자격 10-08",
    "link": "https://www.phlcontracts.phila.gov (PW Prequalification Bid 6718 / PHL-1940.54); City forecast: https://www.phila.gov/media/20260518152029/otis-procurement-forecast-2026-spring.pdf",
    "attachments": "PHLContracts bid 6718 documents (phlcontracts.phila.gov egress 차단으로 첨부 목록·규격 직접 미확인)",
    "first_seen": "2026-09-30",
-   "last_updated": "2026-10-16",
-   "notes": "NEW LEAD 09-30(run32, 신규 스윕). PHL은 기추적 'Philadelphia PHL — Terminal D/E Baggage Make-Up expansion'(BHS)과 별개의 PBB 프로그램. 실제 공개 solicitation 게시 여부가 상충(공식 조달예보=TBD/예보 vs 애그리게이터=09-15 게시) → 규칙상 확정 입찰공고문 미검증이므로 tracking_lead(status_unconfirmed)로만 등재, 확정 리스트 미포함. VERIFY next run: phlcontracts 실제 solicitation 번호·게시일·마감·규모(다게이트 대형 vs ~1기 저규모). | 10-01 (run33): 상충 미해소 — 애그리게이터는 RFP 게시 ~2026-09-11·질의마감 09-21(마감설 10-29) 표기하나, 필라델피아 시 자료는 2026 봄 조달예보(OTIS, TBD/2026-07) 수준·실제 phlcontracts solicitation 번호(B2626934/B2624866 등)는 Phase 4 PBB 건으로 미확인(포털 차단). PHL 뉴스룸은 PBB 프로그램 '완료 임박' → Phase 4 소규모/후기단계 가능성. tracking_lead 유지(승격 안 함). | 10-02 (run34, Fri 주간롤업): ★상충 해소·승격 — 전세계 스윕에서 실제 공개 solicitation 확인: City of Philadelphia 'PW Prequalification Bid **6718 / PHL-1940.54**', 게시 2026-09-15·마감 2026-10-29, 기존 PBB 철거·교체(remove-and-replace). 봄 조달예보(2026-07 예정)가 09-15 PW 사전자격입찰로 현실화 = 예보+실제공고 2신호 정합 → tracking_lead → **confirmed_in_scope(open)** 승격. ⚠️정확 금액·게이트수 미확정(PHL PBB 프로그램 '완료 임박'으로 Phase4가 소규모일 가능성 잔존) → 임계값(PBB 10억) 충족 여부 다음 실행 phlcontracts 원문 재확인; 미달 시 excluded_low_amount로 하향. (사전자격=prequalification 단계이나 공개 게시된 공식 solicitation으로 실제 입찰공고문 기준 충족.) | 10-05 (run35): 검증 — 예산·게이트수 여전 미획득(phlcontracts/phl.org 차단). ⚠️마감일 상충: 애그리게이터(starbridge.ai) 입찰마감 2026-10-14 15:00 EDT 표기(원장 10-29와 상이, 사전자격 vs 입찰 하위마감 가능성) → 다음 실행 조정. PHL 뉴스룸 'PBB 교체·개선 프로그램 완료 임박' 문맥상 Phase4 소규모 가능성 → 임계값(PBB 10억) 충족 여부 미확정, '값 확인·미달 시 하향' 플래그 유지. 분류 불변(confirmed_in_scope, open). | 10-06 (run36): ★run35 마감일 상충 해소 — 전담 검증 결과 공식 solicitation은 City of Philadelphia Dept. of Aviation 'PW Prequalification Bid 6718 / PHL-1940.54', 게시 2026-09-15, bid closing **2026-10-29**로 재확인(원장치 정합). 애그리게이터(starbridge.ai)의 2026-10-14는 다른/이른 필드로 판단 → 10-29 채택. 단계=사전자격(prequalification); 승인된 셀러만 후속 폐쇄입찰 초청. 예산·게이트수 여전 미공개(phl.org/phlcontracts egress 차단) → 임계값(PBB 10억) 충족 여부 미확정, '값 확인·미달 시 하향' 플래그 유지. 분류 불변(confirmed_in_scope, open). | 10-07 (run37): 검색요약에 \"PW Prequalification Bid 6718 – PASSENGER BOARDING BRIDGE REPLACEMENT – PHASE 4\" 마감 10/08/2026 표기 포착(미검증 — 사전자격/질의 마감일 가능성). 원장 10-29 유지, 다음 실행 phlcontracts 재확인. 예산 여전 TBD. | 2026-10-08: 38차: GovCB 목록에서 PW Prequalification Bid 6718 (PHL-1940.54) Posted 2026-09-29 / Due 2026-10-08 (사전자격 마감) 확인. 10-29는 사전자격 통과자 대상 본입찰 일자 가능성(미검증). phl.org 403, BSO는 JSF 검색 필요. | 2026-10-09 (run39): phlcontracts.phila.gov 접근 가능: B2726800~B2728300 전수 키워드 검색에서 Bid 6718/PHL-1940.54 미발견. 다른 항공 공사(PW 6709)는 사전자격 마감→본입찰일 2레코드 패턴 → 10-08 PQ/10-29 본입찰 해석 개연성(미검증). 공식 레코드 미확인 플래그(분류 유지, 다음 실행 미확인 시 리드 하향 검토). | 10-13: TransformPHL 기회목록(9월 기준)에 'PBB Replacements-Phase 4 (General)'가 Q3·Q4 2026 동시 게재 → 일정 지연 시사. 본입찰 공고 미확인. | 44차(2026-10-16): 애그리게이터(bidbanana): 사전자격, >USD 5M, 개찰 10-29(Zoom). 공식 PHLContracts 여전히 미확인."
+   "last_updated": "2026-10-23",
+   "notes": "NEW LEAD 09-30(run32, 신규 스윕). PHL은 기추적 'Philadelphia PHL — Terminal D/E Baggage Make-Up expansion'(BHS)과 별개의 PBB 프로그램. 실제 공개 solicitation 게시 여부가 상충(공식 조달예보=TBD/예보 vs 애그리게이터=09-15 게시) → 규칙상 확정 입찰공고문 미검증이므로 tracking_lead(status_unconfirmed)로만 등재, 확정 리스트 미포함. VERIFY next run: phlcontracts 실제 solicitation 번호·게시일·마감·규모(다게이트 대형 vs ~1기 저규모). | 10-01 (run33): 상충 미해소 — 애그리게이터는 RFP 게시 ~2026-09-11·질의마감 09-21(마감설 10-29) 표기하나, 필라델피아 시 자료는 2026 봄 조달예보(OTIS, TBD/2026-07) 수준·실제 phlcontracts solicitation 번호(B2626934/B2624866 등)는 Phase 4 PBB 건으로 미확인(포털 차단). PHL 뉴스룸은 PBB 프로그램 '완료 임박' → Phase 4 소규모/후기단계 가능성. tracking_lead 유지(승격 안 함). | 10-02 (run34, Fri 주간롤업): ★상충 해소·승격 — 전세계 스윕에서 실제 공개 solicitation 확인: City of Philadelphia 'PW Prequalification Bid **6718 / PHL-1940.54**', 게시 2026-09-15·마감 2026-10-29, 기존 PBB 철거·교체(remove-and-replace). 봄 조달예보(2026-07 예정)가 09-15 PW 사전자격입찰로 현실화 = 예보+실제공고 2신호 정합 → tracking_lead → **confirmed_in_scope(open)** 승격. ⚠️정확 금액·게이트수 미확정(PHL PBB 프로그램 '완료 임박'으로 Phase4가 소규모일 가능성 잔존) → 임계값(PBB 10억) 충족 여부 다음 실행 phlcontracts 원문 재확인; 미달 시 excluded_low_amount로 하향. (사전자격=prequalification 단계이나 공개 게시된 공식 solicitation으로 실제 입찰공고문 기준 충족.) | 10-05 (run35): 검증 — 예산·게이트수 여전 미획득(phlcontracts/phl.org 차단). ⚠️마감일 상충: 애그리게이터(starbridge.ai) 입찰마감 2026-10-14 15:00 EDT 표기(원장 10-29와 상이, 사전자격 vs 입찰 하위마감 가능성) → 다음 실행 조정. PHL 뉴스룸 'PBB 교체·개선 프로그램 완료 임박' 문맥상 Phase4 소규모 가능성 → 임계값(PBB 10억) 충족 여부 미확정, '값 확인·미달 시 하향' 플래그 유지. 분류 불변(confirmed_in_scope, open). | 10-06 (run36): ★run35 마감일 상충 해소 — 전담 검증 결과 공식 solicitation은 City of Philadelphia Dept. of Aviation 'PW Prequalification Bid 6718 / PHL-1940.54', 게시 2026-09-15, bid closing **2026-10-29**로 재확인(원장치 정합). 애그리게이터(starbridge.ai)의 2026-10-14는 다른/이른 필드로 판단 → 10-29 채택. 단계=사전자격(prequalification); 승인된 셀러만 후속 폐쇄입찰 초청. 예산·게이트수 여전 미공개(phl.org/phlcontracts egress 차단) → 임계값(PBB 10억) 충족 여부 미확정, '값 확인·미달 시 하향' 플래그 유지. 분류 불변(confirmed_in_scope, open). | 10-07 (run37): 검색요약에 \"PW Prequalification Bid 6718 – PASSENGER BOARDING BRIDGE REPLACEMENT – PHASE 4\" 마감 10/08/2026 표기 포착(미검증 — 사전자격/질의 마감일 가능성). 원장 10-29 유지, 다음 실행 phlcontracts 재확인. 예산 여전 TBD. | 2026-10-08: 38차: GovCB 목록에서 PW Prequalification Bid 6718 (PHL-1940.54) Posted 2026-09-29 / Due 2026-10-08 (사전자격 마감) 확인. 10-29는 사전자격 통과자 대상 본입찰 일자 가능성(미검증). phl.org 403, BSO는 JSF 검색 필요. | 2026-10-09 (run39): phlcontracts.phila.gov 접근 가능: B2726800~B2728300 전수 키워드 검색에서 Bid 6718/PHL-1940.54 미발견. 다른 항공 공사(PW 6709)는 사전자격 마감→본입찰일 2레코드 패턴 → 10-08 PQ/10-29 본입찰 해석 개연성(미검증). 공식 레코드 미확인 플래그(분류 유지, 다음 실행 미확인 시 리드 하향 검토). | 10-13: TransformPHL 기회목록(9월 기준)에 'PBB Replacements-Phase 4 (General)'가 Q3·Q4 2026 동시 게재 → 일정 지연 시사. 본입찰 공고 미확인. | 44차(2026-10-16): 애그리게이터(bidbanana): 사전자격, >USD 5M, 개찰 10-29(Zoom). 공식 PHLContracts 여전히 미확인. | 49차: Bid Banana 요약 — 초청(사전자격자) 입찰, 철거·기초·설치·시운전+VDGS·PCA·GPU, $5M 초과, 문서비 $600, 입찰보증 10%, 개찰 10-29 Zoom. PHLContracts에서 Bid 6718 검색 불가(공식 미확인)."
   },
   {
    "key": "SV-CEPA-SAL-BHS-DESIGN",
@@ -1959,8 +1964,8 @@
    "link": "https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ (공식) · Notice PDF: https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf",
    "attachments": "Notice to Bidders PDF(공개). Plans/Specs/Addenda: https://www.cidplanroom.com/projects/3144/details/teia-03-19-0012-tbd-baggage-handling-system-terminal-expansion (등록·로그인 필요) 또는 Rapids Reproductions. 애드엔덤 현재 없음.",
    "first_seen": "2026-10-06",
-   "last_updated": "2026-10-22",
-   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음. | 47차(2026-10-21): 10-20 개찰 후에도 bid tab/최저응찰자 미게시(공식 페이지 일정만 표시, 낙찰권고 10-26). 페이지 제목 \"Baggage Handling System & Terminal Expansion\"으로 변경. https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ | 48차(2026-10-22): 10-26 낙찰권고 일정 유지, bid tab·최저응찰자 여전히 미게시.",
+   "last_updated": "2026-10-23",
+   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음. | 47차(2026-10-21): 10-20 개찰 후에도 bid tab/최저응찰자 미게시(공식 페이지 일정만 표시, 낙찰권고 10-26). 페이지 제목 \"Baggage Handling System & Terminal Expansion\"으로 변경. https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ | 48차(2026-10-22): 10-26 낙찰권고 일정 유지, bid tab·최저응찰자 여전히 미게시. | 49차: bid tab(BTAB) 미게시(10-01 이후 업로드 없음), 10-26 위원회 안건 미게시. 도면·시방 cidplanroom 프로젝트 3144(등록).",
    "sorter": "no",
    "spec_access": "registration",
    "spec_original": "flycid.com 입찰 홈페이지 게시 BHS 기술규격서 원문 (2026-10-06 사용자 직접 확보)"
@@ -2529,8 +2534,8 @@
    "spec_access": "public",
    "spec_original": "bidding-document.pdf_010 (Corrigendum #9, 2026-09-30) — 'OPERATIONAL AND TECHNICAL SPECIFICATIONS/COMPLIANCE SHEET' 포함",
    "first_seen": "2026-10-14",
-   "last_updated": "2026-10-21",
-   "notes": "42차 신규. globaltenders 목록(정정공고 09-30)에서 단서 → EPADS 원문 PDF 직접 확보·확인. 마감 이력: 09-15 → 10-01(Corr#6) → 10-15(Corr#8/9). 별도 기내수하물 CT(P58724)는 스코프 외. | 2026-10-14(사용자 요청 상세조사): I/T No. HQPAA/1992/371/XXLN, 내부 procurement 57427. 기존 BHS=Leonardo, 기존 HBS=Smiths HS10080XCT/EDX·CTX5800. 10-09 Addendum: 납기 200일, Leonardo(또는 공인 통합사) 프로젝트 확인서 없는 입찰은 부적합. 입찰보증 72.225M→36.1125M PKR(물량/추정가 축소 시사). 연락: humayun.azhar@paa.gov.pk, sajid.noor@paa.gov.pk, +92-21-9907-2264/2265. | 2026-10-14(사용자 요청 예산 재조사): 첨부 16건·SBD 164쪽·Corr#0~9 전수 확인, 추정가 명시 없음. Corr#0/1 보증금 72,225,000 → Corr#6~9 36,112,500(물량 3기 동일) 확인 → Rule 27(5% 상한) 역산으로 추정가 ≥ PKR 1.4445bn 산출. | 2026-10-15 (43차): Addendum-3(2026-10-14) — 조항 2.6(j) BHS 연동 재기술, 하위항목(vi)[OEM 확인서 없는 자체확약=부적합] 삭제 → Leonardo 확인서 요건 완화. 마감 10-15 11:00/개찰 11:30 PKT 불변, 착수 예정 2026-11-24. https://pa.epads.gov.pk/gallery/procurement/57427/annexure/Hold_Baggage_CT_Scann-1992-371-XXLN.pdf | 2026-10-15 17:30 KST(사용자 요청 개찰결과 확인): 마감 10-15 11:00 PKT 그대로 경과(Corrigendum #10 = 10-09, Addendum 반영만·일정 변동 없음, 그 이후 정정 없음). 개찰기록·응찰사 목록은 EPADS 공개면·PPRA·웹 어디에도 미게시(공개 첨부 17건 불변). 1단계 2봉투라 가격봉투는 기술평가 후 별도 개봉. 다음 확인 10-16 14:30 KST. | 44차(2026-10-16): Corr#1~10 확인, 제출 10-15 11:00/개찰 11:30. 평가보고서 탭 비활성 → 개찰결과 미공개. | 2026-10-16 14:30 KST(2차 개찰결과 확인): 여전히 미게시 — SBD 첨부 17건 불변, 신규 정정공고 없음(corrigendum _012 이후 서버 타임아웃), PPRA·웹 검색 결과 없음. 참고: propakistani 2026-10-10 보도(총리 지시로 주요공항 스캐너 항공운송·설치 지시) — 본 건 연관 여부 미확인. 이후 정규 입찰추적 루틴에서 계속 추적(평가보고서/낙찰공고). | 45차(2026-10-19): Corr#10(10-09) 이후 정정 없음(_012 403). 개찰기록·응찰사 미게시. | 47차(2026-10-21): EPADS P66794 평가보고서/낙찰 여전히 미게시."
+   "last_updated": "2026-10-23",
+   "notes": "42차 신규. globaltenders 목록(정정공고 09-30)에서 단서 → EPADS 원문 PDF 직접 확보·확인. 마감 이력: 09-15 → 10-01(Corr#6) → 10-15(Corr#8/9). 별도 기내수하물 CT(P58724)는 스코프 외. | 2026-10-14(사용자 요청 상세조사): I/T No. HQPAA/1992/371/XXLN, 내부 procurement 57427. 기존 BHS=Leonardo, 기존 HBS=Smiths HS10080XCT/EDX·CTX5800. 10-09 Addendum: 납기 200일, Leonardo(또는 공인 통합사) 프로젝트 확인서 없는 입찰은 부적합. 입찰보증 72.225M→36.1125M PKR(물량/추정가 축소 시사). 연락: humayun.azhar@paa.gov.pk, sajid.noor@paa.gov.pk, +92-21-9907-2264/2265. | 2026-10-14(사용자 요청 예산 재조사): 첨부 16건·SBD 164쪽·Corr#0~9 전수 확인, 추정가 명시 없음. Corr#0/1 보증금 72,225,000 → Corr#6~9 36,112,500(물량 3기 동일) 확인 → Rule 27(5% 상한) 역산으로 추정가 ≥ PKR 1.4445bn 산출. | 2026-10-15 (43차): Addendum-3(2026-10-14) — 조항 2.6(j) BHS 연동 재기술, 하위항목(vi)[OEM 확인서 없는 자체확약=부적합] 삭제 → Leonardo 확인서 요건 완화. 마감 10-15 11:00/개찰 11:30 PKT 불변, 착수 예정 2026-11-24. https://pa.epads.gov.pk/gallery/procurement/57427/annexure/Hold_Baggage_CT_Scann-1992-371-XXLN.pdf | 2026-10-15 17:30 KST(사용자 요청 개찰결과 확인): 마감 10-15 11:00 PKT 그대로 경과(Corrigendum #10 = 10-09, Addendum 반영만·일정 변동 없음, 그 이후 정정 없음). 개찰기록·응찰사 목록은 EPADS 공개면·PPRA·웹 어디에도 미게시(공개 첨부 17건 불변). 1단계 2봉투라 가격봉투는 기술평가 후 별도 개봉. 다음 확인 10-16 14:30 KST. | 44차(2026-10-16): Corr#1~10 확인, 제출 10-15 11:00/개찰 11:30. 평가보고서 탭 비활성 → 개찰결과 미공개. | 2026-10-16 14:30 KST(2차 개찰결과 확인): 여전히 미게시 — SBD 첨부 17건 불변, 신규 정정공고 없음(corrigendum _012 이후 서버 타임아웃), PPRA·웹 검색 결과 없음. 참고: propakistani 2026-10-10 보도(총리 지시로 주요공항 스캐너 항공운송·설치 지시) — 본 건 연관 여부 미확인. 이후 정규 입찰추적 루틴에서 계속 추적(평가보고서/낙찰공고). | 45차(2026-10-19): Corr#10(10-09) 이후 정정 없음(_012 403). 개찰기록·응찰사 미게시. | 47차(2026-10-21): EPADS P66794 평가보고서/낙찰 여전히 미게시. | 49차: 평가보고서·낙찰 미게시, 최신 Addendum-3(10-14), BDS상 개찰 10-15 11:30."
   },
   {
    "key": "FI-RVN-BHS-MOD",
@@ -2618,10 +2623,10 @@
    "status": "open",
    "link": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1f1aba99-3ed6-6724-a478-d3e9ceb38de5.html",
    "first_seen": "2026-10-15",
-   "last_updated": "2026-10-19",
-   "deadline": "2026-10-28 07:30 (개찰 08:00, PYT) — 10-16→10-20→10-28 연기",
+   "last_updated": "2026-10-23",
+   "deadline": "2026-11-04 09:00 (개찰 09:30, PYT) — 10-16→10-20→10-28→11-04 연기",
    "budget": "PYG 16,800,000,000 (≈USD 2.1M ≈ 28억원)",
-   "notes": "43차 신규. DNCP 공식 공고(LPN, Ley 7021/22, 단일 총액 로트). 탑승교 2기 공급·시운전. 입찰보증 5%, 선급금 10%, 현장설명 10-07(필수), 질의마감 10-12. 공고 2026-09-25. 평가기준은 PBC(동적 로딩, 미판독) — 최저가 적격 추정. 첨부 공개: PBC(참가요건·평가기준·기술규격·계약조건·계약서 양식), 가격표 xlsx, 기술의견서(dictamen técnico), 원가산정 근거, CDP 418·다년도 예산증명·PBC 승인결의, 선급금·현장설명 사유서. 관련 별건(건축, PBB 공급 아님): 483536 북측 Espigón PBB 7번 구역 확장 PYG 28.66bn(10-23), 483729 Manga 4·5 확장 PYG 17.25bn(10-19). | 44차(2026-10-16): DNCP 상태 En Convocatoria(Abierta), 마감·개찰 10-20로 연기 확인. | 45차(2026-10-19): DNCP 이력 Prórroga 2건(10-15 07:20, 10-16 07:05) → 마감 10-28 07:30/개찰 08:00 PYT로 재연기."
+   "notes": "43차 신규. DNCP 공식 공고(LPN, Ley 7021/22, 단일 총액 로트). 탑승교 2기 공급·시운전. 입찰보증 5%, 선급금 10%, 현장설명 10-07(필수), 질의마감 10-12. 공고 2026-09-25. 평가기준은 PBC(동적 로딩, 미판독) — 최저가 적격 추정. 첨부 공개: PBC(참가요건·평가기준·기술규격·계약조건·계약서 양식), 가격표 xlsx, 기술의견서(dictamen técnico), 원가산정 근거, CDP 418·다년도 예산증명·PBC 승인결의, 선급금·현장설명 사유서. 관련 별건(건축, PBB 공급 아님): 483536 북측 Espigón PBB 7번 구역 확장 PYG 28.66bn(10-23), 483729 Manga 4·5 확장 PYG 17.25bn(10-19). | 44차(2026-10-16): DNCP 상태 En Convocatoria(Abierta), 마감·개찰 10-20로 연기 확인. | 45차(2026-10-19): DNCP 이력 Prórroga 2건(10-15 07:20, 10-16 07:05) → 마감 10-28 07:30/개찰 08:00 PYT로 재연기. | 49차(2026-10-23): DNCP Prórroga 3차(10-22 13:42 게시) → 마감 11-04 09:00/개찰 09:30 PYT. 상태 Publicado, 첨부 불변."
   },
   {
    "key": "ES-IBZ-PBB-RENOV",
@@ -3059,6 +3064,26 @@
    "deadline": null,
    "link": "https://www.eltiempo.com (Conpes 보도)",
    "notes": "48차 신규 리드(계획 단계, SECOP 공고 없음)."
+  },
+  {
+   "key": "US-HPN-BHS-UPGRADE",
+   "category": "tracking_lead",
+   "type": "BHS",
+   "name": "Westchester County Airport(HPN) — BHS 업그레이드(plow merge·제어)",
+   "country": "USA",
+   "city": "White Plains, NY",
+   "authority": "Westchester County",
+   "scope": "BHS plow merge 및 제어 업그레이드",
+   "method": "미확인",
+   "budget": "미확인",
+   "budget_krw_est": null,
+   "status": "closed",
+   "deadline": "2026-04 (애그리게이터 기준 마감)",
+   "link": "미확인 (ACI-NA/애그리게이터 단서)",
+   "attachments": "미확인",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "notes": "49차 신규 리드. 공식 공고문·금액 미확인 → 다음 실행에서 Westchester County 조달포털 원문·금액 확인(소규모 개조로 금액미달 가능성). sorter=no(plow merge)."
   }
  ]
 }

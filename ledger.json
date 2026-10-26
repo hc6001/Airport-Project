@@ -272,6 +272,11 @@
     "date": "2026-10-23",
     "weekday": "Friday",
     "note": "49차·주간 롤업(45~49차 집계, 알림 발송). 신규 confirmed 0, sorter★ 없음. PY-ASU PBB 마감 11-04 재연기, PHL PBB Phase4 개찰 10-29(애그리게이터), CID bid tab 미게시, 리드 HPN BHS. 나머지 추적건 불변."
+   },
+   {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "note": "51차. CID 낙찰(Peak USD 11.27M), FI-RVN 재공고 739696(11-06), CMN PBB 개찰 11-24 정리, IAD 마감 미확정, 신규 리드 Dali PBB·CMN BHS. 알림 미발송(화)."
    }
   ],
   "last_run": "2026-10-26",
@@ -1958,14 +1963,14 @@
    "method": "공개경쟁입찰(unit-price bid) — 최저 적격응찰자(lowest responsive bidder) 낙찰, AIP 재원 조건부. 입찰보증 5%, 이행·지급보증 100%, DBE 0.55%, BABA",
    "budget": "미확인 (FAA ATP $6M + 선행 BHS 제어 $3.6M; BHS 분리 금액 미공개)",
    "budget_krw_est": null,
-   "status": "open",
+   "status": "awarded",
    "published": "2026-09-30 (flycid.com 공식 게시; Notice to Bidders 2026-08-24자)",
    "deadline": "2026-10-20 10:00 (bids due & opened, local) — 사전입찰회의 2026-10-05 13:30, 낙찰권고 2026-10-26",
    "link": "https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ (공식) · Notice PDF: https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf",
    "attachments": "Notice to Bidders PDF(공개). Plans/Specs/Addenda: https://www.cidplanroom.com/projects/3144/details/teia-03-19-0012-tbd-baggage-handling-system-terminal-expansion (등록·로그인 필요) 또는 Rapids Reproductions. 애드엔덤 현재 없음.",
    "first_seen": "2026-10-06",
-   "last_updated": "2026-10-23",
-   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음. | 47차(2026-10-21): 10-20 개찰 후에도 bid tab/최저응찰자 미게시(공식 페이지 일정만 표시, 낙찰권고 10-26). 페이지 제목 \"Baggage Handling System & Terminal Expansion\"으로 변경. https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ | 48차(2026-10-22): 10-26 낙찰권고 일정 유지, bid tab·최저응찰자 여전히 미게시. | 49차: bid tab(BTAB) 미게시(10-01 이후 업로드 없음), 10-26 위원회 안건 미게시. 도면·시방 cidplanroom 프로젝트 3144(등록).",
+   "last_updated": "2026-10-27",
+   "notes": "NEW LEAD 10-06(run36, 신규 전세계 스윕). 현지 뉴스 3사+starbridge 애그리게이터 교차확인된 실제 RFP(터미널 확장+BHS 설치). 단, 1차 공고문 직접 egress 미확인이므로 run31 관례(원문 미접근→리드)대로 tracking_lead(status_unconfirmed) 등재, 확정 리스트 미포함. 임계값(BHS 50억≈$3.7M) 충족 여부 미확정(BHS 분리 금액 미공개이나 선행 BHS 제어 $3.6M+확장 공사 규모상 상회 가능성). VERIFY 다음 실행: SAM.gov/공항 포털 실제 solicitation 번호·BHS 분리 금액·마감. | 10-06 (사용자 확인): 사용자가 CID 입찰 홈페이지(flycid.com)에서 BHS 부분 기술규격서 원문을 직접 확보 → 실제 입찰공고문·규격서 존재 확인. 규격서에 자동분류장치(sorter) 미포함 → 최우선 목표(sorter 포함 규격서) 미충족, 참고 기준사례. 설계 엔지니어 Foth Infrastructure & Environment. 2025 별건 'BHS Upgrades'(Foth 25T001.07, 제어 ~$3M)와 구분. → 원문 확보로 실제 입찰공고문 확인됨: tracking_lead → confirmed_in_scope(open, 마감 ~2026-10-20) 승격. BHS 분리금액 미확정 → 임계값(50억) 확인 플래그 유지. | 10-07 (run37): 공식 공고 페이지 확정 — \"Baggage Handling System & Terminal Expansion\", FAA AIP 3-19-0012-TBD (BIL-ATP TERM 2026), 게시 2026-09-30, 개찰 2026-10-20 10:00, 최저가 낙찰, 착공 늦어도 2027-03-29 후 365일 실질준공. 설계 Foth(Eric Scott). 엔지니어 추정가 미공개(ConstructConnect $3.0M은 2025 별건 BHS Upgrades로 판단 — 혼동 금지). 규격서는 cidplanroom 등록 후 열람(사용자 기확보·sorter 미포함 → sorter=no 유지). | 2026-10-08: 38차: flycid.com 공고 페이지 404(사이트 WP API상 진행중 입찰은 Parking PARCS 1건만). Notice to Bidders PDF는 여전히 게시(https://flycid.com/wp-content/uploads/2026/09/NOL-Baggage-Handling-System-Terminal-Expansion.pdf, 개찰 10-20 10:00 유지). 애드엔덤·취소·연기 공지 없음 → 철회/연기/단순 사이트 변경 여부 미확인, 다음 실행 플랜룸(Rapids Reproductions) 확인. | 2026-10-09 (run39): flycid 입찰목록에서 BHS 게시 제거 지속(Parking만). NTB PDF 유지, 09-28 위원회 안건에 본 사업 공청회·Foth Task Order 371(BHS-CBIS 확장 설계·입찰지원). 애드엔덤·취소 공지 없음. | 47차(2026-10-21): 10-20 개찰 후에도 bid tab/최저응찰자 미게시(공식 페이지 일정만 표시, 낙찰권고 10-26). 페이지 제목 \"Baggage Handling System & Terminal Expansion\"으로 변경. https://flycid.com/bid_opportunities/baggage-handling-system-terminal-expansion/ | 48차(2026-10-22): 10-26 낙찰권고 일정 유지, bid tab·최저응찰자 여전히 미게시. | 49차: bid tab(BTAB) 미게시(10-01 이후 업로드 없음), 10-26 위원회 안건 미게시. 도면·시방 cidplanroom 프로젝트 3144(등록). | 51차: 공항위원회 10-26 안건 Res.79-10-26 — Peak Construction Group USD 11,271,759.46(≈152억) 낙찰(FAA 동의 조건), Foth TO374 USD 1.36M 시공단계 용역. 의사록 미게시(표결결과 미확인). 출처 https://flycid.com/wp-content/uploads/2026/10/10-26-26.pdf",
    "sorter": "no",
    "spec_access": "registration",
    "spec_original": "flycid.com 입찰 홈페이지 게시 BHS 기술규격서 원문 (2026-10-06 사용자 직접 확보)"
@@ -1988,8 +1993,8 @@
    "link": "https://www.mwaa.com/business/current-contracting-opportunities (RFP-26-23972)",
    "attachments": "RFP 문서·추정가는 MWAA Contract Lifecycle Management System(Odyssey) 등록 후 열람: https://mwaa.odysseyautomation.com/odyssey/index.ody?hlk=c4014cba . 공개페이지엔 첨부 미게시, 수정공고(amendment) 없음.",
    "first_seen": "2026-10-06",
-   "last_updated": "2026-10-26",
-   "notes": "NEW LEAD 10-06(run36, 신규 스윕). MWAA IAD 'BHS Refurbishment Services' RFP. 'Refurbishment Services' 명칭상 정비/용역(O&M) 성격일 수 있어 스코프·임계값 미확정 → 확정 리스트 미포함, tracking_lead(status_unconfirmed). 기존 IAD HLC SW/HW 교체 RFP-21-22745(별건)와 구분. VERIFY: 범위(capex vs O&M)·금액·마감. | 10-07 (run37): ★공식 공고 확인 — mwaa.com에 RFP-26-23972 게시(발행 09-21, 마감 10-29) → tracking_lead → confirmed_in_scope(open) 승격. 단 범위는 캐러셀 복원 리퍼비시 용역(신규 설비 공급 아님, sorter 없음) + 금액 미공개 → 임계값(50억) 미확정 플래그. | 46차(2026-10-20): MWAA 페이지상 스코프=수하물 캐러셀 점검·수리·리퍼비시(서비스 성격). 변동 없음, 10-29. | 50차: MWAA CLMS(Odyssey) 스니펫상 Amendment 1 발행·마감 11-03(또는 11-04) 14:00 ET로 연기 정황 — 공식 원문 503/403로 미검증. 스코프=캐러셀 리퍼비시(sorter=no).",
+   "last_updated": "2026-10-27",
+   "notes": "NEW LEAD 10-06(run36, 신규 스윕). MWAA IAD 'BHS Refurbishment Services' RFP. 'Refurbishment Services' 명칭상 정비/용역(O&M) 성격일 수 있어 스코프·임계값 미확정 → 확정 리스트 미포함, tracking_lead(status_unconfirmed). 기존 IAD HLC SW/HW 교체 RFP-21-22745(별건)와 구분. VERIFY: 범위(capex vs O&M)·금액·마감. | 10-07 (run37): ★공식 공고 확인 — mwaa.com에 RFP-26-23972 게시(발행 09-21, 마감 10-29) → tracking_lead → confirmed_in_scope(open) 승격. 단 범위는 캐러셀 복원 리퍼비시 용역(신규 설비 공급 아님, sorter 없음) + 금액 미공개 → 임계값(50억) 미확정 플래그. | 46차(2026-10-20): MWAA 페이지상 스코프=수하물 캐러셀 점검·수리·리퍼비시(서비스 성격). 변동 없음, 10-29. | 50차: MWAA CLMS(Odyssey) 스니펫상 Amendment 1 발행·마감 11-03(또는 11-04) 14:00 ET로 연기 정황 — 공식 원문 503/403로 미검증. 스코프=캐러셀 리퍼비시(sorter=no). | 51차: 마감일 상충(10-29 / 10-26+Amd1 / 11-23 AI요약) — 11-03/04 근거 없음, 공식 CLMS 503 → 미확정.",
    "sorter": "no",
    "spec_access": "registration",
    "spec_original": "MWAA Odyssey CLM 내 RFP-26-23972 문서(등록 필요)"
@@ -2551,15 +2556,15 @@
    "budget_krw_est": null,
    "status": "open",
    "published": "2026-10-09 발송 / 2026-10-12 TED 게재 (701948-2026, Finavia 내부 629687)",
-   "deadline": "2026-10-26 10:00 UTC (참가신청 마감)",
-   "link": "https://ted.europa.eu/en/notice/-/detail/701948-2026",
+   "deadline": "2026-11-06 10:00 UTC (참가신청 마감, 재공고 TED 739696-2026)",
+   "link": "https://ted.europa.eu/en/notice/-/detail/739696-2026",
    "attachments": "Cloudia Tarjouspalvelu(무료 회원가입·로그인 후 열람): https://tarjouspalvelu.fi/finaviaoyj?id=629687&tpk=47dd9538-a856-4bd1-8457-8d6e261db480 — 첨부 목록 비로그인 미노출",
    "sorter": "unknown",
    "spec_access": "registration",
    "spec_original": "Tarjouspalvelu 629687 입찰문서(로그인 필요, 문서명 미확인)",
    "first_seen": "2026-10-14",
-   "last_updated": "2026-10-14",
-   "notes": "42차 신규. TED API로 원문 확인. Sorter: SAC 언급뿐 loop형 4종 미명시, 소규모 공항 특성상 make-up 캐러셀 구성 추정 → unknown."
+   "last_updated": "2026-10-27",
+   "notes": "42차 신규. TED API로 원문 확인. Sorter: SAC 언급뿐 loop형 4종 미명시, 소규모 공항 특성상 make-up 캐러셀 구성 추정 → unknown. | 51차: Finavia 별도 신규 공고 TED 739696-2026(10-26) \"Rovaniemi Airport BHS Modernisation\" 협상절차, CPV 34960000/34961000, Tarjouspalvelu 634217, 참가신청 11-06. 스코프 동일(Std3 1라인·방화셔터·저수준제어·SCADA·SAC). 기존 701948 취소공고 없음 → 사실상 재공고."
   },
   {
    "key": "US-ELM-PBB-RFB2650",
@@ -3100,12 +3105,12 @@
    "budget": "MAD 362.3M TTC (≈542억원) — 언론(Hespress 10-11) 인용",
    "budget_krw_est": 54200000000,
    "status": "status_unconfirmed",
-   "deadline": "개찰 2026-11-24 (애그리게이터 11-03 표기와 상충), 현장방문 10-27",
+   "deadline": "개찰 2026-11-24 (Le Guide 10-12 보도, 11-03은 별건 ONDA 엔지니어링 입찰), 현장방문 10-27",
    "link": "https://fr.hespress.com/491790-aeroport-mohammed-v-plus-de-505-mdh-pour-accelerer-lequipement-du-nouveau-terminal.html ; ONDA: https://www.onda.ma/Je-suis-Professionnel/Appels-d%27offres (403)",
    "attachments": "미확인 — marchespublics.gov.ma DCE 통상 무료 공개(egress 차단)",
    "first_seen": "2026-10-26",
-   "last_updated": "2026-10-26",
-   "notes": "50차 신규 리드. AO 번호는 언론·애그리게이터로 확인, 공식 공고문 원문(marchespublics.gov.ma/onda.ma) 미확인 → 원문 확인 시 confirmed 전환. 금액은 PBB 임계 크게 상회. 관련: MA-CMN-BHS(경쟁대화 진행), 엔지니어링 179/26 (MAD 144M, 11-03)."
+   "last_updated": "2026-10-27",
+   "notes": "50차 신규 리드. AO 번호는 언론·애그리게이터로 확인, 공식 공고문 원문(marchespublics.gov.ma/onda.ma) 미확인 → 원문 확인 시 confirmed 전환. 금액은 PBB 임계 크게 상회. 관련: MA-CMN-BHS(경쟁대화 진행), 엔지니어링 179/26 (MAD 144M, 11-03). | 51차: 확정분 약 MAD 336M — 탑승교 47기(A380 상층 2기)·컨버터 60·가이던스 61, 조건부 유지보수 MAD 26.298M/년, 보증금 MAD 5.4M. 공식 포털 여전히 403 → 리드 유지."
   },
   {
    "key": "CZ-PRG-T2-COMPLETION-PMC",
@@ -3126,6 +3131,48 @@
    "first_seen": "2026-10-26",
    "last_updated": "2026-10-26",
    "notes": "50차 신규 리드(TED 722581-2026, 10-19). 본 입찰 시 BHS/PBB 패키지 분리 여부 감시."
+  },
+  {
+   "key": "CN-DLU-PBB-PH3",
+   "category": "tracking_lead",
+   "type": "PBB",
+   "name": "大理机场三期改扩建项目登机桥、桥载设备采购及安装项目（货物采购）招标公告",
+   "country": "China",
+   "city": "Dali (Yunnan)",
+   "authority": "云南机场集团 / 大理机场",
+   "scope": "신규 탑승교(고정·이동부)+탑재 PCA·400Hz GPU 공급·설치(기수 미확인)",
+   "method": "공개입찰(추정, 국제입찰 여부 미확인)",
+   "budget": "CNY 50.2243M(사전공고 투자추정, 애그리게이터)",
+   "budget_krw_est": 9500000000,
+   "status": "status_unconfirmed",
+   "deadline": null,
+   "link": "https://zb.zhaobiao.cn/bidding_v_891d7b197fcd7749b148517427424ab2.html",
+   "attachments": "미확인(플랫폼 등록 후 구매/다운로드 통상)",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "notes": "51차 신규 리드 — 2026-10-23 공고 리스팅(애그리게이터 미러)만 확인, 원문(민항전문공정招标系统/云南公共资源交易平台) 미확인 → 원문 확인 시 confirmed 전환."
+  },
+  {
+   "key": "MA-CMN-BHS-NEWTERM",
+   "category": "tracking_lead",
+   "type": "BHS",
+   "name": "Aéroport Mohammed V — nouveau terminal: fourniture, installation, mise en service BHS (+maintenance optionnelle)",
+   "country": "Morocco",
+   "city": "Casablanca",
+   "authority": "ONDA",
+   "scope": "신터미널 BHS 공급·설치·시운전+선택 유지보수",
+   "method": "미확인",
+   "budget": "미확인",
+   "budget_krw_est": null,
+   "status": "status_unconfirmed",
+   "deadline": null,
+   "link": "https://www.onda.ma/Je-suis-Professionnel/Appels-d%27offres (403)",
+   "attachments": "미확인",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "sorter": "unknown",
+   "spec_access": "unknown",
+   "notes": "51차 신규 리드 — 애그리게이터 게시(10-03)만, AO 197/26 PBB와 별건 가능. 공식 공고 미확인."
   }
  ]
 }

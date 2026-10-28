@@ -151,3 +151,4 @@ UTC 날짜가 항상 전날이므로(예: KST 2026-09-04 03:00 금요일 = UTC 2
 - **2026-10-27 (화, 입찰추적 51차)** — KST 화요일. 신규 confirmed 0건, sorter★ 없음. CID 낙찰(Peak USD 11.27M), FI-RVN 재공고 TED 739696(11-06), CMN PBB 개찰 11-24 정리, IAD 마감 미확정, 리드 다리공항 PBB·카사블랑카 BHS. 알림 미발송. (`reports/2026-10-27_run51.md`)
 - **2026-10-27 (화, 동향조사 루틴)** — KST 화요일. 검색 5건, 신규 0건·변동 0건. 알림 미발송. (`reports/trends/2026-10-27_daily.md`)
 - **2026-10-28 (수, 입찰추적 52차)** — KST 수요일. 신규 confirmed 0건, sorter★ 없음. 신규 리드 쿤밍 T2 BHS(10-21 招标公告)·DINAC 탑승구역 토목 2건, IAD 마감 11-03(CLMS 스니펫), Dali qianlima 공고 확인. 알림 미발송. (`reports/2026-10-28_run52.md`)
+- **2026-10-29 (목, 입찰추적 53차)** — KST 목요일. 신규 confirmed 0건, sorter★ 없음. IAD RFP-26-23972 11-03·Amd1, TUS SOQ 심사중, ONDA BHS AO 153/26/CO 식별, DINAC 483536 장비 미포함, 리드 GSP BHS·보르도 STB·후허하오터/타이위안 PBB 부대설비. 알림 미발송. (`reports/2026-10-29_run53.md`)

@@ -287,6 +287,11 @@
     "date": "2026-10-29",
     "weekday": "Thursday",
     "note": "53차 — 신규 confirmed 0, sorter★ 없음, 리드 4 신규, 상태보강 7건. 알림 미발송(목)."
+   },
+   {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "note": "54th run + weekly rollup (10-24~10-30, runs 50-54). New: AIA Athens South Pier D&B incl. 6 PBB (TED 749756-2026, confirmed), FBOP OKC jet bridge sources sought (lead), Guadeloupe PTP reclaim (low amount), Hongqiao T2 PBB design (lead). Tracked items: no verified changes."
    }
   ],
   "last_run": "2026-10-26",
@@ -2166,7 +2171,7 @@
    "spec_original": "RFQ 전문 이메일 요청(mgarry@flytucson.com)",
    "first_seen": "2026-10-09",
    "last_updated": "2026-10-29",
-   "notes": "NEW 10-09(run39) 공식 공고 확인. CBIS 현대화 = BHS 연계 HBS. 예산 미공개 → 임계값(50억) 미확정(신규 CBIS 시설+BHS 규모상 상회 추정). sorter 미명시. | 48차(2026-10-22): Addendum #1(10-12, 사전회의 요약·질의마감 10-19·2027-01 낙찰 목표·TAA+TSA OTA 재원) https://flytucson.com/10123546%20CBIS%20CMAR%20Addendum%201.pdf, Addendum #2(10-21, 최종·48p: Appendix A 건축 A101–A103·토목·BHS RFQ 도면·설계개요 초안, 숏리스트 통보 2026-11-13, PM/CM Jacobs, GMP 2028-05-01, 준공 ~2030-05) https://flytucson.com/10123546%20CBIS%20CMAR%20Addendum%202.pdf. SOQ 마감 10-27 14:00 불변. 첨부 public(설계 전체·현황자료는 선정 CMAR에만, NDA 가능). sorter=no 확정: CTX-9800 EDS 3기(+1 공간), 고속 paddle diverter·vertical sorter/merge·flat-plate make-up. | 53차(2026-10-29): TAA 공식 페이지 \"RFQs Under Review\" — SOQ 10-27 접수 완료, 숏리스트 미공개."
+   "notes": "NEW 10-09(run39) 공식 공고 확인. CBIS 현대화 = BHS 연계 HBS. 예산 미공개 → 임계값(50억) 미확정(신규 CBIS 시설+BHS 규모상 상회 추정). sorter 미명시. | 48차(2026-10-22): Addendum #1(10-12, 사전회의 요약·질의마감 10-19·2027-01 낙찰 목표·TAA+TSA OTA 재원) https://flytucson.com/10123546%20CBIS%20CMAR%20Addendum%201.pdf, Addendum #2(10-21, 최종·48p: Appendix A 건축 A101–A103·토목·BHS RFQ 도면·설계개요 초안, 숏리스트 통보 2026-11-13, PM/CM Jacobs, GMP 2028-05-01, 준공 ~2030-05) https://flytucson.com/10123546%20CBIS%20CMAR%20Addendum%202.pdf. SOQ 마감 10-27 14:00 불변. 첨부 public(설계 전체·현황자료는 선정 CMAR에만, NDA 가능). sorter=no 확정: CTX-9800 EDS 3기(+1 공간), 고속 paddle diverter·vertical sorter/merge·flat-plate make-up. | 53차(2026-10-29): TAA 공식 페이지 \"RFQs Under Review\" — SOQ 10-27 접수 완료, 숏리스트 미공개. | 54차: RFQs Under Review(SOQ 10-27 접수), 숏리스트 미공개."
   },
   {
    "key": "US-CLT-BHS-TX3",
@@ -2822,9 +2827,9 @@
    "city": "Panzhou, Guizhou",
    "status": "status_unconfirmed",
    "link": null,
-   "notes": "44차 신규 리드. 애그리게이터(qianlima 20261012_637652588), 개찰 10-22 재공고설. 공식 ggzy.guizhou 미확인. | 53차(2026-10-29): 10-26 유찰(流标) 공고(qianlima) → 재공고 예상.",
+   "notes": "44차 신규 리드. 애그리게이터(qianlima 20261012_637652588), 개찰 10-22 재공고설. 공식 ggzy.guizhou 미확인. | 53차(2026-10-29): 10-26 유찰(流标) 공고(qianlima) → 재공고 예상. | 54차: 10-26 유찰 후 10-27 재공고(애그리게이터).",
    "first_seen": "2026-10-16",
-   "last_updated": "2026-10-29"
+   "last_updated": "2026-10-30"
   },
   {
    "key": "CN-GX-PBB-MOVEEND",
@@ -3288,6 +3293,99 @@
    "notes": "53차 신규 리드 — BOAMP 원문 미확인.",
    "first_seen": "2026-10-29",
    "last_updated": "2026-10-29"
+  },
+  {
+   "key": "GR-ATH-SOUTHPIER-PBB",
+   "name": "Athens Intl (AIA) — MTB South Pier Expansion, STB Western Extension & apron works (Design & Build, 신규 PBB 포함)",
+   "category": "confirmed_in_scope",
+   "type": "PBB",
+   "country": "Greece",
+   "city": "Athens",
+   "authority": "Athens International Airport S.A.",
+   "scope": "South Pier ~25,000㎡ 신축, STB 950㎡ 증축, MTB 재배치, 접현 주기장 추가, MTB–STB 지하연결. PBB 신규 single 4·double 2기 + A12/A13 PBB 경로변경·A13 fixed link 교체. BHS 언급 없음",
+   "method": "Open procedure, 42개월, D&B 일괄(GC 패키지 → PBB는 하도급)",
+   "budget": "미공개",
+   "budget_krw_est": null,
+   "status": "open",
+   "published": "2026-10-29",
+   "deadline": "2027-02-26",
+   "link": "https://ted.europa.eu/en/notice/-/detail/749756-2026",
+   "attachments": {
+    "access": "restricted",
+    "where": "https://www.aia.gr/en/business/active-tenders → Datasite data room(로그인), procurement@aia.gr"
+   },
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "notes": "54차 신규(TED 749756-2026 공식 확인). 예산 미공개이나 PBB 6기 이상 → 10억 임계 초과 추정."
+  },
+  {
+   "key": "US-FBOP-OKC-JETBRIDGE",
+   "name": "Federal Bureau of Prisons FTC Oklahoma City — Replace Jet Bridge (Sources Sought 15B51326PR000174)",
+   "category": "tracking_lead",
+   "type": "PBB",
+   "country": "USA",
+   "city": "Oklahoma City",
+   "authority": "FBOP",
+   "scope": "Stearns A10/Type 61-085 탑승교 1기 철거·교체·시운전",
+   "method": "Sources Sought(시장조사), 이후 소기업 FFP 공사계약 예정",
+   "budget": "USD 0.5–1M",
+   "budget_krw_est": "약 6.8–13.5억",
+   "status": "upcoming",
+   "published": "2026-10-28",
+   "deadline": "응답 2026-11-04 16:00 CT",
+   "link": "https://sam.gov/opp/ba9817121768488aabbd8697a8ab1eb5/view",
+   "attachments": {
+    "access": "registration",
+    "list": "SOW, 도면(SAM 등록), 시장조사 설문(공개)"
+   },
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "notes": "54차 신규 리드. 본공고 아님."
+  },
+  {
+   "key": "GP-PTP-RECLAIM-HALL",
+   "name": "Guadeloupe Pôle Caraïbes(PTP) — 지역터미널 신규 수하물수취장(456㎡) + 도착 수취 컨베이어 (26DET04)",
+   "category": "excluded_low_amount",
+   "type": "BHS",
+   "country": "France(Guadeloupe)",
+   "city": "Les Abymes",
+   "authority": "SAGPC",
+   "scope": "수취장 건축 + Lot05 공항설비(도착 수취 시스템), 5개 Lot, 선택 트랜치",
+   "method": "Open procedure, 총액",
+   "budget": "EU 임계 미만 구간(BOAMP 표기)",
+   "budget_krw_est": null,
+   "status": "open",
+   "published": "2026-10-26",
+   "deadline": "2026-11-27 12:00",
+   "link": "https://www.boamp.fr/pages/avis/?q=idweb:26-104244",
+   "attachments": {
+    "access": "registration",
+    "where": "marches-publics.info Idm=1895115 (DCE)"
+   },
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "notes": "54차. 공사 전체가 EU 임계 미만, BHS Lot은 50억 미만 확실 → 금액 미달 제외. Sorter 없음(수취 캐러셀)."
+  },
+  {
+   "key": "CN-SHA-T2-PBB-DESIGN",
+   "name": "虹桥机场T2航站楼新增登机桥项目设计招标公告",
+   "category": "tracking_lead",
+   "type": "PBB",
+   "country": "China",
+   "city": "Shanghai",
+   "authority": "上海机场(추정)",
+   "scope": "훙차오 T2 탑승교 신설 설계용역 → 후속 PBB 공급 입찰 예상",
+   "method": null,
+   "budget": null,
+   "budget_krw_est": null,
+   "status": "upcoming",
+   "published": "2026-10-28",
+   "deadline": null,
+   "link": "qianlima 애그리게이터(2026-10-28)",
+   "attachments": null,
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "notes": "54차 신규 리드. 설계용역."
   }
  ]
 }

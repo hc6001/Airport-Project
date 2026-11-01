@@ -292,9 +292,14 @@
     "date": "2026-10-30",
     "weekday": "Friday",
     "note": "54th run + weekly rollup (10-24~10-30, runs 50-54). New: AIA Athens South Pier D&B incl. 6 PBB (TED 749756-2026, confirmed), FBOP OKC jet bridge sources sought (lead), Guadeloupe PTP reclaim (low amount), Hongqiao T2 PBB design (lead). Tracked items: no verified changes."
+   },
+   {
+    "date": "2026-11-02",
+    "weekday": "Monday",
+    "note": "55th run. New confirmed (closed, <1yr): ZA-CPT-PLB-A3A4 (ACSA CIA-RFP-7762-2025, 2 PLB replacement, bid doc public). No sorter★. Tracked items: no verified changes (IAD 11-03, PY-ASU 11-04, FI-RVN 11-06 pending). Monday -> no notification. Also new confirmed (closed): CN-PEK-T3-BHS-UPGRADE (MHH1X250024, deadline 2026-01-26; budget/sorter unknown; PDFs unreadable in session)."
    }
   ],
-  "last_run": "2026-10-26",
+  "last_run": "2026-11-02",
   "search_goal": {
    "set": "2026-10-06",
    "by": "user",
@@ -3386,6 +3391,57 @@
    "first_seen": "2026-10-30",
    "last_updated": "2026-10-30",
    "notes": "54차 신규 리드. 설계용역."
+  },
+  {
+   "key": "ZA-CPT-PLB-A3A4",
+   "name": "ACSA Cape Town Intl (CPT) — Replacement of A3 and A4 Passenger Loading Bridges (fabricate, remove, commission; 36 months)",
+   "category": "confirmed_in_scope",
+   "type": "PBB",
+   "country": "South Africa",
+   "city": "Cape Town",
+   "authority": "Airports Company South Africa (ACSA)",
+   "scope": "A3·A4 탑승교 2기 교체 — 제작·철거·설치·시운전, 계약기간 36개월 (NEC/CIDB 표준, 고정가)",
+   "method": "공개 RFP, 의무 현장설명회(2026-05-18), 기능평가 최소 60/100점 통과 후 가격·우대점수 90/10",
+   "budget": "미공개(애그리게이터 R25M 표기 vs R60M 표기 상충; 입찰문서가 90/10 적용 → R50M 초과 추정)",
+   "budget_krw_est": 4000000000,
+   "status": "closed",
+   "published": "2026-05-06",
+   "deadline": "2026-06-08 14:00 SAST (개찰 06-09)",
+   "link": "https://getvuza.com/tenders/8047B124",
+   "attachments": {
+    "access": "public",
+    "where": "입찰문서 80쪽 PDF(Part T1 입찰절차·T2 제출서류·C1 계약·C2 가격표·C3 Scope of Work·C4 현장정보): https://vuza.s3.af-south-1.amazonaws.com/CIA-RFP-7762-2025/1._CIA_RFP_7762-_2025_Bid_document.pdf ; 공식 배포처 etenders.gov.za·ACSA Tender Bulletin"
+   },
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "notes": "55차 신규(입찰문서 원문 무등록 다운로드·판독). CIDB 7ME 이상. 낙찰 미게시. 동일 공항 PBB·도킹 5년 유지보수 CTIA8229/2026/RFP(마감 08-14)·ORT PLB 리퍼비시 ORTIA7993/2025/RFP는 O&M/리퍼비시로 미채택."
+  },
+  {
+   "key": "CN-PEK-T3-BHS-UPGRADE",
+   "name": "首都机场三号航站楼提质增效项目行李系统升级改造供货与安装 (Beijing Capital PEK T3 BHS upgrade — supply & install, turnkey)",
+   "category": "confirmed_in_scope",
+   "type": "BHS",
+   "country": "China",
+   "city": "Beijing",
+   "authority": "首都机场集团有限公司 (Capital Airports Holding) / 대리 中技国际招标有限公司",
+   "scope": "T3 행李시스템 업그레이드·개조 공급·설치 턴키(착공 계획 2026-03-31, 준공 2028-09-19). 세부 설비(sorter 형식·HBS 포함 여부) 원문 미판독",
+   "method": "공개입찰(公开招标)",
+   "budget": "미공개(공고 PDF 미판독)",
+   "budget_krw_est": null,
+   "status": "closed",
+   "published": "2025-12 (北京市公共资源交易平台 公告), 更正 2026-01",
+   "deadline": "2026-01-26 10:00 CST (更正으로 연기)",
+   "link": "https://ggzyfw.beijing.gov.cn/cmsbj/u/cms/cn.gov.bjggzyfw.www/202512/4919595376074.pdf",
+   "attachments": {
+    "access": "unknown",
+    "where": "공고 PDF(원공고 202512/4919595376074.pdf, 更正 202601/3133945397341.pdf) — 세션에서 TLS(bad ecpoint)/503로 판독 불가. 招标文件은 대리기관(中技国际) 경유 유료·등록 배포가 통례"
+   },
+   "sorter": "unknown",
+   "spec_access": "unknown",
+   "spec_original": "招标文件 미확인 — 中技国际招标有限公司 / 北京市公共资源交易平台 항목번호 MHH1X250024",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "notes": "55차 신규. 공고일 2025-12로 1년 창 이내 마감 건. 대형 허브 T3 턴키 개조 → BHS 50억 임계 초과 추정(예산 미확인). sorter 형식 미명시 → unknown, 중標 결과(202603 PDF 가능성) 다음 실행 확인."
   }
  ]
 }

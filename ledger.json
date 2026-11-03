@@ -3544,6 +3544,27 @@
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-04",
       "notes": "sorter=no 근거: 분류설비는 Vertical Sort Unit·High Speed Paddle Diverter뿐(loop형 4종 미포함). 개찰결과·낙찰 미게시(검색 미확인)."
+    },
+    {
+      "key": "US-VPS-PBB-PCA-GPU-AP0327",
+      "name": "Destin-Fort Walton Beach (VPS) — Replace Passenger Boarding Bridges Pre-Conditioned Air and Ground Power Units (ITB AP 03-27)",
+      "category": "tracking_lead",
+      "type": "PBB_auxiliary",
+      "country": "USA",
+      "city": "Eglin AFB / Destin-Fort Walton Beach, FL",
+      "authority": "Okaloosa County BCC (Purchasing)",
+      "scope": "기존 탑승교 장착형 PCA 45톤 최대 3대 + GPU 90kVA 2대 공급·설치·시험·시운전(NAICS 238220). 연방보조금 일부 재원.",
+      "method": "ITB(경쟁입찰, 통상 최저 책임 입찰자) — 원문 미확인",
+      "budget": "공고 금액 미공개. 애그리게이터 추정 USD 0.5~1.2M(비공식)",
+      "budget_krw_est": "약 7~17억(비공식 추정)",
+      "status": "closed",
+      "published": "2026-10 (추정, 사전설명회 10-15)",
+      "deadline": "2026-10-28 (애그리게이터에 10-26 표기도 있음)",
+      "link": "https://procurement.opengov.com/portal/myokaloosa",
+      "attachments": "OpenGov 포털 게시(SPA, 세션에서 열람 불가·목록 미확인). 애그리게이터: https://bidbanana.com/bid/Tdd0VqXawbEybQyAlguq (403)",
+      "first_seen": "2026-11-04",
+      "last_updated": "2026-11-04",
+      "notes": "PBB 부대설비(PCA/GPU) 단독 사업 → 탑승교 본체 아님. 카운티 Weekly ITA 10-16·10-23에 미등재 → 낙찰 미결정. 10-30 ITA 미게시. 참고: 2023 ITB AP 38-23 B1~B3 탑승교 교체(PCA 포함) JBT AeroTech USD 4M 낙찰."
     }
   ]
 }

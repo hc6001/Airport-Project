@@ -3493,6 +3493,33 @@
    "first_seen": "2026-11-03",
    "last_updated": "2026-11-03",
    "notes": "56차 신규(마감·낙찰). 'sortation devices 재구성' 언급만 있고 형식 미명시 → sorter=unknown. 2024년 동일 CIP#104272 선행 공고(추정 $15.6M, 2024-11-22)는 창 밖."
+  },
+  {
+   "key": "MT-MLA-BHS-MIA0125",
+   "name": "Malta International Airport — Design, Supply and Installation of a new Baggage Handling System incl. after-sales Maintenance Support Services (MIA/01/25)",
+   "category": "excluded_out_of_window",
+   "type": "BHS",
+   "country": "Malta",
+   "city": "Luqa (Malta Intl)",
+   "authority": "Malta International Airport plc (tender@maltairport.com)",
+   "scope": "신규 BHS 설계·공급·설치·지원 + 사후 유지보수(동측 터미널 확장 연계, 2028 완공). 낙찰 시스템: Leonardo MBHS 크로스벨트 소터, 최대 5,000 bags/h, ECAC Standard 3 HBS 통합, 조기수하물 저장(EBS)",
+   "method": "TED 125585-2025 협상절차(공고 있는 negotiated with prior call, 유틸리티 지침) — 평가기준·추정가 공고에 미기재(입찰문서 참조)",
+   "budget": "미공개(공고 'Refer Document', 낙찰가 미공개)",
+   "budget_krw_est": null,
+   "status": "awarded",
+   "published": "2025-02-25",
+   "deadline": "2025-05-07 (현 TED 기준; 공항 페이지 일부 표기 2025-04-27)",
+   "link": "https://ted.europa.eu/en/notice/-/detail/125585-2025",
+   "attachments": {
+    "access": "restricted",
+    "where": "TED 상 문서 '제한 접근' — https://www.maltairport.com/corporate/tenders-overview/ (MIA 입찰포털 등록·참가자 대상). 원 공고 페이지(maltairport.com/tenders/...)는 현재 404로 삭제. MaltaTenders(ID 115300721)는 로그인 필요"
+   },
+   "sorter": "yes",
+   "spec_access": "restricted",
+   "spec_original": "미확보 — MIA/01/25 Tender Document(기술규격 포함) MIA 포털 제한배포",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "notes": "사용자 요청 개별조사(2026-11-03). 공고일 2025-02-25로 1년 창 초과. 낙찰: Leonardo(2026-03-09 보도자료, 'MBHS Cross Belt Sorter' 50번째) — TED 낙찰공고 없음, 공고번호 연결은 범위·시기 일치 근거 추정. TED 계약기간 필드 4개월 표기(의미 불명). sorter=yes(크로스벨트, 낙찰사 보도자료 근거·규격서 원문 미확인)."
   }
  ]
 }

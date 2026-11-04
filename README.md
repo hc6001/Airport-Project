@@ -161,3 +161,4 @@ UTC 날짜가 항상 전날이므로(예: KST 2026-09-04 03:00 금요일 = UTC 2
 - **2026-11-04 (수, 동향조사 루틴)** — KST 수요일. 검색 4건, 신규 0건·변동 0건. 알림 미발송. (`reports/trends/2026-11-04_daily.md`)
 - **2026-11-04 (수, 입찰추적 57차)** — KST 수요일. 신규 confirmed 1건(마감): `US-PNS-BHS-CONTROLS-26059`(펜서콜라 BHS 제어 현대화, 09-09 마감, 시방서 공개, sorter 미포함). sorter★ 없음. 알림 미발송(11-06 금 롤업 포함). (`reports/2026-11-04_run57.md`)
 - **2026-11-04 (수, 개별 추적 루틴 추가)** — 사용자 요청으로 `US-VPS-PBB-PCA-GPU-AP0327`(VPS PCA/GPU 교체, ITB AP 03-27, OpenGov 304785) 전용 예약작업 생성(trig_01BFYcqYMTM8Nd4iHRz5kpMJ, KST 화·토 10:17). 입찰금액·낙찰자 확인 시 알림 후 비활성화. 입찰추적 정규 루틴은 이 건 재조사 불필요.
+- **2026-11-05 (목, 입찰추적 58차)** — KST 목요일. 신규 confirmed 0건, sorter★ 없음. TED API v3(api.ted.europa.eu/v3/notices/search) 직접 조회 가능 확인 → 10-25~11-04 전수 스캔, 신규 해당 없음. 신규 리드 `US-PDX-PBB-FLOOR`(포틀랜드 PBB 바닥 교체, 11-18 마감, 애그리게이터만). PY-ASU 개찰결과 미게시. 알림 미발송(11-06 금 롤업). (`reports/2026-11-05_run58.md`)

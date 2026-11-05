@@ -302,6 +302,11 @@
         "date": "2026-11-05",
         "weekday": "Thursday",
         "note": "58th run (KST Thu 03:00). TED API v3(api.ted.europa.eu) 검색 정상 동작 확인 — 10-25~11-04 수하물/탑승교/공항 키워드 전수 스캔, 신규 해당 공고 없음(FRA T1 수취 LiDAR·Athens 749756 기등재, Timișoara 대형수하물 재래식 X-ray 4대 낙찰공고는 EDS 아님). New lead US-PDX-PBB-FLOOR (aggregator only). PY-ASU 483586 개찰결과 미게시(추정가 PYG 16.8bn). No sorter★. No notification (Thu)."
+      },
+      {
+        "date": "2026-11-06",
+        "weekday": "Friday",
+        "note": "59th run (KST Fri 03:01) — weekly rollup 55~59. New confirmed US-AMA-BHS-BVB414 (Amarillo BHS upgrade, closed 06-22, est USD 6.5M, Bonfire API verified). PY-ASU 483586 Acta de Apertura: 2 bids (MARESAGA PYG 15.624bn, ENGINEERING PYG 11.98bn). TED API 11-04~11-05 scan: Bydgoszcz EDSCB C3 award (cabin EDS, out of scope). No sorter★. Notification sent (Friday)."
       }
     ],
     "last_run": "2026-11-04 (run57, KST 수)",
@@ -2650,13 +2655,13 @@
       "type": "PBB",
       "country": "Paraguay",
       "city": "Asunción (Silvio Pettirossi Intl)",
-      "status": "open",
+      "status": "closed",
       "link": "https://www.contrataciones.gov.py/licitaciones/convocatoria/1f1aba99-3ed6-6724-a478-d3e9ceb38de5.html",
       "first_seen": "2026-10-15",
-      "last_updated": "2026-10-28",
+      "last_updated": "2026-11-06",
       "deadline": "2026-11-04 09:00 (개찰 09:30, PYT) — 10-16→10-20→10-28→11-04 연기",
       "budget": "PYG 16,800,000,000 (≈USD 2.1M ≈ 28억원)",
-      "notes": "43차 신규. DNCP 공식 공고(LPN, Ley 7021/22, 단일 총액 로트). 탑승교 2기 공급·시운전. 입찰보증 5%, 선급금 10%, 현장설명 10-07(필수), 질의마감 10-12. 공고 2026-09-25. 평가기준은 PBC(동적 로딩, 미판독) — 최저가 적격 추정. 첨부 공개: PBC(참가요건·평가기준·기술규격·계약조건·계약서 양식), 가격표 xlsx, 기술의견서(dictamen técnico), 원가산정 근거, CDP 418·다년도 예산증명·PBC 승인결의, 선급금·현장설명 사유서. 관련 별건(건축, PBB 공급 아님): 483536 북측 Espigón PBB 7번 구역 확장 PYG 28.66bn(10-23), 483729 Manga 4·5 확장 PYG 17.25bn(10-19). | 44차(2026-10-16): DNCP 상태 En Convocatoria(Abierta), 마감·개찰 10-20로 연기 확인. | 45차(2026-10-19): DNCP 이력 Prórroga 2건(10-15 07:20, 10-16 07:05) → 마감 10-28 07:30/개찰 08:00 PYT로 재연기. | 49차(2026-10-23): DNCP Prórroga 3차(10-22 13:42 게시) → 마감 11-04 09:00/개찰 09:30 PYT. 상태 Publicado, 첨부 불변. | 52차: DNCP ID 483586 10-26 Llamado 보고서 재생성 — 마감 11-04 09:00/개찰 09:30 불변, 최신 첨부=플랫폼 도면(pos.2·3, 10-22). 관련 DINAC 토목건 2건 확인: 483729 manga 4·5 탑승구역 확장(PYG 17.25bn, 11-04 08:30), 483536 북측 espigón 탑승교 N°7 확장(11-03) — 별도 리드 PY-ASU-PBB-CIVIL 등재."
+      "notes": "43차 신규. DNCP 공식 공고(LPN, Ley 7021/22, 단일 총액 로트). 탑승교 2기 공급·시운전. 입찰보증 5%, 선급금 10%, 현장설명 10-07(필수), 질의마감 10-12. 공고 2026-09-25. 평가기준은 PBC(동적 로딩, 미판독) — 최저가 적격 추정. 첨부 공개: PBC(참가요건·평가기준·기술규격·계약조건·계약서 양식), 가격표 xlsx, 기술의견서(dictamen técnico), 원가산정 근거, CDP 418·다년도 예산증명·PBC 승인결의, 선급금·현장설명 사유서. 관련 별건(건축, PBB 공급 아님): 483536 북측 Espigón PBB 7번 구역 확장 PYG 28.66bn(10-23), 483729 Manga 4·5 확장 PYG 17.25bn(10-19). | 44차(2026-10-16): DNCP 상태 En Convocatoria(Abierta), 마감·개찰 10-20로 연기 확인. | 45차(2026-10-19): DNCP 이력 Prórroga 2건(10-15 07:20, 10-16 07:05) → 마감 10-28 07:30/개찰 08:00 PYT로 재연기. | 49차(2026-10-23): DNCP Prórroga 3차(10-22 13:42 게시) → 마감 11-04 09:00/개찰 09:30 PYT. 상태 Publicado, 첨부 불변. | 52차: DNCP ID 483586 10-26 Llamado 보고서 재생성 — 마감 11-04 09:00/개찰 09:30 불변, 최신 첨부=플랫폼 도면(pos.2·3, 10-22). 관련 DINAC 토목건 2건 확인: 483729 manga 4·5 탑승구역 확장(PYG 17.25bn, 11-04 08:30), 483536 북측 espigón 탑승교 N°7 확장(11-03) — 별도 리드 PY-ASU-PBB-CIVIL 등재. | 59차(2026-11-06): DNCP Acta de Apertura 게시(2026-11-04 09:58, 단일봉투) 확인 — 응찰 2개사: MARESAGA S.R.L. ₲15,624,000,000(약 28억원), ENGINEERING S.A.E.C.A. ₲11,980,000,000(약 22억원). 추정가 ₲16.8bn 이하. 개찰록 PDF: https://www.contrataciones.gov.py/api/convocatorias/1f1aba99-3ed6-6724-a478-d3e9ceb38de5/files/6592b764-9db2-42d0-8c24-8c47213236a8/download. 평가·낙찰 대기 → status closed(평가중)."
     },
     {
       "key": "ES-IBZ-PBB-RENOV",
@@ -3591,6 +3596,30 @@
       "first_seen": "2026-11-05",
       "last_updated": "2026-11-05",
       "notes": "58차(2026-11-05) 신규 리드. Bid Banana(애그리게이터 번호 2026-14774 표기, NAICS 238320)·fundinglandscape·BidNet Direct 444215936318에서만 확인 → 공식 공고문 미검증이라 confirmed 미편입. 공식 PlanetBids 공고 확인 시 confirmed_in_scope(진행중)로 승격 검토. 바닥재 교체 개보수로 PBB 장비 공급 아님 — 스코프 해당 여부(개선사업) 사용자 판단 필요."
+    },
+    {
+      "key": "US-AMA-BHS-BVB414",
+      "name": "Rick Husband Amarillo International Airport — Airport Baggage Handling Upgrade (BVB 414-26)",
+      "category": "confirmed_in_scope",
+      "type": "BHS",
+      "country": "USA",
+      "city": "Amarillo, Texas",
+      "authority": "City of Amarillo (Aviation Dept.)",
+      "scope": "공항 BHS 업그레이드 — 설계지원·자재·장비·설치 일괄(Design support, materials, equipment & installation). 설계 RS&H(Project 2027-5073-002). 필수 사전입찰회의·현장답사 06-04, 질의마감 06-09. 이행·지급보증, prevailing wage.",
+      "method": "Best Value(최적가치) 평가",
+      "budget": "공식 예산 미표기 — ConstructConnect 추정 USD 6.5M",
+      "budget_krw_est": "약 87.8억원(추정치 기준, 50억 임계값 상회)",
+      "status": "closed",
+      "published": "2026-06-02",
+      "deadline": "2026-06-22 14:00 CDT (Bonfire DateClose 19:00 UTC)",
+      "link": "https://amarillo.bonfirehub.com/opportunities/236327",
+      "attachments": "Bonfire 공고 — 문서 다운로드는 Bonfire 벤더 등록·로그인 필요(registration). ConstructConnect 집계: 도면 55·시방 27·애드엔덤 다수·기타 5. 세션에서 개별 파일 목록 직접 미열람(Cloudflare).",
+      "sorter": "unknown",
+      "spec_access": "registration",
+      "spec_original": "City of Amarillo Bonfire 236327 (BVB 414-26) — Project Manual/시방서·도면(RS&H)",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "notes": "59차 신규. 공식 Bonfire 공개 API(PublicPortal/getPastPublicOpportunitiesSectionData)로 ProjectID 236327·ReferenceID 'BVB 414-26'·DateClose 2026-06-22 19:00 UTC·IsPublicAward=true 확인(공식 공고 실재 확인). 낙찰 공개 플래그 true이나 낙찰자·금액 미열람(오퍼튜니티 페이지 Cloudflare). 구 Vertech/Glidepath 사례(과거 사업)와 별개. sorter: 공고 스코프에 형식 미명시 → unknown(중소공항 특성상 loop형 가능성 낮음)."
     }
   ]
 }

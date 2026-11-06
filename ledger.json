@@ -307,6 +307,11 @@
         "date": "2026-11-06",
         "weekday": "Friday",
         "note": "59th run (KST Fri 03:01) — weekly rollup 55~59. New confirmed US-AMA-BHS-BVB414 (Amarillo BHS upgrade, closed 06-22, est USD 6.5M, Bonfire API verified). PY-ASU 483586 Acta de Apertura: 2 bids (MARESAGA PYG 15.624bn, ENGINEERING PYG 11.98bn). TED API 11-04~11-05 scan: Bydgoszcz EDSCB C3 award (cabin EDS, out of scope). No sorter★. Notification sent (Friday)."
+      },
+      {
+        "date": "2026-11-06",
+        "weekday": "Friday",
+        "note": "사용자 요청 sorter 규격서 재탐색(3개 지역 병렬). 확보: PL-WAW-TTS-269-23(tilt-tray 2기 교체, 원문 공개·보관, 2024 공고·낙찰), ZA-CPT-BHS-MAINT-7795(tilt-tray 유지보수 계약서 공개), ZA-ORTIA-BHS-SORTER-MAINT-7741(기능평가). 신규 공급+1년 이내+원문 공개 조건 충족 건은 없음. 리드: HOU West Concourse Pkg#06(cross-belt 2기, BuildingConnected), MLB 인라인 BHS(cross-belt), HAM HAMBAGM1(Kippschalensorter 교체, 포털 만료), BOD SCTB, Aena BCN/MAD 등 PLACSP pliegos(방화벽 차단)."
       }
     ],
     "last_run": "2026-11-04 (run57, KST 수)",
@@ -3644,6 +3649,54 @@
       "first_seen": "2026-11-06",
       "last_updated": "2026-11-06",
       "notes": "사용자 요청 sorter 규격서 재탐색(2026-11-06)에서 확보. 공고일 2024-01 → 1년 창 초과(입찰리스트 비대상)이나 sorter 포함+원문 공개 확보 사례로 기록. OPZ 원문: 'zakupie i wymianie 2 szt. sorterów tackowych TTS1 i TTS2 oraz indukcji sorterowych'·'Przepustowość sortera musi być nie mniejsza niż obecnie (3200 bagaży/h)'. 낙찰 DIMARK S.A. 2024-03-28 (TED 511793-2024). 다운로드는 JS 필요 → Playwright로 자동 수집 가능."
+    },
+    {
+      "key": "ZA-CPT-BHS-MAINT-7795",
+      "name": "Cape Town International (CTIA) — BHS 기계 컨베이어 설비 유지보수·소규모 리퍼비시 5년 (NEC3 TSC)",
+      "category": "tracking_lead",
+      "type": "BHS",
+      "country": "South Africa",
+      "city": "Cape Town",
+      "authority": "Airports Company South Africa (ACSA)",
+      "scope": "BHS 기계설비 5년 유지보수·소규모 리퍼비시(O&M 성격). 기존 tilt-tray sorter(LIM 구동 tipper tray) 포함 — 범위서 §6.2 'SORTER', 예비품 목록 p.97.",
+      "method": "ACSA RFP(기능평가 후 가격·우대점수)",
+      "budget": "미확인",
+      "budget_krw_est": "미확인",
+      "status": "closed",
+      "published": "2026-02-26",
+      "deadline": "2026-03-31",
+      "link": "https://www.etenders.gov.za (tender id 149152, CTIA7995/2025/RFP; 문서 표지 CTIA7795/2025/RFP)",
+      "attachments": "무등록 공개: VOL 1 Tender document, VOL 2 NEC3 TSC Contract Document(124쪽, 범위서·예비품), 설명회 자료, Q&A, Addendum 1. 저장소 specs/ZA-CPT-BHS-MAINT-7795/ 보관(Vol1·Vol2).",
+      "sorter": "yes",
+      "spec_access": "public",
+      "spec_original": "https://www.etenders.gov.za/home/Download/?blobName=24705ad1-9617-48fb-a92f-5117028e9cbe.pdf&downloadedFileName=VOL%202%20BHS%20NEC3%20TSC%20Contract%20Document%202026.pdf",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "notes": "sorter 규격서 재탐색(11-06) 확보. 유지보수 계약이라 신규 공급 입찰 아님 → 입찰리스트 비대상(참고용). 원문: 'Linear Induction motors (LIM) Motors / Tray Cassette assembly / Electrical Motor Tipper Tray / Tray Pivot/tipping Arms', 예비품 'Tipper Master Cassette Assy 1200 P'. 'tilt-tray' 단어는 없으나 하드웨어상 tilt-tray 확정."
+    },
+    {
+      "key": "ZA-ORTIA-BHS-SORTER-MAINT-7741",
+      "name": "O.R. Tambo International (ORTIA) — BHS Controls & Sorters 유지보수 60개월 (ORTIA7741/2025/RFP)",
+      "category": "tracking_lead",
+      "type": "BHS",
+      "country": "South Africa",
+      "city": "Johannesburg",
+      "authority": "ACSA",
+      "scope": "BHS 제어·소터 60개월 유지보수. 기능평가 기준에 Tilt Tray sorter 유지보수 실적 요구.",
+      "method": "ACSA RFP(기능평가)",
+      "budget": "미확인",
+      "budget_krw_est": "미확인",
+      "status": "status_unconfirmed",
+      "published": "2025-04 (기능평가 문서 2025-04-15)",
+      "deadline": "미확인",
+      "link": "https://www.etenders.gov.za (ORTIA7741/2025/RFP)",
+      "attachments": "기능평가 기준 문서만 확보(무등록). 본 입찰서류 미확보. 저장소 specs/ZA-ORTIA-BHS-SORTER-MAINT-7741/.",
+      "sorter": "yes",
+      "spec_access": "public",
+      "spec_original": "https://www.etenders.gov.za/home/Download/?blobName=9706a1a4-6a86-44aa-9c1b-dac244885083.pdf&downloadedFileName=Technical+Functionality++-+CONTROLS+AND+SORTERS+%2815+April+2025%29.pdf",
+      "first_seen": "2026-11-06",
+      "last_updated": "2026-11-06",
+      "notes": "원문: 'Experience in maintaining automated conveyor systems and Tilt Tray Baggage/Parcel Sortation System(s)'. 유지보수 건·본 입찰서류 미확보 → 리드."
     }
   ]
 }

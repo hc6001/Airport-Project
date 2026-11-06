@@ -3636,19 +3636,19 @@
       "authority": "Polskie Porty Lotnicze S.A.",
       "scope": "Tilt-tray sorter TTS1·TTS2 2기 및 sorter induction 교체, 구설비 철거, 기존 PLC·ATR·EBS·SCADA·SAC 연동, TR.2 라인 TTS1 직접 투입 induction, EBS/MCS 슈트 교체. 처리용량 3,200 bags/h 이상, PLC·위치결정 이중화, 트레이 적재상태 감시.",
       "method": "공개경쟁(przetarg nieograniczony), 가격 82점+보증기간 18점(전자경매 포함)",
-      "budget": "낙찰 PLN 19,485,000 gross (최초응찰 DIMARK PLN 26.99M / SAVICON PLN 28.17M)",
+      "budget": "발주처 예산 PLN 22,140,000 gross(2024-02-20 공시) / 낙찰 PLN 19,485,000 gross (최초응찰 DIMARK 26.99M·SAVICON 28.17M → 전자경매 후 DIMARK 19.485M, SAVICON 19.5M)",
       "budget_krw_est": "약 66억원",
       "status": "awarded",
       "published": "2024-01-04 (TED 5368-2024)",
       "deadline": "2024-02-21 10:00",
       "link": "https://portal.smartpzp.pl/ppl/public/postepowanie?postepowanie=55465802",
-      "attachments": "무등록 공개(SmartPZP 'Dokumentacja Postępowania', XAdES 서명파일 내 PDF/DOCX): SWZ(63쪽, 부속서1=OPZ 기술요구), SWZ 변경본(37쪽), TTS1·TTS2 배치도면, 질의응답 4건, 정정 3건, 가격서식 1a, 개찰결과, 낙찰통지. 저장소 specs/PL-WAW-TTS-269-23/ 에 사본 보관.",
+      "attachments": "무등록 공개(SmartPZP 'Dokumentacja Postępowania', XAdES 서명파일 내 PDF/DOCX): SWZ(63쪽, 부속서1=OPZ 기술요구), SWZ 변경본(37쪽), TTS1·TTS2 배치도면, 질의응답 4건, 정정 3건, 가격서식 1a, 개찰결과, 낙찰통지. 저장소 specs/PL-WAW-TTS-269-23/ 에 사본 보관. | 2026-11-06 사용자 제공 ZIP 4개로 보완: 예산공시, 질의응답 6건(01-23·01-26·02-01·02-02·02-08·02-13), 정정공고 3건 추가 보관.",
       "sorter": "yes",
       "spec_access": "public",
       "spec_original": "specs/PL-WAW-TTS-269-23/SWZ_04_01_2024_15_21_36.pdf (OPZ p.23) + TTS1/TTS2 도면 — 원본: SmartPZP 55465802",
       "first_seen": "2026-11-06",
       "last_updated": "2026-11-06",
-      "notes": "사용자 요청 sorter 규격서 재탐색(2026-11-06)에서 확보. 공고일 2024-01 → 1년 창 초과(입찰리스트 비대상)이나 sorter 포함+원문 공개 확보 사례로 기록. OPZ 원문: 'zakupie i wymianie 2 szt. sorterów tackowych TTS1 i TTS2 oraz indukcji sorterowych'·'Przepustowość sortera musi być nie mniejsza niż obecnie (3200 bagaży/h)'. 낙찰 DIMARK S.A. 2024-03-28 (TED 511793-2024). 다운로드는 JS 필요 → Playwright로 자동 수집 가능."
+      "notes": "사용자 요청 sorter 규격서 재탐색(2026-11-06)에서 확보. 공고일 2024-01 → 1년 창 초과(입찰리스트 비대상)이나 sorter 포함+원문 공개 확보 사례로 기록. OPZ 원문: 'zakupie i wymianie 2 szt. sorterów tackowych TTS1 i TTS2 oraz indukcji sorterowych'·'Przepustowość sortera musi być nie mniejsza niż obecnie (3200 bagaży/h)'. 낙찰 DIMARK S.A. 2024-03-28 (TED 511793-2024). 다운로드는 JS 필요 → Playwright로 자동 수집 가능. | 사용자 ZIP 검토(11-06): 이행기간 계약 후 36개월, 4단계(설계5%·납품45%·설치·연동25%·TR2 개조+최종시험25%), 입찰보증금 PLN 400k, 이행보증 5%, 평가 가격82/보증18(24~60개월), 전자경매. 참가자격: 최근 3년 내 운영 중 분류장에서 tilt-tray 소터 1기 이상 공급+교체/설치 실적(PLN 4M net 이상) — Q&A로 3회 수정. Q&A: cross-belt 대체 불허(Q5·Q8), 기존 SCADA/SAC 교체 불허(Q12), 소터 하부 통과높이 축소 불허(Q13). 마감 02-12→02-14→02-21 연장."
     },
     {
       "key": "ZA-CPT-BHS-MAINT-7795",
